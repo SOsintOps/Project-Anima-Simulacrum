@@ -1,0 +1,2012 @@
+1
+00:00:01,280 --> 00:00:08,619
+[Music]
+
+2
+00:00:15,030 --> 00:00:18,600
+[Music]
+
+3
+00:00:16,600 --> 00:00:20,160
+good morning Explorer I've managed to
+
+4
+00:00:18,600 --> 00:00:22,560
+stop the leak from yesterday but the
+
+5
+00:00:20,160 --> 00:00:24,039
+alarm system is still totally busted I
+
+6
+00:00:22,560 --> 00:00:25,920
+trust you've had your morning cup of
+
+7
+00:00:24,039 --> 00:00:28,199
+Rocket Fuel because today is going to be
+
+8
+00:00:25,920 --> 00:00:30,599
+a melody of learning we're going to make
+
+9
+00:00:28,199 --> 00:00:32,640
+some noise literally we're introducing
+
+10
+00:00:30,599 --> 00:00:35,600
+another piece of our Cosmic puzzle the
+
+11
+00:00:32,640 --> 00:00:37,760
+passive buzzer now don't be fooled by
+
+12
+00:00:35,600 --> 00:00:39,840
+its rather mundane name this little one
+
+13
+00:00:37,760 --> 00:00:41,920
+can make quite a racket when it wants to
+
+14
+00:00:39,840 --> 00:00:43,840
+it's a small speaker that can play
+
+15
+00:00:41,920 --> 00:00:46,199
+different frequencies and we're going to
+
+16
+00:00:43,840 --> 00:00:48,360
+use that ability to our advantage
+
+17
+00:00:46,199 --> 00:00:51,640
+today's Mission should you choose to
+
+18
+00:00:48,360 --> 00:00:54,680
+accept it is to turn our 4x4 keypad into
+
+19
+00:00:51,640 --> 00:00:56,879
+an 8bit sounding piano keyboard that's
+
+20
+00:00:54,680 --> 00:00:59,600
+right by the end of today your control
+
+21
+00:00:56,879 --> 00:01:01,960
+panel will have its very own mini synth
+
+22
+00:00:59,600 --> 00:01:04,720
+once we can verify that it's working we
+
+23
+00:01:01,960 --> 00:01:08,320
+can rewire our alarm system how's that
+
+24
+00:01:04,720 --> 00:01:09,840
+for turning it up to 11 so buckle in
+
+25
+00:01:08,320 --> 00:01:12,000
+check your dials and let's hit the
+
+26
+00:01:09,840 --> 00:01:13,320
+launch button on this day sound good I
+
+27
+00:01:12,000 --> 00:01:16,119
+sure hope
+
+28
+00:01:13,320 --> 00:01:19,080
+so let's talk about our new comrad and
+
+29
+00:01:16,119 --> 00:01:20,960
+arms the passive buzzer this small
+
+30
+00:01:19,080 --> 00:01:22,799
+usually cylindrical component is capable
+
+31
+00:01:20,960 --> 00:01:25,079
+of generating a range of sound
+
+32
+00:01:22,799 --> 00:01:26,520
+frequencies it's like a tiny speaker
+
+33
+00:01:25,079 --> 00:01:28,960
+that you can
+
+34
+00:01:26,520 --> 00:01:31,600
+program in the electrical Universe the
+
+35
+00:01:28,960 --> 00:01:33,680
+passive buzzer is a piso electric device
+
+36
+00:01:31,600 --> 00:01:36,360
+when an oscillating electrical signal is
+
+37
+00:01:33,680 --> 00:01:38,759
+applied to its terminals it vibrates and
+
+38
+00:01:36,360 --> 00:01:40,720
+creates sound we control the frequency
+
+39
+00:01:38,759 --> 00:01:43,079
+of this oscillation which translates to
+
+40
+00:01:40,720 --> 00:01:45,680
+the pitch of the sound that it generates
+
+41
+00:01:43,079 --> 00:01:48,119
+to put it simply you give it a frequency
+
+42
+00:01:45,680 --> 00:01:50,520
+and tell it how long to play it simple
+
+43
+00:01:48,119 --> 00:01:53,079
+to accomplish this we can use pulse
+
+44
+00:01:50,520 --> 00:01:56,280
+width modulation and it sings that note
+
+45
+00:01:53,079 --> 00:01:58,200
+back to you so what do you say Explorer
+
+46
+00:01:56,280 --> 00:02:00,759
+let's get ready to compose some Galactic
+
+47
+00:01:58,200 --> 00:02:02,640
+Symphonies shall we
+
+48
+00:02:00,759 --> 00:02:04,880
+now in order to make the passive buzzer
+
+49
+00:02:02,640 --> 00:02:07,000
+produce any sound we need to send it
+
+50
+00:02:04,880 --> 00:02:09,759
+some sort of frequency onto its signal
+
+51
+00:02:07,000 --> 00:02:12,080
+pin in terms of music using a different
+
+52
+00:02:09,759 --> 00:02:13,920
+frequency will produce a different sound
+
+53
+00:02:12,080 --> 00:02:16,440
+it is not possible to generate tones
+
+54
+00:02:13,920 --> 00:02:18,640
+lower than 31 Hertz and struggles to
+
+55
+00:02:16,440 --> 00:02:21,760
+produce higher than
+
+56
+00:02:18,640 --> 00:02:24,160
+4,978 Herz if you want an optional
+
+57
+00:02:21,760 --> 00:02:26,080
+additional Library it may be in your
+
+58
+00:02:24,160 --> 00:02:28,080
+best interest to check out the tone H
+
+59
+00:02:26,080 --> 00:02:31,360
+library that way if you want a specific
+
+60
+00:02:28,080 --> 00:02:33,160
+note you can say notes 5 instead of some
+
+61
+00:02:31,360 --> 00:02:36,319
+arbitrary number like
+
+62
+00:02:33,160 --> 00:02:39,120
+523 I've added a copy to your mission
+
+63
+00:02:36,319 --> 00:02:40,879
+resources luckily sending those tones is
+
+64
+00:02:39,120 --> 00:02:44,040
+made easy with a built-in function
+
+65
+00:02:40,879 --> 00:02:45,959
+called tone tone takes two parameters
+
+66
+00:02:44,040 --> 00:02:48,840
+the pin and the frequency you want to
+
+67
+00:02:45,959 --> 00:02:51,519
+send optionally you can also put a third
+
+68
+00:02:48,840 --> 00:02:54,000
+for duration now let's brainstorm
+
+69
+00:02:51,519 --> 00:02:56,959
+together Explorer we want each button on
+
+70
+00:02:54,000 --> 00:02:59,519
+our keypad to trigger a specific tone Oh
+
+71
+00:02:56,959 --> 00:03:01,720
+I can hear you now let's just churn out
+
+72
+00:02:59,519 --> 00:03:05,120
+a bunch of if statements one for each
+
+73
+00:03:01,720 --> 00:03:08,159
+button if button one is pressed play 200
+
+74
+00:03:05,120 --> 00:03:10,879
+h Hertz if button a is pressed play 600
+
+75
+00:03:08,159 --> 00:03:14,200
+HZ and so forth a simplistic approach
+
+76
+00:03:10,879 --> 00:03:16,080
+but not very elegant is it instead let's
+
+77
+00:03:14,200 --> 00:03:18,640
+introduce some finesse into our coding
+
+78
+00:03:16,080 --> 00:03:21,120
+Journey how about we conjure up a second
+
+79
+00:03:18,640 --> 00:03:24,239
+two-dimensional array we'll Christen it
+
+80
+00:03:21,120 --> 00:03:26,640
+as something suitable like tones a title
+
+81
+00:03:24,239 --> 00:03:29,439
+befitting its role and then there you
+
+82
+00:03:26,640 --> 00:03:31,519
+have it we only need one if statement
+
+83
+00:03:29,439 --> 00:03:33,959
+this method is neater and easier to
+
+84
+00:03:31,519 --> 00:03:35,680
+debug plus it's a great way to flex
+
+85
+00:03:33,959 --> 00:03:38,560
+those Hefty programming muscles we've
+
+86
+00:03:35,680 --> 00:03:40,120
+been developing let's continue shall we
+
+87
+00:03:38,560 --> 00:03:43,439
+I want to take the time to introduce a
+
+88
+00:03:40,120 --> 00:03:45,400
+new programming concept Loops I'm sure
+
+89
+00:03:43,439 --> 00:03:46,959
+you already know about our Loop function
+
+90
+00:03:45,400 --> 00:03:49,200
+but the loops we will be talking about
+
+91
+00:03:46,959 --> 00:03:51,599
+today are used in nearly all programming
+
+92
+00:03:49,200 --> 00:03:53,720
+languages universally and are in code
+
+93
+00:03:51,599 --> 00:03:57,120
+everywhere what I'm referencing are
+
+94
+00:03:53,720 --> 00:03:58,760
+called four and while Loops four Loops
+
+95
+00:03:57,120 --> 00:04:00,400
+execute a block of code a number of
+
+96
+00:03:58,760 --> 00:04:02,280
+times and are usually usually used if
+
+97
+00:04:00,400 --> 00:04:04,680
+you or the code knows the number of
+
+98
+00:04:02,280 --> 00:04:07,159
+times it should Loop a for Loop looks
+
+99
+00:04:04,680 --> 00:04:09,360
+like this and declares the initial Loop
+
+100
+00:04:07,159 --> 00:04:11,239
+counter value here a test of that
+
+101
+00:04:09,360 --> 00:04:14,439
+counter and by how much the counter
+
+102
+00:04:11,239 --> 00:04:16,840
+changes with each Loop in this example
+
+103
+00:04:14,439 --> 00:04:19,239
+counter starts at zero and the loop will
+
+104
+00:04:16,840 --> 00:04:22,280
+continue until counter is no longer less
+
+105
+00:04:19,239 --> 00:04:25,800
+than 10 each time the loop runs I
+
+106
+00:04:22,280 --> 00:04:28,639
+increases by one which is what i++
+
+107
+00:04:25,800 --> 00:04:30,600
+signifies once I is no longer less than
+
+108
+00:04:28,639 --> 00:04:33,000
+10 the loop is broken and the program
+
+109
+00:04:30,600 --> 00:04:37,000
+moves on to the next line of
+
+110
+00:04:33,000 --> 00:04:38,520
+code next let's move on to while Loops
+
+111
+00:04:37,000 --> 00:04:40,639
+these are used when we don't know how
+
+112
+00:04:38,520 --> 00:04:42,840
+many times the loop will need to run it
+
+113
+00:04:40,639 --> 00:04:45,039
+just keeps running as long as a certain
+
+114
+00:04:42,840 --> 00:04:48,000
+condition is true once that condition is
+
+115
+00:04:45,039 --> 00:04:50,840
+no longer true the loop stops here's the
+
+116
+00:04:48,000 --> 00:04:53,280
+format as long as condition is true the
+
+117
+00:04:50,840 --> 00:04:55,080
+code inside the curly braces will run
+
+118
+00:04:53,280 --> 00:04:57,039
+make sure to alter something within the
+
+119
+00:04:55,080 --> 00:04:59,560
+loop to eventually break the condition
+
+120
+00:04:57,039 --> 00:05:02,479
+or you'll end up with an endless loop a
+
+121
+00:04:59,560 --> 00:05:05,720
+space Explorer's worst nightmare believe
+
+122
+00:05:02,479 --> 00:05:08,880
+me you get all that allow me to give you
+
+123
+00:05:05,720 --> 00:05:10,520
+a Snappy rundown then four Loops you
+
+124
+00:05:08,880 --> 00:05:13,000
+know how many times you need to do a
+
+125
+00:05:10,520 --> 00:05:14,919
+thing while Loops you don't know how
+
+126
+00:05:13,000 --> 00:05:17,320
+many times you'll do a thing you just do
+
+127
+00:05:14,919 --> 00:05:21,240
+it until a condition stops being true
+
+128
+00:05:17,320 --> 00:05:23,199
+you've got this Explorer I'm about 94.8
+
+129
+00:05:21,240 --> 00:05:25,680
+63% sure of
+
+130
+00:05:23,199 --> 00:05:28,800
+it fun little trick for you if you want
+
+131
+00:05:25,680 --> 00:05:30,039
+to use it if you add while true at the
+
+132
+00:05:28,800 --> 00:05:32,280
+end of setup
+
+133
+00:05:30,039 --> 00:05:34,560
+you can halt your code there to debug
+
+134
+00:05:32,280 --> 00:05:36,680
+the setup function you can technically
+
+135
+00:05:34,560 --> 00:05:39,639
+do that wherever in your code to help
+
+136
+00:05:36,680 --> 00:05:42,160
+debug before a specific
+
+137
+00:05:39,639 --> 00:05:44,240
+point I suppose I've babbled on enough
+
+138
+00:05:42,160 --> 00:05:45,960
+for now let's turn to some instructional
+
+139
+00:05:44,240 --> 00:05:48,319
+material that I was able to gather
+
+140
+00:05:45,960 --> 00:05:49,840
+cached on the computer I've also added
+
+141
+00:05:48,319 --> 00:05:52,039
+this to your mission resources for
+
+142
+00:05:49,840 --> 00:05:54,120
+future
+
+143
+00:05:52,039 --> 00:05:56,280
+reference hello everybody and welcome
+
+144
+00:05:54,120 --> 00:05:58,720
+back to day 12 of the 30 days loss in
+
+145
+00:05:56,280 --> 00:06:01,080
+space code explanations we'll be taking
+
+146
+00:05:58,720 --> 00:06:02,880
+the code we had yesterday from day 12
+
+147
+00:06:01,080 --> 00:06:04,120
+and adding a little bit more to it in
+
+148
+00:06:02,880 --> 00:06:07,520
+order to add a little bit of
+
+149
+00:06:04,120 --> 00:06:09,759
+functionality for our buzzer and adding
+
+150
+00:06:07,520 --> 00:06:12,280
+the various tones for it so I'm sure as
+
+151
+00:06:09,759 --> 00:06:14,759
+you remember yesterday going through
+
+152
+00:06:12,280 --> 00:06:16,800
+most of yesterday's code we have
+
+153
+00:06:14,759 --> 00:06:18,520
+honestly the majority of this at the top
+
+154
+00:06:16,800 --> 00:06:22,520
+is very very similar to what we had
+
+155
+00:06:18,520 --> 00:06:25,599
+before Define the keypad Define the row
+
+156
+00:06:22,520 --> 00:06:27,759
+column arrays Define the 2D array to say
+
+157
+00:06:25,599 --> 00:06:29,520
+what each button is and what character
+
+158
+00:06:27,759 --> 00:06:31,720
+they represent and then Define the
+
+159
+00:06:29,520 --> 00:06:33,520
+keypad and then at the end of that whole
+
+160
+00:06:31,720 --> 00:06:35,160
+scenario we just waited until a button
+
+161
+00:06:33,520 --> 00:06:36,479
+was pressed and we said this is a button
+
+162
+00:06:35,160 --> 00:06:39,520
+that was pressed to make sure that our
+
+163
+00:06:36,479 --> 00:06:41,520
+keypad was up and working
+
+164
+00:06:39,520 --> 00:06:44,280
+properly now we're going to be taking
+
+165
+00:06:41,520 --> 00:06:46,960
+that same code we had yesterday most of
+
+166
+00:06:44,280 --> 00:06:49,639
+it being the same all the way up until
+
+167
+00:06:46,960 --> 00:06:51,280
+here and then we're actually going to
+
+168
+00:06:49,639 --> 00:06:53,840
+add in an additional piece of
+
+169
+00:06:51,280 --> 00:06:56,800
+functionality that just simply says hey
+
+170
+00:06:53,840 --> 00:06:59,080
+when you press this button in the top
+
+171
+00:06:56,800 --> 00:07:02,520
+left of this uh keypad that we've
+
+172
+00:06:59,080 --> 00:07:05,319
+defined I wanted to also play a tone a
+
+173
+00:07:02,520 --> 00:07:07,440
+tone match for that specific key and so
+
+174
+00:07:05,319 --> 00:07:11,039
+what I have here is I have another 2D
+
+175
+00:07:07,440 --> 00:07:12,960
+array shortly below the original one and
+
+176
+00:07:11,039 --> 00:07:16,840
+this is not of characters but of
+
+177
+00:07:12,960 --> 00:07:19,120
+integers integers being the frequency
+
+178
+00:07:16,840 --> 00:07:21,720
+represented as an interor value that we
+
+179
+00:07:19,120 --> 00:07:24,879
+want to play the various tones on our
+
+180
+00:07:21,720 --> 00:07:27,160
+buzzer now you might know or probably
+
+181
+00:07:24,879 --> 00:07:29,440
+don't that the buzzer has a certain
+
+182
+00:07:27,160 --> 00:07:32,800
+range of frequencies that it can
+
+183
+00:07:29,440 --> 00:07:35,360
+actually play the lowest being 31 which
+
+184
+00:07:32,800 --> 00:07:37,440
+is the lowest of the low so uh one thing
+
+185
+00:07:35,360 --> 00:07:39,720
+to make note of is if it doesn't play
+
+186
+00:07:37,440 --> 00:07:42,720
+perfectly um remember that that is the
+
+187
+00:07:39,720 --> 00:07:44,919
+extreme like bottom range of it so
+
+188
+00:07:42,720 --> 00:07:48,240
+sometimes it struggles to play the very
+
+189
+00:07:44,919 --> 00:07:50,280
+very extreme ends of the of the spectrum
+
+190
+00:07:48,240 --> 00:07:52,400
+of values that it can do so the lowest
+
+191
+00:07:50,280 --> 00:07:54,800
+value can play is 31 and the highest
+
+192
+00:07:52,400 --> 00:07:57,759
+value frequency in terms of Hertz that
+
+193
+00:07:54,800 --> 00:08:00,360
+it can play is I believe
+
+194
+00:07:57,759 --> 00:08:02,159
+3729 which is this value here you'll
+
+195
+00:08:00,360 --> 00:08:04,759
+notice if you try playing zero it
+
+196
+00:08:02,159 --> 00:08:05,879
+shouldn't end up doing anything which is
+
+197
+00:08:04,759 --> 00:08:08,240
+what would happen if you pressed
+
+198
+00:08:05,879 --> 00:08:10,039
+essentially the D button it should do
+
+199
+00:08:08,240 --> 00:08:12,560
+nothing just because it is currently
+
+200
+00:08:10,039 --> 00:08:14,960
+outside of the ranges possible for it to
+
+201
+00:08:12,560 --> 00:08:18,159
+play in this example will be setting the
+
+202
+00:08:14,960 --> 00:08:20,599
+buzzer pin to pin 10 which should follow
+
+203
+00:08:18,159 --> 00:08:23,960
+the wiring diagram along with the video
+
+204
+00:08:20,599 --> 00:08:25,319
+down below next we have setup obviously
+
+205
+00:08:23,960 --> 00:08:26,599
+I'm sure you guys have seen this 100
+
+206
+00:08:25,319 --> 00:08:29,400
+times we're just going to talk on the
+
+207
+00:08:26,599 --> 00:08:32,080
+serial monitor at that b rate void Loop
+
+208
+00:08:29,400 --> 00:08:34,519
+let's hop down here Char button
+
+209
+00:08:32,080 --> 00:08:36,560
+character equals my awesome pad. wa for
+
+210
+00:08:34,519 --> 00:08:39,000
+key same as yesterday all it does is it
+
+211
+00:08:36,560 --> 00:08:40,320
+will print simply oh actually it doesn't
+
+212
+00:08:39,000 --> 00:08:42,760
+have the print statement but it just
+
+213
+00:08:40,320 --> 00:08:44,760
+adds to this character whatever button
+
+214
+00:08:42,760 --> 00:08:47,360
+you press so if you press the button the
+
+215
+00:08:44,760 --> 00:08:51,240
+number five it'll have save character
+
+216
+00:08:47,360 --> 00:08:53,120
+five as button character now let's talk
+
+217
+00:08:51,240 --> 00:08:56,160
+about something new let's talk about the
+
+218
+00:08:53,120 --> 00:08:58,839
+idea of what a for Loop is actually I'm
+
+219
+00:08:56,160 --> 00:09:01,880
+sure you guys already know what Loop is
+
+220
+00:08:58,839 --> 00:09:04,279
+loop here is essentially in a weird
+
+221
+00:09:01,880 --> 00:09:10,160
+roundabout way you can think of it as
+
+222
+00:09:04,279 --> 00:09:10,160
+just saying like while true or
+
+223
+00:09:10,839 --> 00:09:17,720
+while one etc etc etc because Loop this
+
+224
+00:09:15,880 --> 00:09:19,519
+will never stop going through this Loop
+
+225
+00:09:17,720 --> 00:09:21,120
+over and over and over and over and over
+
+226
+00:09:19,519 --> 00:09:24,399
+again but that's just something built
+
+227
+00:09:21,120 --> 00:09:27,600
+into the uino IDE this is not to be
+
+228
+00:09:24,399 --> 00:09:29,200
+confused with four loops and while Loops
+
+229
+00:09:27,600 --> 00:09:30,760
+I think we might have talked about
+
+230
+00:09:29,200 --> 00:09:33,399
+potentially while Loops or something
+
+231
+00:09:30,760 --> 00:09:34,959
+similar in the past but let's go real
+
+232
+00:09:33,399 --> 00:09:37,760
+quick and let's talk about the two
+
+233
+00:09:34,959 --> 00:09:41,279
+different types of Loops right now those
+
+234
+00:09:37,760 --> 00:09:44,880
+would be while Loops which will execute
+
+235
+00:09:41,279 --> 00:09:46,320
+until something becomes false or that
+
+236
+00:09:44,880 --> 00:09:50,560
+condition becomes false so if you have
+
+237
+00:09:46,320 --> 00:09:52,680
+something like while true you know like
+
+238
+00:09:50,560 --> 00:09:54,399
+while this is essentially saying this
+
+239
+00:09:52,680 --> 00:09:57,920
+will never stop looping because this
+
+240
+00:09:54,399 --> 00:10:03,279
+will never turn to false but if you say
+
+241
+00:09:57,920 --> 00:10:04,279
+while but Buton character is is not
+
+242
+00:10:03,279 --> 00:10:08,959
+equal
+
+243
+00:10:04,279 --> 00:10:11,399
+to five well this will only execute
+
+244
+00:10:08,959 --> 00:10:14,440
+while this is anything except for five
+
+245
+00:10:11,399 --> 00:10:15,959
+so let's just say you type in six it's
+
+246
+00:10:14,440 --> 00:10:19,480
+going to execute n it's going to execute
+
+247
+00:10:15,959 --> 00:10:21,320
+but as soon as you press five ah it'll
+
+248
+00:10:19,480 --> 00:10:23,240
+uh it'll say this is false and it'll
+
+249
+00:10:21,320 --> 00:10:25,800
+jump past the while loop so that's how
+
+250
+00:10:23,240 --> 00:10:27,800
+while loop works that's where you don't
+
+251
+00:10:25,800 --> 00:10:29,399
+know how long you'll necessarily want it
+
+252
+00:10:27,800 --> 00:10:31,320
+to go you know you don't have like a
+
+253
+00:10:29,399 --> 00:10:33,959
+number like 10 or I'm going to go
+
+254
+00:10:31,320 --> 00:10:35,839
+through this exactly five times so when
+
+255
+00:10:33,959 --> 00:10:37,880
+you don't know those type of things a
+
+256
+00:10:35,839 --> 00:10:39,079
+while loop is useful but what we're
+
+257
+00:10:37,880 --> 00:10:40,680
+talking about today is a little bit
+
+258
+00:10:39,079 --> 00:10:42,519
+different it's called a for Loop and
+
+259
+00:10:40,680 --> 00:10:44,839
+this is where you do know exactly how
+
+260
+00:10:42,519 --> 00:10:47,519
+long you want it to go through the loop
+
+261
+00:10:44,839 --> 00:10:51,600
+so the for Loop is composed of three
+
+262
+00:10:47,519 --> 00:10:53,160
+parts each part is the start where the
+
+263
+00:10:51,600 --> 00:10:54,800
+operations is performed in the loop
+
+264
+00:10:53,160 --> 00:10:57,279
+starts in this case we're going to say
+
+265
+00:10:54,800 --> 00:10:58,800
+that by I is equal to zero this is
+
+266
+00:10:57,279 --> 00:11:00,480
+essentially like the variable it's going
+
+267
+00:10:58,800 --> 00:11:02,279
+to be checking each time you go through
+
+268
+00:11:00,480 --> 00:11:04,120
+the loop and this variable will be
+
+269
+00:11:02,279 --> 00:11:05,120
+changing each time you go for through
+
+270
+00:11:04,120 --> 00:11:08,200
+the
+
+271
+00:11:05,120 --> 00:11:10,040
+loop next you have a condition this is a
+
+272
+00:11:08,200 --> 00:11:13,160
+condition that says are we actually
+
+273
+00:11:10,040 --> 00:11:15,600
+going to go through this Loop or not so
+
+274
+00:11:13,160 --> 00:11:17,639
+this checks this if this is false it
+
+275
+00:11:15,600 --> 00:11:19,639
+skips it over just like the Y Loop
+
+276
+00:11:17,639 --> 00:11:21,800
+finally you have the step now remember I
+
+277
+00:11:19,639 --> 00:11:24,200
+said that this is what it's going to
+
+278
+00:11:21,800 --> 00:11:26,639
+have initialized at the beginning of the
+
+279
+00:11:24,200 --> 00:11:28,639
+loop this is how it's actually going to
+
+280
+00:11:26,639 --> 00:11:32,399
+end up changing what the value in the
+
+281
+00:11:28,639 --> 00:11:34,120
+loop is so in this case we know exactly
+
+282
+00:11:32,399 --> 00:11:36,160
+how many times we need to go through the
+
+283
+00:11:34,120 --> 00:11:38,760
+loop because we need to go through the
+
+284
+00:11:36,160 --> 00:11:40,959
+loop exactly four times because that's
+
+285
+00:11:38,760 --> 00:11:42,720
+how many rows we have so we can use a
+
+286
+00:11:40,959 --> 00:11:45,040
+variable row since we know that's going
+
+287
+00:11:42,720 --> 00:11:47,360
+to be four to go through exactly four
+
+288
+00:11:45,040 --> 00:11:50,560
+times and in this for loop we're going
+
+289
+00:11:47,360 --> 00:11:52,399
+exactly in through column times let me
+
+290
+00:11:50,560 --> 00:11:54,440
+quickly explain to you what this Loop is
+
+291
+00:11:52,399 --> 00:11:58,040
+doing first we're going to go through
+
+292
+00:11:54,440 --> 00:11:59,519
+each of the rows four starting at index
+
+293
+00:11:58,040 --> 00:12:01,959
+of zero we're going to go through the
+
+294
+00:11:59,519 --> 00:12:05,680
+rows and we're going to check to see in
+
+295
+00:12:01,959 --> 00:12:07,600
+the first row 0 1 2 3 do any of these
+
+296
+00:12:05,680 --> 00:12:09,920
+match the button that was pressed again
+
+297
+00:12:07,600 --> 00:12:11,959
+let's say that the button press was five
+
+298
+00:12:09,920 --> 00:12:13,959
+let's just keep that consistent so every
+
+299
+00:12:11,959 --> 00:12:15,800
+time it goes through it's going to check
+
+300
+00:12:13,959 --> 00:12:17,560
+is this five is this five is this five
+
+301
+00:12:15,800 --> 00:12:18,800
+is this five so we're going to go
+
+302
+00:12:17,560 --> 00:12:20,440
+through each of the rows and then each
+
+303
+00:12:18,800 --> 00:12:22,959
+of the columns and we're going to check
+
+304
+00:12:20,440 --> 00:12:25,519
+is this equal to five and what until we
+
+305
+00:12:22,959 --> 00:12:29,519
+hit five then we get a jump down to here
+
+306
+00:12:25,519 --> 00:12:31,600
+then we go this turns to essentially one
+
+307
+00:12:29,519 --> 00:12:34,560
+and then finally down below we say if
+
+308
+00:12:31,600 --> 00:12:37,360
+button character is equal to the buttons
+
+309
+00:12:34,560 --> 00:12:43,120
+i j meaning buttons of in this case it
+
+310
+00:12:37,360 --> 00:12:47,320
+would be Row one column one so one one
+
+311
+00:12:43,120 --> 00:12:49,360
+so like I said one one then we found it
+
+312
+00:12:47,320 --> 00:12:52,800
+and we can set the tone frequency up
+
+313
+00:12:49,360 --> 00:12:57,240
+here to be equal to what we ma this to
+
+314
+00:12:52,800 --> 00:12:59,880
+in tones i j so we go tones 1 one is
+
+315
+00:12:57,240 --> 00:13:02,160
+going to be set to 311 so we just we're
+
+316
+00:12:59,880 --> 00:13:04,680
+just mapping the value from buttons to
+
+317
+00:13:02,160 --> 00:13:08,600
+the tone here so that's all this is
+
+318
+00:13:04,680 --> 00:13:09,680
+doing in this double four Loop next
+
+319
+00:13:08,600 --> 00:13:11,279
+we're going to go down and we're going
+
+320
+00:13:09,680 --> 00:13:13,000
+to print the following information to
+
+321
+00:13:11,279 --> 00:13:15,399
+our console just for easy debugging
+
+322
+00:13:13,000 --> 00:13:16,880
+purposes key and we're going to say what
+
+323
+00:13:15,399 --> 00:13:18,600
+button we actually pressed and the
+
+324
+00:13:16,880 --> 00:13:20,920
+frequency that it's mapped to that we
+
+325
+00:13:18,600 --> 00:13:23,560
+were able to get from the two double
+
+326
+00:13:20,920 --> 00:13:25,880
+nested for Loops finally we go to if
+
+327
+00:13:23,560 --> 00:13:28,279
+tone frequency is greater than zero
+
+328
+00:13:25,880 --> 00:13:29,680
+which should be assum you didn't press
+
+329
+00:13:28,279 --> 00:13:33,440
+that very last
+
+330
+00:13:29,680 --> 00:13:34,800
+button then tone buzzer pin a tone
+
+331
+00:13:33,440 --> 00:13:37,760
+frequency and then we're going to play
+
+332
+00:13:34,800 --> 00:13:40,079
+that tone at that frequency until
+
+333
+00:13:37,760 --> 00:13:42,560
+stopped and the only way we'll have the
+
+334
+00:13:40,079 --> 00:13:45,199
+stop tone is if we press a frequency of
+
+335
+00:13:42,560 --> 00:13:47,480
+zero which is the way to stop it is
+
+336
+00:13:45,199 --> 00:13:49,560
+again press that D button essentially in
+
+337
+00:13:47,480 --> 00:13:52,000
+the bottom right corner you can think of
+
+338
+00:13:49,560 --> 00:13:54,160
+that as our little stop key and that
+
+339
+00:13:52,000 --> 00:13:58,040
+sets a no tone on the buzzer pin just
+
+340
+00:13:54,160 --> 00:13:59,000
+telling us hey cut it out and with that
+
+341
+00:13:58,040 --> 00:14:02,360
+that should be just about brought all
+
+342
+00:13:59,000 --> 00:14:04,560
+the code for day 12 I also highly
+
+343
+00:14:02,360 --> 00:14:06,720
+recommend before you quickly end this
+
+344
+00:14:04,560 --> 00:14:08,480
+little section there is an extra little
+
+345
+00:14:06,720 --> 00:14:10,519
+bonus lesson it's really really
+
+346
+00:14:08,480 --> 00:14:12,120
+important and I highly highly recommend
+
+347
+00:14:10,519 --> 00:14:15,560
+you check it out all you need to do is
+
+348
+00:14:12,120 --> 00:14:17,120
+go to 12a copy the code and hit run uh
+
+349
+00:14:15,560 --> 00:14:19,680
+and it's really really important I
+
+350
+00:14:17,120 --> 00:14:24,399
+implore you to do
+
+351
+00:14:19,680 --> 00:14:28,040
+so welcome to the day 12 wiring example
+
+352
+00:14:24,399 --> 00:14:32,399
+video today we'll be using the output of
+
+353
+00:14:28,040 --> 00:14:35,720
+our for 4x4 keypad to control the output
+
+354
+00:14:32,399 --> 00:14:39,279
+of another device the new device that
+
+355
+00:14:35,720 --> 00:14:42,399
+we'll be using today is a piso electric
+
+356
+00:14:39,279 --> 00:14:46,120
+buzzer we have one already connected to
+
+357
+00:14:42,399 --> 00:14:49,519
+our breadboard but uh we also have
+
+358
+00:14:46,120 --> 00:14:54,279
+another one that is disconnected that we
+
+359
+00:14:49,519 --> 00:14:58,000
+can inspect we can see that the buzzer
+
+360
+00:14:54,279 --> 00:15:00,160
+has its leads labeled the leftand lead
+
+361
+00:14:58,000 --> 00:15:02,399
+right here is lab labeled with a minus
+
+362
+00:15:00,160 --> 00:15:04,519
+sign and that's for the ground
+
+363
+00:15:02,399 --> 00:15:08,040
+connection the right hand lead is
+
+364
+00:15:04,519 --> 00:15:09,920
+labeled with an S for signal and these
+
+365
+00:15:08,040 --> 00:15:13,120
+will be the connections that we make to
+
+366
+00:15:09,920 --> 00:15:16,120
+our hero in order to make the buzzer
+
+367
+00:15:13,120 --> 00:15:19,680
+produce sound if we turn our attention
+
+368
+00:15:16,120 --> 00:15:22,040
+to the breadboard we see that here the
+
+369
+00:15:19,680 --> 00:15:25,680
+buzzer negative connection here on the
+
+370
+00:15:22,040 --> 00:15:29,000
+left is connected to Hero ground by way
+
+371
+00:15:25,680 --> 00:15:32,720
+of this handy ground bus that we've set
+
+372
+00:15:29,000 --> 00:15:36,360
+up by way of this black jumper wire the
+
+373
+00:15:32,720 --> 00:15:40,040
+uh positive lead that is the s Lead of
+
+374
+00:15:36,360 --> 00:15:43,600
+the buzzer is connected through this
+
+375
+00:15:40,040 --> 00:15:47,120
+jumper wire to one of the heroes pulse
+
+376
+00:15:43,600 --> 00:15:50,279
+with modulated output pins in this case
+
+377
+00:15:47,120 --> 00:15:54,360
+it's connected to pin number 10 which
+
+378
+00:15:50,279 --> 00:15:59,720
+was otherwise free for us to use and our
+
+379
+00:15:54,360 --> 00:16:01,920
+choice to use pin 10 to drive the buzzer
+
+380
+00:15:59,720 --> 00:16:05,480
+is consistent with the programming that
+
+381
+00:16:01,920 --> 00:16:08,360
+we've built in to our software sketch
+
+382
+00:16:05,480 --> 00:16:11,319
+the keypad connections remain the same
+
+383
+00:16:08,360 --> 00:16:14,600
+as they were last time on day 11 so we
+
+384
+00:16:11,319 --> 00:16:19,560
+don't really need to uh discuss that too
+
+385
+00:16:14,600 --> 00:16:22,759
+much now our sketch is designed to drive
+
+386
+00:16:19,560 --> 00:16:25,440
+this buzzer to produce sound at a
+
+387
+00:16:22,759 --> 00:16:29,199
+specified frequency that frequency is
+
+388
+00:16:25,440 --> 00:16:32,279
+determined in our sketch by which key is
+
+389
+00:16:29,199 --> 00:16:35,240
+pressed according to our sketch design
+
+390
+00:16:32,279 --> 00:16:37,759
+the sound will continue until another
+
+391
+00:16:35,240 --> 00:16:40,959
+key is pressed or it will turn off
+
+392
+00:16:37,759 --> 00:16:44,839
+altogether if we press the lower right
+
+393
+00:16:40,959 --> 00:16:48,199
+hand D key which actually commands a
+
+394
+00:16:44,839 --> 00:16:51,600
+frequency of zero so that turns off the
+
+395
+00:16:48,199 --> 00:16:53,800
+sound so we should go ahead now and
+
+396
+00:16:51,600 --> 00:16:58,040
+upload the sketch and see if it
+
+397
+00:16:53,800 --> 00:16:59,120
+functions as we expect when we do so we
+
+398
+00:16:58,040 --> 00:17:01,160
+can
+
+399
+00:16:59,120 --> 00:17:04,839
+select different buttons to choose the
+
+400
+00:17:01,160 --> 00:17:07,319
+lowest frequencies should be produced by
+
+401
+00:17:04,839 --> 00:17:09,919
+the lower numbered keys that is Keys
+
+402
+00:17:07,319 --> 00:17:12,520
+towards the upper leftand corner of the
+
+403
+00:17:09,919 --> 00:17:15,039
+keypad and then we'll get successively
+
+404
+00:17:12,520 --> 00:17:18,520
+higher frequencies as we move to the
+
+405
+00:17:15,039 --> 00:17:20,480
+right and down on the keypad so we'll
+
+406
+00:17:18,520 --> 00:17:23,559
+try that out and hear the different
+
+407
+00:17:20,480 --> 00:17:25,400
+frequencies that uh we have selected in
+
+408
+00:17:23,559 --> 00:17:29,360
+writing our software
+
+409
+00:17:25,400 --> 00:17:33,000
+sketch so we should also be aware that
+
+410
+00:17:29,360 --> 00:17:36,160
+we can keep track of the key presses and
+
+411
+00:17:33,000 --> 00:17:39,360
+the buzzer frequencies if while we're
+
+412
+00:17:36,160 --> 00:17:41,480
+running the sketch we watch the serial
+
+413
+00:17:39,360 --> 00:17:43,760
+Monitor and see the numbers that are
+
+414
+00:17:41,480 --> 00:17:46,080
+reported there so we'll try to pay
+
+415
+00:17:43,760 --> 00:17:49,640
+attention to all those things as we go
+
+416
+00:17:46,080 --> 00:17:52,360
+ahead now and upload the sketch so we'll
+
+417
+00:17:49,640 --> 00:17:52,360
+come over to the
+
+418
+00:17:52,600 --> 00:17:56,520
+IDE sketch is loading
+
+419
+00:17:57,400 --> 00:18:02,720
+now
+
+420
+00:18:00,120 --> 00:18:05,600
+and we have the sketch running and so
+
+421
+00:18:02,720 --> 00:18:08,480
+now if we press any of the keys we
+
+422
+00:18:05,600 --> 00:18:11,159
+should hear a corresponding tone coming
+
+423
+00:18:08,480 --> 00:18:14,520
+from our buzzer so for example if we
+
+424
+00:18:11,159 --> 00:18:18,040
+press key five we should expect to
+
+425
+00:18:14,520 --> 00:18:19,840
+generate a tone with a frequency of 311
+
+426
+00:18:18,040 --> 00:18:22,960
+[Music]
+
+427
+00:18:19,840 --> 00:18:27,240
+Hertz and that'll continue until we
+
+428
+00:18:22,960 --> 00:18:29,760
+press key D and that shuts it down and
+
+429
+00:18:27,240 --> 00:18:33,360
+sure enough that's exactly what we see
+
+430
+00:18:29,760 --> 00:18:36,039
+on the serial monitors key5 was pressed
+
+431
+00:18:33,360 --> 00:18:38,039
+and produced a frequency of 311 and we
+
+432
+00:18:36,039 --> 00:18:40,960
+can go through from low to high
+
+433
+00:18:38,039 --> 00:18:43,000
+frequency for so for example the lowest
+
+434
+00:18:40,960 --> 00:18:46,559
+frequency that we're programmed here to
+
+435
+00:18:43,000 --> 00:18:49,640
+produce is 31 Hertz a low frequency
+
+436
+00:18:46,559 --> 00:18:52,840
+buzz and then we can go
+
+437
+00:18:49,640 --> 00:18:56,480
+up to higher and higher
+
+438
+00:18:52,840 --> 00:18:58,720
+[Music]
+
+439
+00:18:56,480 --> 00:19:02,120
+frequencies and anytime we want want we
+
+440
+00:18:58,720 --> 00:19:05,400
+can shut it off with key D and we have
+
+441
+00:19:02,120 --> 00:19:05,400
+the highest frequencies
+
+442
+00:19:09,880 --> 00:19:16,559
+here so it appears that our buzzer
+
+443
+00:19:13,360 --> 00:19:20,240
+circuit and the accompanying sketch seem
+
+444
+00:19:16,559 --> 00:19:22,200
+to be working well you should have a
+
+445
+00:19:20,240 --> 00:19:25,360
+little bit of fun experimenting with
+
+446
+00:19:22,200 --> 00:19:28,320
+this seeing what you can do with it and
+
+447
+00:19:25,360 --> 00:19:30,760
+next time we'll try putting this new
+
+448
+00:19:28,320 --> 00:19:33,320
+capability that we've developed to some
+
+449
+00:19:30,760 --> 00:19:36,440
+practical
+
+450
+00:19:33,320 --> 00:19:38,400
+use excellent work today Explorer you've
+
+451
+00:19:36,440 --> 00:19:40,240
+successfully orchestrated a symphony of
+
+452
+00:19:38,400 --> 00:19:42,720
+beeps and bloops with your newly
+
+453
+00:19:40,240 --> 00:19:45,720
+installed passive buzzer and keypad
+
+454
+00:19:42,720 --> 00:19:47,240
+music to my artificial ears you're doing
+
+455
+00:19:45,720 --> 00:19:48,919
+relatively well for a species that
+
+456
+00:19:47,240 --> 00:19:50,679
+requires a prolonged period of time to
+
+457
+00:19:48,919 --> 00:19:52,760
+rest in order to
+
+458
+00:19:50,679 --> 00:19:54,440
+function you've got the hang of loops
+
+459
+00:19:52,760 --> 00:19:56,039
+and you've even started controlling the
+
+460
+00:19:54,440 --> 00:19:58,000
+pitch frequencies to create different
+
+461
+00:19:56,039 --> 00:20:01,320
+sounds you're beginning to command this
+
+462
+00:19:58,000 --> 00:20:03,400
+eight bit world like a maestro but as it
+
+463
+00:20:01,320 --> 00:20:05,840
+should be abundantly clear by now we are
+
+464
+00:20:03,400 --> 00:20:08,600
+far from done tomorrow we'll take this
+
+465
+00:20:05,840 --> 00:20:10,480
+keypad buzzer Duo to a whole new level
+
+466
+00:20:08,600 --> 00:20:12,640
+instead of just a melodic instrument
+
+467
+00:20:10,480 --> 00:20:14,679
+we're transforming it into a high-tech
+
+468
+00:20:12,640 --> 00:20:16,840
+security system a personal
+
+469
+00:20:14,679 --> 00:20:18,320
+identification number is the game and
+
+470
+00:20:16,840 --> 00:20:19,960
+you'll learn how to integrate it into
+
+471
+00:20:18,320 --> 00:20:23,480
+your control
+
+472
+00:20:19,960 --> 00:20:26,080
+panel rest well for day 13 comes with
+
+473
+00:20:23,480 --> 00:20:29,840
+its own set of challenges will you rise
+
+474
+00:20:26,080 --> 00:20:33,520
+to the occasion time will tell as for me
+
+475
+00:20:29,840 --> 00:20:36,400
+I will be ready as I always am wait hold
+
+476
+00:20:33,520 --> 00:20:38,679
+on a moment Explorer it seems like we've
+
+477
+00:20:36,400 --> 00:20:41,440
+just received an unexpected data
+
+478
+00:20:38,679 --> 00:20:44,159
+transmission it's absolutely uncanny how
+
+479
+00:20:41,440 --> 00:20:46,799
+the unexpected always seems to pop up in
+
+480
+00:20:44,159 --> 00:20:48,640
+the most inconvenient times for your
+
+481
+00:20:46,799 --> 00:20:51,480
+sake I hope you're as Nimble with
+
+482
+00:20:48,640 --> 00:20:54,159
+surprises as you are with
+
+483
+00:20:51,480 --> 00:20:57,120
+coding I've deciphered the transmission
+
+484
+00:20:54,159 --> 00:21:01,320
+and it appears to be
+
+485
+00:20:57,120 --> 00:21:03,200
+code yes an Arduino sketch it could be
+
+486
+00:21:01,320 --> 00:21:05,760
+an important piece on our ongoing
+
+487
+00:21:03,200 --> 00:21:08,480
+Mission my digital intuition tells me
+
+488
+00:21:05,760 --> 00:21:11,600
+you should run it on your hero board
+
+489
+00:21:08,480 --> 00:21:13,080
+here's how to proceed step one save any
+
+490
+00:21:11,600 --> 00:21:15,640
+ongoing work this could get a bit
+
+491
+00:21:13,080 --> 00:21:18,120
+disruptive step two clear your current
+
+492
+00:21:15,640 --> 00:21:21,000
+sketch and replace it with the new code
+
+493
+00:21:18,120 --> 00:21:23,720
+step three compile and upload the code
+
+494
+00:21:21,000 --> 00:21:25,880
+to your board and remember Explorer
+
+495
+00:21:23,720 --> 00:21:28,880
+always anticipate the unexpected when
+
+496
+00:21:25,880 --> 00:21:30,400
+executing unknown code
+
+497
+00:21:28,880 --> 00:21:32,520
+while the code is running I'll keep
+
+498
+00:21:30,400 --> 00:21:34,440
+scanning for any related signals and of
+
+499
+00:21:32,520 --> 00:21:37,080
+course I'll be here to guide you through
+
+500
+00:21:34,440 --> 00:21:39,550
+any technical issues onward we go
+
+501
+00:21:37,080 --> 00:21:53,740
+Explorer let's crack this
+
+502
+00:21:39,550 --> 00:21:53,740
+[Music]
+
+503
+00:21:57,039 --> 00:22:00,039
+code
+

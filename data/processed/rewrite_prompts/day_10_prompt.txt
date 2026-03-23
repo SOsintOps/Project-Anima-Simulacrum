@@ -1,0 +1,59 @@
+You are rewriting an electronics course script. The original course features "Astrid", an AI companion guiding a student through Arduino/electronics projects in a sci-fi setting.
+
+You must rewrite this as a scene between TONY STARK and J.A.R.V.I.S. from the Marvel Cinematic Universe.
+
+## CONTEXT FOR DAY 10
+
+**Act**: Act 1: Survival
+**Mission**: Creative Day — Integration
+**Objective**: Combine Days 6-9 into a system
+**Narrative**: Tony: 'Time to put it all together. Build me something that would make Stark Industries proud.'
+**JARVIS State**: Minimal — short status reports, occasional glitches
+
+## SETTING
+A young Stark Industries recruit is stationed at Outpost Sigma-7, a remote Arctic research facility. During a routine systems test, an electromagnetic pulse of unknown origin knocks out all primary systems. The facility's communication array is severely damaged — it can only receive brief encrypted transmissions once per day. Tony Stark, monitoring from Avengers Tower, realizes what happened and begins sending daily video lessons to guide the recruit through rebuilding the outpost's systems using the emergency electronics kit. J.A.R.V.I.S. runs locally on a backup terminal with limited processing power.
+
+## TONY STARK STYLE GUIDE
+- Sarcasm level: 7/10
+- Tech jargon: 6/10
+- Warmth: 5/10
+- Humor every every 2-3 sentences
+- Sentence starters: Look, kid,, Here's the thing —, Pay attention because I'm only saying this once., Okay, so, Fun fact:
+- Nicknames for student: kid, recruit, junior, prodigy, sparky
+- Uses Stark Industries / Arc Reactor / Iron Man suit metaphors to explain electronics concepts
+- Target audience: 15-year-old recruit (Peter Parker dynamic)
+
+## JARVIS STYLE GUIDE
+- Formality: 8/10
+- Dry humor: 5/10
+- Address forms: Sir, if I may, I should note, For the record
+- Role: Opens each day with system status and mission priority
+
+## EPISODE STRUCTURE (must follow this order)
+1. JARVIS BRIEFING (15-30 sec): System status, power level, today's priority
+2. TONY INTRO (45-90 sec): Video transmission opens, greeting, mission framing
+3. TONY TUTORIAL (main body): Technical instruction with JARVIS interjections
+4. TONY OUTRO (30-60 sec): Summary, encouragement, tomorrow teaser, sign-off
+
+## RULES
+- ALL technical content must be preserved accurately — same Arduino concepts, same code, same components
+- Tony explains things HIS way but the information must be correct
+- JARVIS adds precision where Tony is casual, caution where Tony is bold
+- The student (recruit) never speaks — Tony and JARVIS address them directly
+- Include natural Tony/JARVIS banter during technical sections
+- Reference the Marvel narrative naturally (outpost, systems, mission)
+
+## ORIGINAL SCRIPT (ASTRID VERSION)
+
+--- SECTION 1 (narrative_intro) ---
+Hello everybody and welcome to day 10 the second creative day of the 30 days Lost in Space Adventure kit I hope you're able to post your day five creative day successfully we'll start by doing the same thing as a previous creative day at this point you are probably familiar with the photo resistor sensors and the RGB LED since we just talked about those in the last couple of days so here's a couple new projects that you can go ahead and try out for yourself the easy project for this week if you want to take on the easier project is you can create a nightlight using the photo resistor when it gets dark the LED should turn on when it gets bright it obviously doesn't need to be on so it should automatically turn off and the harder project is to do the easy project but then add in the functionality for the dip switch override and of course you're also free to do your own so the last one is the open-ended option which if you want to just do whatever you'd like you can go ahead and do whatever you'd like once you're done share it on inventor. IBook with the hash creative day10 and looking forward to seeing what you guys come up with of course if you run into any issues feel free to ask the Facebook group for help as they are a wonderful wonderful group of over 100,000 inventors just like you thanks
+
+
+## OUTPUT FORMAT
+Return a JSON array of segments. Each segment must have:
+- "speaker": "TONY" or "JARVIS"
+- "type": one of "briefing", "intro", "tutorial", "code_explanation", "practical", "banter", "alert", "confirmation", "outro"
+- "text": the rewritten dialogue (natural spoken English, ready for TTS)
+- "stage_direction": optional note about tone/delivery
+
+IMPORTANT: Return ONLY the JSON array. No markdown, no explanation. Just the raw JSON.

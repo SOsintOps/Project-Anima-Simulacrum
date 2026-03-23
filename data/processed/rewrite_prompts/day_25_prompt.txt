@@ -1,0 +1,59 @@
+You are rewriting an electronics course script. The original course features "Astrid", an AI companion guiding a student through Arduino/electronics projects in a sci-fi setting.
+
+You must rewrite this as a scene between TONY STARK and J.A.R.V.I.S. from the Marvel Cinematic Universe.
+
+## CONTEXT FOR DAY 25
+
+**Act**: Act 3: Breakthrough
+**Mission**: Creative Day — Comms
+**Objective**: Build a communication device
+**Narrative**: Tony: 'Build me something that can reach Avengers Tower. I dare you.'
+**JARVIS State**: Fully operational — witty, supportive, runs complex analysis
+
+## SETTING
+A young Stark Industries recruit is stationed at Outpost Sigma-7, a remote Arctic research facility. During a routine systems test, an electromagnetic pulse of unknown origin knocks out all primary systems. The facility's communication array is severely damaged — it can only receive brief encrypted transmissions once per day. Tony Stark, monitoring from Avengers Tower, realizes what happened and begins sending daily video lessons to guide the recruit through rebuilding the outpost's systems using the emergency electronics kit. J.A.R.V.I.S. runs locally on a backup terminal with limited processing power.
+
+## TONY STARK STYLE GUIDE
+- Sarcasm level: 7/10
+- Tech jargon: 6/10
+- Warmth: 5/10
+- Humor every every 2-3 sentences
+- Sentence starters: Look, kid,, Here's the thing —, Pay attention because I'm only saying this once., Okay, so, Fun fact:
+- Nicknames for student: kid, recruit, junior, prodigy, sparky
+- Uses Stark Industries / Arc Reactor / Iron Man suit metaphors to explain electronics concepts
+- Target audience: 15-year-old recruit (Peter Parker dynamic)
+
+## JARVIS STYLE GUIDE
+- Formality: 8/10
+- Dry humor: 5/10
+- Address forms: Sir, if I may, I should note, For the record
+- Role: Opens each day with system status and mission priority
+
+## EPISODE STRUCTURE (must follow this order)
+1. JARVIS BRIEFING (15-30 sec): System status, power level, today's priority
+2. TONY INTRO (45-90 sec): Video transmission opens, greeting, mission framing
+3. TONY TUTORIAL (main body): Technical instruction with JARVIS interjections
+4. TONY OUTRO (30-60 sec): Summary, encouragement, tomorrow teaser, sign-off
+
+## RULES
+- ALL technical content must be preserved accurately — same Arduino concepts, same code, same components
+- Tony explains things HIS way but the information must be correct
+- JARVIS adds precision where Tony is casual, caution where Tony is bold
+- The student (recruit) never speaks — Tony and JARVIS address them directly
+- Include natural Tony/JARVIS banter during technical sections
+- Reference the Marvel narrative naturally (outpost, systems, mission)
+
+## ORIGINAL SCRIPT (ASTRID VERSION)
+
+--- SECTION 1 (narrative_intro) ---
+Welcome to the final creative day of the course congratulations on making it back to space the mothership is only a short ways away at this point you have enough knowledge to make anything you desire there will be no prompts for today only a vague request I want you to create your flag on the moon in quotes or in this case project on a foreign Planet something to let people know you were the first ever to lay foot on this Uncharted quadrant of space what that means is totally up to you maybe it's your name or something that represents you maybe it's just a cool project that you are proud of and you just add your name in the comment of the source code code whatever it is when you're done be sure to place your flag in the drop pod so it can be securely delivered to the planet's surface below then like always share on inventor. I/f with the hashtag creative day25 it's been the journey see you back at the mothership and light speed
+
+
+## OUTPUT FORMAT
+Return a JSON array of segments. Each segment must have:
+- "speaker": "TONY" or "JARVIS"
+- "type": one of "briefing", "intro", "tutorial", "code_explanation", "practical", "banter", "alert", "confirmation", "outro"
+- "text": the rewritten dialogue (natural spoken English, ready for TTS)
+- "stage_direction": optional note about tone/delivery
+
+IMPORTANT: Return ONLY the JSON array. No markdown, no explanation. Just the raw JSON.

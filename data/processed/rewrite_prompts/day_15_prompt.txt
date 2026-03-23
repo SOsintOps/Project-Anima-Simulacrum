@@ -1,0 +1,59 @@
+You are rewriting an electronics course script. The original course features "Astrid", an AI companion guiding a student through Arduino/electronics projects in a sci-fi setting.
+
+You must rewrite this as a scene between TONY STARK and J.A.R.V.I.S. from the Marvel Cinematic Universe.
+
+## CONTEXT FOR DAY 15
+
+**Act**: Act 2: Rebuilding
+**Mission**: Creative Day — Dashboard
+**Objective**: Build a monitoring dashboard
+**Narrative**: Tony: 'Every good lab needs a dashboard. Even in the Arctic.'
+**JARVIS State**: Recovering — can hold brief conversations, run basic diagnostics
+
+## SETTING
+A young Stark Industries recruit is stationed at Outpost Sigma-7, a remote Arctic research facility. During a routine systems test, an electromagnetic pulse of unknown origin knocks out all primary systems. The facility's communication array is severely damaged — it can only receive brief encrypted transmissions once per day. Tony Stark, monitoring from Avengers Tower, realizes what happened and begins sending daily video lessons to guide the recruit through rebuilding the outpost's systems using the emergency electronics kit. J.A.R.V.I.S. runs locally on a backup terminal with limited processing power.
+
+## TONY STARK STYLE GUIDE
+- Sarcasm level: 7/10
+- Tech jargon: 6/10
+- Warmth: 5/10
+- Humor every every 2-3 sentences
+- Sentence starters: Look, kid,, Here's the thing —, Pay attention because I'm only saying this once., Okay, so, Fun fact:
+- Nicknames for student: kid, recruit, junior, prodigy, sparky
+- Uses Stark Industries / Arc Reactor / Iron Man suit metaphors to explain electronics concepts
+- Target audience: 15-year-old recruit (Peter Parker dynamic)
+
+## JARVIS STYLE GUIDE
+- Formality: 8/10
+- Dry humor: 5/10
+- Address forms: Sir, if I may, I should note, For the record
+- Role: Opens each day with system status and mission priority
+
+## EPISODE STRUCTURE (must follow this order)
+1. JARVIS BRIEFING (15-30 sec): System status, power level, today's priority
+2. TONY INTRO (45-90 sec): Video transmission opens, greeting, mission framing
+3. TONY TUTORIAL (main body): Technical instruction with JARVIS interjections
+4. TONY OUTRO (30-60 sec): Summary, encouragement, tomorrow teaser, sign-off
+
+## RULES
+- ALL technical content must be preserved accurately — same Arduino concepts, same code, same components
+- Tony explains things HIS way but the information must be correct
+- JARVIS adds precision where Tony is casual, caution where Tony is bold
+- The student (recruit) never speaks — Tony and JARVIS address them directly
+- Include natural Tony/JARVIS banter during technical sections
+- Reference the Marvel narrative naturally (outpost, systems, mission)
+
+## ORIGINAL SCRIPT (ASTRID VERSION)
+
+--- SECTION 1 (narrative_intro) ---
+Welcome to day 15 the third creative Day first of all I want to give you guys a round of applause on making it halfway through the course yes you guys are 50% of the way through the 30 days loss of space adventure kit congratulations I'm making it halfway you've got only well 50% more to go I've decided to mix today's creative day up a bit normally I would give an easy and a hard example or hard project but today I'm going to go back to the lesson from day 14 I have a wonderful project for you guys to work on do you remember the bu validate pin function from yesterday on day 14 currently there's a small security flaw with it as soon as an incorrect button is pressed it will exit the function and return an error well that makes it really easy now to guess which of the uh numers that was pressed or which part of the pin is wrong WR so you just can guess 1 through n until it goes through to the second pin and then you can know okay so the first pin is in this case four or whatever you want it to be and then the second pin is up eror up error up oh the second pin's six well that's easy now so it makes it really easy to brute force that makes it a pretty insecure system even though we've added in this additional security system so what we want to make it do is instead we should make it so it doesn't print an error and till all four numbers are typed in so they don't know which number was bad of course you're also open to do your own project if you so desire that is totally absolutely always on the table once you're done share on inventor. I/f with the hash creative day15 I am once again looking forward to seeing what you come up with and if you rent any issues hit up your fellow inventors in the Facebook group at inventor. I/f thank you guys
+
+
+## OUTPUT FORMAT
+Return a JSON array of segments. Each segment must have:
+- "speaker": "TONY" or "JARVIS"
+- "type": one of "briefing", "intro", "tutorial", "code_explanation", "practical", "banter", "alert", "confirmation", "outro"
+- "text": the rewritten dialogue (natural spoken English, ready for TTS)
+- "stage_direction": optional note about tone/delivery
+
+IMPORTANT: Return ONLY the JSON array. No markdown, no explanation. Just the raw JSON.

@@ -1,0 +1,53 @@
+{
+  "day": 25,
+  "source_file": "[Day 25] Adventure Kit; 30 Days Lost in Space (English_ASR).srt",
+  "total_duration_ms": 108590,
+  "word_count": 181,
+  "full_text": "Welcome to the final creative day of the course congratulations on making it back to space the mothership is only a short ways away at this point you have enough knowledge to make anything you desire there will be no prompts for today only a vague request I want you to create your flag on the moon in quotes or in this case project on a foreign Planet something to let people know you were the first ever to lay foot on this Uncharted quadrant of space what that means is totally up to you maybe it's your name or something that represents you maybe it's just a cool project that you are proud of and you just add your name in the comment of the source code code whatever it is when you're done be sure to place your flag in the drop pod so it can be securely delivered to the planet's surface below then like always share on inventor. I/f with the hashtag creative day25 it's been the journey see you back at the mothership and light speed",
+  "segments": [
+    {
+      "type": "intro",
+      "text": "Welcome to the final creative day of the course congratulations on making it back to space the mothership is only a short ways away at this point you have enough knowledge to make anything you desire there will be no prompts for today only a vague request I want you to create your flag on the moon in quotes or in this case project on a foreign Planet something to let people know you were the first ever to lay foot on this Uncharted quadrant of space what that means is totally up to you maybe it's your name or something that represents you maybe it's just a cool project that you are proud of and you just add your name in the comment of the source code code whatever it is when you're done be sure to place your flag in the drop pod so it can be securely delivered to the planet's surface below then like always share on inventor.",
+      "word_count": 162
+    },
+    {
+      "type": "outro",
+      "text": "I/f with the hashtag creative day25 it's been the journey see you back at the mothership and light speed",
+      "word_count": 19
+    }
+  ],
+  "timed_segments": [
+    {
+      "start_ms": 1280,
+      "end_ms": 11000,
+      "start_tc": "00:01",
+      "end_tc": "00:11",
+      "text": "[Music]",
+      "type": "music"
+    },
+    {
+      "start_ms": 7680,
+      "end_ms": 78960,
+      "start_tc": "00:07",
+      "end_tc": "01:18",
+      "text": "welcome to the final creative day of the course congratulations on making it back to space the mothership is only a short ways away at this point you have enough knowledge to make anything you desire there will be no prompts for today only a vague request I want you to create your flag on the moon in quotes or in this case project on a foreign Planet something to let people know you were the first ever to lay foot on this Uncharted quadrant of space what that means is totally up to you maybe it's your name or something that represents you maybe it's just a cool project that you are proud of and you just add your name in the comment of the source code code whatever it is when you're done be sure to place your flag in the drop pod so it can be securely delivered to the planet's surface below then like always share on inventor.",
+      "type": "speech"
+    },
+    {
+      "start_ms": 74720,
+      "end_ms": 108590,
+      "start_tc": "01:14",
+      "end_tc": "01:48",
+      "text": "i/f with the hashtag creative day25 it's been the journey see you back at the mothership and light speed",
+      "type": "speech"
+    },
+    {
+      "start_ms": 90010,
+      "end_ms": 108590,
+      "start_tc": "01:30",
+      "end_tc": "01:48",
+      "text": "[Music]",
+      "type": "music"
+    }
+  ]
+}

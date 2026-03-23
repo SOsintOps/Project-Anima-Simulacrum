@@ -1,0 +1,2276 @@
+1
+00:00:01,280 --> 00:00:08,619
+[Music]
+
+2
+00:00:12,030 --> 00:00:16,080
+[Music]
+
+3
+00:00:13,519 --> 00:00:18,240
+rise and shine Explorer day eight has
+
+4
+00:00:16,080 --> 00:00:20,680
+dawned upon us and has left us with no
+
+5
+00:00:18,240 --> 00:00:22,640
+time to waste today we're stepping up
+
+6
+00:00:20,680 --> 00:00:24,920
+our game we're going to add a dash of
+
+7
+00:00:22,640 --> 00:00:26,760
+color to your monotonous existence by
+
+8
+00:00:24,920 --> 00:00:32,759
+using a Nifty piece of Hardware called
+
+9
+00:00:26,760 --> 00:00:35,320
+an RGB L allow me to explain RGB LED
+
+10
+00:00:32,759 --> 00:00:38,440
+stands for red green blue light emitting
+
+11
+00:00:35,320 --> 00:00:40,360
+diode what this led does is allow us to
+
+12
+00:00:38,440 --> 00:00:42,399
+produce virtually any color on the
+
+13
+00:00:40,360 --> 00:00:44,879
+Spectrum by controlling the intensity of
+
+14
+00:00:42,399 --> 00:00:47,840
+the three colored diodes it's like your
+
+15
+00:00:44,879 --> 00:00:49,879
+own personal rainbow producer we're also
+
+16
+00:00:47,840 --> 00:00:52,800
+going to cover a new function today
+
+17
+00:00:49,879 --> 00:00:55,640
+analog WR it allows us to send an analog
+
+18
+00:00:52,800 --> 00:00:57,640
+output signal on a digital pin yes I
+
+19
+00:00:55,640 --> 00:00:59,440
+know what you're thinking didn't we just
+
+20
+00:00:57,640 --> 00:01:02,440
+discuss how digital and analog are
+
+21
+00:00:59,440 --> 00:01:04,400
+separate entities we sure did let me
+
+22
+00:01:02,440 --> 00:01:08,479
+however introduce you to the world of
+
+23
+00:01:04,400 --> 00:01:10,520
+pulse width modulation or pwm this Savvy
+
+24
+00:01:08,479 --> 00:01:12,640
+little trick allows us to fake an analog
+
+25
+00:01:10,520 --> 00:01:15,200
+output on a digital pin pretty neat
+
+26
+00:01:12,640 --> 00:01:17,680
+wouldn't you agree nonetheless that's
+
+27
+00:01:15,200 --> 00:01:19,360
+enough jabber for now rest assured all
+
+28
+00:01:17,680 --> 00:01:22,119
+this and more will be covered as the day
+
+29
+00:01:19,360 --> 00:01:24,360
+progresses brace yourself in Explorer
+
+30
+00:01:22,119 --> 00:01:25,119
+we've got colors to mix in a spaceship
+
+31
+00:01:24,360 --> 00:01:28,920
+to
+
+32
+00:01:25,119 --> 00:01:30,640
+fix an RGB LED is unlike your usual kind
+
+33
+00:01:28,920 --> 00:01:33,520
+of LED explos
+
+34
+00:01:30,640 --> 00:01:35,439
+it's like a three-in-one special inside
+
+35
+00:01:33,520 --> 00:01:38,159
+that tiny package you'll find three
+
+36
+00:01:35,439 --> 00:01:40,560
+separate LEDs one red one green and one
+
+37
+00:01:38,159 --> 00:01:43,840
+blue as these are the primary colors of
+
+38
+00:01:40,560 --> 00:01:46,000
+light in a regular LED you apply power
+
+39
+00:01:43,840 --> 00:01:49,600
+and it emits a pre-programmed specific
+
+40
+00:01:46,000 --> 00:01:51,439
+color in an RGB LED however you have the
+
+41
+00:01:49,600 --> 00:01:54,079
+ability to control each of the three
+
+42
+00:01:51,439 --> 00:01:57,439
+colors individually you can turn on the
+
+43
+00:01:54,079 --> 00:02:00,360
+red LED the green led the blue LED or
+
+44
+00:01:57,439 --> 00:02:02,960
+any combination of the three so why is
+
+45
+00:02:00,360 --> 00:02:04,920
+this exciting because by varying the
+
+46
+00:02:02,960 --> 00:02:06,960
+intensity of each of these colors you
+
+47
+00:02:04,920 --> 00:02:09,200
+have the power to create virtually any
+
+48
+00:02:06,960 --> 00:02:11,840
+color you want right at your fingertips
+
+49
+00:02:09,200 --> 00:02:14,959
+How Deeply thrilling need a soothing
+
+50
+00:02:11,840 --> 00:02:17,360
+aquamarine glow to relax easy want to
+
+51
+00:02:14,959 --> 00:02:20,319
+flash a warning and bright alarming red
+
+52
+00:02:17,360 --> 00:02:23,160
+ask and you shall receive in essence
+
+53
+00:02:20,319 --> 00:02:25,000
+with an RGB LED you're not just getting
+
+54
+00:02:23,160 --> 00:02:27,680
+one color you're getting the whole
+
+55
+00:02:25,000 --> 00:02:30,480
+Spectrum enjoy the possibilities
+
+56
+00:02:27,680 --> 00:02:33,400
+Explorer okay Explorer let's into two
+
+57
+00:02:30,480 --> 00:02:36,519
+intertwined Concepts analog right and
+
+58
+00:02:33,400 --> 00:02:40,120
+pulse width modulation or pwm which are
+
+59
+00:02:36,519 --> 00:02:42,360
+critical for controlling our RGB LED
+
+60
+00:02:40,120 --> 00:02:45,239
+analog right is a function in Arduino
+
+61
+00:02:42,360 --> 00:02:47,840
+that helps us generate pwm signals
+
+62
+00:02:45,239 --> 00:02:49,680
+despite its name oddly enough analog
+
+63
+00:02:47,840 --> 00:02:52,519
+right doesn't really deal with analog
+
+64
+00:02:49,680 --> 00:02:54,640
+signals it's a bit of a misnomer which
+
+65
+00:02:52,519 --> 00:02:56,760
+could be a source of confusion have no
+
+66
+00:02:54,640 --> 00:03:00,640
+fear Explorer it'll all piece together
+
+67
+00:02:56,760 --> 00:03:02,800
+soon enough moving on to pwm pulse width
+
+68
+00:03:00,640 --> 00:03:05,560
+modulation is a technique used to create
+
+69
+00:03:02,800 --> 00:03:08,000
+a kind of fake analog effect using
+
+70
+00:03:05,560 --> 00:03:10,440
+digital means by rapidly switching a
+
+71
+00:03:08,000 --> 00:03:12,239
+signal or power source on and off and
+
+72
+00:03:10,440 --> 00:03:14,959
+changing the proportion of the time it
+
+73
+00:03:12,239 --> 00:03:16,959
+is on versus the time it is off we can
+
+74
+00:03:14,959 --> 00:03:19,519
+vary the intensity of power that is
+
+75
+00:03:16,959 --> 00:03:21,840
+received this is important for our RGB
+
+76
+00:03:19,519 --> 00:03:24,200
+LED because it allows us to control the
+
+77
+00:03:21,840 --> 00:03:27,480
+intensity of each of the red green and
+
+78
+00:03:24,200 --> 00:03:30,760
+blue LEDs which in turn lets us mix our
+
+79
+00:03:27,480 --> 00:03:33,280
+colors imagine pwm is a fast flickering
+
+80
+00:03:30,760 --> 00:03:35,480
+light if it flickers so fast that your
+
+81
+00:03:33,280 --> 00:03:37,400
+eyes can't catch it turning on and off
+
+82
+00:03:35,480 --> 00:03:39,760
+the light will appear dimmer or brighter
+
+83
+00:03:37,400 --> 00:03:42,519
+based on the ratio of on time versus off
+
+84
+00:03:39,760 --> 00:03:44,519
+time if it's on more than it's off it
+
+85
+00:03:42,519 --> 00:03:47,480
+appears brighter if it's off more than
+
+86
+00:03:44,519 --> 00:03:51,080
+it's on it appears dimmer in terms of
+
+87
+00:03:47,480 --> 00:03:54,200
+our rgbl LED we'll use analog W to send
+
+88
+00:03:51,080 --> 00:03:57,560
+pwm signals to each of the red blue and
+
+89
+00:03:54,200 --> 00:04:01,040
+green LEDs by changing the duty cycle of
+
+90
+00:03:57,560 --> 00:04:03,439
+the pwm signal that's the on time we can
+
+91
+00:04:01,040 --> 00:04:05,280
+control the brightness of each led by
+
+92
+00:04:03,439 --> 00:04:08,040
+mixing different levels of brightness
+
+93
+00:04:05,280 --> 00:04:10,879
+across the red green and blue LEDs we
+
+94
+00:04:08,040 --> 00:04:13,000
+create the color we want you're in for
+
+95
+00:04:10,879 --> 00:04:15,000
+quite a treat Explorer the trajectory of
+
+96
+00:04:13,000 --> 00:04:16,519
+your future will soon become a lot
+
+97
+00:04:15,000 --> 00:04:19,040
+brighter quite
+
+98
+00:04:16,519 --> 00:04:22,040
+literally it appears we've talked the
+
+99
+00:04:19,040 --> 00:04:24,520
+talk now let's walk the walk Explorer
+
+100
+00:04:22,040 --> 00:04:27,360
+our task today is to light up our RGB
+
+101
+00:04:24,520 --> 00:04:29,320
+LED and give it a whirl remember with
+
+102
+00:04:27,360 --> 00:04:31,400
+pulse width modulation we can Tinker
+
+103
+00:04:29,320 --> 00:04:34,000
+with intensity of each color from a
+
+104
+00:04:31,400 --> 00:04:38,000
+meager zero to a dazzling
+
+105
+00:04:34,000 --> 00:04:40,680
+255 talk about a spectrum now one way to
+
+106
+00:04:38,000 --> 00:04:43,120
+control our RGB LED would be to
+
+107
+00:04:40,680 --> 00:04:45,080
+separately Define the red green and blue
+
+108
+00:04:43,120 --> 00:04:47,360
+values every single time we want to
+
+109
+00:04:45,080 --> 00:04:49,280
+change a color but frankly that's like
+
+110
+00:04:47,360 --> 00:04:51,479
+choosing to walk across the Galaxy when
+
+111
+00:04:49,280 --> 00:04:53,440
+you have a perfectly good spaceship it's
+
+112
+00:04:51,479 --> 00:04:56,160
+slow and it'll leave your code looking
+
+113
+00:04:53,440 --> 00:04:58,600
+like a debris field of supernova let's
+
+114
+00:04:56,160 --> 00:05:00,280
+be smarter shall we what do you say we
+
+115
+00:04:58,600 --> 00:05:02,919
+build a function to streamline the
+
+116
+00:05:00,280 --> 00:05:06,440
+process something catchy and memorable
+
+117
+00:05:02,919 --> 00:05:08,560
+like set RGB red level green level blue
+
+118
+00:05:06,440 --> 00:05:10,759
+level you'll see those three bite
+
+119
+00:05:08,560 --> 00:05:13,240
+variables nestled inside the parentheses
+
+120
+00:05:10,759 --> 00:05:14,919
+separated by commas these are parameters
+
+121
+00:05:13,240 --> 00:05:16,520
+and we'll be handing them over to our
+
+122
+00:05:14,919 --> 00:05:18,880
+function like instructions to a
+
+123
+00:05:16,520 --> 00:05:20,919
+well-trained robot Butler we don't have
+
+124
+00:05:18,880 --> 00:05:22,919
+a lot of memory so since max value
+
+125
+00:05:20,919 --> 00:05:25,919
+doesn't need to be anything higher than
+
+126
+00:05:22,919 --> 00:05:28,360
+255 anyway remember pulsewidth
+
+127
+00:05:25,919 --> 00:05:31,080
+modulation a bite is perfect since its
+
+128
+00:05:28,360 --> 00:05:33,840
+max value just so happens to be
+
+129
+00:05:31,080 --> 00:05:36,800
+255 using something like an integer for
+
+130
+00:05:33,840 --> 00:05:40,479
+an unsigned number less than or equal to
+
+131
+00:05:36,800 --> 00:05:42,240
+255 is just a waste of memory once we're
+
+132
+00:05:40,479 --> 00:05:44,479
+inside the function it's time to put
+
+133
+00:05:42,240 --> 00:05:46,919
+those parameters to work we'll use
+
+134
+00:05:44,479 --> 00:05:50,240
+analog WR to set the value for each of
+
+135
+00:05:46,919 --> 00:05:53,319
+our three color pins efficient and tidy
+
+136
+00:05:50,240 --> 00:05:56,000
+just the way I like it in our main loop
+
+137
+00:05:53,319 --> 00:05:58,080
+it's testing time we'll call our snazzy
+
+138
+00:05:56,000 --> 00:06:01,000
+new function in a variety of ways to
+
+139
+00:05:58,080 --> 00:06:03,479
+make sure our RGB LED isn't just sitting
+
+140
+00:06:01,000 --> 00:06:05,520
+there like a lump of plastic once we're
+
+141
+00:06:03,479 --> 00:06:07,440
+confident everything's Ship Shape we'll
+
+142
+00:06:05,520 --> 00:06:10,120
+beam it up to our board and enjoy the
+
+143
+00:06:07,440 --> 00:06:13,639
+show let's get to it Explorer lights
+
+144
+00:06:10,120 --> 00:06:16,360
+camera code now for what you've been
+
+145
+00:06:13,639 --> 00:06:18,360
+waiting oh so patiently for let's turn
+
+146
+00:06:16,360 --> 00:06:20,120
+to some instructional material that I
+
+147
+00:06:18,360 --> 00:06:22,319
+was able to gather cached on the
+
+148
+00:06:20,120 --> 00:06:24,800
+computer I've also added this to your
+
+149
+00:06:22,319 --> 00:06:26,800
+mission resources for future reference
+
+150
+00:06:24,800 --> 00:06:29,639
+see you
+
+151
+00:06:26,800 --> 00:06:31,800
+soon hello everybody and welcome back to
+
+152
+00:06:29,639 --> 00:06:35,160
+day eight of the code explanations for
+
+153
+00:06:31,800 --> 00:06:36,680
+the 30 days Lost in Space Adventure kit
+
+154
+00:06:35,160 --> 00:06:38,680
+today we're going to be introducing a
+
+155
+00:06:36,680 --> 00:06:42,880
+couple of new Concepts now that you have
+
+156
+00:06:38,680 --> 00:06:45,000
+an RGB LED hopefully wired up on your
+
+157
+00:06:42,880 --> 00:06:47,120
+breadboard today the concepts we're
+
+158
+00:06:45,000 --> 00:06:50,400
+going to be introducing are going to be
+
+159
+00:06:47,120 --> 00:06:52,280
+analog right and pulse with modulation
+
+160
+00:06:50,400 --> 00:06:55,479
+which allows us to give a variable
+
+161
+00:06:52,280 --> 00:06:57,879
+intensity over a pin and then we're also
+
+162
+00:06:55,479 --> 00:07:00,080
+going to be looking into a new idea
+
+163
+00:06:57,879 --> 00:07:01,560
+which is yesterday we learned about
+
+164
+00:07:00,080 --> 00:07:04,199
+functions and today we're going to be
+
+165
+00:07:01,560 --> 00:07:06,960
+learning about passing variables into
+
+166
+00:07:04,199 --> 00:07:10,120
+said functions and so with that let's
+
+167
+00:07:06,960 --> 00:07:12,240
+get started by first simply removing a
+
+168
+00:07:10,120 --> 00:07:14,759
+few of these extra comments so that it's
+
+169
+00:07:12,240 --> 00:07:17,840
+a little bit less daunting to look at
+
+170
+00:07:14,759 --> 00:07:19,879
+explicitly we included Arduino but again
+
+171
+00:07:17,840 --> 00:07:21,599
+since we're using the Arduino IDE if
+
+172
+00:07:19,879 --> 00:07:24,160
+this was removed it's not going to
+
+173
+00:07:21,599 --> 00:07:26,400
+affect anything so I'm just going to for
+
+174
+00:07:24,160 --> 00:07:29,080
+example sake completely delete it and
+
+175
+00:07:26,400 --> 00:07:33,039
+show you that it still works next we're
+
+176
+00:07:29,080 --> 00:07:37,720
+going to Define each of the pins on our
+
+177
+00:07:33,039 --> 00:07:40,720
+RGB LED now remember that the r it
+
+178
+00:07:37,720 --> 00:07:43,560
+stands for red G stands for green and b
+
+179
+00:07:40,720 --> 00:07:46,199
+stands for blue and all of these are
+
+180
+00:07:43,560 --> 00:07:49,199
+pulse withth modulation compatible
+
+181
+00:07:46,199 --> 00:07:50,960
+meaning if we send more intensity on
+
+182
+00:07:49,199 --> 00:07:52,759
+that line essentially sending More
+
+183
+00:07:50,960 --> 00:07:55,680
+Voltage onto it we're going to light
+
+184
+00:07:52,759 --> 00:07:57,560
+that red one either higher or lower so
+
+185
+00:07:55,680 --> 00:07:59,000
+we're going to get more red or less red
+
+186
+00:07:57,560 --> 00:08:00,039
+we're going to get more or less green
+
+187
+00:07:59,000 --> 00:08:02,680
+and we're going going to get more or
+
+188
+00:08:00,039 --> 00:08:04,720
+less blue the pins that we're going to
+
+189
+00:08:02,680 --> 00:08:09,440
+be using for this example are going to
+
+190
+00:08:04,720 --> 00:08:11,479
+be 11 10 and 9 please note however that
+
+191
+00:08:09,440 --> 00:08:14,960
+if you do change your pins you have to
+
+192
+00:08:11,479 --> 00:08:22,080
+be careful about it on the hero board
+
+193
+00:08:14,960 --> 00:08:24,800
+only pins 3 5 6 9 10 and 11 support
+
+194
+00:08:22,080 --> 00:08:27,840
+pulse with modulation which is indicated
+
+195
+00:08:24,800 --> 00:08:31,800
+on the board by proceeding those pins
+
+196
+00:08:27,840 --> 00:08:34,599
+with a till day character and only those
+
+197
+00:08:31,800 --> 00:08:37,880
+pins can support pulse with modulation
+
+198
+00:08:34,599 --> 00:08:40,399
+and use analog right if you try to use
+
+199
+00:08:37,880 --> 00:08:42,680
+any other pins they will not work
+
+200
+00:08:40,399 --> 00:08:45,000
+because those are digital pins and they
+
+201
+00:08:42,680 --> 00:08:47,480
+do not support pulse with modulation
+
+202
+00:08:45,000 --> 00:08:48,839
+once we're done defining our pin outs
+
+203
+00:08:47,480 --> 00:08:51,000
+we're going to go down and we're going
+
+204
+00:08:48,839 --> 00:08:53,240
+to define a set of constants to
+
+205
+00:08:51,000 --> 00:08:57,160
+represent four different brightness
+
+206
+00:08:53,240 --> 00:09:01,000
+levels for our RGB LED using pulse with
+
+207
+00:08:57,160 --> 00:09:01,760
+modulation pins and analog L right pulse
+
+208
+00:09:01,000 --> 00:09:04,560
+withs
+
+209
+00:09:01,760 --> 00:09:07,279
+modulation can set values ranging from
+
+210
+00:09:04,560 --> 00:09:09,800
+anywhere from0 to
+
+211
+00:09:07,279 --> 00:09:13,600
+255 which we will simply demonstrate by
+
+212
+00:09:09,800 --> 00:09:15,680
+adding 64 or approximately 1/4 of that
+
+213
+00:09:13,600 --> 00:09:18,519
+range to each preceding
+
+214
+00:09:15,680 --> 00:09:21,120
+value so we can start by saying that off
+
+215
+00:09:18,519 --> 00:09:22,360
+is essentially the equivalent of a value
+
+216
+00:09:21,120 --> 00:09:25,760
+of
+
+217
+00:09:22,360 --> 00:09:28,839
+zero then we can say that dim is maybe
+
+218
+00:09:25,760 --> 00:09:30,240
+something like 64 brighter is going to
+
+219
+00:09:28,839 --> 00:09:33,880
+be
+
+220
+00:09:30,240 --> 00:09:35,680
+64 plus dim which is 64 so this would be
+
+221
+00:09:33,880 --> 00:09:38,000
+about
+
+222
+00:09:35,680 --> 00:09:39,440
+128 so as you can see we're getting a
+
+223
+00:09:38,000 --> 00:09:42,279
+little bit higher and higher and higher
+
+224
+00:09:39,440 --> 00:09:45,240
+up until we reach 255 and we're going
+
+225
+00:09:42,279 --> 00:09:47,839
+about 1/4 each time so we have dim
+
+226
+00:09:45,240 --> 00:09:50,519
+brighter bright and
+
+227
+00:09:47,839 --> 00:09:52,640
+brightest and each time we just go a
+
+228
+00:09:50,519 --> 00:09:55,200
+little bit higher than the last
+
+229
+00:09:52,640 --> 00:09:57,200
+one next we have another constant down
+
+230
+00:09:55,200 --> 00:09:59,800
+below and this constant is simply just
+
+231
+00:09:57,200 --> 00:10:01,760
+going to say how long we want to to
+
+232
+00:09:59,800 --> 00:10:03,800
+display each color and we're going to
+
+233
+00:10:01,760 --> 00:10:05,680
+change this as a global variable so if
+
+234
+00:10:03,800 --> 00:10:07,839
+you ever want to change it in the future
+
+235
+00:10:05,680 --> 00:10:09,600
+we can change it in one spot instead of
+
+236
+00:10:07,839 --> 00:10:11,160
+a bazillion places down below so if we
+
+237
+00:10:09,600 --> 00:10:14,160
+wanted to change it to one second we can
+
+238
+00:10:11,160 --> 00:10:16,720
+add we can do that here or whatever but
+
+239
+00:10:14,160 --> 00:10:19,360
+I'm going to keep it 500 just for
+
+240
+00:10:16,720 --> 00:10:22,279
+example purposes now we're going to hop
+
+241
+00:10:19,360 --> 00:10:24,839
+down to setup and as you know setup is
+
+242
+00:10:22,279 --> 00:10:26,600
+pretty similar to every other day we're
+
+243
+00:10:24,839 --> 00:10:29,560
+just going to be simply setting all
+
+244
+00:10:26,600 --> 00:10:31,079
+these pins as outputs
+
+245
+00:10:29,560 --> 00:10:33,120
+and that's it we're not going to be
+
+246
+00:10:31,079 --> 00:10:34,640
+reading off a Serial monitor today
+
+247
+00:10:33,120 --> 00:10:37,240
+unless of course you want to for any
+
+248
+00:10:34,640 --> 00:10:38,720
+debugging purposes but for our purposes
+
+249
+00:10:37,240 --> 00:10:40,399
+we can remove that and we don't have to
+
+250
+00:10:38,720 --> 00:10:43,600
+worry about it for right
+
+251
+00:10:40,399 --> 00:10:45,800
+now then once setup is completed you
+
+252
+00:10:43,600 --> 00:10:49,720
+guessed it we go straight to Loop that
+
+253
+00:10:45,800 --> 00:10:52,519
+is simply how the Arduino language
+
+254
+00:10:49,720 --> 00:10:54,720
+works now before I get into everything
+
+255
+00:10:52,519 --> 00:10:57,560
+that's going on in Loop let me just tell
+
+256
+00:10:54,720 --> 00:11:00,160
+you a general gist of what this is doing
+
+257
+00:10:57,560 --> 00:11:02,720
+because I do need to explain one other
+
+258
+00:11:00,160 --> 00:11:05,399
+thing first right here we're simply
+
+259
+00:11:02,720 --> 00:11:07,000
+showing and we're just kind of rotating
+
+260
+00:11:05,399 --> 00:11:09,600
+through various colors and we're
+
+261
+00:11:07,000 --> 00:11:13,440
+rotating through them in a way that
+
+262
+00:11:09,600 --> 00:11:15,440
+allows us to turn red green and blue and
+
+263
+00:11:13,440 --> 00:11:17,399
+show off how pulse withth modulation
+
+264
+00:11:15,440 --> 00:11:20,120
+actually works that's kind of the point
+
+265
+00:11:17,399 --> 00:11:22,200
+of this program but you'll notice that
+
+266
+00:11:20,120 --> 00:11:25,160
+there's a function being called in a lot
+
+267
+00:11:22,200 --> 00:11:27,320
+of places called display color this is
+
+268
+00:11:25,160 --> 00:11:30,600
+not one that was built into the arino
+
+269
+00:11:27,320 --> 00:11:32,760
+IDE this is not one that is given to us
+
+270
+00:11:30,600 --> 00:11:35,560
+by default this is a function that we
+
+271
+00:11:32,760 --> 00:11:38,360
+actually have defined ourselves below
+
+272
+00:11:35,560 --> 00:11:40,959
+display color is a function that accepts
+
+273
+00:11:38,360 --> 00:11:44,360
+three parameters representing the
+
+274
+00:11:40,959 --> 00:11:48,399
+desired intensity for each of the LEDs
+
+275
+00:11:44,360 --> 00:11:51,440
+in the RGB LED so display color is a
+
+276
+00:11:48,399 --> 00:11:54,880
+very short-handed way of saying what
+
+277
+00:11:51,440 --> 00:11:57,000
+color we want to set it to by setting
+
+278
+00:11:54,880 --> 00:11:59,040
+the red intensity the green intensity
+
+279
+00:11:57,000 --> 00:12:02,120
+and the blue intensity that allows us to
+
+280
+00:11:59,040 --> 00:12:04,959
+display almost any color in
+
+281
+00:12:02,120 --> 00:12:06,839
+existence by simply having those three
+
+282
+00:12:04,959 --> 00:12:08,519
+at a certain variable and you can have
+
+283
+00:12:06,839 --> 00:12:11,200
+them anywhere from 0 to
+
+284
+00:12:08,519 --> 00:12:13,240
+255 the way that this is written is
+
+285
+00:12:11,200 --> 00:12:15,199
+exactly the same as yesterday we have a
+
+286
+00:12:13,240 --> 00:12:16,680
+void because it's not going to be
+
+287
+00:12:15,199 --> 00:12:19,480
+returning anything it's simply just
+
+288
+00:12:16,680 --> 00:12:21,480
+going to be executing display color and
+
+289
+00:12:19,480 --> 00:12:23,880
+in the difference is inside of these
+
+290
+00:12:21,480 --> 00:12:26,839
+parentheses we have parameters This Is A
+
+291
+00:12:23,880 --> 00:12:29,440
+New Concept for today we have parameters
+
+292
+00:12:26,839 --> 00:12:31,920
+and we have the red intensity the green
+
+293
+00:12:29,440 --> 00:12:34,880
+intensity and the blue intensity and
+
+294
+00:12:31,920 --> 00:12:37,680
+these can be anywhere from 0 to 255 and
+
+295
+00:12:34,880 --> 00:12:40,399
+they're separated by commas now I want
+
+296
+00:12:37,680 --> 00:12:42,959
+to reiterate that this can actually be
+
+297
+00:12:40,399 --> 00:12:44,720
+changed in terms of how this is written
+
+298
+00:12:42,959 --> 00:12:47,399
+the reason it was written on multiple
+
+299
+00:12:44,720 --> 00:12:49,519
+lines is simply because our ability or
+
+300
+00:12:47,399 --> 00:12:51,000
+our desire to add comments so that you
+
+301
+00:12:49,519 --> 00:12:54,680
+can understand what everything is going
+
+302
+00:12:51,000 --> 00:12:56,279
+on made it so so let's actually just
+
+303
+00:12:54,680 --> 00:12:57,920
+quickly go like this and I can show you
+
+304
+00:12:56,279 --> 00:13:00,160
+that you can actually do this all on one
+
+305
+00:12:57,920 --> 00:13:02,600
+line and personally if you wouldn't
+
+306
+00:13:00,160 --> 00:13:04,440
+weren't commenting everything I'd prefer
+
+307
+00:13:02,600 --> 00:13:08,199
+to all be on one line and here it's a
+
+308
+00:13:04,440 --> 00:13:11,240
+little bit cleaner so void display color
+
+309
+00:13:08,199 --> 00:13:13,399
+red comma green intensity comma blue
+
+310
+00:13:11,240 --> 00:13:15,079
+intensity so you need to have all of
+
+311
+00:13:13,399 --> 00:13:16,800
+these every single time you call this
+
+312
+00:13:15,079 --> 00:13:18,079
+function you need to send in three
+
+313
+00:13:16,800 --> 00:13:21,320
+parameters and that would be what you
+
+314
+00:13:18,079 --> 00:13:23,279
+want to said red green and blue to then
+
+315
+00:13:21,320 --> 00:13:24,920
+when it hops into the function we're
+
+316
+00:13:23,279 --> 00:13:27,040
+going to Simply do another function
+
+317
+00:13:24,920 --> 00:13:29,839
+called analog write I'm sure you've
+
+318
+00:13:27,040 --> 00:13:32,279
+heard of analog read well analog write
+
+319
+00:13:29,839 --> 00:13:34,000
+is the exact same is instead of reading
+
+320
+00:13:32,279 --> 00:13:36,040
+off of a pin we're going to be writing
+
+321
+00:13:34,000 --> 00:13:37,600
+to a pin but we're not going to be
+
+322
+00:13:36,040 --> 00:13:39,920
+writing whether it's on or off we're
+
+323
+00:13:37,600 --> 00:13:42,480
+going to be writing how on or how off we
+
+324
+00:13:39,920 --> 00:13:45,040
+want it to be in this case we're going
+
+325
+00:13:42,480 --> 00:13:47,120
+to be setting red to a number between 0
+
+326
+00:13:45,040 --> 00:13:49,839
+and 255 green to a number between 0 and
+
+327
+00:13:47,120 --> 00:13:52,360
+255 and blue to a number between 0 and
+
+328
+00:13:49,839 --> 00:13:55,720
+255 and we do this every time we display
+
+329
+00:13:52,360 --> 00:13:57,959
+the color now if we want to do that we
+
+330
+00:13:55,720 --> 00:14:01,759
+can go up here and we can show exactly
+
+331
+00:13:57,959 --> 00:14:05,000
+us doing that that let's first display
+
+332
+00:14:01,759 --> 00:14:08,000
+the color is off off and off this is
+
+333
+00:14:05,000 --> 00:14:12,560
+setting all three red green and blue to
+
+334
+00:14:08,000 --> 00:14:15,440
+0 0 0 this will turn our RGB LED
+
+335
+00:14:12,560 --> 00:14:19,560
+off we won't be displaying anything on
+
+336
+00:14:15,440 --> 00:14:21,199
+there at all next we're going to delay
+
+337
+00:14:19,560 --> 00:14:23,800
+by half a second which is what we've
+
+338
+00:14:21,199 --> 00:14:28,000
+defined up here as color delay then
+
+339
+00:14:23,800 --> 00:14:31,959
+we're going to set the red to dim and
+
+340
+00:14:28,000 --> 00:14:34,639
+we're going to keep green and blue off
+
+341
+00:14:31,959 --> 00:14:37,639
+then we're going to delay by that same
+
+342
+00:14:34,639 --> 00:14:40,839
+time and then we're going to set red to
+
+343
+00:14:37,639 --> 00:14:43,000
+brighter and again keep everything off
+
+344
+00:14:40,839 --> 00:14:45,600
+then we're going to delay send a little
+
+345
+00:14:43,000 --> 00:14:47,279
+bit more voltage to red and then we're
+
+346
+00:14:45,600 --> 00:14:49,920
+going to delay and send a little bit
+
+347
+00:14:47,279 --> 00:14:51,519
+more voltage on that red line right here
+
+348
+00:14:49,920 --> 00:14:54,759
+at the brightest where we displayed at
+
+349
+00:14:51,519 --> 00:14:56,360
+full intensity at the end the reason
+
+350
+00:14:54,759 --> 00:14:58,199
+we're doing this here is we're going to
+
+351
+00:14:56,360 --> 00:15:01,160
+be demonstrating how pulse withth
+
+352
+00:14:58,199 --> 00:15:03,240
+modulation can work you can send a whole
+
+353
+00:15:01,160 --> 00:15:07,399
+variety of different signals on the same
+
+354
+00:15:03,240 --> 00:15:09,240
+exact pin using analog right down here
+
+355
+00:15:07,399 --> 00:15:11,120
+and it can display a whole different
+
+356
+00:15:09,240 --> 00:15:13,560
+variety of different values this is
+
+357
+00:15:11,120 --> 00:15:15,759
+really really helpful in cases like this
+
+358
+00:15:13,560 --> 00:15:17,639
+where we want to have various versions
+
+359
+00:15:15,759 --> 00:15:20,759
+of red or maybe just some different
+
+360
+00:15:17,639 --> 00:15:24,079
+colors maybe you need more red and less
+
+361
+00:15:20,759 --> 00:15:27,079
+blue or more green and less red for
+
+362
+00:15:24,079 --> 00:15:29,519
+various different colors on the color
+
+363
+00:15:27,079 --> 00:15:32,360
+spectrum to help us display a whole
+
+364
+00:15:29,519 --> 00:15:34,519
+variety of colors next after we're done
+
+365
+00:15:32,360 --> 00:15:37,399
+showing off how pulse with modulation
+
+366
+00:15:34,519 --> 00:15:40,120
+Works using the red LED we're going to
+
+367
+00:15:37,399 --> 00:15:44,040
+display our other two LED colors at half
+
+368
+00:15:40,120 --> 00:15:46,759
+intensity we'll first flash on the green
+
+369
+00:15:44,040 --> 00:15:48,519
+LED and then we'll flash on the blue LED
+
+370
+00:15:46,759 --> 00:15:51,040
+so you can see that those are also there
+
+371
+00:15:48,519 --> 00:15:54,079
+and working finally we'll hop down to
+
+372
+00:15:51,040 --> 00:15:58,000
+show a bunch of various colors for
+
+373
+00:15:54,079 --> 00:16:01,519
+example you can display Yellow by mixing
+
+374
+00:15:58,000 --> 00:16:04,199
+Red and green LEDs bright bright you can
+
+375
+00:16:01,519 --> 00:16:07,240
+display cyan by mixing the green and
+
+376
+00:16:04,199 --> 00:16:10,160
+blue LEDs and keeping red off and then
+
+377
+00:16:07,240 --> 00:16:12,920
+you can also display magenta by doing
+
+378
+00:16:10,160 --> 00:16:15,120
+red and blue and of course keeping green
+
+379
+00:16:12,920 --> 00:16:17,319
+completely off finally we're going to if
+
+380
+00:16:15,120 --> 00:16:20,040
+we display Everything at Once bright
+
+381
+00:16:17,319 --> 00:16:22,720
+bright bright you'll get this color of
+
+382
+00:16:20,040 --> 00:16:25,360
+white and that's simply science and how
+
+383
+00:16:22,720 --> 00:16:28,959
+light works so with that we should have
+
+384
+00:16:25,360 --> 00:16:32,639
+a completed simulation of how pulse with
+
+385
+00:16:28,959 --> 00:16:34,560
+modulation Works using the RGB LED and
+
+386
+00:16:32,639 --> 00:16:37,440
+how you can set up whole variety of
+
+387
+00:16:34,560 --> 00:16:40,440
+different colors using just very very
+
+388
+00:16:37,440 --> 00:16:42,440
+simple amounts of code so with that that
+
+389
+00:16:40,440 --> 00:16:45,279
+should be about the end of our code
+
+390
+00:16:42,440 --> 00:16:47,639
+explanation for day eight I will see you
+
+391
+00:16:45,279 --> 00:16:47,639
+again
+
+392
+00:16:47,720 --> 00:16:54,680
+tomorrow welcome to the day eight wiring
+
+393
+00:16:51,079 --> 00:16:57,800
+example video in today's project we'll
+
+394
+00:16:54,680 --> 00:17:01,680
+introduce a new component and a new
+
+395
+00:16:57,800 --> 00:17:07,319
+programming method the new component is
+
+396
+00:17:01,680 --> 00:17:09,160
+a three color red green blue or RGB LED
+
+397
+00:17:07,319 --> 00:17:12,000
+and the new method that we'll use to
+
+398
+00:17:09,160 --> 00:17:16,120
+control it is called pulse width
+
+399
+00:17:12,000 --> 00:17:18,799
+modulation or pwm for short let's dive
+
+400
+00:17:16,120 --> 00:17:22,199
+into today's circuit and see how these
+
+401
+00:17:18,799 --> 00:17:25,679
+things actually work we have a
+
+402
+00:17:22,199 --> 00:17:28,000
+three-color LED right here just for us
+
+403
+00:17:25,679 --> 00:17:30,679
+to look at we have another one that's
+
+404
+00:17:28,000 --> 00:17:33,280
+actually plugged into the circuit on our
+
+405
+00:17:30,679 --> 00:17:36,360
+breadboard we can see just by looking at
+
+406
+00:17:33,280 --> 00:17:39,360
+it that the three-c color LED is
+
+407
+00:17:36,360 --> 00:17:41,880
+different from the conventional LEDs
+
+408
+00:17:39,360 --> 00:17:46,200
+that we've used so far the three-color
+
+409
+00:17:41,880 --> 00:17:49,679
+LED has four leads instead of two and
+
+410
+00:17:46,200 --> 00:17:51,840
+you'll notice that one of the leads is
+
+411
+00:17:49,679 --> 00:17:54,440
+longer than the others this one right
+
+412
+00:17:51,840 --> 00:17:57,640
+here is longer than the others and that
+
+413
+00:17:54,440 --> 00:18:00,720
+one long lead serves as the ground
+
+414
+00:17:57,640 --> 00:18:05,520
+connection for all three colors that are
+
+415
+00:18:00,720 --> 00:18:07,960
+incorporated into the RGB led the
+
+416
+00:18:05,520 --> 00:18:10,520
+remaining three shorter leads provide
+
+417
+00:18:07,960 --> 00:18:13,520
+the positive connections for the red
+
+418
+00:18:10,520 --> 00:18:16,240
+green and blue channels and you may
+
+419
+00:18:13,520 --> 00:18:19,039
+notice that this is actually a reversal
+
+420
+00:18:16,240 --> 00:18:22,360
+of our usual convention in which the
+
+421
+00:18:19,039 --> 00:18:24,280
+long lead of the LED is the positive one
+
+422
+00:18:22,360 --> 00:18:26,559
+well it's backwards here and we're just
+
+423
+00:18:24,280 --> 00:18:29,039
+going to have to get used to this
+
+424
+00:18:26,559 --> 00:18:32,919
+inconsistency as a matter of fact to
+
+425
+00:18:29,039 --> 00:18:36,360
+make things even worse sometimes you may
+
+426
+00:18:32,919 --> 00:18:40,039
+get a color LED in which the long Common
+
+427
+00:18:36,360 --> 00:18:42,280
+lead is positive rather than ground and
+
+428
+00:18:40,039 --> 00:18:45,880
+if you happen to get one of these
+
+429
+00:18:42,280 --> 00:18:48,960
+so-called common anode LEDs you'll need
+
+430
+00:18:45,880 --> 00:18:52,480
+to use an alternate circuit and sketch
+
+431
+00:18:48,960 --> 00:18:55,240
+design that reverses the direction of
+
+432
+00:18:52,480 --> 00:18:58,400
+current flow so that the LED will
+
+433
+00:18:55,240 --> 00:19:00,960
+function properly but for now we'll
+
+434
+00:18:58,400 --> 00:19:05,039
+focus on what we have here in our
+
+435
+00:19:00,960 --> 00:19:10,039
+circuit here we see that the LEDs three
+
+436
+00:19:05,039 --> 00:19:13,679
+positive leads are each fed by the hero
+
+437
+00:19:10,039 --> 00:19:16,880
+from a separate pin a separate digital
+
+438
+00:19:13,679 --> 00:19:20,200
+pin on the hero in this case we have our
+
+439
+00:19:16,880 --> 00:19:22,760
+three channels the red channel the green
+
+440
+00:19:20,200 --> 00:19:26,840
+Channel and the blue Channel fed by
+
+441
+00:19:22,760 --> 00:19:28,760
+these three pins right here blue is nine
+
+442
+00:19:26,840 --> 00:19:30,280
+green is 10
+
+443
+00:19:28,760 --> 00:19:31,880
+and red is
+
+444
+00:19:30,280 --> 00:19:35,240
+11
+
+445
+00:19:31,880 --> 00:19:37,480
+now one of our goals in this project
+
+446
+00:19:35,240 --> 00:19:40,159
+will be to control the relative
+
+447
+00:19:37,480 --> 00:19:42,480
+brightness of the three colors but at
+
+448
+00:19:40,159 --> 00:19:45,120
+first glance it would seem that using
+
+449
+00:19:42,480 --> 00:19:47,760
+digital output pins would be a bad
+
+450
+00:19:45,120 --> 00:19:50,280
+choice for this job since a digital
+
+451
+00:19:47,760 --> 00:19:55,039
+output is either on or off it's not an
+
+452
+00:19:50,280 --> 00:19:58,559
+analog output but it turns out that pins
+
+453
+00:19:55,039 --> 00:20:01,720
+9 10 and 11 are three of the special
+
+454
+00:19:58,559 --> 00:20:05,720
+output pins that can be programmed with
+
+455
+00:20:01,720 --> 00:20:08,679
+pulse width modulation that is they can
+
+456
+00:20:05,720 --> 00:20:11,760
+be programmed to rapidly pulse on and
+
+457
+00:20:08,679 --> 00:20:15,320
+off with the fraction of the time spent
+
+458
+00:20:11,760 --> 00:20:19,600
+on determining how bright the perceived
+
+459
+00:20:15,320 --> 00:20:22,520
+light is so for example if we programmed
+
+460
+00:20:19,600 --> 00:20:25,440
+the pulse width such that it was on half
+
+461
+00:20:22,520 --> 00:20:28,600
+the time and off half the time that
+
+462
+00:20:25,440 --> 00:20:32,440
+would give us a 50% brightness and so on
+
+463
+00:20:28,600 --> 00:20:35,600
+for other brightness levels now the rest
+
+464
+00:20:32,440 --> 00:20:40,240
+of our circuit here should be fairly
+
+465
+00:20:35,600 --> 00:20:43,320
+familiar To Us by now we have three 220
+
+466
+00:20:40,240 --> 00:20:45,600
+ohm current limiting resistors one for
+
+467
+00:20:43,320 --> 00:20:49,799
+each of the three color channels the red
+
+468
+00:20:45,600 --> 00:20:52,799
+green and blue and we also have a single
+
+469
+00:20:49,799 --> 00:20:56,080
+black wire right here which connects
+
+470
+00:20:52,799 --> 00:21:01,080
+from the ground pin of the led up to the
+
+471
+00:20:56,080 --> 00:21:03,760
+hero ground completing our circuit so um
+
+472
+00:21:01,080 --> 00:21:06,760
+this is all relatively straightforward
+
+473
+00:21:03,760 --> 00:21:09,720
+for us and so the next thing for us to
+
+474
+00:21:06,760 --> 00:21:12,279
+do is to run the day eight sketch to
+
+475
+00:21:09,720 --> 00:21:16,279
+demonstrate how these features work
+
+476
+00:21:12,279 --> 00:21:19,320
+together now before we actually run it
+
+477
+00:21:16,279 --> 00:21:22,960
+let's read through the sketch and see
+
+478
+00:21:19,320 --> 00:21:25,279
+what is expected to happen if we look
+
+479
+00:21:22,960 --> 00:21:28,520
+through the sketch we immediately see
+
+480
+00:21:25,279 --> 00:21:31,279
+that the loop function is repeatedly
+
+481
+00:21:28,520 --> 00:21:32,679
+Illuminating the three channels in a
+
+482
+00:21:31,279 --> 00:21:35,200
+specific
+
+483
+00:21:32,679 --> 00:21:38,159
+sequence first in the loop function we
+
+484
+00:21:35,200 --> 00:21:39,200
+see that only the red channels turned on
+
+485
+00:21:38,159 --> 00:21:43,720
+at
+
+486
+00:21:39,200 --> 00:21:49,000
+25% then after a time delay that is
+
+487
+00:21:43,720 --> 00:21:52,279
+increased to 50% on red followed then by
+
+488
+00:21:49,000 --> 00:21:54,679
+75% and then finally full illumination
+
+489
+00:21:52,279 --> 00:21:57,720
+or 100% on the red
+
+490
+00:21:54,679 --> 00:22:01,200
+Channel next in the sequence inside the
+
+491
+00:21:57,720 --> 00:22:04,360
+Li function we turn off the red Channel
+
+492
+00:22:01,200 --> 00:22:07,039
+and turn on the green at 50% so we'll
+
+493
+00:22:04,360 --> 00:22:09,360
+look for that following the green
+
+494
+00:22:07,039 --> 00:22:12,880
+illumination then we turn that off and
+
+495
+00:22:09,360 --> 00:22:15,320
+turn on Blue at 50% so we should expect
+
+496
+00:22:12,880 --> 00:22:18,520
+to see red followed by Green followed by
+
+497
+00:22:15,320 --> 00:22:20,679
+Blue next in the sequence we're going to
+
+498
+00:22:18,520 --> 00:22:24,240
+demonstrate the ability to produce other
+
+499
+00:22:20,679 --> 00:22:29,200
+colors by mixing different amounts of
+
+500
+00:22:24,240 --> 00:22:31,840
+RGB so in our next step in the sequence
+
+501
+00:22:29,200 --> 00:22:33,400
+we display Yellow by turning on red and
+
+502
+00:22:31,840 --> 00:22:36,000
+green at
+
+503
+00:22:33,400 --> 00:22:40,279
+50% after another
+
+504
+00:22:36,000 --> 00:22:44,880
+delay we next produce cyan with equal
+
+505
+00:22:40,279 --> 00:22:47,840
+amounts of green and blue and then we
+
+506
+00:22:44,880 --> 00:22:51,240
+produce magenta magenta is displayed
+
+507
+00:22:47,840 --> 00:22:54,679
+with a mix of red and blue channels on
+
+508
+00:22:51,240 --> 00:22:58,320
+our LED finally to conclude the loop
+
+509
+00:22:54,679 --> 00:23:01,760
+function we turn on all three LEDs
+
+510
+00:22:58,320 --> 00:23:05,120
+together at 100% and that should produce
+
+511
+00:23:01,760 --> 00:23:07,760
+a bright white light this sequence then
+
+512
+00:23:05,120 --> 00:23:09,880
+will repeat as the loop function runs
+
+513
+00:23:07,760 --> 00:23:13,120
+over and over as long as our sketch
+
+514
+00:23:09,880 --> 00:23:16,400
+continues to run so at this point since
+
+515
+00:23:13,120 --> 00:23:20,400
+we know what to expect let's go ahead
+
+516
+00:23:16,400 --> 00:23:23,840
+upload the sketch and watch to see that
+
+517
+00:23:20,400 --> 00:23:26,919
+uh the sequence is executed as we
+
+518
+00:23:23,840 --> 00:23:31,559
+expect for this demo I've set the color
+
+519
+00:23:26,919 --> 00:23:33,919
+delay time to, 1500 milliseconds or 1.5
+
+520
+00:23:31,559 --> 00:23:36,760
+seconds so hopefully that'll give us
+
+521
+00:23:33,919 --> 00:23:39,000
+enough time to be able to uh see all the
+
+522
+00:23:36,760 --> 00:23:41,840
+steps of the sequence as they
+
+523
+00:23:39,000 --> 00:23:44,559
+execute so uploading now we should look
+
+524
+00:23:41,840 --> 00:23:48,840
+for the red LED to come on there it is
+
+525
+00:23:44,559 --> 00:23:52,240
+dim brighter brighter yet and brightest
+
+526
+00:23:48,840 --> 00:23:55,320
+followed by Green there's our blue
+
+527
+00:23:52,240 --> 00:23:58,600
+there's yellow there's cyan there's
+
+528
+00:23:55,320 --> 00:24:00,840
+magenta and finally bright white
+
+529
+00:23:58,600 --> 00:24:02,919
+then the cycle just repeats over and
+
+530
+00:24:00,840 --> 00:24:06,080
+over again and so we can watch this go
+
+531
+00:24:02,919 --> 00:24:09,120
+through its cycle as often as we
+
+532
+00:24:06,080 --> 00:24:12,679
+want that just about covers all the new
+
+533
+00:24:09,120 --> 00:24:15,600
+ideas that we've introduced for today's
+
+534
+00:24:12,679 --> 00:24:17,919
+project but you might want to experiment
+
+535
+00:24:15,600 --> 00:24:19,520
+with some of the sketch parameters for
+
+536
+00:24:17,919 --> 00:24:22,039
+example you might want to see how good
+
+537
+00:24:19,520 --> 00:24:24,760
+you are at producing other colors or
+
+538
+00:24:22,039 --> 00:24:27,480
+produce different timing effects have
+
+539
+00:24:24,760 --> 00:24:30,240
+fun with this and next time we'll see
+
+540
+00:24:27,480 --> 00:24:34,159
+how to use our newly acquired knowledge
+
+541
+00:24:30,240 --> 00:24:36,640
+to further contribute to our repair
+
+542
+00:24:34,159 --> 00:24:39,120
+Mission well explor I must say I'm
+
+543
+00:24:36,640 --> 00:24:40,760
+impressed you've wired up the RGB LED
+
+544
+00:24:39,120 --> 00:24:43,279
+and successfully programmed it to show
+
+545
+00:24:40,760 --> 00:24:45,080
+different colors based on given values
+
+546
+00:24:43,279 --> 00:24:47,399
+your code is no longer a maze of
+
+547
+00:24:45,080 --> 00:24:49,559
+repeated color values it's streamlined
+
+548
+00:24:47,399 --> 00:24:52,360
+and efficient like the inner workings of
+
+549
+00:24:49,559 --> 00:24:54,799
+a cuttingedge spaceship and our hero
+
+550
+00:24:52,360 --> 00:24:56,960
+board is sparkling with colors just the
+
+551
+00:24:54,799 --> 00:24:59,960
+kind of bright glimmer of hope you need
+
+552
+00:24:56,960 --> 00:25:02,200
+in the depths of an Underwater World now
+
+553
+00:24:59,960 --> 00:25:04,120
+don't get too cozy in your success
+
+554
+00:25:02,200 --> 00:25:06,799
+tomorrow we'll take another momentous
+
+555
+00:25:04,120 --> 00:25:08,760
+Leap Forward I see a dashboard display
+
+556
+00:25:06,799 --> 00:25:10,520
+in our future it's time to start getting
+
+557
+00:25:08,760 --> 00:25:14,080
+some visual feedback from our various
+
+558
+00:25:10,520 --> 00:25:16,320
+ship systems on a display yes indeed
+
+559
+00:25:14,080 --> 00:25:18,240
+just because we're marooned in an alien
+
+560
+00:25:16,320 --> 00:25:22,360
+sea doesn't mean we can't have a bit of
+
+561
+00:25:18,240 --> 00:25:24,120
+style right so rest up Explorer we have
+
+562
+00:25:22,360 --> 00:25:25,919
+many more lines of code to write and
+
+563
+00:25:24,120 --> 00:25:27,840
+much more Hardware to Wrangle before our
+
+564
+00:25:25,919 --> 00:25:30,640
+ship can once again break free from the
+
+565
+00:25:27,840 --> 00:25:32,880
+watery prison but for now bask in the
+
+566
+00:25:30,640 --> 00:25:34,210
+glory of your multicolored Triumph
+
+567
+00:25:32,880 --> 00:25:48,530
+tomorrow
+
+568
+00:25:34,210 --> 00:25:48,530
+[Music]
+
+569
+00:25:53,159 --> 00:25:56,159
+awaits
+

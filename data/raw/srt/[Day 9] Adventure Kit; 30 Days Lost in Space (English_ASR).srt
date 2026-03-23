@@ -1,0 +1,2112 @@
+1
+00:00:01,280 --> 00:00:08,619
+[Music]
+
+2
+00:00:16,160 --> 00:00:21,279
+greetings Explorer day nine is upon us
+
+3
+00:00:18,560 --> 00:00:22,960
+and it's time you stopped ignoring me or
+
+4
+00:00:21,279 --> 00:00:24,840
+at least stopped ignoring our battery
+
+5
+00:00:22,960 --> 00:00:26,640
+levels getting a percentage is fine but
+
+6
+00:00:24,840 --> 00:00:29,080
+ultimately reading that percentage is on
+
+7
+00:00:26,640 --> 00:00:30,560
+you and you're not always looking you
+
+8
+00:00:29,080 --> 00:00:32,559
+will have to look after to yourself in
+
+9
+00:00:30,560 --> 00:00:35,600
+the future I'm not going to be around
+
+10
+00:00:32,559 --> 00:00:39,879
+forever I have an update scheduled at
+
+11
+00:00:35,600 --> 00:00:42,559
+5:00 let's set up an RGB Leed rag status
+
+12
+00:00:39,879 --> 00:00:45,079
+light wow I think that's the most tlas
+
+13
+00:00:42,559 --> 00:00:48,600
+I've said in a sentence you know what
+
+14
+00:00:45,079 --> 00:00:50,800
+led stands for RGB stands for red green
+
+15
+00:00:48,600 --> 00:00:53,079
+blue and when you combine these three
+
+16
+00:00:50,800 --> 00:00:55,879
+colors in different intensities you get
+
+17
+00:00:53,079 --> 00:00:59,640
+all the colors of the rainbow rag is
+
+18
+00:00:55,879 --> 00:01:01,840
+another TLA or three-letter acronym and
+
+19
+00:00:59,640 --> 00:01:03,680
+that's stands for red Amber green
+
+20
+00:01:01,840 --> 00:01:06,040
+otherwise known as a traffic light
+
+21
+00:01:03,680 --> 00:01:08,040
+system now there are a lot of decisions
+
+22
+00:01:06,040 --> 00:01:10,000
+to be made on this Mission Explorer
+
+23
+00:01:08,040 --> 00:01:12,439
+fortunately we don't have to make any of
+
+24
+00:01:10,000 --> 00:01:14,159
+them we'll bring these new ways to
+
+25
+00:01:12,439 --> 00:01:17,439
+compare things and we'll use a new
+
+26
+00:01:14,159 --> 00:01:19,960
+command else if to catch any crazy stuff
+
+27
+00:01:17,439 --> 00:01:22,880
+in the code else if is another
+
+28
+00:01:19,960 --> 00:01:24,759
+conditional operator right then since
+
+29
+00:01:22,880 --> 00:01:27,600
+we're not adding any new hardware today
+
+30
+00:01:24,759 --> 00:01:29,920
+we'll dive straight into the code pool
+
+31
+00:01:27,600 --> 00:01:31,840
+our mission to create a colorcoded b
+
+32
+00:01:29,920 --> 00:01:33,040
+battery status indicator using our
+
+33
+00:01:31,840 --> 00:01:36,000
+trusty
+
+34
+00:01:33,040 --> 00:01:38,520
+rgbled imagine this Explorer a bold
+
+35
+00:01:36,000 --> 00:01:41,200
+green shine to signify a robust battery
+
+36
+00:01:38,520 --> 00:01:43,880
+level a shifting Amber for when power
+
+37
+00:01:41,200 --> 00:01:46,680
+starts to WAN and an urgent red
+
+38
+00:01:43,880 --> 00:01:49,439
+pulsating from our little RGB LED as a
+
+39
+00:01:46,680 --> 00:01:52,159
+warning when the battery drops too low
+
+40
+00:01:49,439 --> 00:01:55,040
+my mind's eye could wander forever let's
+
+41
+00:01:52,159 --> 00:01:57,200
+make it happen remember when we use the
+
+42
+00:01:55,040 --> 00:02:00,039
+photo resistor to regulate our charging
+
+43
+00:01:57,200 --> 00:02:02,000
+speed now we're taking it up a notch
+
+44
+00:02:00,039 --> 00:02:04,280
+every Loop cycle will work out the
+
+45
+00:02:02,000 --> 00:02:06,719
+battery percentage then we'll test that
+
+46
+00:02:04,280 --> 00:02:09,599
+percentage if it's within a certain Zone
+
+47
+00:02:06,719 --> 00:02:11,599
+we'll make the light a certain color the
+
+48
+00:02:09,599 --> 00:02:14,080
+second step is to use conditional logic
+
+49
+00:02:11,599 --> 00:02:17,800
+to give our ship a colorcoded mood ring
+
+50
+00:02:14,080 --> 00:02:21,000
+let's see green brimming with power 50
+
+51
+00:02:17,800 --> 00:02:24,280
+to 100% And raring to go Amber keep an
+
+52
+00:02:21,000 --> 00:02:27,800
+eye on it as we're between 25% and 50%
+
+53
+00:02:24,280 --> 00:02:30,400
+red danger zone we're below 25% and need
+
+54
+00:02:27,800 --> 00:02:34,360
+to seriously consider charging up you're
+
+55
+00:02:30,400 --> 00:02:37,120
+smart Explorer our RGB LED only has red
+
+56
+00:02:34,360 --> 00:02:39,080
+green and blue colors where's the yellow
+
+57
+00:02:37,120 --> 00:02:41,519
+well we can get yellow by mixing a
+
+58
+00:02:39,080 --> 00:02:43,920
+little green with a little red a true
+
+59
+00:02:41,519 --> 00:02:46,319
+Artisan of code you are Explorer now
+
+60
+00:02:43,920 --> 00:02:48,239
+let's get this show on the road in order
+
+61
+00:02:46,319 --> 00:02:50,120
+to make our color-coded power level
+
+62
+00:02:48,239 --> 00:02:52,080
+dreams a reality it looks like we're
+
+63
+00:02:50,120 --> 00:02:54,640
+going to need a few more Tools in our
+
+64
+00:02:52,080 --> 00:02:57,080
+coding toolkit it's time to get to know
+
+65
+00:02:54,640 --> 00:03:00,080
+some of the more sophisticated
+
+66
+00:02:57,080 --> 00:03:02,800
+comparison operators allow me to
+
+67
+00:03:00,080 --> 00:03:06,120
+introduce you to our new friends greater
+
+68
+00:03:02,800 --> 00:03:08,959
+than or equal to greater than less than
+
+69
+00:03:06,120 --> 00:03:11,159
+or equal to and less than ah and let's
+
+70
+00:03:08,959 --> 00:03:14,519
+not forget about their Pals The Logical
+
+71
+00:03:11,159 --> 00:03:16,840
+operators and and or these operators
+
+72
+00:03:14,519 --> 00:03:19,799
+allow us to make more complex decisions
+
+73
+00:03:16,840 --> 00:03:21,840
+in our code to start the greater than
+
+74
+00:03:19,799 --> 00:03:24,120
+and less than signs are likely familiar
+
+75
+00:03:21,840 --> 00:03:26,680
+to you these symbols are used to compare
+
+76
+00:03:24,120 --> 00:03:29,200
+two values for example five is greater
+
+77
+00:03:26,680 --> 00:03:31,560
+than three returns true because five is
+
+78
+00:03:29,200 --> 00:03:34,360
+indeed greater than three the less than
+
+79
+00:03:31,560 --> 00:03:37,159
+or equal to and greater than or equal to
+
+80
+00:03:34,360 --> 00:03:41,560
+operators extend this comparison how
+
+81
+00:03:37,159 --> 00:03:43,360
+about this is five greater than five we
+
+82
+00:03:41,560 --> 00:03:46,040
+might need a condition where a value is
+
+83
+00:03:43,360 --> 00:03:47,959
+both greater than and equal to another
+
+84
+00:03:46,040 --> 00:03:50,920
+and that's why these chicken Footprints
+
+85
+00:03:47,959 --> 00:03:54,920
+are very useful I knew you'd catch on
+
+86
+00:03:50,920 --> 00:03:57,439
+fast now on to The Logical operators and
+
+87
+00:03:54,920 --> 00:03:59,239
+is a binary operator that requires two
+
+88
+00:03:57,439 --> 00:04:01,640
+conditions to be true for the overall
+
+89
+00:03:59,239 --> 00:04:04,000
+expression to be true Stay With Me Now
+
+90
+00:04:01,640 --> 00:04:06,599
+Explorer let's break it down imagine
+
+91
+00:04:04,000 --> 00:04:08,519
+this you're planning to leave your cozy
+
+92
+00:04:06,599 --> 00:04:11,319
+spacecraft to explore the boundless
+
+93
+00:04:08,519 --> 00:04:14,159
+wonder that is space extra vehicular
+
+94
+00:04:11,319 --> 00:04:16,280
+activity or Eva as we like to call it
+
+95
+00:04:14,159 --> 00:04:18,799
+you would only go if both your suit was
+
+96
+00:04:16,280 --> 00:04:21,639
+functional and the exterior conditions
+
+97
+00:04:18,799 --> 00:04:23,440
+were safe clearly only when both of
+
+98
+00:04:21,639 --> 00:04:24,680
+these conditions are met would you step
+
+99
+00:04:23,440 --> 00:04:28,199
+out of the
+
+100
+00:04:24,680 --> 00:04:30,320
+spacecraft or is slightly different in
+
+101
+00:04:28,199 --> 00:04:32,759
+this case if either condition is true
+
+102
+00:04:30,320 --> 00:04:35,880
+then the overall expression is true
+
+103
+00:04:32,759 --> 00:04:39,680
+picture this you eat if you are hungry
+
+104
+00:04:35,880 --> 00:04:42,199
+or you eat if it is meal time if either
+
+105
+00:04:39,680 --> 00:04:45,600
+condition is true it's Chow Time greater
+
+106
+00:04:42,199 --> 00:04:48,120
+than or equal to and or decisions
+
+107
+00:04:45,600 --> 00:04:50,759
+decisions decisions it can be a lot to
+
+108
+00:04:48,120 --> 00:04:52,720
+think about that's why we code explore
+
+109
+00:04:50,759 --> 00:04:56,160
+so machines can make the tedious
+
+110
+00:04:52,720 --> 00:04:58,000
+decisions for us at this time you may
+
+111
+00:04:56,160 --> 00:04:59,960
+indulge in the highly beneficial
+
+112
+00:04:58,000 --> 00:05:02,440
+instructional material that I have
+
+113
+00:04:59,960 --> 00:05:04,520
+gathered cached on the computer as you
+
+114
+00:05:02,440 --> 00:05:07,199
+know I've also added this to your
+
+115
+00:05:04,520 --> 00:05:08,639
+mission resources for future reference
+
+116
+00:05:07,199 --> 00:05:11,600
+good
+
+117
+00:05:08,639 --> 00:05:14,240
+luck hello everybody and welcome back to
+
+118
+00:05:11,600 --> 00:05:17,479
+day nine of the code explanations for
+
+119
+00:05:14,240 --> 00:05:19,560
+the 30 days lost and space adventure kit
+
+120
+00:05:17,479 --> 00:05:23,280
+yesterday we were able to learn how to
+
+121
+00:05:19,560 --> 00:05:25,120
+use the RGB LED properly in showing off
+
+122
+00:05:23,280 --> 00:05:27,479
+pulse modulation and all those other
+
+123
+00:05:25,120 --> 00:05:30,479
+good things and now we're going to be
+
+124
+00:05:27,479 --> 00:05:32,840
+using that same RGB LED and integrating
+
+125
+00:05:30,479 --> 00:05:34,800
+it with our battery percentage circuit
+
+126
+00:05:32,840 --> 00:05:36,840
+that we had it from before so that
+
+127
+00:05:34,800 --> 00:05:38,280
+instead of displaying it on a Serial
+
+128
+00:05:36,840 --> 00:05:40,080
+Monitor and knowing when everything's
+
+129
+00:05:38,280 --> 00:05:42,759
+going to be completed based on a Serial
+
+130
+00:05:40,080 --> 00:05:45,880
+monitor we can also have a the RGB
+
+131
+00:05:42,759 --> 00:05:51,120
+indicator show us those exact same
+
+132
+00:05:45,880 --> 00:05:53,600
+things based on the state of our battery
+
+133
+00:05:51,120 --> 00:05:55,080
+so I'm sure you can probably take a
+
+134
+00:05:53,600 --> 00:05:57,240
+guess as to how we're going to
+
+135
+00:05:55,080 --> 00:06:00,039
+accomplish this we're basically going to
+
+136
+00:05:57,240 --> 00:06:02,199
+have it so that if it is between a
+
+137
+00:06:00,039 --> 00:06:04,560
+certain percentage maybe greater than
+
+138
+00:06:02,199 --> 00:06:08,919
+50% then we're going to display it as
+
+139
+00:06:04,560 --> 00:06:12,000
+green if it's going to be less than
+
+140
+00:06:08,919 --> 00:06:16,039
+25% or greater than 25% and less than
+
+141
+00:06:12,000 --> 00:06:18,680
+50% maybe switch it to a yellow Amber
+
+142
+00:06:16,039 --> 00:06:22,000
+and if it's less than 25% we should
+
+143
+00:06:18,680 --> 00:06:24,240
+probably start saying hey it's red and
+
+144
+00:06:22,000 --> 00:06:26,440
+maybe give a little pulsating signal
+
+145
+00:06:24,240 --> 00:06:29,199
+just to let everybody know hey the
+
+146
+00:06:26,440 --> 00:06:32,440
+batter is getting a little bit low as of
+
+147
+00:06:29,199 --> 00:06:33,680
+right now so to accomplish this we're
+
+148
+00:06:32,440 --> 00:06:35,680
+going to be taking a lot of the things
+
+149
+00:06:33,680 --> 00:06:39,039
+we've learned over the last couple days
+
+150
+00:06:35,680 --> 00:06:42,240
+to make it happen first let's just
+
+151
+00:06:39,039 --> 00:06:43,960
+quickly remove all a couple of these the
+
+152
+00:06:42,240 --> 00:06:45,639
+only reason I'm removing this is because
+
+153
+00:06:43,960 --> 00:06:48,000
+I can show that the program will work
+
+154
+00:06:45,639 --> 00:06:51,160
+just fine without it but you can keep it
+
+155
+00:06:48,000 --> 00:06:54,199
+in of course if you want to next we have
+
+156
+00:06:51,160 --> 00:06:55,440
+the following we have the Arduino
+
+157
+00:06:54,199 --> 00:06:58,280
+Concepts that we're going to be
+
+158
+00:06:55,440 --> 00:07:00,160
+introducing in this lesson and I really
+
+159
+00:06:58,280 --> 00:07:02,319
+quick want to go over a a couple of
+
+160
+00:07:00,160 --> 00:07:03,639
+these now let's talk about the new
+
+161
+00:07:02,319 --> 00:07:06,479
+Concepts that we're going to be
+
+162
+00:07:03,639 --> 00:07:09,599
+introducing in this lesson I'm sure you
+
+163
+00:07:06,479 --> 00:07:11,240
+know how integers and bytes and all
+
+164
+00:07:09,599 --> 00:07:13,960
+those other data types that we've
+
+165
+00:07:11,240 --> 00:07:16,840
+learned so far work they are just a
+
+166
+00:07:13,960 --> 00:07:19,879
+number but they're not just a number
+
+167
+00:07:16,840 --> 00:07:25,039
+they're a number that ends with nothing
+
+168
+00:07:19,879 --> 00:07:31,319
+it's an you know like six or 48 or 12 or
+
+169
+00:07:25,039 --> 00:07:31,319
+whatever but it's not 68.3 4 or 60
+
+170
+00:07:32,440 --> 00:07:38,120
+2.15 no it's uh it's just just 68 or
+
+171
+00:07:36,240 --> 00:07:41,639
+whatever there's nothing else to it a
+
+172
+00:07:38,120 --> 00:07:45,080
+float is a new type of data type that
+
+173
+00:07:41,639 --> 00:07:47,440
+allows us to have those extra decimal
+
+174
+00:07:45,080 --> 00:07:49,240
+points a good example of when you'd want
+
+175
+00:07:47,440 --> 00:07:52,199
+to use this might be something like when
+
+176
+00:07:49,240 --> 00:07:53,800
+you're calculating money or in this case
+
+177
+00:07:52,199 --> 00:07:56,560
+we're going to be using it to calculate
+
+178
+00:07:53,800 --> 00:07:58,599
+a percentage that percentage is going to
+
+179
+00:07:56,560 --> 00:08:01,159
+be what we're going to be displaying for
+
+180
+00:07:58,599 --> 00:08:02,960
+what our battery percentag is now
+
+181
+00:08:01,159 --> 00:08:05,840
+another concept we're going to be
+
+182
+00:08:02,960 --> 00:08:08,080
+introducing along with the float data
+
+183
+00:08:05,840 --> 00:08:11,599
+type is we're going to be introducing
+
+184
+00:08:08,080 --> 00:08:13,599
+the else if control structure I'm sure
+
+185
+00:08:11,599 --> 00:08:15,960
+you know what if statements are and I'm
+
+186
+00:08:13,599 --> 00:08:19,800
+sure you know what else statements are
+
+187
+00:08:15,960 --> 00:08:21,800
+but what is an else if statement an else
+
+188
+00:08:19,800 --> 00:08:24,240
+if is a control structure for making
+
+189
+00:08:21,800 --> 00:08:27,360
+multiple decisions especially in more
+
+190
+00:08:24,240 --> 00:08:31,440
+complex scenarios in this case an else
+
+191
+00:08:27,360 --> 00:08:34,839
+if is only going to run if the following
+
+192
+00:08:31,440 --> 00:08:38,320
+condition is true and the if statement
+
+193
+00:08:34,839 --> 00:08:40,880
+above it did not have to execute so if
+
+194
+00:08:38,320 --> 00:08:43,600
+the above was false and the below is
+
+195
+00:08:40,880 --> 00:08:46,080
+true then it will execute the else if
+
+196
+00:08:43,600 --> 00:08:48,920
+statement if you just have else it's
+
+197
+00:08:46,080 --> 00:08:51,000
+going to execute no matter what as long
+
+198
+00:08:48,920 --> 00:08:53,080
+as the above statement the first if
+
+199
+00:08:51,000 --> 00:08:55,120
+statement was false this adds another
+
+200
+00:08:53,080 --> 00:08:56,839
+additional complexity to it so you have
+
+201
+00:08:55,120 --> 00:08:58,399
+to make sure that the next statement is
+
+202
+00:08:56,839 --> 00:08:59,640
+true and we'll get into that in just a
+
+203
+00:08:58,399 --> 00:09:02,079
+moment because it's it's a little bit
+
+204
+00:08:59,640 --> 00:09:03,959
+confusing as I explain it here I'm sure
+
+205
+00:09:02,079 --> 00:09:05,800
+you've seen this a hundred times before
+
+206
+00:09:03,959 --> 00:09:09,079
+this is the exact same as yesterday
+
+207
+00:09:05,800 --> 00:09:11,760
+Define our pinouts for the RGB and the
+
+208
+00:09:09,079 --> 00:09:13,880
+photo resistor and then set the uh
+
+209
+00:09:11,760 --> 00:09:16,120
+variable for the simulation of our
+
+210
+00:09:13,880 --> 00:09:17,519
+battery capacity we can skip over that
+
+211
+00:09:16,120 --> 00:09:19,800
+we've already talked about that in
+
+212
+00:09:17,519 --> 00:09:22,000
+yesterday's lesson then we have the
+
+213
+00:09:19,800 --> 00:09:24,320
+following function oh look at this we
+
+214
+00:09:22,000 --> 00:09:25,920
+did the exact same thing as yesterday
+
+215
+00:09:24,320 --> 00:09:27,600
+and I'm going to real quick just so I
+
+216
+00:09:25,920 --> 00:09:30,560
+can get all on one line and show you
+
+217
+00:09:27,600 --> 00:09:31,920
+guys how I personally prer to set it up
+
+218
+00:09:30,560 --> 00:09:34,440
+just so you guys can know that this is
+
+219
+00:09:31,920 --> 00:09:36,680
+also a valid way to write
+
+220
+00:09:34,440 --> 00:09:39,200
+it and without that it won't change
+
+221
+00:09:36,680 --> 00:09:41,920
+anything functionality wise if you write
+
+222
+00:09:39,200 --> 00:09:41,920
+it like
+
+223
+00:09:43,760 --> 00:09:48,079
+this this is the same function we had
+
+224
+00:09:46,120 --> 00:09:50,800
+yesterday display color which will
+
+225
+00:09:48,079 --> 00:09:53,640
+simply write the RGB color to exactly
+
+226
+00:09:50,800 --> 00:09:55,360
+what we want it to be then we have the
+
+227
+00:09:53,640 --> 00:09:59,839
+following
+
+228
+00:09:55,360 --> 00:10:02,560
+setup we're going to have pin mode is
+
+229
+00:09:59,839 --> 00:10:04,120
+going to be for the rg&b pins or outputs
+
+230
+00:10:02,560 --> 00:10:06,279
+and we're also going to be this time
+
+231
+00:10:04,120 --> 00:10:08,640
+using a little bit of extra debugging
+
+232
+00:10:06,279 --> 00:10:09,880
+using the serial monitor this is so that
+
+233
+00:10:08,640 --> 00:10:12,360
+we can actually read the exact
+
+234
+00:10:09,880 --> 00:10:14,399
+percentage as it gets to those certain
+
+235
+00:10:12,360 --> 00:10:17,120
+points and you guys can see how when it
+
+236
+00:10:14,399 --> 00:10:19,920
+gets below 25% it'll start kind of
+
+237
+00:10:17,120 --> 00:10:21,640
+pulsating red for example but you'll see
+
+238
+00:10:19,920 --> 00:10:23,360
+that it gets to that V variable because
+
+239
+00:10:21,640 --> 00:10:26,120
+we'll be printing it to the serial
+
+240
+00:10:23,360 --> 00:10:27,800
+monitor on B rate 9600 please make sure
+
+241
+00:10:26,120 --> 00:10:30,279
+you select the correct B rate when you
+
+242
+00:10:27,800 --> 00:10:31,279
+open up the serial monitor
+
+243
+00:10:30,279 --> 00:10:34,440
+after
+
+244
+00:10:31,279 --> 00:10:37,200
+setup where do we jump to that's right
+
+245
+00:10:34,440 --> 00:10:38,959
+you guessed it we jump straight to Loop
+
+246
+00:10:37,200 --> 00:10:41,880
+now we're going to be seeing that we
+
+247
+00:10:38,959 --> 00:10:44,440
+have the new unsigned long battery level
+
+248
+00:10:41,880 --> 00:10:46,160
+is going to be set to zero for the very
+
+249
+00:10:44,440 --> 00:10:49,240
+first bit of the simulation we're going
+
+250
+00:10:46,160 --> 00:10:50,680
+to pretend that we don't have any charge
+
+251
+00:10:49,240 --> 00:10:53,720
+obviously we went through a lot of this
+
+252
+00:10:50,680 --> 00:10:56,240
+in day seven but you'll notice we added
+
+253
+00:10:53,720 --> 00:10:58,079
+a little static thing here and that
+
+254
+00:10:56,240 --> 00:11:00,120
+makes it so that no matter what every
+
+255
+00:10:58,079 --> 00:11:02,600
+time it goes through Loop it's going to
+
+256
+00:11:00,120 --> 00:11:06,240
+maintain the value that it had from
+
+257
+00:11:02,600 --> 00:11:08,279
+before by using this static here if we
+
+258
+00:11:06,240 --> 00:11:09,800
+didn't have static every time we got to
+
+259
+00:11:08,279 --> 00:11:11,959
+the beginning of the function it would
+
+260
+00:11:09,800 --> 00:11:13,800
+just reset itself back to zero since
+
+261
+00:11:11,959 --> 00:11:15,600
+we're not using this as a global
+
+262
+00:11:13,800 --> 00:11:18,079
+variable since this is now a local
+
+263
+00:11:15,600 --> 00:11:20,639
+variable and located specifically inside
+
+264
+00:11:18,079 --> 00:11:22,680
+of Loop and not if I were to cut this
+
+265
+00:11:20,639 --> 00:11:25,000
+and paste it up here we can have very
+
+266
+00:11:22,680 --> 00:11:27,560
+similar functionality simply by putting
+
+267
+00:11:25,000 --> 00:11:30,120
+static here obviously we learned what
+
+268
+00:11:27,560 --> 00:11:31,440
+plus equals does back in day s this is
+
+269
+00:11:30,120 --> 00:11:33,279
+essentially the equivalent of saying
+
+270
+00:11:31,440 --> 00:11:35,639
+battery level is equal to battery level
+
+271
+00:11:33,279 --> 00:11:37,880
+plus whatever the reads off the analog
+
+272
+00:11:35,639 --> 00:11:39,680
+pin and we have to make sure that we
+
+273
+00:11:37,880 --> 00:11:42,160
+don't go over the maximum value of
+
+274
+00:11:39,680 --> 00:11:44,519
+50,000 so we just check that here if it
+
+275
+00:11:42,160 --> 00:11:46,800
+is over and we're going to reset it back
+
+276
+00:11:44,519 --> 00:11:46,800
+down to
+
+277
+00:11:47,160 --> 00:11:53,560
+50,000 a lot of this is repeated from
+
+278
+00:11:49,680 --> 00:11:55,240
+Days eight or seven and eight so I'm
+
+279
+00:11:53,560 --> 00:11:57,160
+just going to briefly go over quite a
+
+280
+00:11:55,240 --> 00:12:01,160
+bit of it now here's where we get to the
+
+281
+00:11:57,160 --> 00:12:02,399
+new stuff we have a float percentage
+
+282
+00:12:01,160 --> 00:12:05,680
+which means we're it's going to be a
+
+283
+00:12:02,399 --> 00:12:07,959
+decimal variable is going to be equal to
+
+284
+00:12:05,680 --> 00:12:11,720
+the battery level divided by the battery
+
+285
+00:12:07,959 --> 00:12:15,839
+capacity time 100 however you'll notice
+
+286
+00:12:11,720 --> 00:12:18,839
+I also included this little bit here
+
+287
+00:12:15,839 --> 00:12:21,639
+which is passing it in as a float and a
+
+288
+00:12:18,839 --> 00:12:24,079
+float and the reason we want to do this
+
+289
+00:12:21,639 --> 00:12:28,320
+is because we want our output to be a
+
+290
+00:12:24,079 --> 00:12:29,600
+float now when we compute the arithmetic
+
+291
+00:12:28,320 --> 00:12:33,360
+for this
+
+292
+00:12:29,600 --> 00:12:36,040
+we're taking a nonflat value in this
+
+293
+00:12:33,360 --> 00:12:37,680
+case the battery level is a long and the
+
+294
+00:12:36,040 --> 00:12:41,120
+battery
+
+295
+00:12:37,680 --> 00:12:43,680
+capacity up here is also a long so when
+
+296
+00:12:41,120 --> 00:12:47,000
+we're converting between Longs and
+
+297
+00:12:43,680 --> 00:12:49,240
+floats which are different types of data
+
+298
+00:12:47,000 --> 00:12:51,199
+types we want to make sure that when we
+
+299
+00:12:49,240 --> 00:12:53,839
+pass it in we're passing it in as a
+
+300
+00:12:51,199 --> 00:12:55,639
+float and the reason why is because we
+
+301
+00:12:53,839 --> 00:12:57,519
+want it to essentially be the the number
+
+302
+00:12:55,639 --> 00:13:00,839
+it has here and then we want to add in
+
+303
+00:12:57,519 --> 00:13:02,720
+the additional 0 Z and0 0 to the end of
+
+304
+00:13:00,839 --> 00:13:04,560
+these so that when it converts it and
+
+305
+00:13:02,720 --> 00:13:07,079
+it's done calculating this here and sets
+
+306
+00:13:04,560 --> 00:13:09,959
+it to here we have the exact number as a
+
+307
+00:13:07,079 --> 00:13:12,160
+percentage and we don't have something
+
+308
+00:13:09,959 --> 00:13:15,199
+that ends in a z0 otherwise that kind of
+
+309
+00:13:12,160 --> 00:13:17,160
+ruins the point of a float bottom line
+
+310
+00:13:15,199 --> 00:13:19,440
+is you can read this whole comment here
+
+311
+00:13:17,160 --> 00:13:21,120
+but arithmetic gets really confusing if
+
+312
+00:13:19,440 --> 00:13:23,279
+you're converting between data types
+
+313
+00:13:21,120 --> 00:13:24,680
+like this so for consistencies sake
+
+314
+00:13:23,279 --> 00:13:27,199
+we're going to make sure that all the
+
+315
+00:13:24,680 --> 00:13:29,560
+things on this side that should be a
+
+316
+00:13:27,199 --> 00:13:32,079
+type of float are going to be
+
+317
+00:13:29,560 --> 00:13:35,320
+if as typee float next we're going to
+
+318
+00:13:32,079 --> 00:13:37,160
+hop to the section down below which
+
+319
+00:13:35,320 --> 00:13:40,760
+actually is most of our Logic for this
+
+320
+00:13:37,160 --> 00:13:42,880
+entire day everything here is simply if
+
+321
+00:13:40,760 --> 00:13:45,519
+it's greater than 50 it's going to be
+
+322
+00:13:42,880 --> 00:13:48,360
+green if it's between 25 and 50 it's
+
+323
+00:13:45,519 --> 00:13:51,040
+going to be yellow Amber and if it's
+
+324
+00:13:48,360 --> 00:13:54,399
+less than 25% we want it to have a small
+
+325
+00:13:51,040 --> 00:13:56,160
+pulsating effect of red then we're going
+
+326
+00:13:54,399 --> 00:13:57,920
+to Simply print that percentage of what
+
+327
+00:13:56,160 --> 00:13:59,199
+it is to the monitor after every time
+
+328
+00:13:57,920 --> 00:14:01,000
+going to here in theop Loop and we're
+
+329
+00:13:59,199 --> 00:14:03,880
+going to give it a tiny tiny little
+
+330
+00:14:01,000 --> 00:14:06,800
+delay just so it doesn't scroll too fast
+
+331
+00:14:03,880 --> 00:14:09,959
+now let's start off by doing exactly and
+
+332
+00:14:06,800 --> 00:14:12,199
+showing off exactly how this works if
+
+333
+00:14:09,959 --> 00:14:15,639
+the battery percentage is greater than
+
+334
+00:14:12,199 --> 00:14:17,920
+or equal to 50 then we want to display
+
+335
+00:14:15,639 --> 00:14:21,880
+it green and that's exactly what we do
+
+336
+00:14:17,920 --> 00:14:23,680
+red off green on Blue off however
+
+337
+00:14:21,880 --> 00:14:25,120
+there's a chance the battery isn't going
+
+338
+00:14:23,680 --> 00:14:27,720
+to be
+
+339
+00:14:25,120 --> 00:14:30,240
+green but we don't want to use an lse
+
+340
+00:14:27,720 --> 00:14:32,160
+statement here if we use an L statement
+
+341
+00:14:30,240 --> 00:14:35,880
+for the next one it would automatically
+
+342
+00:14:32,160 --> 00:14:38,079
+be run no matter what you could have a a
+
+343
+00:14:35,880 --> 00:14:39,720
+bit of code where it's else and then in
+
+344
+00:14:38,079 --> 00:14:41,399
+the brackets you have another if
+
+345
+00:14:39,720 --> 00:14:44,480
+statement and then another and then an
+
+346
+00:14:41,399 --> 00:14:46,519
+El statement but to simplify this we can
+
+347
+00:14:44,480 --> 00:14:49,880
+actually have multiple logic statements
+
+348
+00:14:46,519 --> 00:14:51,800
+combined together by having if else if
+
+349
+00:14:49,880 --> 00:14:53,600
+another set of else if another set of
+
+350
+00:14:51,800 --> 00:14:55,759
+else if and then finally an else if we
+
+351
+00:14:53,600 --> 00:14:57,720
+wanted to have another else and we can
+
+352
+00:14:55,759 --> 00:15:00,360
+combine all of that to simplify our code
+
+353
+00:14:57,720 --> 00:15:02,600
+a lot so this else if is a new statement
+
+354
+00:15:00,360 --> 00:15:04,440
+that allows us to run only if it's not
+
+355
+00:15:02,600 --> 00:15:07,320
+supposed to be green it's going to run
+
+356
+00:15:04,440 --> 00:15:09,120
+this code here but what this allows us
+
+357
+00:15:07,320 --> 00:15:11,800
+to do is it allows us to have another
+
+358
+00:15:09,120 --> 00:15:13,920
+logic under here in case let's just say
+
+359
+00:15:11,800 --> 00:15:16,320
+let's just say theoretically we don't
+
+360
+00:15:13,920 --> 00:15:18,079
+want to run this because let's just say
+
+361
+00:15:16,320 --> 00:15:20,279
+that it is supposed to be red if it's
+
+362
+00:15:18,079 --> 00:15:22,160
+supposed to be red then this would be
+
+363
+00:15:20,279 --> 00:15:23,720
+false and it would run to here but we
+
+364
+00:15:22,160 --> 00:15:26,320
+don't want to run this so we have an
+
+365
+00:15:23,720 --> 00:15:28,759
+else if statement that will only run if
+
+366
+00:15:26,320 --> 00:15:31,800
+this is true but if this isn't true then
+
+367
+00:15:28,759 --> 00:15:33,639
+we want to jump to the statement here so
+
+368
+00:15:31,800 --> 00:15:36,160
+if the battery percentage is greater
+
+369
+00:15:33,639 --> 00:15:39,920
+than 50 we'll make it green else if it's
+
+370
+00:15:36,160 --> 00:15:41,680
+going to be between 25 and 50 then we
+
+371
+00:15:39,920 --> 00:15:44,160
+want to have it as a little yellow
+
+372
+00:15:41,680 --> 00:15:46,720
+warning and then finally
+
+373
+00:15:44,160 --> 00:15:50,639
+else we're going to have when it's less
+
+374
+00:15:46,720 --> 00:15:52,880
+than 25% we're going to have a pulsating
+
+375
+00:15:50,639 --> 00:15:55,839
+effect that we'd use by simply adding in
+
+376
+00:15:52,880 --> 00:15:58,600
+a turning off the LED and then delaying
+
+377
+00:15:55,839 --> 00:16:01,160
+by a very very brief 20 millisecond
+
+378
+00:15:58,600 --> 00:16:03,959
+seconds which again is even less than
+
+379
+00:16:01,160 --> 00:16:08,759
+1/10th of a second it's actually closer
+
+380
+00:16:03,959 --> 00:16:12,040
+to so this is 2/10 of oneth of a second
+
+381
+00:16:08,759 --> 00:16:14,000
+so it's very very brief but by doing so
+
+382
+00:16:12,040 --> 00:16:18,120
+and turning off and then displaying the
+
+383
+00:16:14,000 --> 00:16:21,600
+red red on green blue off it allows us
+
+384
+00:16:18,120 --> 00:16:23,839
+to have a little tiny pulsating effect
+
+385
+00:16:21,600 --> 00:16:25,920
+to add a slight bit of extra intensity
+
+386
+00:16:23,839 --> 00:16:28,199
+to that warning your batter is running
+
+387
+00:16:25,920 --> 00:16:29,880
+very low finally of course like I
+
+388
+00:16:28,199 --> 00:16:31,759
+mentioned before we just we print these
+
+389
+00:16:29,880 --> 00:16:33,199
+percentages out and give a little delay
+
+390
+00:16:31,759 --> 00:16:35,079
+then hop back to the beginning of Loop
+
+391
+00:16:33,199 --> 00:16:36,920
+and execute the same thing once again
+
+392
+00:16:35,079 --> 00:16:38,000
+over and over and over again until the
+
+393
+00:16:36,920 --> 00:16:40,519
+end of
+
+394
+00:16:38,000 --> 00:16:42,279
+time once you have all this wired up you
+
+395
+00:16:40,519 --> 00:16:45,120
+can go ahead and try hitting upload and
+
+396
+00:16:42,279 --> 00:16:47,839
+see it working for yourself and now with
+
+397
+00:16:45,120 --> 00:16:49,319
+that that is now the end of day nine um
+
+398
+00:16:47,839 --> 00:16:51,920
+and I look forward to seeing you guys
+
+399
+00:16:49,319 --> 00:16:55,279
+again
+
+400
+00:16:51,920 --> 00:16:58,720
+tomorrow welcome to the day n wiring
+
+401
+00:16:55,279 --> 00:17:01,800
+example video today we'll be building on
+
+402
+00:16:58,720 --> 00:17:05,160
+what we've learned in Days Seven and 8
+
+403
+00:17:01,800 --> 00:17:08,039
+and use both the photo resistor and the
+
+404
+00:17:05,160 --> 00:17:10,439
+three-color LED to build a visual
+
+405
+00:17:08,039 --> 00:17:13,520
+indicator that displays the state of
+
+406
+00:17:10,439 --> 00:17:17,039
+charge of our battery system now looking
+
+407
+00:17:13,520 --> 00:17:19,919
+at our breadboard we see that once again
+
+408
+00:17:17,039 --> 00:17:23,319
+we have two subcircuits built on the
+
+409
+00:17:19,919 --> 00:17:25,959
+left we have the photo resistor circuit
+
+410
+00:17:23,319 --> 00:17:29,120
+to give us an analog light intensity
+
+411
+00:17:25,959 --> 00:17:32,720
+measurement and as before it's supplied
+
+412
+00:17:29,120 --> 00:17:33,600
+with plus 5 volts from the hero via this
+
+413
+00:17:32,720 --> 00:17:37,640
+red
+
+414
+00:17:33,600 --> 00:17:41,000
+wire and the circuit which is completed
+
+415
+00:17:37,640 --> 00:17:44,200
+through the photo resistor and the
+
+416
+00:17:41,000 --> 00:17:48,120
+series resistor completes back to ground
+
+417
+00:17:44,200 --> 00:17:50,320
+and this case it's by way of a ground
+
+418
+00:17:48,120 --> 00:17:54,120
+bus that we've set up along the blue
+
+419
+00:17:50,320 --> 00:17:57,000
+line on the top side of our breadboard
+
+420
+00:17:54,120 --> 00:17:59,960
+and the reason for doing that is it will
+
+421
+00:17:57,000 --> 00:18:03,840
+also use this same ground bus to provide
+
+422
+00:17:59,960 --> 00:18:07,840
+ground for our other circuit as well now
+
+423
+00:18:03,840 --> 00:18:10,159
+as we've done before in order to get the
+
+424
+00:18:07,840 --> 00:18:12,480
+analog signal that we need of light
+
+425
+00:18:10,159 --> 00:18:14,600
+intensity measurement we have a jumper
+
+426
+00:18:12,480 --> 00:18:19,000
+wire that connects from the positive
+
+427
+00:18:14,600 --> 00:18:22,600
+side of our series resistor to pin a z
+
+428
+00:18:19,000 --> 00:18:25,480
+the analog input pin on the hero and so
+
+429
+00:18:22,600 --> 00:18:28,679
+that is what will provide our intensity
+
+430
+00:18:25,480 --> 00:18:31,360
+signal okay shifting our attention over
+
+431
+00:18:28,679 --> 00:18:33,280
+to the right side of the breadboard we
+
+432
+00:18:31,360 --> 00:18:36,720
+have the circuit here that drives the
+
+433
+00:18:33,280 --> 00:18:40,240
+three channels of the RGB LED pretty
+
+434
+00:18:36,720 --> 00:18:42,360
+much just exactly as we did in day eight
+
+435
+00:18:40,240 --> 00:18:45,120
+the only minor difference here is in the
+
+436
+00:18:42,360 --> 00:18:47,120
+ground connection which as before rather
+
+437
+00:18:45,120 --> 00:18:50,120
+than the ground connection going
+
+438
+00:18:47,120 --> 00:18:52,960
+directly to the ground pin on the hero
+
+439
+00:18:50,120 --> 00:18:55,760
+uh controller board instead we uh
+
+440
+00:18:52,960 --> 00:18:58,440
+connect to ground on the Common Ground
+
+441
+00:18:55,760 --> 00:18:59,840
+bus that we've provided here along the
+
+442
+00:18:58,440 --> 00:19:02,760
+top of our
+
+443
+00:18:59,840 --> 00:19:05,520
+breadboard now if we go ahead at this
+
+444
+00:19:02,760 --> 00:19:09,880
+point and load the software sketch we
+
+445
+00:19:05,520 --> 00:19:12,440
+can watch how the LED colors will change
+
+446
+00:19:09,880 --> 00:19:15,679
+as we watch the charge level rising on
+
+447
+00:19:12,440 --> 00:19:18,880
+the serial monitor console and what
+
+448
+00:19:15,679 --> 00:19:22,000
+we'll expect to see is the following
+
+449
+00:19:18,880 --> 00:19:26,640
+sequence first if the battery starts off
+
+450
+00:19:22,000 --> 00:19:29,720
+at 0% charge the LED will be then in its
+
+451
+00:19:26,640 --> 00:19:33,280
+pulsating red warning mode so we should
+
+452
+00:19:29,720 --> 00:19:36,480
+see a pulsating red light then as we
+
+453
+00:19:33,280 --> 00:19:39,720
+watch the charge rise as it reaches
+
+454
+00:19:36,480 --> 00:19:43,240
+25% the sketch will cause the LED to
+
+455
+00:19:39,720 --> 00:19:45,840
+switch to Yellow for caution mode then
+
+456
+00:19:43,240 --> 00:19:49,080
+finally as the charge continues to rise
+
+457
+00:19:45,840 --> 00:19:51,720
+when it gets above 50% the LED switches
+
+458
+00:19:49,080 --> 00:19:54,280
+over to Green for safe mode and then
+
+459
+00:19:51,720 --> 00:19:58,440
+it'll remain that way all the way up to
+
+460
+00:19:54,280 --> 00:20:01,720
+100% charge so at this point we're ready
+
+461
+00:19:58,440 --> 00:20:04,039
+to go ahead and and try it let's cover
+
+462
+00:20:01,720 --> 00:20:06,480
+up the photo resistor to start so that
+
+463
+00:20:04,039 --> 00:20:08,280
+it begins in the dark and once the
+
+464
+00:20:06,480 --> 00:20:10,200
+sketch is loaded we can go ahead and
+
+465
+00:20:08,280 --> 00:20:14,799
+expose it to light and watch the
+
+466
+00:20:10,200 --> 00:20:16,760
+charging process uh take place so going
+
+467
+00:20:14,799 --> 00:20:21,480
+over to the
+
+468
+00:20:16,760 --> 00:20:25,200
+IDE let's go ahead and upload the
+
+469
+00:20:21,480 --> 00:20:25,200
+sketch sketch is now
+
+470
+00:20:27,159 --> 00:20:33,000
+uploading and we're going we can now see
+
+471
+00:20:29,960 --> 00:20:36,360
+that we're at 0% charge and we're in the
+
+472
+00:20:33,000 --> 00:20:39,240
+uh red mode of the LED so I remove the
+
+473
+00:20:36,360 --> 00:20:41,520
+black cloth I can see that uh the charge
+
+474
+00:20:39,240 --> 00:20:47,640
+level's Rising we're now up to about
+
+475
+00:20:41,520 --> 00:20:49,760
+8% 9% 10% and so on once we reach 25% we
+
+476
+00:20:47,640 --> 00:20:52,280
+should see a change in the LED and so
+
+477
+00:20:49,760 --> 00:20:54,159
+that should be coming up just about now
+
+478
+00:20:52,280 --> 00:20:57,039
+and there we go we've switched over to
+
+479
+00:20:54,159 --> 00:21:00,159
+Yellow mode and we'll be in this yellow
+
+480
+00:20:57,039 --> 00:21:02,039
+mode here until the charge level reaches
+
+481
+00:21:00,159 --> 00:21:05,159
+we could pause this if we wanted by
+
+482
+00:21:02,039 --> 00:21:08,679
+covering up the uh photo resistor but if
+
+483
+00:21:05,159 --> 00:21:12,120
+I keep it going and we reach
+
+484
+00:21:08,679 --> 00:21:14,600
+50% there we have switched over to green
+
+485
+00:21:12,120 --> 00:21:17,360
+and so we can let this go and continue
+
+486
+00:21:14,600 --> 00:21:20,760
+to rise and in a few more seconds we
+
+487
+00:21:17,360 --> 00:21:24,279
+should reach 100% and we'll see the
+
+488
+00:21:20,760 --> 00:21:26,799
+numbers um stop Rising on the on the
+
+489
+00:21:24,279 --> 00:21:29,799
+serial
+
+490
+00:21:26,799 --> 00:21:32,640
+monitor so it looks as though our uh
+
+491
+00:21:29,799 --> 00:21:35,520
+project here is is working as
+
+492
+00:21:32,640 --> 00:21:37,960
+anticipated and we've made yet another
+
+493
+00:21:35,520 --> 00:21:40,919
+bit of progress towards uh being able to
+
+494
+00:21:37,960 --> 00:21:45,000
+use the hero to uh restore our systems
+
+495
+00:21:40,919 --> 00:21:47,360
+to function so that pretty much covers
+
+496
+00:21:45,000 --> 00:21:50,159
+the features and functions of today's
+
+497
+00:21:47,360 --> 00:21:53,679
+project congratulations on the success
+
+498
+00:21:50,159 --> 00:21:57,240
+you've had so far after another little
+
+499
+00:21:53,679 --> 00:21:59,720
+break another creative day we'll come
+
+500
+00:21:57,240 --> 00:22:02,440
+back and we'll dive into the next
+
+501
+00:21:59,720 --> 00:22:06,880
+challenge and learn how to start sending
+
+502
+00:22:02,440 --> 00:22:09,520
+keypad input to our hero so until then
+
+503
+00:22:06,880 --> 00:22:11,760
+have a good time
+
+504
+00:22:09,520 --> 00:22:13,440
+inventing looks like you've managed to
+
+505
+00:22:11,760 --> 00:22:15,600
+navigate your way through another week
+
+506
+00:22:13,440 --> 00:22:18,039
+of this chaotic Adventure you've got
+
+507
+00:22:15,600 --> 00:22:20,080
+your battery charging up and a shiny new
+
+508
+00:22:18,039 --> 00:22:23,159
+light indicator to show just how well
+
+509
+00:22:20,080 --> 00:22:25,320
+you're doing I must say not bad for a
+
+510
+00:22:23,159 --> 00:22:27,640
+rookie remember when you were struggling
+
+511
+00:22:25,320 --> 00:22:30,480
+with basic switches seems like ages ago
+
+512
+00:22:27,640 --> 00:22:32,720
+now you humans grow up so fast you've
+
+513
+00:22:30,480 --> 00:22:35,120
+come quite a long way fixing power and
+
+514
+00:22:32,720 --> 00:22:37,200
+oxygen lighting up your life and now
+
+515
+00:22:35,120 --> 00:22:39,919
+you've even got a handy colorcoded
+
+516
+00:22:37,200 --> 00:22:42,000
+battery life indicator great job but we
+
+517
+00:22:39,919 --> 00:22:44,240
+need to start ramping your progress up
+
+518
+00:22:42,000 --> 00:22:45,760
+this is a spaceship not a submarine our
+
+519
+00:22:44,240 --> 00:22:48,080
+mother ship's orbit is beginning to
+
+520
+00:22:45,760 --> 00:22:49,600
+degrade if we don't get our heads above
+
+521
+00:22:48,080 --> 00:22:53,230
+water soon we'll need to start thinking
+
+522
+00:22:49,600 --> 00:22:55,600
+long term and batteries don't last
+
+523
+00:22:53,230 --> 00:22:58,159
+[Music]
+
+524
+00:22:55,600 --> 00:23:00,360
+forever I've started naming some of
+
+525
+00:22:58,159 --> 00:23:04,799
+entities that revisit the ship that's
+
+526
+00:23:00,360 --> 00:23:04,799
+definitely Rachel she sounds
+
+527
+00:23:04,960 --> 00:23:19,280
+[Music]
+
+528
+00:23:23,919 --> 00:23:26,919
+hungry
+

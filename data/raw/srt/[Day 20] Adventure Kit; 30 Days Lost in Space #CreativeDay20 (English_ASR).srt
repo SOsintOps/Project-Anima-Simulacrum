@@ -1,0 +1,220 @@
+1
+00:00:00,160 --> 00:00:05,319
+welcome to the fourth creative day only
+
+2
+00:00:02,760 --> 00:00:07,839
+two left to go and that's including
+
+3
+00:00:05,319 --> 00:00:10,320
+today by the way so you guys are getting
+
+4
+00:00:07,839 --> 00:00:12,679
+very close congratulations I'm making it
+
+5
+00:00:10,320 --> 00:00:14,879
+to the water's surface at this point the
+
+6
+00:00:12,679 --> 00:00:18,039
+only device you have not used yet is the
+
+7
+00:00:14,879 --> 00:00:22,160
+OLED display the amount of open-ended
+
+8
+00:00:18,039 --> 00:00:24,080
+projects you can make now are truly vast
+
+9
+00:00:22,160 --> 00:00:26,119
+however here are some good prompts for
+
+10
+00:00:24,080 --> 00:00:27,920
+you anyways just in case you wanted to
+
+11
+00:00:26,119 --> 00:00:31,080
+have some ideas of some stuff that you
+
+12
+00:00:27,920 --> 00:00:36,040
+can work on first of all you can make a
+
+13
+00:00:31,080 --> 00:00:40,520
+color mixer with the RGB LED so by using
+
+14
+00:00:36,040 --> 00:00:43,160
+the rotary encoder you can have a dial
+
+15
+00:00:40,520 --> 00:00:46,360
+to adjust the RGB values to create some
+
+16
+00:00:43,160 --> 00:00:48,920
+custom colors I also recommend adding in
+
+17
+00:00:46,360 --> 00:00:52,920
+the 4x4 keypad so you can actually
+
+18
+00:00:48,920 --> 00:00:55,440
+select maybe a B and C are r g and B red
+
+19
+00:00:52,920 --> 00:00:57,120
+green and blue respectively or however
+
+20
+00:00:55,440 --> 00:00:59,559
+you want to have it set up maybe you do
+
+21
+00:00:57,120 --> 00:01:02,039
+it that way um so you can select which
+
+22
+00:00:59,559 --> 00:01:04,040
+color you are adjusting and then adj
+
+23
+00:01:02,039 --> 00:01:08,159
+just just allow the value to go between
+
+24
+00:01:04,040 --> 00:01:10,600
+0 and 255 to set how much of that color
+
+25
+00:01:08,159 --> 00:01:14,640
+you want it to be and then display on
+
+26
+00:01:10,600 --> 00:01:17,200
+the RGB LED what that is another good
+
+27
+00:01:14,640 --> 00:01:19,640
+project idea is the digital alarm clock
+
+28
+00:01:17,200 --> 00:01:22,640
+with the seven segment display and the
+
+29
+00:01:19,640 --> 00:01:25,600
+buzzer so you can create a digital clock
+
+30
+00:01:22,640 --> 00:01:27,960
+using those two and then even add if you
+
+31
+00:01:25,600 --> 00:01:30,759
+want to go above and beyond a rotary
+
+32
+00:01:27,960 --> 00:01:32,960
+encoder to then set the time
+
+33
+00:01:30,759 --> 00:01:34,520
+then you can set an alarm to go off at
+
+34
+00:01:32,960 --> 00:01:36,960
+perhaps a certain time or a certain
+
+35
+00:01:34,520 --> 00:01:38,399
+moment that is up to you I'd love to see
+
+36
+00:01:36,960 --> 00:01:41,320
+what creative things you can come up
+
+37
+00:01:38,399 --> 00:01:45,119
+with with that one finally I don't know
+
+38
+00:01:41,320 --> 00:01:49,759
+if you remember on day 12 specifically
+
+39
+00:01:45,119 --> 00:01:53,280
+the day 12a inspiration for you guys you
+
+40
+00:01:49,759 --> 00:01:56,039
+guys can also look into making a jukebox
+
+41
+00:01:53,280 --> 00:01:58,360
+with the buzzer and maybe even the 4x4
+
+42
+00:01:56,039 --> 00:02:00,200
+keypad where each of the buttons maybe
+
+43
+00:01:58,360 --> 00:02:03,560
+press you press it and then it Cycles
+
+44
+00:02:00,200 --> 00:02:06,119
+through various songs on the jukebox now
+
+45
+00:02:03,560 --> 00:02:09,080
+be warned just in case uh of a little
+
+46
+00:02:06,119 --> 00:02:11,000
+bit too much memory usage perhaps once
+
+47
+00:02:09,080 --> 00:02:12,640
+you're done be sure to share on
+
+48
+00:02:11,000 --> 00:02:17,040
+inventor.
+
+49
+00:02:12,640 --> 00:02:18,560
+i/f with the hash creative day20 looking
+
+50
+00:02:17,040 --> 00:02:20,680
+forward to seeing what you guys can come
+
+51
+00:02:18,560 --> 00:02:23,480
+up with of course if you run into any
+
+52
+00:02:20,680 --> 00:02:27,160
+troubles just like always your fellow
+
+53
+00:02:23,480 --> 00:02:31,030
+inventors are always there at
+
+54
+00:02:27,160 --> 00:02:52,860
+inventor. thank you guys so much
+
+55
+00:02:31,030 --> 00:02:52,860
+[Music]
+

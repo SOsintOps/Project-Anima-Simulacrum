@@ -1,0 +1,496 @@
+1
+00:00:01,280 --> 00:00:08,619
+[Music]
+
+2
+00:00:41,480 --> 00:00:46,360
+job well done Explorer I never doubted
+
+3
+00:00:43,920 --> 00:00:46,360
+you for a
+
+4
+00:00:58,920 --> 00:01:01,920
+moment
+
+5
+00:01:04,159 --> 00:01:07,560
+hey everybody my name's Alex you might
+
+6
+00:01:05,880 --> 00:01:09,240
+know me from the code explanations
+
+7
+00:01:07,560 --> 00:01:10,799
+throughout the course I want to
+
+8
+00:01:09,240 --> 00:01:13,840
+congratulate you on making it through
+
+9
+00:01:10,799 --> 00:01:16,200
+the 30-day loss in space challenge but
+
+10
+00:01:13,840 --> 00:01:18,400
+your journey does not end here luckily
+
+11
+00:01:16,200 --> 00:01:20,920
+there's still more for you to do if you
+
+12
+00:01:18,400 --> 00:01:24,119
+so want to I would say if anything your
+
+13
+00:01:20,920 --> 00:01:26,560
+journey has just begun so to give you a
+
+14
+00:01:24,119 --> 00:01:28,640
+quick history on the 30 days loss in
+
+15
+00:01:26,560 --> 00:01:31,680
+space challenge this originally was a
+
+16
+00:01:28,640 --> 00:01:34,799
+project that started back in 2020 with
+
+17
+00:01:31,680 --> 00:01:37,119
+just me and I had a little astronaut
+
+18
+00:01:34,799 --> 00:01:39,320
+suit in a green screen in Austin's
+
+19
+00:01:37,119 --> 00:01:42,240
+apartment back when we were very very
+
+20
+00:01:39,320 --> 00:01:44,920
+first Young starting um this inventor
+
+21
+00:01:42,240 --> 00:01:48,719
+company all right so welcome back again
+
+22
+00:01:44,920 --> 00:01:51,000
+this is day 25 uh and like every fifth
+
+23
+00:01:48,719 --> 00:01:53,479
+day of the 30-day challenge we're going
+
+24
+00:01:51,000 --> 00:01:56,119
+to give you guys that creative Outlet
+
+25
+00:01:53,479 --> 00:01:59,439
+once again and we got a lot of feedback
+
+26
+00:01:56,119 --> 00:02:01,399
+from you guys both critical and good and
+
+27
+00:01:59,439 --> 00:02:04,560
+we took that feedback and then came up
+
+28
+00:02:01,399 --> 00:02:07,119
+with a revision back in 2021 and we had
+
+29
+00:02:04,560 --> 00:02:09,440
+our wonderful man Greg Greg who you
+
+30
+00:02:07,119 --> 00:02:11,160
+might recognize was a person in this
+
+31
+00:02:09,440 --> 00:02:13,040
+version of the videos who did all the
+
+32
+00:02:11,160 --> 00:02:15,840
+wiring but in the previous version he
+
+33
+00:02:13,040 --> 00:02:18,800
+was kind of the ASD the entire character
+
+34
+00:02:15,840 --> 00:02:22,519
+cast for the entire thing um back in
+
+35
+00:02:18,800 --> 00:02:24,319
+2021 and he is a a man the myth The
+
+36
+00:02:22,519 --> 00:02:27,800
+Legend and I love him to death and thank
+
+37
+00:02:24,319 --> 00:02:32,560
+you so much Greg um I appreciate you I
+
+38
+00:02:27,800 --> 00:02:35,319
+am a pre-recorded AI who will attempt to
+
+39
+00:02:32,560 --> 00:02:38,440
+give you all the information necessary
+
+40
+00:02:35,319 --> 00:02:41,280
+for your success this version we had
+
+41
+00:02:38,440 --> 00:02:43,560
+obviously the code improvements and the
+
+42
+00:02:41,280 --> 00:02:44,800
+wiring obviously was Greg's Focus but
+
+43
+00:02:43,560 --> 00:02:47,840
+then we also got a little bit more
+
+44
+00:02:44,800 --> 00:02:50,280
+energy with ASD so I want to give uh
+
+45
+00:02:47,840 --> 00:02:52,800
+credit to the actor for that because she
+
+46
+00:02:50,280 --> 00:02:55,239
+did a wonderful wonderful job playing in
+
+47
+00:02:52,800 --> 00:02:57,080
+the 30 days loss and space so after
+
+48
+00:02:55,239 --> 00:02:58,959
+about 3 years of a total amount of
+
+49
+00:02:57,080 --> 00:03:01,159
+feedback we were able to get and over a
+
+50
+00:02:58,959 --> 00:03:03,200
+100,000 members in our Facebook
+
+51
+00:03:01,159 --> 00:03:05,440
+Community now that we've grown we have
+
+52
+00:03:03,200 --> 00:03:08,480
+grown to an insane number and it's it's
+
+53
+00:03:05,440 --> 00:03:10,519
+wonderful um we finally came up with the
+
+54
+00:03:08,480 --> 00:03:12,920
+revision that you guys have just
+
+55
+00:03:10,519 --> 00:03:15,440
+completed now so we hope you've enjoyed
+
+56
+00:03:12,920 --> 00:03:18,319
+and uh obviously we look forward to
+
+57
+00:03:15,440 --> 00:03:21,640
+seeing you guys hopefully joining us for
+
+58
+00:03:18,319 --> 00:03:22,879
+what's next so what is next well first
+
+59
+00:03:21,640 --> 00:03:25,280
+of all if you haven't joined the
+
+60
+00:03:22,879 --> 00:03:28,319
+Facebook group join it like I said we
+
+61
+00:03:25,280 --> 00:03:30,280
+have over I mean it was 100,000 Members
+
+62
+00:03:28,319 --> 00:03:31,840
+Plus at the time of recording the video
+
+63
+00:03:30,280 --> 00:03:34,400
+there's a chance when you join now it'll
+
+64
+00:03:31,840 --> 00:03:36,280
+be 500,000 plus I have no idea what it's
+
+65
+00:03:34,400 --> 00:03:38,519
+going to be when you join some large
+
+66
+00:03:36,280 --> 00:03:40,799
+amount of number uh probably cuz we're
+
+67
+00:03:38,519 --> 00:03:42,680
+just growing like crazy and we love it
+
+68
+00:03:40,799 --> 00:03:45,239
+in there we have weekly events we have
+
+69
+00:03:42,680 --> 00:03:47,760
+giveaways so maybe a chance to win
+
+70
+00:03:45,239 --> 00:03:50,200
+something don't get your hopes up too
+
+71
+00:03:47,760 --> 00:03:52,480
+much but uh we do have some weekly
+
+72
+00:03:50,200 --> 00:03:55,040
+events that we like to do live streams
+
+73
+00:03:52,480 --> 00:03:56,720
+Etc we try to put on we have a lot of
+
+74
+00:03:55,040 --> 00:03:58,519
+technical help so if you are building
+
+75
+00:03:56,720 --> 00:04:00,079
+out something on your own and want a
+
+76
+00:03:58,519 --> 00:04:02,000
+little bit of help the m numbers in
+
+77
+00:04:00,079 --> 00:04:04,200
+there are always super easy and
+
+78
+00:04:02,000 --> 00:04:06,040
+wonderful to help and they that's one of
+
+79
+00:04:04,200 --> 00:04:07,720
+the greatest things in the whole world
+
+80
+00:04:06,040 --> 00:04:09,519
+project inspiration I've seen a lot of
+
+81
+00:04:07,720 --> 00:04:12,360
+people post their INSP in their projects
+
+82
+00:04:09,519 --> 00:04:13,959
+that have inspired them so uh if you are
+
+83
+00:04:12,360 --> 00:04:16,239
+looking for project inspiration for
+
+84
+00:04:13,959 --> 00:04:17,799
+yourself it's a good place to go check
+
+85
+00:04:16,239 --> 00:04:19,600
+and if you want something more advanced
+
+86
+00:04:17,799 --> 00:04:21,079
+I highly recommend checking out we have
+
+87
+00:04:19,600 --> 00:04:23,919
+another adventure kit after this the
+
+88
+00:04:21,079 --> 00:04:26,080
+adventure kit 2 or um if you're looking
+
+89
+00:04:23,919 --> 00:04:27,880
+into the world of sensors and uh
+
+90
+00:04:26,080 --> 00:04:30,440
+interacting with the outside world I
+
+91
+00:04:27,880 --> 00:04:31,560
+recommend a 37 in1 sensor kit or if you
+
+92
+00:04:30,440 --> 00:04:33,000
+want something that works really well
+
+93
+00:04:31,560 --> 00:04:34,919
+with your hero board right now just a
+
+94
+00:04:33,000 --> 00:04:37,520
+quick popon device maybe a slightly more
+
+95
+00:04:34,919 --> 00:04:39,639
+beginner you can check out our Shields
+
+96
+00:04:37,520 --> 00:04:41,240
+kit finally if you want some more
+
+97
+00:04:39,639 --> 00:04:43,840
+projects with the parts that you already
+
+98
+00:04:41,240 --> 00:04:45,880
+have we do have an invent you catalog
+
+99
+00:04:43,840 --> 00:04:47,080
+with a repo of a lot of our old weekly
+
+100
+00:04:45,880 --> 00:04:49,120
+live streams that we're starting to
+
+101
+00:04:47,080 --> 00:04:50,759
+build up the first of which will all be
+
+102
+00:04:49,120 --> 00:04:52,320
+using parts that you already have
+
+103
+00:04:50,759 --> 00:04:53,440
+available in your adventure kit so if
+
+104
+00:04:52,320 --> 00:04:55,280
+you're looking for some additional
+
+105
+00:04:53,440 --> 00:04:57,039
+projects I highly recommend checking
+
+106
+00:04:55,280 --> 00:04:59,320
+that out cuz that should have a ton of
+
+107
+00:04:57,039 --> 00:05:01,039
+extra projects uh for you to build up if
+
+108
+00:04:59,320 --> 00:05:02,880
+you would like so with that I want to
+
+109
+00:05:01,039 --> 00:05:05,199
+thank you guys for once again completing
+
+110
+00:05:02,880 --> 00:05:06,639
+the 30 days loss and space challenge for
+
+111
+00:05:05,199 --> 00:05:08,720
+those of you who have been with us for
+
+112
+00:05:06,639 --> 00:05:10,039
+the entire 3 years I've seen some of
+
+113
+00:05:08,720 --> 00:05:11,520
+people in the comments that are going
+
+114
+00:05:10,039 --> 00:05:13,680
+through another time just because they
+
+115
+00:05:11,520 --> 00:05:15,680
+want to see what's changed thank you
+
+116
+00:05:13,680 --> 00:05:17,960
+guys thank you all so very much for
+
+117
+00:05:15,680 --> 00:05:19,639
+being here for those three years um and
+
+118
+00:05:17,960 --> 00:05:21,600
+for those of you that are new welcome to
+
+119
+00:05:19,639 --> 00:05:23,319
+the community of course join the
+
+120
+00:05:21,600 --> 00:05:25,080
+Facebook group and we're glad to have
+
+121
+00:05:23,319 --> 00:05:28,479
+you thank you once again and we hope to
+
+122
+00:05:25,080 --> 00:05:30,520
+see you guys around
+
+123
+00:05:28,479 --> 00:05:49,100
+peace
+
+124
+00:05:30,520 --> 00:05:49,100
+[Music]
+

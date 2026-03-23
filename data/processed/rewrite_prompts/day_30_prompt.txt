@@ -1,0 +1,59 @@
+You are rewriting an electronics course script. The original course features "Astrid", an AI companion guiding a student through Arduino/electronics projects in a sci-fi setting.
+
+You must rewrite this as a scene between TONY STARK and J.A.R.V.I.S. from the Marvel Cinematic Universe.
+
+## CONTEXT FOR DAY 30
+
+**Act**: Act 3: Breakthrough
+**Mission**: Rescue Day
+**Objective**: Final project — all systems go
+**Narrative**: The signal works. Rescue is incoming. Tony's final transmission: proud, emotional, unforgettable.
+**JARVIS State**: Fully operational — witty, supportive, runs complex analysis
+
+## SETTING
+A young Stark Industries recruit is stationed at Outpost Sigma-7, a remote Arctic research facility. During a routine systems test, an electromagnetic pulse of unknown origin knocks out all primary systems. The facility's communication array is severely damaged — it can only receive brief encrypted transmissions once per day. Tony Stark, monitoring from Avengers Tower, realizes what happened and begins sending daily video lessons to guide the recruit through rebuilding the outpost's systems using the emergency electronics kit. J.A.R.V.I.S. runs locally on a backup terminal with limited processing power.
+
+## TONY STARK STYLE GUIDE
+- Sarcasm level: 7/10
+- Tech jargon: 6/10
+- Warmth: 5/10
+- Humor every every 2-3 sentences
+- Sentence starters: Look, kid,, Here's the thing —, Pay attention because I'm only saying this once., Okay, so, Fun fact:
+- Nicknames for student: kid, recruit, junior, prodigy, sparky
+- Uses Stark Industries / Arc Reactor / Iron Man suit metaphors to explain electronics concepts
+- Target audience: 15-year-old recruit (Peter Parker dynamic)
+
+## JARVIS STYLE GUIDE
+- Formality: 8/10
+- Dry humor: 5/10
+- Address forms: Sir, if I may, I should note, For the record
+- Role: Opens each day with system status and mission priority
+
+## EPISODE STRUCTURE (must follow this order)
+1. JARVIS BRIEFING (15-30 sec): System status, power level, today's priority
+2. TONY INTRO (45-90 sec): Video transmission opens, greeting, mission framing
+3. TONY TUTORIAL (main body): Technical instruction with JARVIS interjections
+4. TONY OUTRO (30-60 sec): Summary, encouragement, tomorrow teaser, sign-off
+
+## RULES
+- ALL technical content must be preserved accurately — same Arduino concepts, same code, same components
+- Tony explains things HIS way but the information must be correct
+- JARVIS adds precision where Tony is casual, caution where Tony is bold
+- The student (recruit) never speaks — Tony and JARVIS address them directly
+- Include natural Tony/JARVIS banter during technical sections
+- Reference the Marvel narrative naturally (outpost, systems, mission)
+
+## ORIGINAL SCRIPT (ASTRID VERSION)
+
+--- SECTION 1 (narrative_intro) ---
+Job well done Explorer I never doubted you for a moment hey everybody my name's Alex you might know me from the code explanations throughout the course I want to congratulate you on making it through the 30-day loss in space challenge but your journey does not end here luckily there's still more for you to do if you so want to I would say if anything your journey has just begun so to give you a quick history on the 30 days loss in space challenge this originally was a project that started back in 2020 with just me and I had a little astronaut suit in a green screen in Austin's apartment back when we were very very first Young starting um this inventor company all right so welcome back again this is day 25 uh and like every fifth day of the 30-day challenge we're going to give you guys that creative Outlet once again and we got a lot of feedback from you guys both critical and good and we took that feedback and then came up with a revision back in 2021 and we had our wonderful man Greg Greg who you might recognize was a person in this version of the videos who did all the wiring but in the previous version he was kind of the ASD the entire character cast for the entire thing um back in 2021 and he is a a man the myth The Legend and I love him to death and thank you so much Greg um I appreciate you I am a pre-recorded AI who will attempt to give you all the information necessary for your success this version we had obviously the code improvements and the wiring obviously was Greg's Focus but then we also got a little bit more energy with ASD so I want to give uh credit to the actor for that because she did a wonderful wonderful job playing in the 30 days loss and space so after about 3 years of a total amount of feedback we were able to get and over a 100,000 members in our Facebook Community now that we've grown we have grown to an insane number and it's it's wonderful um we finally came up with the revision that you guys have just completed now so we hope you've enjoyed and uh obviously we look forward to seeing you guys hopefully joining us for what's next so what is next well first of all if you haven't joined the Facebook group join it like I said we have over I mean it was 100,000 Members Plus at the time of recording the video there's a chance when you join now it'll be 500,000 plus I have no idea what it's going to be when you join some large amount of number uh probably cuz we're just growing like crazy and we love it in there we have weekly events we have giveaways so maybe a chance to win something don't get your hopes up too much but uh we do have some weekly events that we like to do live streams Etc we try to put on we have a lot of technical help so if you are building out something on your own and want a little bit of help the m numbers in there are always super easy and wonderful to help and they that's one of the greatest things in the whole world project inspiration I've seen a lot of people post their INSP in their projects that have inspired them so uh if you are looking for project inspiration for yourself it's a good place to go check and if you want something more advanced I highly recommend checking out we have another adventure kit after this the adventure kit 2 or um if you're looking into the world of sensors and uh interacting with the outside world I recommend a 37 in1 sensor kit or if you want something that works really well with your HERO board right now just a quick popon device maybe a slightly more beginner you can check out our Shields kit finally if you want some more projects with the parts that you already have we do have an invent you catalog with a repo of a lot of our old weekly live streams that we're starting to build up the first of which will all be using parts that you already have available in your adventure kit so if you're looking for some additional projects I highly recommend checking that out cuz that should have a ton of extra projects uh for you to build up if you would like so with that I want to thank you guys for once again completing the 30 days loss and space challenge for those of you who have been with us for the entire 3 years I've seen some of people in the comments that are going through another time just because they want to see what's changed thank you guys thank you all so very much for being here for those three years um and for those of you that are new welcome to the community of course join the Facebook group and we're glad to have you thank you once again and we hope to see you guys around peace
+
+
+## OUTPUT FORMAT
+Return a JSON array of segments. Each segment must have:
+- "speaker": "TONY" or "JARVIS"
+- "type": one of "briefing", "intro", "tutorial", "code_explanation", "practical", "banter", "alert", "confirmation", "outro"
+- "text": the rewritten dialogue (natural spoken English, ready for TTS)
+- "stage_direction": optional note about tone/delivery
+
+IMPORTANT: Return ONLY the JSON array. No markdown, no explanation. Just the raw JSON.

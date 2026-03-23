@@ -1,0 +1,200 @@
+1
+00:00:00,040 --> 00:00:04,799
+welcome to day 15 the third creative Day
+
+2
+00:00:03,040 --> 00:00:06,919
+first of all I want to give you guys a
+
+3
+00:00:04,799 --> 00:00:09,760
+round of applause on making it halfway
+
+4
+00:00:06,919 --> 00:00:11,920
+through the course yes you guys are 50%
+
+5
+00:00:09,760 --> 00:00:14,519
+of the way through the 30 days loss of
+
+6
+00:00:11,920 --> 00:00:17,600
+space adventure kit congratulations I'm
+
+7
+00:00:14,519 --> 00:00:21,000
+making it halfway you've got only well
+
+8
+00:00:17,600 --> 00:00:23,880
+50% more to go I've decided to mix
+
+9
+00:00:21,000 --> 00:00:27,160
+today's creative day up a bit normally I
+
+10
+00:00:23,880 --> 00:00:29,519
+would give an easy and a hard example or
+
+11
+00:00:27,160 --> 00:00:32,880
+hard project but today I'm going to go
+
+12
+00:00:29,519 --> 00:00:34,600
+back to the lesson from day 14 I have a
+
+13
+00:00:32,880 --> 00:00:38,440
+wonderful project for you guys to work
+
+14
+00:00:34,600 --> 00:00:41,559
+on do you remember the bu validate pin
+
+15
+00:00:38,440 --> 00:00:44,120
+function from yesterday on day 14
+
+16
+00:00:41,559 --> 00:00:46,600
+currently there's a small security flaw
+
+17
+00:00:44,120 --> 00:00:49,320
+with it as soon as an incorrect button
+
+18
+00:00:46,600 --> 00:00:51,760
+is pressed it will exit the function and
+
+19
+00:00:49,320 --> 00:00:57,000
+return an error well that makes it
+
+20
+00:00:51,760 --> 00:00:59,039
+really easy now to guess which of the uh
+
+21
+00:00:57,000 --> 00:01:01,320
+numers that was pressed or which part of
+
+22
+00:00:59,039 --> 00:01:03,719
+the pin is wrong WR so you just can
+
+23
+00:01:01,320 --> 00:01:05,840
+guess 1 through n until it goes through
+
+24
+00:01:03,719 --> 00:01:08,240
+to the second pin and then you can know
+
+25
+00:01:05,840 --> 00:01:10,680
+okay so the first pin is in this case
+
+26
+00:01:08,240 --> 00:01:13,000
+four or whatever you want it to be and
+
+27
+00:01:10,680 --> 00:01:15,880
+then the second pin is up eror up error
+
+28
+00:01:13,000 --> 00:01:18,240
+up oh the second pin's six well that's
+
+29
+00:01:15,880 --> 00:01:20,720
+easy now so it makes it really easy to
+
+30
+00:01:18,240 --> 00:01:22,600
+brute force that makes it a pretty
+
+31
+00:01:20,720 --> 00:01:24,920
+insecure system even though we've added
+
+32
+00:01:22,600 --> 00:01:27,320
+in this additional security system so
+
+33
+00:01:24,920 --> 00:01:29,000
+what we want to make it do is instead we
+
+34
+00:01:27,320 --> 00:01:32,360
+should make it so it doesn't print an
+
+35
+00:01:29,000 --> 00:01:35,000
+error and till all four numbers are
+
+36
+00:01:32,360 --> 00:01:38,439
+typed in so they don't know which number
+
+37
+00:01:35,000 --> 00:01:40,759
+was bad of course you're also open to do
+
+38
+00:01:38,439 --> 00:01:42,920
+your own project if you so desire that
+
+39
+00:01:40,759 --> 00:01:45,399
+is totally absolutely always on the
+
+40
+00:01:42,920 --> 00:01:46,680
+table once you're done share on
+
+41
+00:01:45,399 --> 00:01:50,079
+inventor.
+
+42
+00:01:46,680 --> 00:01:52,399
+i/f with the hash creative
+
+43
+00:01:50,079 --> 00:01:53,719
+day15 I am once again looking forward to
+
+44
+00:01:52,399 --> 00:01:55,920
+seeing what you come up with and if you
+
+45
+00:01:53,719 --> 00:01:58,039
+rent any issues hit up your fellow
+
+46
+00:01:55,920 --> 00:02:00,640
+inventors in the Facebook group at
+
+47
+00:01:58,039 --> 00:02:03,000
+inventor. i/f
+
+48
+00:02:00,640 --> 00:02:17,330
+thank you
+
+49
+00:02:03,000 --> 00:02:17,330
+[Music]
+
+50
+00:02:21,959 --> 00:02:24,959
+guys
+

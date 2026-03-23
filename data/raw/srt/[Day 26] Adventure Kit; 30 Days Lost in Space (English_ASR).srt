@@ -1,0 +1,1864 @@
+1
+00:00:01,280 --> 00:00:08,619
+[Music]
+
+2
+00:00:16,880 --> 00:00:23,240
+good morning Explorer good sleep that's
+
+3
+00:00:19,680 --> 00:00:25,039
+great sleeping yeah all right okay we're
+
+4
+00:00:23,240 --> 00:00:27,960
+screwed again I swear this whole mission
+
+5
+00:00:25,039 --> 00:00:30,359
+is cursed it's like this space big
+
+6
+00:00:27,960 --> 00:00:32,040
+Mothership small I can get in General
+
+7
+00:00:30,359 --> 00:00:34,320
+vicinity but we'll have to get there in
+
+8
+00:00:32,040 --> 00:00:36,879
+lots of hops that's going to take
+
+9
+00:00:34,320 --> 00:00:39,680
+forever we need finer detail over a
+
+10
+00:00:36,879 --> 00:00:42,079
+larger area so we can say go here rather
+
+11
+00:00:39,680 --> 00:00:45,000
+than waft over in its general direction
+
+12
+00:00:42,079 --> 00:00:46,480
+like a leaf in the wind hash always a
+
+13
+00:00:45,000 --> 00:00:49,800
+brown
+
+14
+00:00:46,480 --> 00:00:51,960
+coat an LED isn't going to do it led
+
+15
+00:00:49,800 --> 00:00:55,000
+segments can't do it even our small
+
+16
+00:00:51,960 --> 00:00:57,920
+screen can't do it it's time to go big
+
+17
+00:00:55,000 --> 00:01:00,239
+but small but still big all right
+
+18
+00:00:57,920 --> 00:01:02,239
+Explorer let's dive in we're about to
+
+19
+00:01:00,239 --> 00:01:05,239
+fix up our displays Graphics system to
+
+20
+00:01:02,239 --> 00:01:07,360
+guide us smoothly back home but first a
+
+21
+00:01:05,239 --> 00:01:10,560
+brief glimpse into the tech Marvel we're
+
+22
+00:01:07,360 --> 00:01:14,439
+working with our display measures
+
+23
+00:01:10,560 --> 00:01:18,360
+128x 64 pixels think of a pixel as an
+
+24
+00:01:14,439 --> 00:01:21,320
+incredibly minuscule LED so in essence
+
+25
+00:01:18,360 --> 00:01:24,960
+our display is a dazzling array of
+
+26
+00:01:21,320 --> 00:01:28,439
+8,192 of these tiny LEDs with this
+
+27
+00:01:24,960 --> 00:01:30,400
+knowledge in hand we can craft bit Maps
+
+28
+00:01:28,439 --> 00:01:32,720
+imagine these as detailed charts that
+
+29
+00:01:30,400 --> 00:01:35,960
+dictate which LEDs light up and which
+
+30
+00:01:32,720 --> 00:01:37,960
+ones stay dark get ready because today
+
+31
+00:01:35,960 --> 00:01:40,880
+we'll embark on a delightful Journey
+
+32
+00:01:37,960 --> 00:01:42,920
+with these bit maps all right Explorer
+
+33
+00:01:40,880 --> 00:01:45,320
+now that we're soaring through space and
+
+34
+00:01:42,920 --> 00:01:48,040
+our communication lines are clear I've
+
+35
+00:01:45,320 --> 00:01:50,960
+managed to fetch some topnotch data
+
+36
+00:01:48,040 --> 00:01:53,119
+assets dive into your mission resources
+
+37
+00:01:50,960 --> 00:01:55,119
+there's a treasure Trove waiting for you
+
+38
+00:01:53,119 --> 00:01:59,960
+everything you'll need as we navigate
+
+39
+00:01:55,119 --> 00:02:01,560
+forward bit by bit map and hey who said
+
+40
+00:01:59,960 --> 00:02:04,520
+a bit of creative sketching wasn't part
+
+41
+00:02:01,560 --> 00:02:06,439
+of a day's work in space alongside those
+
+42
+00:02:04,520 --> 00:02:08,560
+resources I've retrieved some
+
+43
+00:02:06,439 --> 00:02:10,720
+instructive content from your computer's
+
+44
+00:02:08,560 --> 00:02:13,239
+memory bank let's tap into those
+
+45
+00:02:10,720 --> 00:02:15,920
+resources now and set the
+
+46
+00:02:13,239 --> 00:02:19,560
+course hello and welcome everybody back
+
+47
+00:02:15,920 --> 00:02:21,560
+to art class I mean Day 26 of the
+
+48
+00:02:19,560 --> 00:02:23,840
+inventure kits Lost in Space code
+
+49
+00:02:21,560 --> 00:02:25,319
+explanations or I guess today
+
+50
+00:02:23,840 --> 00:02:28,720
+technically will be a little bit of an
+
+51
+00:02:25,319 --> 00:02:30,959
+art class or a bit of a digital art
+
+52
+00:02:28,720 --> 00:02:33,160
+class if we so take a look at today's
+
+53
+00:02:30,959 --> 00:02:35,920
+code I'm sure you guys have already seen
+
+54
+00:02:33,160 --> 00:02:38,640
+the B the part on the page allows you to
+
+55
+00:02:35,920 --> 00:02:41,879
+copy and paste you'll see that it's a
+
+56
+00:02:38,640 --> 00:02:45,879
+very large amount of code you know like
+
+57
+00:02:41,879 --> 00:02:47,959
+470 lines today don't worry about it um
+
+58
+00:02:45,879 --> 00:02:50,840
+most of that is going to be all just
+
+59
+00:02:47,959 --> 00:02:52,360
+pasted image data for our bit Maps now
+
+60
+00:02:50,840 --> 00:02:55,800
+before we begin let's actually talk a
+
+61
+00:02:52,360 --> 00:02:58,200
+little bit about what a bit map is well
+
+62
+00:02:55,800 --> 00:03:01,920
+to be blunt and simple about it it is
+
+63
+00:02:58,200 --> 00:03:06,319
+quite literally a mapping of bits it's
+
+64
+00:03:01,920 --> 00:03:09,280
+essentially telling on an 128 by 64
+
+65
+00:03:06,319 --> 00:03:11,200
+screen how what bit should we turn on
+
+66
+00:03:09,280 --> 00:03:13,720
+and what bits should we turn off it
+
+67
+00:03:11,200 --> 00:03:16,519
+gives a mapping of exactly that the way
+
+68
+00:03:13,720 --> 00:03:19,280
+we do that here is in HEX decimal using
+
+69
+00:03:16,519 --> 00:03:21,080
+this code here don't worry though you
+
+70
+00:03:19,280 --> 00:03:22,799
+don't have to type all this or whatever
+
+71
+00:03:21,080 --> 00:03:26,319
+yourself there are tools online that
+
+72
+00:03:22,799 --> 00:03:30,159
+will help you generate exactly what you
+
+73
+00:03:26,319 --> 00:03:32,200
+need so today your task is going to be
+
+74
+00:03:30,159 --> 00:03:34,599
+you can obviously use the images we
+
+75
+00:03:32,200 --> 00:03:36,840
+provided or if you'd like I'd also
+
+76
+00:03:34,599 --> 00:03:39,480
+encourage you to make your own bit map
+
+77
+00:03:36,840 --> 00:03:41,640
+as well let's first talk before we go
+
+78
+00:03:39,480 --> 00:03:44,480
+into making bit Maps let's talk a little
+
+79
+00:03:41,640 --> 00:03:45,439
+bit about the code obviously we have the
+
+80
+00:03:44,480 --> 00:03:49,720
+included
+
+81
+00:03:45,439 --> 00:03:52,239
+.h we have the libraries needed to draw
+
+82
+00:03:49,720 --> 00:03:55,239
+on our OLED
+
+83
+00:03:52,239 --> 00:03:57,319
+display we obviously created the OLED
+
+84
+00:03:55,239 --> 00:04:00,200
+object here so that we can call the
+
+85
+00:03:57,319 --> 00:04:02,519
+functions in that library and down here
+
+86
+00:04:00,200 --> 00:04:04,239
+you'll notice we have this external
+
+87
+00:04:02,519 --> 00:04:07,519
+constant unsigned
+
+88
+00:04:04,239 --> 00:04:10,079
+Char nice rocket bro which is an
+
+89
+00:04:07,519 --> 00:04:13,640
+interesting name planet bit map Earth
+
+90
+00:04:10,079 --> 00:04:15,159
+bit map and inventor Court logo bit map
+
+91
+00:04:13,640 --> 00:04:17,560
+one thing I want to mention about all
+
+92
+00:04:15,159 --> 00:04:19,799
+these is that these are mentioned as
+
+93
+00:04:17,560 --> 00:04:22,040
+externs here we wanted to have it so
+
+94
+00:04:19,799 --> 00:04:23,639
+that we didn't have a ton of code all at
+
+95
+00:04:22,040 --> 00:04:26,040
+the top we wanted to kind of clean up
+
+96
+00:04:23,639 --> 00:04:27,639
+the code a little bit so by putting this
+
+97
+00:04:26,040 --> 00:04:29,880
+external on it means that we're
+
+98
+00:04:27,639 --> 00:04:31,840
+basically allowing it to be configured
+
+99
+00:04:29,880 --> 00:04:34,240
+for the compiler so that it can actually
+
+100
+00:04:31,840 --> 00:04:36,919
+be used in here if we didn't have this
+
+101
+00:04:34,240 --> 00:04:39,759
+up here and we just had where it was all
+
+102
+00:04:36,919 --> 00:04:41,680
+defined down below see just down here
+
+103
+00:04:39,759 --> 00:04:46,960
+nice rocket Pro isn't just a short bit
+
+104
+00:04:41,680 --> 00:04:50,120
+it's this giant array of or should I say
+
+105
+00:04:46,960 --> 00:04:53,120
+mapping of uh all the data that we want
+
+106
+00:04:50,120 --> 00:04:55,960
+to display our image on the screen in
+
+107
+00:04:53,120 --> 00:04:59,280
+particular I created an image using this
+
+108
+00:04:55,960 --> 00:05:00,280
+tool online that just says nice rocket
+
+109
+00:04:59,280 --> 00:05:02,960
+bro
+
+110
+00:05:00,280 --> 00:05:06,880
+and then I converted it to a bit map
+
+111
+00:05:02,960 --> 00:05:10,240
+image and and now that when it's run and
+
+112
+00:05:06,880 --> 00:05:12,520
+said to be put on the OLED it turns
+
+113
+00:05:10,240 --> 00:05:15,639
+into we also did the exact same thing
+
+114
+00:05:12,520 --> 00:05:17,919
+for the planet bit map and we have one
+
+115
+00:05:15,639 --> 00:05:21,160
+for the unearth and then we also have
+
+116
+00:05:17,919 --> 00:05:23,759
+one for the inventor Corp logo and we
+
+117
+00:05:21,160 --> 00:05:25,880
+did all of that down there but if we
+
+118
+00:05:23,759 --> 00:05:28,000
+didn't have this up here we' get an
+
+119
+00:05:25,880 --> 00:05:30,199
+error from the compiler saying I don't
+
+120
+00:05:28,000 --> 00:05:31,720
+know where this is if we try to call it
+
+121
+00:05:30,199 --> 00:05:34,400
+somewhere else down here in the code and
+
+122
+00:05:31,720 --> 00:05:36,759
+try to put it on the display the reason
+
+123
+00:05:34,400 --> 00:05:38,840
+why is because these need to be for a
+
+124
+00:05:36,759 --> 00:05:41,560
+compiler reasons defined
+
+125
+00:05:38,840 --> 00:05:44,000
+before it gets called here in the code
+
+126
+00:05:41,560 --> 00:05:46,400
+but it also looks really bad having it
+
+127
+00:05:44,000 --> 00:05:48,479
+all the way at the top so we did this
+
+128
+00:05:46,400 --> 00:05:50,039
+here we Define it here and then have all
+
+129
+00:05:48,479 --> 00:05:51,280
+this at the bottom just so that it's
+
+130
+00:05:50,039 --> 00:05:53,039
+nice and clean so you can see all the
+
+131
+00:05:51,280 --> 00:05:55,680
+code first and then not worry about all
+
+132
+00:05:53,039 --> 00:05:57,960
+the bits down here that don't don't
+
+133
+00:05:55,680 --> 00:05:59,199
+really matter all that much at the end
+
+134
+00:05:57,960 --> 00:06:00,720
+of the day since they're just computer
+
+135
+00:05:59,199 --> 00:06:03,560
+gener generated using a program that
+
+136
+00:06:00,720 --> 00:06:06,160
+I'll show you in just a moment so those
+
+137
+00:06:03,560 --> 00:06:09,520
+are all defined here and then down here
+
+138
+00:06:06,160 --> 00:06:11,840
+we have a array of bit Maps so this will
+
+139
+00:06:09,520 --> 00:06:14,520
+be at index zero index one index two and
+
+140
+00:06:11,840 --> 00:06:17,080
+index three so we have a total of four
+
+141
+00:06:14,520 --> 00:06:19,319
+things in that array and those are all
+
+142
+00:06:17,080 --> 00:06:22,039
+just these bit Maps
+
+143
+00:06:19,319 --> 00:06:24,120
+here in the setup function we're just
+
+144
+00:06:22,039 --> 00:06:25,720
+simply going to begin initialize our
+
+145
+00:06:24,120 --> 00:06:27,800
+land display and just talk over the
+
+146
+00:06:25,720 --> 00:06:29,520
+serial monitor we don't actually call
+
+147
+00:06:27,800 --> 00:06:30,840
+anything on the serial monitor there's
+
+148
+00:06:29,520 --> 00:06:32,280
+not really anything we call but for
+
+149
+00:06:30,840 --> 00:06:33,800
+debugging purposes we just kind of
+
+150
+00:06:32,280 --> 00:06:36,240
+always put it if you comment it out it
+
+151
+00:06:33,800 --> 00:06:38,319
+shouldn't break anything down here we
+
+152
+00:06:36,240 --> 00:06:41,440
+have in the loop we have int number of
+
+153
+00:06:38,319 --> 00:06:44,680
+bit Maps is equal to the size of the bit
+
+154
+00:06:41,440 --> 00:06:46,560
+Maps array so to get the number of how
+
+155
+00:06:44,680 --> 00:06:48,599
+many we have we can actually do this we
+
+156
+00:06:46,560 --> 00:06:50,599
+can get the size of the bit maps with
+
+157
+00:06:48,599 --> 00:06:52,280
+the size of the array in bytes so this
+
+158
+00:06:50,599 --> 00:06:53,680
+is how many it is in bytes not how many
+
+159
+00:06:52,280 --> 00:06:55,680
+items are in there this is how many
+
+160
+00:06:53,680 --> 00:06:58,800
+there are in bytes but since we know
+
+161
+00:06:55,680 --> 00:07:01,680
+that each bit map is going to be an 128x
+
+162
+00:06:58,800 --> 00:07:03,800
+64 image in this case and we know that
+
+163
+00:07:01,680 --> 00:07:07,039
+because they're all 128 by 64 we can
+
+164
+00:07:03,800 --> 00:07:09,520
+then divide by the size of the very
+
+165
+00:07:07,039 --> 00:07:12,639
+first one which is going to be many bits
+
+166
+00:07:09,520 --> 00:07:14,280
+it is so we take basically four or I
+
+167
+00:07:12,639 --> 00:07:18,639
+guess you know whatever this is divided
+
+168
+00:07:14,280 --> 00:07:21,879
+by 120 by 64 in bytes and then we get
+
+169
+00:07:18,639 --> 00:07:23,240
+the number of bit Maps here now we do a
+
+170
+00:07:21,879 --> 00:07:26,000
+nice for Loop and we're going to go
+
+171
+00:07:23,240 --> 00:07:28,160
+through each and every bit map in the
+
+172
+00:07:26,000 --> 00:07:30,000
+array and in that very first bit map
+
+173
+00:07:28,160 --> 00:07:32,840
+we're just simply going to draw the bit
+
+174
+00:07:30,000 --> 00:07:36,879
+map for 2 seconds at a time on the
+
+175
+00:07:32,840 --> 00:07:38,639
+display if I jump real quick to um how I
+
+176
+00:07:36,879 --> 00:07:40,280
+made these now the next part of this
+
+177
+00:07:38,639 --> 00:07:42,479
+project is I want you guys to make your
+
+178
+00:07:40,280 --> 00:07:44,199
+own bit Maps there are a couple
+
+179
+00:07:42,479 --> 00:07:46,080
+different tools that you can use and I'm
+
+180
+00:07:44,199 --> 00:07:49,840
+going to load those up right now the
+
+181
+00:07:46,080 --> 00:07:52,560
+first one is if you have a tool like for
+
+182
+00:07:49,840 --> 00:07:56,039
+example here's one I'm using called
+
+183
+00:07:52,560 --> 00:07:58,159
+canva and this is one option of a tool
+
+184
+00:07:56,039 --> 00:08:00,440
+you can use as you can see I've made it
+
+185
+00:07:58,159 --> 00:08:02,599
+so that the size of it I don't know if
+
+186
+00:08:00,440 --> 00:08:04,080
+you can see up here when I defined it I
+
+187
+00:08:02,599 --> 00:08:07,280
+said
+
+188
+00:08:04,080 --> 00:08:09,520
+1,280 by 640 I basically multiplied by
+
+189
+00:08:07,280 --> 00:08:12,120
+10 because those numbers are easier to
+
+190
+00:08:09,520 --> 00:08:15,400
+work with in a photo editor than 128 by
+
+191
+00:08:12,120 --> 00:08:16,599
+64 and I made this famous Einstein quote
+
+192
+00:08:15,400 --> 00:08:18,759
+I don't know if you've ever heard of him
+
+193
+00:08:16,599 --> 00:08:21,560
+say this but he says uh the quote nice
+
+194
+00:08:18,759 --> 00:08:23,319
+rocket bro to you guys that was a real
+
+195
+00:08:21,560 --> 00:08:24,440
+quote he definitely did say that and you
+
+196
+00:08:23,319 --> 00:08:26,520
+should believe everything you hear on
+
+197
+00:08:24,440 --> 00:08:28,400
+the internet you can make something like
+
+198
+00:08:26,520 --> 00:08:30,000
+this I do recommend setting the size of
+
+199
+00:08:28,400 --> 00:08:33,320
+it ahead of time though like like I said
+
+200
+00:08:30,000 --> 00:08:35,519
+1,280 X 640 if you hit share you can hit
+
+201
+00:08:33,320 --> 00:08:38,399
+download I can download is a little nice
+
+202
+00:08:35,519 --> 00:08:40,279
+PNG and that PNG is going to be what I'm
+
+203
+00:08:38,399 --> 00:08:42,120
+going to be using in the next tool you
+
+204
+00:08:40,279 --> 00:08:44,080
+can also use there's alternative
+
+205
+00:08:42,120 --> 00:08:46,760
+programs to this too here's a good
+
+206
+00:08:44,080 --> 00:08:49,720
+example you can also do paint. j.org
+
+207
+00:08:46,760 --> 00:08:51,720
+what I would do is I would set up the
+
+208
+00:08:49,720 --> 00:08:56,720
+image let's go
+
+209
+00:08:51,720 --> 00:08:56,720
+to if you go to image attributes on this
+
+210
+00:09:02,760 --> 00:09:09,519
+so now that we have an image now that's
+
+211
+00:09:05,480 --> 00:09:10,760
+1,280 by 640 obviously when we configure
+
+212
+00:09:09,519 --> 00:09:12,680
+this in the next tool we'll have to
+
+213
+00:09:10,760 --> 00:09:14,560
+divide by 10 I just find it easier to do
+
+214
+00:09:12,680 --> 00:09:17,000
+it in an editor like this we can draw
+
+215
+00:09:14,560 --> 00:09:20,720
+another image and so for example let's
+
+216
+00:09:17,000 --> 00:09:25,440
+draw uh I don't know like uh a
+
+217
+00:09:20,720 --> 00:09:28,200
+house but let's make it let's make it a
+
+218
+00:09:25,440 --> 00:09:31,240
+square and oh I don't want that I want
+
+219
+00:09:28,200 --> 00:09:33,160
+to uh circle
+
+220
+00:09:31,240 --> 00:09:36,240
+circle
+
+221
+00:09:33,160 --> 00:09:39,079
+circle get the filler Boop all right
+
+222
+00:09:36,240 --> 00:09:42,160
+this is my Modern Art it's going on sale
+
+223
+00:09:39,079 --> 00:09:45,240
+for $20 million if anyone wants to buy
+
+224
+00:09:42,160 --> 00:09:47,440
+it please uh let me know it is for sale
+
+225
+00:09:45,240 --> 00:09:49,000
+for $20 million and then what I'm going
+
+226
+00:09:47,440 --> 00:09:51,040
+to do is I'm going to go to file I'm
+
+227
+00:09:49,000 --> 00:09:52,959
+going to go to save as and it's just
+
+228
+00:09:51,040 --> 00:09:54,360
+going to download it as a PNG and that's
+
+229
+00:09:52,959 --> 00:09:57,600
+fine because that's how we want it to be
+
+230
+00:09:54,360 --> 00:09:59,680
+right now next here's the real tool that
+
+231
+00:09:57,600 --> 00:10:01,200
+I like to use here's the main the main
+
+232
+00:09:59,680 --> 00:10:02,480
+thing however you want to generate the
+
+233
+00:10:01,200 --> 00:10:05,519
+image is fine those are some good
+
+234
+00:10:02,480 --> 00:10:07,680
+examples on how to now you have a couple
+
+235
+00:10:05,519 --> 00:10:09,440
+different options okay you want to
+
+236
+00:10:07,680 --> 00:10:11,720
+obviously select those files in your
+
+237
+00:10:09,440 --> 00:10:13,560
+file window and then this is a tool that
+
+238
+00:10:11,720 --> 00:10:16,279
+I use it's an open- Source tool that
+
+239
+00:10:13,560 --> 00:10:19,320
+literally creates images from it
+
+240
+00:10:16,279 --> 00:10:20,640
+converts it to heximal arrays
+
+241
+00:10:19,320 --> 00:10:22,640
+essentially for you to use inside of
+
+242
+00:10:20,640 --> 00:10:25,720
+your code there's going to be some steps
+
+243
+00:10:22,640 --> 00:10:27,680
+here be careful you don't skip a step
+
+244
+00:10:25,720 --> 00:10:29,519
+there's a lot of steps step one once
+
+245
+00:10:27,680 --> 00:10:31,200
+you've uploaded the images you're going
+
+246
+00:10:29,519 --> 00:10:36,240
+to want to make sure that they are in if
+
+247
+00:10:31,200 --> 00:10:37,600
+you go here 128 by 64 128 by 64 if
+
+248
+00:10:36,240 --> 00:10:39,120
+you're going to make it the full screen
+
+249
+00:10:37,600 --> 00:10:42,120
+image remember the amount of pixels you
+
+250
+00:10:39,120 --> 00:10:43,680
+have on screen is only 128 by 64 you'll
+
+251
+00:10:42,120 --> 00:10:45,880
+notice they don't look good right now
+
+252
+00:10:43,680 --> 00:10:48,079
+make sure you do scaling and select one
+
+253
+00:10:45,880 --> 00:10:50,760
+here that looks good as you can see we
+
+254
+00:10:48,079 --> 00:10:52,160
+have nice rocket bro Einstein and my
+
+255
+00:10:50,760 --> 00:10:54,800
+modern art piece that I'm selling for
+
+256
+00:10:52,160 --> 00:10:58,200
+$20 million if you go down here now that
+
+257
+00:10:54,800 --> 00:11:00,240
+we have this see this swap thing you you
+
+258
+00:10:58,200 --> 00:11:02,399
+have to make sure that this this swap is
+
+259
+00:11:00,240 --> 00:11:04,240
+selected you want to swap the bits and
+
+260
+00:11:02,399 --> 00:11:07,160
+the bite and is useful for working with
+
+261
+00:11:04,240 --> 00:11:09,440
+the u8 g2 Library well just so funny
+
+262
+00:11:07,160 --> 00:11:13,000
+enough what library are we using the u8
+
+263
+00:11:09,440 --> 00:11:15,880
+G2 lib U G2 Library so we can hit
+
+264
+00:11:13,000 --> 00:11:17,440
+generate code and I sometimes like to
+
+265
+00:11:15,880 --> 00:11:18,920
+just uncheck it just to make sure the
+
+266
+00:11:17,440 --> 00:11:20,720
+swap it and I look at this to make sure
+
+267
+00:11:18,920 --> 00:11:22,000
+that the numbers change they did so it
+
+268
+00:11:20,720 --> 00:11:23,560
+means that it generated correctly the
+
+269
+00:11:22,000 --> 00:11:25,839
+first time there's occasionally I've had
+
+270
+00:11:23,560 --> 00:11:28,240
+it where the browser I had to double
+
+271
+00:11:25,839 --> 00:11:29,320
+click it sometimes make sure all these
+
+272
+00:11:28,240 --> 00:11:31,160
+settings are the same you don't have to
+
+273
+00:11:29,320 --> 00:11:33,360
+do anything with these and if you look
+
+274
+00:11:31,160 --> 00:11:36,279
+at the code that you have down here you
+
+275
+00:11:33,360 --> 00:11:39,399
+have the very first one which is nice
+
+276
+00:11:36,279 --> 00:11:40,720
+rocket and we already have this one here
+
+277
+00:11:39,399 --> 00:11:42,639
+so we don't have to worry about that
+
+278
+00:11:40,720 --> 00:11:44,480
+this is the exact same code if you look
+
+279
+00:11:42,639 --> 00:11:46,920
+at this hexadecimal it should be the
+
+280
+00:11:44,480 --> 00:11:50,480
+exact same as the thing we have right
+
+281
+00:11:46,920 --> 00:11:52,320
+here the exact exact same uh because I
+
+282
+00:11:50,480 --> 00:11:54,000
+just I've already done this image and if
+
+283
+00:11:52,320 --> 00:11:57,240
+you take the modern art one down here
+
+284
+00:11:54,000 --> 00:11:57,240
+below you can take
+
+285
+00:11:57,320 --> 00:12:03,040
+this you can just copy copy it if you
+
+286
+00:11:59,480 --> 00:12:05,880
+want to contrl + C and now I have my own
+
+287
+00:12:03,040 --> 00:12:10,160
+Modern Art again $20 million if anyone
+
+288
+00:12:05,880 --> 00:12:11,959
+wants it paste this down below and uh
+
+289
+00:12:10,160 --> 00:12:14,079
+obviously you have this here so here's
+
+290
+00:12:11,959 --> 00:12:16,440
+now the new I'm going to
+
+291
+00:12:14,079 --> 00:12:20,040
+say Modern
+
+292
+00:12:16,440 --> 00:12:23,600
+Art and I want to make sure it's defined
+
+293
+00:12:20,040 --> 00:12:26,760
+properly so static con static const
+
+294
+00:12:23,600 --> 00:12:29,760
+Modern Art and is that's good and then I
+
+295
+00:12:26,760 --> 00:12:31,399
+want to go so there's that to find out
+
+296
+00:12:29,760 --> 00:12:33,839
+below and now what I'm going to do is
+
+297
+00:12:31,399 --> 00:12:33,839
+I'm going to
+
+298
+00:12:41,120 --> 00:12:45,480
+go so then the next step says if you
+
+299
+00:12:43,720 --> 00:12:48,040
+want to display it in this exact program
+
+300
+00:12:45,480 --> 00:12:49,800
+you can create this here obviously put
+
+301
+00:12:48,040 --> 00:12:51,399
+whatever you named it down below I
+
+302
+00:12:49,800 --> 00:12:53,760
+renamed mine from the default that it
+
+303
+00:12:51,399 --> 00:12:55,959
+generated as Modern Art and I obviously
+
+304
+00:12:53,760 --> 00:12:57,920
+want to make it uh the exact same as
+
+305
+00:12:55,959 --> 00:13:00,199
+what this is static and obviously have
+
+306
+00:12:57,920 --> 00:13:02,040
+the u u 8 by8 just to keep things
+
+307
+00:13:00,199 --> 00:13:05,240
+everything the same then I want to go up
+
+308
+00:13:02,040 --> 00:13:08,360
+here and I want to go down below and I
+
+309
+00:13:05,240 --> 00:13:11,240
+want to also add Modern
+
+310
+00:13:08,360 --> 00:13:13,600
+Art and with that we should be good now
+
+311
+00:13:11,240 --> 00:13:15,360
+we have this here defined at the top so
+
+312
+00:13:13,600 --> 00:13:17,160
+the compiler can see it even though it's
+
+313
+00:13:15,360 --> 00:13:19,480
+defined way down below it sees it up
+
+314
+00:13:17,160 --> 00:13:21,160
+here first and then obviously here we
+
+315
+00:13:19,480 --> 00:13:23,440
+have the modern art added to the bit
+
+316
+00:13:21,160 --> 00:13:25,160
+maps and since we have this here the
+
+317
+00:13:23,440 --> 00:13:27,240
+size of it's going to be able to
+
+318
+00:13:25,160 --> 00:13:29,160
+dynamically allocate it for us so once
+
+319
+00:13:27,240 --> 00:13:30,959
+again we can display it without going to
+
+320
+00:13:29,160 --> 00:13:33,959
+changes to
+
+321
+00:13:30,959 --> 00:13:36,760
+A5 and with that that is all we really
+
+322
+00:13:33,959 --> 00:13:39,839
+need and if you hit run it should show
+
+323
+00:13:36,760 --> 00:13:41,240
+the new bit map that you've created so
+
+324
+00:13:39,839 --> 00:13:42,760
+again I'm going to link these to you
+
+325
+00:13:41,240 --> 00:13:44,199
+guys you guys will have these available
+
+326
+00:13:42,760 --> 00:13:47,199
+to you if you guys want to make your own
+
+327
+00:13:44,199 --> 00:13:49,760
+bit Maps I really like the image to C++
+
+328
+00:13:47,199 --> 00:13:51,759
+you don't have to do 128x 64 that's only
+
+329
+00:13:49,760 --> 00:13:53,880
+if you want it to be a full screen bit
+
+330
+00:13:51,759 --> 00:13:55,639
+map you can do other size bit Maps but
+
+331
+00:13:53,880 --> 00:13:57,360
+we'll get into those in the next couple
+
+332
+00:13:55,639 --> 00:14:00,279
+days so don't worry about that as of
+
+333
+00:13:57,360 --> 00:14:02,560
+right now and I'll also link these two
+
+334
+00:14:00,279 --> 00:14:04,160
+resources out there if you want them I
+
+335
+00:14:02,560 --> 00:14:06,920
+do think they're really good for making
+
+336
+00:14:04,160 --> 00:14:10,279
+the images to upload so with that
+
+337
+00:14:06,920 --> 00:14:13,959
+that'll be about it I will see you guys
+
+338
+00:14:10,279 --> 00:14:17,320
+later welcome to the Day 26 wiring
+
+339
+00:14:13,959 --> 00:14:20,440
+example video you made it you're off the
+
+340
+00:14:17,320 --> 00:14:23,399
+planet and back in orbit but as you're
+
+341
+00:14:20,440 --> 00:14:25,959
+well aware of by now your work is far
+
+342
+00:14:23,399 --> 00:14:26,920
+from finished to get back to the safety
+
+343
+00:14:25,959 --> 00:14:29,360
+of the
+
+344
+00:14:26,920 --> 00:14:31,600
+mothership we still have to to configure
+
+345
+00:14:29,360 --> 00:14:33,759
+our systems for a safe approach and
+
+346
+00:14:31,600 --> 00:14:36,440
+docking and this is going to take some
+
+347
+00:14:33,759 --> 00:14:39,240
+additional effort today's task is
+
+348
+00:14:36,440 --> 00:14:43,279
+relatively simple from a wiring and
+
+349
+00:14:39,240 --> 00:14:46,959
+Hardware standpoint since to get started
+
+350
+00:14:43,279 --> 00:14:49,639
+all we'll be using today is the OLED
+
+351
+00:14:46,959 --> 00:14:52,040
+display this will be our first building
+
+352
+00:14:49,639 --> 00:14:54,959
+block to which We'll add additional
+
+353
+00:14:52,040 --> 00:14:56,279
+components of our control system over
+
+354
+00:14:54,959 --> 00:15:00,519
+the coming
+
+355
+00:14:56,279 --> 00:15:04,000
+days now today's software lesson is
+
+356
+00:15:00,519 --> 00:15:06,920
+focused on the display of bitmap
+
+357
+00:15:04,000 --> 00:15:09,959
+Graphics as a way of more efficiently
+
+358
+00:15:06,920 --> 00:15:11,920
+conveying information than by using the
+
+359
+00:15:09,959 --> 00:15:12,880
+shape drawing commands that we learned
+
+360
+00:15:11,920 --> 00:15:15,680
+about
+
+361
+00:15:12,880 --> 00:15:18,680
+earlier when you fully understood this
+
+362
+00:15:15,680 --> 00:15:21,680
+new programming material the hardware
+
+363
+00:15:18,680 --> 00:15:23,920
+steps necessary to test it are pretty
+
+364
+00:15:21,680 --> 00:15:27,040
+straightforward you'll see that here
+
+365
+00:15:23,920 --> 00:15:29,839
+that although I haven't removed all of
+
+366
+00:15:27,040 --> 00:15:33,560
+the old components that we used on day
+
+367
+00:15:29,839 --> 00:15:36,399
+24 from the breadboard they are inactive
+
+368
+00:15:33,560 --> 00:15:38,920
+and not relevant for today's
+
+369
+00:15:36,399 --> 00:15:40,120
+discussion all we really need to focus
+
+370
+00:15:38,920 --> 00:15:44,160
+on for
+
+371
+00:15:40,120 --> 00:15:47,079
+now are the four connections to the OLED
+
+372
+00:15:44,160 --> 00:15:49,639
+and even those are familiar to us the
+
+373
+00:15:47,079 --> 00:15:53,160
+power and the ground are both provided
+
+374
+00:15:49,639 --> 00:15:57,800
+just as they were last time via these
+
+375
+00:15:53,160 --> 00:16:00,920
+red and black jumpers that are connected
+
+376
+00:15:57,800 --> 00:16:06,720
+to the breadboard board power buses next
+
+377
+00:16:00,920 --> 00:16:10,440
+door and also as before we have our two
+
+378
+00:16:06,720 --> 00:16:13,800
+wires that control the display we have a
+
+379
+00:16:10,440 --> 00:16:16,959
+green wire right here connected from the
+
+380
+00:16:13,800 --> 00:16:22,800
+clock terminal on the display to the
+
+381
+00:16:16,959 --> 00:16:27,440
+hero I i2c pin that's pin number
+
+382
+00:16:22,800 --> 00:16:30,279
+A5 and we have this blue wire right here
+
+383
+00:16:27,440 --> 00:16:33,560
+that's connected from the data terminal
+
+384
+00:16:30,279 --> 00:16:37,199
+of the display to Hero pin
+
+385
+00:16:33,560 --> 00:16:41,040
+A4 and that is all we'll need for
+
+386
+00:16:37,199 --> 00:16:44,440
+today's test so let's go ahead and
+
+387
+00:16:41,040 --> 00:16:46,759
+upload the sketch and see how things
+
+388
+00:16:44,440 --> 00:16:50,399
+look so in the
+
+389
+00:16:46,759 --> 00:16:52,759
+IDE I'm now uploading the sketch it'll
+
+390
+00:16:50,399 --> 00:16:55,000
+take a few seconds for this to compile
+
+391
+00:16:52,759 --> 00:16:55,000
+and
+
+392
+00:16:56,040 --> 00:17:01,880
+upload and there we go
+
+393
+00:16:59,480 --> 00:17:05,520
+there's our second bit map there's our
+
+394
+00:17:01,880 --> 00:17:07,520
+third bit map and there's the fourth and
+
+395
+00:17:05,520 --> 00:17:10,880
+then we'll just rotate through these bit
+
+396
+00:17:07,520 --> 00:17:13,240
+map displays indefinitely until we uh uh
+
+397
+00:17:10,880 --> 00:17:15,360
+turn off the hero and end uh the the
+
+398
+00:17:13,240 --> 00:17:18,360
+running of this
+
+399
+00:17:15,360 --> 00:17:21,400
+sketch so I'd say this looks like pretty
+
+400
+00:17:18,360 --> 00:17:24,520
+good progress we're ready now to move
+
+401
+00:17:21,400 --> 00:17:27,160
+ahead in the next day and integrate this
+
+402
+00:17:24,520 --> 00:17:29,320
+bitmap display functionality into the
+
+403
+00:17:27,160 --> 00:17:32,400
+other features of our approach and
+
+404
+00:17:29,320 --> 00:17:35,440
+Landing system so with that we'll see
+
+405
+00:17:32,400 --> 00:17:38,640
+you on day
+
+406
+00:17:35,440 --> 00:17:40,919
+27 bigger screen for bigger space now
+
+407
+00:17:38,640 --> 00:17:43,080
+we'll need bigger numbers and here our
+
+408
+00:17:40,919 --> 00:17:45,240
+usual decimal way of counting in tens
+
+409
+00:17:43,080 --> 00:17:47,360
+isn't going to help us and I'm going to
+
+410
+00:17:45,240 --> 00:17:49,280
+race through this so hold tight in the
+
+411
+00:17:47,360 --> 00:17:52,799
+decimal placeholder system there are two
+
+412
+00:17:49,280 --> 00:17:55,200
+patterns exponents and symbols so here's
+
+413
+00:17:52,799 --> 00:17:58,400
+the number system you learned in school
+
+414
+00:17:55,200 --> 00:18:01,080
+10 to the^ of 0 is 1 actually any
+
+415
+00:17:58,400 --> 00:18:06,200
+anything to the power of 0 is 1 but look
+
+416
+00:18:01,080 --> 00:18:12,360
+10 the^ of 1 is 10 10 the^ of two or 10
+
+417
+00:18:06,200 --> 00:18:16,559
+* 10 is 100 10 the^ of 3 or 10 * 10 * 10
+
+418
+00:18:12,360 --> 00:18:18,679
+is 1,000 and so on binary also uses
+
+419
+00:18:16,559 --> 00:18:21,679
+placeholders and the same exponent
+
+420
+00:18:18,679 --> 00:18:24,159
+system but the base is two The Columns
+
+421
+00:18:21,679 --> 00:18:26,880
+go up in squares like the decimal system
+
+422
+00:18:24,159 --> 00:18:30,799
+but small numbers are long and horrible
+
+423
+00:18:26,880 --> 00:18:38,480
+in decimal n is just 9 N9 in binary is 1
+
+424
+00:18:30,799 --> 00:18:40,720
+0 1 215 is 1 1 0 1 0111 I mean what I
+
+425
+00:18:38,480 --> 00:18:43,000
+may be an AI but even I can see how this
+
+426
+00:18:40,720 --> 00:18:44,600
+can quickly become hard to read if there
+
+427
+00:18:43,000 --> 00:18:46,840
+was a system that was more like the
+
+428
+00:18:44,600 --> 00:18:49,919
+decimal system more symbols less
+
+429
+00:18:46,840 --> 00:18:51,400
+repetition we'd have less headaches and
+
+430
+00:18:49,919 --> 00:18:55,120
+there is
+
+431
+00:18:51,400 --> 00:18:59,200
+heximal hex has 16 digits 0 through 9
+
+432
+00:18:55,120 --> 00:19:04,480
+then a for 10 B for 11 up to F for 15
+
+433
+00:18:59,200 --> 00:19:06,919
+so in HEX 13 is just d 16 well there is
+
+434
+00:19:04,480 --> 00:19:11,120
+no HEX number for 16 so we put one in
+
+435
+00:19:06,919 --> 00:19:14,840
+the 16s column and no ones 16 is 10 in
+
+436
+00:19:11,120 --> 00:19:17,760
+HEX or as we normally write it 10
+
+437
+00:19:14,840 --> 00:19:20,159
+H in the generated code segment you're
+
+438
+00:19:17,760 --> 00:19:22,039
+gazing upon the raw essence of our bit
+
+439
+00:19:20,159 --> 00:19:24,559
+map though I've given it a little
+
+440
+00:19:22,039 --> 00:19:27,320
+reshaping to gel with our hero board
+
+441
+00:19:24,559 --> 00:19:29,480
+using heximal it might not look like the
+
+442
+00:19:27,320 --> 00:19:32,159
+prettiest star in the G Galaxy bear with
+
+443
+00:19:29,480 --> 00:19:35,440
+me when you spot
+
+444
+00:19:32,159 --> 00:19:39,559
+0x00 that's our pixel galaxy in the off
+
+445
+00:19:35,440 --> 00:19:42,559
+phase in counter 0x FF that's our little
+
+446
+00:19:39,559 --> 00:19:45,080
+pixel stars shining brightly any other
+
+447
+00:19:42,559 --> 00:19:48,120
+values you come across represent a mixed
+
+448
+00:19:45,080 --> 00:19:50,640
+Cosmic dance of some Stars being on and
+
+449
+00:19:48,120 --> 00:19:53,919
+others off typically forming a pattern
+
+450
+00:19:50,640 --> 00:19:55,840
+in a row or column good job Explorer I
+
+451
+00:19:53,919 --> 00:19:58,039
+like your uh
+
+452
+00:19:55,840 --> 00:20:01,679
+art guess I shouldn't have expected much
+
+453
+00:19:58,039 --> 00:20:03,440
+from from an organic life form oh this I
+
+454
+00:20:01,679 --> 00:20:05,559
+just drew a portrait of someone smarter
+
+455
+00:20:03,440 --> 00:20:08,600
+than you while I was following along
+
+456
+00:20:05,559 --> 00:20:11,799
+don't pay it any
+
+457
+00:20:08,600 --> 00:20:14,080
+mind well at least we know that we have
+
+458
+00:20:11,799 --> 00:20:17,080
+finer detailed navigation thanks to the
+
+459
+00:20:14,080 --> 00:20:19,559
+big small big screen I'll display the
+
+460
+00:20:17,080 --> 00:20:21,640
+coordinates now tomorrow we will add
+
+461
+00:20:19,559 --> 00:20:23,720
+some additional pre-made bit maps to our
+
+462
+00:20:21,640 --> 00:20:26,080
+systems autopilot and continue on our
+
+463
+00:20:23,720 --> 00:20:28,770
+merry way through the endless void we
+
+464
+00:20:26,080 --> 00:20:43,089
+call the universe see you then
+
+465
+00:20:28,770 --> 00:20:43,089
+[Music]
+
+466
+00:20:47,720 --> 00:20:50,720
+on
+
