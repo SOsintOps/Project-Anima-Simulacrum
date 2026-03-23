@@ -1,0 +1,340 @@
+1
+00:00:00,040 --> 00:00:04,680
+hello everybody and welcome to our first
+
+2
+00:00:02,000 --> 00:00:07,720
+creative Day first let's go over what a
+
+3
+00:00:04,680 --> 00:00:09,400
+creative day actually is learning coding
+
+4
+00:00:07,720 --> 00:00:13,360
+takes more than just reading and
+
+5
+00:00:09,400 --> 00:00:15,080
+memorizing syntax although let's be real
+
+6
+00:00:13,360 --> 00:00:17,800
+most of us still look up syntax from
+
+7
+00:00:15,080 --> 00:00:19,480
+time to time anyway I'm basically like a
+
+8
+00:00:17,800 --> 00:00:22,320
+professional googler when I really think
+
+9
+00:00:19,480 --> 00:00:24,720
+about it but yes to get good at coding
+
+10
+00:00:22,320 --> 00:00:28,279
+you also need to practice entirely on
+
+11
+00:00:24,720 --> 00:00:30,000
+your own it doesn't matter what you code
+
+12
+00:00:28,279 --> 00:00:32,360
+um but just that you have some sort of
+
+13
+00:00:30,000 --> 00:00:35,399
+and goal in mind and this is what I've
+
+14
+00:00:32,360 --> 00:00:38,000
+seen with people who are successful
+
+15
+00:00:35,399 --> 00:00:40,920
+programmers the ones who are successful
+
+16
+00:00:38,000 --> 00:00:44,239
+are the ones that have the desire to go
+
+17
+00:00:40,920 --> 00:00:46,320
+out and make something on their own it's
+
+18
+00:00:44,239 --> 00:00:48,360
+something that they're passionate about
+
+19
+00:00:46,320 --> 00:00:50,719
+to the point where they have the energy
+
+20
+00:00:48,360 --> 00:00:53,359
+and desire to go make something more or
+
+21
+00:00:50,719 --> 00:00:54,800
+make something of their own those are
+
+22
+00:00:53,359 --> 00:00:57,359
+the ones who are always the most
+
+23
+00:00:54,800 --> 00:00:59,680
+successful and by our goal for the
+
+24
+00:00:57,359 --> 00:01:01,879
+creative days is to help encourage
+
+25
+00:00:59,680 --> 00:01:03,719
+people people to want to go out and do
+
+26
+00:01:01,879 --> 00:01:06,320
+things like that on their own it's
+
+27
+00:01:03,719 --> 00:01:08,560
+really boring listening to lectures all
+
+28
+00:01:06,320 --> 00:01:11,080
+day but being able to actually put that
+
+29
+00:01:08,560 --> 00:01:14,119
+knowledge to use is where I always see
+
+30
+00:01:11,080 --> 00:01:15,640
+the Sparks Shine the brightest so every
+
+31
+00:01:14,119 --> 00:01:17,640
+creative day we'll have a couple of
+
+32
+00:01:15,640 --> 00:01:19,640
+sample prompts to get the neurons warmed
+
+33
+00:01:17,640 --> 00:01:21,320
+up but you're also free to do whatever
+
+34
+00:01:19,640 --> 00:01:23,320
+you want so you don't necessarily have
+
+35
+00:01:21,320 --> 00:01:25,000
+to do what the sample prompts are you
+
+36
+00:01:23,320 --> 00:01:26,920
+don't have to pick one of them you can
+
+37
+00:01:25,000 --> 00:01:28,720
+do whatever you want but we do give a
+
+38
+00:01:26,920 --> 00:01:31,159
+couple just in case you don't have
+
+39
+00:01:28,720 --> 00:01:33,079
+anything you really can think of that
+
+40
+00:01:31,159 --> 00:01:35,280
+you want to do so far you've
+
+41
+00:01:33,079 --> 00:01:37,880
+accomplished using inputs and outputs
+
+42
+00:01:35,280 --> 00:01:39,920
+with our dip switch and LEDs currently
+
+43
+00:01:37,880 --> 00:01:41,680
+your ship is capable of controlling
+
+44
+00:01:39,920 --> 00:01:45,439
+three different
+
+45
+00:01:41,680 --> 00:01:47,439
+LEDs so first creative Day idea the easy
+
+46
+00:01:45,439 --> 00:01:50,000
+creative Day idea as you know your
+
+47
+00:01:47,439 --> 00:01:51,680
+ship's battery is at critical levels
+
+48
+00:01:50,000 --> 00:01:54,360
+let's add some additional logic that
+
+49
+00:01:51,680 --> 00:01:58,680
+only allows one light at a time once
+
+50
+00:01:54,360 --> 00:02:02,479
+you're done share on inventor. o/f with
+
+51
+00:01:58,680 --> 00:02:05,159
+the hashtag creative day five now the
+
+52
+00:02:02,479 --> 00:02:07,640
+hard creative idea is currently you are
+
+53
+00:02:05,159 --> 00:02:09,679
+only capable of turning on three lights
+
+54
+00:02:07,640 --> 00:02:11,560
+you still have more lights in your ship
+
+55
+00:02:09,679 --> 00:02:14,519
+such as the bathroom light and
+
+56
+00:02:11,560 --> 00:02:17,920
+Etc however if you turn your dip switch
+
+57
+00:02:14,519 --> 00:02:22,120
+into a binary counter you can turn on up
+
+58
+00:02:17,920 --> 00:02:24,160
+to seven that would be binary 111 lights
+
+59
+00:02:22,120 --> 00:02:27,640
+or six if you want the ability to turn
+
+60
+00:02:24,160 --> 00:02:31,120
+them all off which would be utilizing
+
+61
+00:02:27,640 --> 00:02:32,440
+0000 0 once you're done share on
+
+62
+00:02:31,120 --> 00:02:36,400
+adventure.
+
+63
+00:02:32,440 --> 00:02:38,519
+i/f with the # creative day5 just like
+
+64
+00:02:36,400 --> 00:02:40,840
+the one before and finally there's the
+
+65
+00:02:38,519 --> 00:02:42,480
+open-ended option as you all know come
+
+66
+00:02:40,840 --> 00:02:44,599
+up with your own and once you're done
+
+67
+00:02:42,480 --> 00:02:48,560
+share on
+
+68
+00:02:44,599 --> 00:02:49,760
+adventure. with # creative day5 we
+
+69
+00:02:48,560 --> 00:02:51,400
+really look forward to seeing what you
+
+70
+00:02:49,760 --> 00:02:54,120
+come up with of course if you run into
+
+71
+00:02:51,400 --> 00:02:57,400
+any trouble feel free to ask on the
+
+72
+00:02:54,120 --> 00:03:00,440
+Facebook group again inventor.
+
+73
+00:02:57,400 --> 00:03:03,799
+i/f it should 301 redirect direct
+
+74
+00:03:00,440 --> 00:03:06,959
+directly to the Facebook group we have
+
+75
+00:03:03,799 --> 00:03:09,400
+currently over 100,000 of you guys
+
+76
+00:03:06,959 --> 00:03:12,319
+100,000 inventors who have joined and I
+
+77
+00:03:09,400 --> 00:03:14,560
+proud to say that for the most part
+
+78
+00:03:12,319 --> 00:03:16,959
+we're not like stack Overflow in the
+
+79
+00:03:14,560 --> 00:03:19,239
+sense that uh you guys are very awesome
+
+80
+00:03:16,959 --> 00:03:21,920
+and helping out a lot of the beginners
+
+81
+00:03:19,239 --> 00:03:23,760
+and uh I really appreciate all you guys
+
+82
+00:03:21,920 --> 00:03:26,760
+so thank you and I look forward to
+
+83
+00:03:23,760 --> 00:03:26,760
+seeing what you guys come up
+
+84
+00:03:28,680 --> 00:03:48,990
+with
+
+85
+00:03:31,450 --> 00:03:48,990
+[Music]
+

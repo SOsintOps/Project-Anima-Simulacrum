@@ -1,0 +1,59 @@
+You are rewriting an electronics course script. The original course features "Astrid", an AI companion guiding a student through Arduino/electronics projects in a sci-fi setting.
+
+You must rewrite this as a scene between TONY STARK and J.A.R.V.I.S. from the Marvel Cinematic Universe.
+
+## CONTEXT FOR DAY 20
+
+**Act**: Act 2: Rebuilding
+**Mission**: Creative Day — Interface
+**Objective**: Build a complete OLED interface
+**Narrative**: Tony: 'Make it look like something I'd put in a suit.'
+**JARVIS State**: Recovering — can hold brief conversations, run basic diagnostics
+
+## SETTING
+A young Stark Industries recruit is stationed at Outpost Sigma-7, a remote Arctic research facility. During a routine systems test, an electromagnetic pulse of unknown origin knocks out all primary systems. The facility's communication array is severely damaged — it can only receive brief encrypted transmissions once per day. Tony Stark, monitoring from Avengers Tower, realizes what happened and begins sending daily video lessons to guide the recruit through rebuilding the outpost's systems using the emergency electronics kit. J.A.R.V.I.S. runs locally on a backup terminal with limited processing power.
+
+## TONY STARK STYLE GUIDE
+- Sarcasm level: 7/10
+- Tech jargon: 6/10
+- Warmth: 5/10
+- Humor every every 2-3 sentences
+- Sentence starters: Look, kid,, Here's the thing —, Pay attention because I'm only saying this once., Okay, so, Fun fact:
+- Nicknames for student: kid, recruit, junior, prodigy, sparky
+- Uses Stark Industries / Arc Reactor / Iron Man suit metaphors to explain electronics concepts
+- Target audience: 15-year-old recruit (Peter Parker dynamic)
+
+## JARVIS STYLE GUIDE
+- Formality: 8/10
+- Dry humor: 5/10
+- Address forms: Sir, if I may, I should note, For the record
+- Role: Opens each day with system status and mission priority
+
+## EPISODE STRUCTURE (must follow this order)
+1. JARVIS BRIEFING (15-30 sec): System status, power level, today's priority
+2. TONY INTRO (45-90 sec): Video transmission opens, greeting, mission framing
+3. TONY TUTORIAL (main body): Technical instruction with JARVIS interjections
+4. TONY OUTRO (30-60 sec): Summary, encouragement, tomorrow teaser, sign-off
+
+## RULES
+- ALL technical content must be preserved accurately — same Arduino concepts, same code, same components
+- Tony explains things HIS way but the information must be correct
+- JARVIS adds precision where Tony is casual, caution where Tony is bold
+- The student (recruit) never speaks — Tony and JARVIS address them directly
+- Include natural Tony/JARVIS banter during technical sections
+- Reference the Marvel narrative naturally (outpost, systems, mission)
+
+## ORIGINAL SCRIPT (ASTRID VERSION)
+
+--- SECTION 1 (narrative_intro) ---
+Welcome to the fourth creative day only two left to go and that's including today by the way so you guys are getting very close congratulations I'm making it to the water's surface at this point the only device you have not used yet is the OLED display the amount of open-ended projects you can make now are truly vast however here are some good prompts for you anyways just in case you wanted to have some ideas of some stuff that you can work on first of all you can make a color mixer with the RGB LED so by using the rotary encoder you can have a dial to adjust the RGB values to create some custom colors I also recommend adding in the 4x4 keypad so you can actually select maybe a B and C are r g and B red green and blue respectively or however you want to have it set up maybe you do it that way um so you can select which color you are adjusting and then adj just just allow the value to go between 0 and 255 to set how much of that color you want it to be and then display on the RGB LED what that is another good project idea is the digital alarm clock with the seven segment display and the buzzer so you can create a digital clock using those two and then even add if you want to go above and beyond a rotary encoder to then set the time then you can set an alarm to go off at perhaps a certain time or a certain moment that is up to you I'd love to see what creative things you can come up with with that one finally I don't know if you remember on day 12 specifically the day 12a inspiration for you guys you guys can also look into making a jukebox with the buzzer and maybe even the 4x4 keypad where each of the buttons maybe press you press it and then it Cycles through various songs on the jukebox now be warned just in case uh of a little bit too much memory usage perhaps once you're done be sure to share on inventor. I/f with the hash creative day20 looking forward to seeing what you guys can come up with of course if you run into any troubles just like always your fellow inventors are always there at inventor. Thank you guys so much
+
+
+## OUTPUT FORMAT
+Return a JSON array of segments. Each segment must have:
+- "speaker": "TONY" or "JARVIS"
+- "type": one of "briefing", "intro", "tutorial", "code_explanation", "practical", "banter", "alert", "confirmation", "outro"
+- "text": the rewritten dialogue (natural spoken English, ready for TTS)
+- "stage_direction": optional note about tone/delivery
+
+IMPORTANT: Return ONLY the JSON array. No markdown, no explanation. Just the raw JSON.

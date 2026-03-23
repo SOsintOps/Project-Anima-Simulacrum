@@ -1,0 +1,103 @@
+{
+  "title": "Stark Workshop: 30 Days to Survival",
+  "universe": "Marvel Cinematic Universe — post-Avengers timeline",
+  "premise": "A young Stark Industries recruit is stationed at Outpost Sigma-7, a remote Arctic research facility. During a routine systems test, an electromagnetic pulse of unknown origin knocks out all primary systems. The facility's communication array is severely damaged — it can only receive brief encrypted transmissions once per day. Tony Stark, monitoring from Avengers Tower, realizes what happened and begins sending daily video lessons to guide the recruit through rebuilding the outpost's systems using the emergency electronics kit. J.A.R.V.I.S. runs locally on a backup terminal with limited processing power.",
+  "setting": {
+    "location": "Outpost Sigma-7, Stark Industries Arctic Research Facility",
+    "condition": "Primary power offline, backup generators running at 12%. Communication receive-only. Emergency lighting failing. Life support on minimal reserves.",
+    "kit": "Stark Industries Emergency Electronics Kit (HERO microcontroller, breadboard, LEDs, resistors, sensors, display, buzzer, keypad — identical to the real Inventr.io kit)",
+    "comms": "Damaged array receives one compressed video burst per day from Avengers Tower. Cannot transmit. Tony doesn't know if the recruit is receiving — he just keeps sending."
+  },
+  "characters": {
+    "tony_stark": {
+      "role": "Remote mentor via daily video transmissions",
+      "motivation": "Genuinely worried but masks it with humor. Sees himself in the recruit.",
+      "arc": "Starts clinical/efficient -> grows more personal -> Day 30 openly proud"
+    },
+    "jarvis": {
+      "role": "Local AI assistant on backup terminal",
+      "motivation": "Preserve the recruit's life. Provide precise technical support.",
+      "arc": "Starts minimal/damaged -> progressively recovers capabilities -> Day 30 fully operational",
+      "limitation": "Running on 12% power. Short responses early on, longer as power is restored."
+    },
+    "recruit": {
+      "role": "The student (player/viewer). Never speaks in audio — Tony and JARVIS address them.",
+      "age": 15,
+      "codename": "To be chosen by the viewer"
+    }
+  },
+  "narrative_arc": {
+    "act_1_survival": {
+      "days": "1-10",
+      "theme": "Basic survival — restore lighting, power monitoring, communication attempts",
+      "tone": "Urgent, focused, Tony is all-business with moments of humor to keep morale up",
+      "jarvis_state": "Minimal — short status reports, occasional glitches"
+    },
+    "act_2_rebuilding": {
+      "days": "11-20",
+      "theme": "Rebuilding systems — environmental sensors, displays, security",
+      "tone": "More confident, Tony starts sharing personal stories, JARVIS recovers more",
+      "jarvis_state": "Recovering — can hold brief conversations, run basic diagnostics"
+    },
+    "act_3_breakthrough": {
+      "days": "21-30",
+      "theme": "Advanced systems — full comms restoration, distress signal, rescue",
+      "tone": "Triumphant arc, Tony openly impressed, emotional Day 30 sendoff",
+      "jarvis_state": "Fully operational — witty, supportive, runs complex analysis"
+    }
+  },
+  "episode_structure": {
+    "jarvis_briefing": {
+      "duration_target": "15-30 seconds",
+      "content": "System status, power level, mission priority for the day"
+    },
+    "tony_intro": {
+      "duration_target": "45-90 seconds",
+      "content": "Video transmission opens, Tony's greeting, situation update, today's mission framing"
+    },
+    "tony_tutorial": {
+      "duration_target": "5-15 minutes (varies by day)",
+      "content": "Technical instruction rewritten in Tony's voice, with JARVIS interjections"
+    },
+    "tony_jarvis_dialogue": {
+      "duration_target": "Integrated throughout tutorial",
+      "content": "Tony explains concept, JARVIS adds precision or dry comment"
+    },
+    "tony_outro": {
+      "duration_target": "30-60 seconds",
+      "content": "Mission summary, encouragement, teaser for tomorrow, sign-off"
+    }
+  },
+  "day_missions": [
+    {"day": 1, "mission": "First Light", "objective": "Get the HERO board online and verify it works (Blink LED)", "narrative": "Emergency power is failing. The recruit needs to activate the backup microcontroller to begin restoring systems. Tony's first transmission arrives."},
+    {"day": 2, "mission": "Illuminate", "objective": "External LEDs, breadboard basics, resistors", "narrative": "The cabin is pitch dark. Using the breadboard and LEDs, build emergency cabin lighting."},
+    {"day": 3, "mission": "Power Grid", "objective": "Multiple LEDs, series/parallel circuits", "narrative": "One light isn't enough. Build a distributed lighting array across the outpost."},
+    {"day": 4, "mission": "Variable Control", "objective": "Variables, constants, digital I/O", "narrative": "Tony teaches the recruit to think like a programmer — control systems need logic."},
+    {"day": 5, "mission": "Creative Day — Free Build", "objective": "Apply Days 1-4 knowledge freely", "narrative": "Tony: 'Show me what you've got, kid. Impress me.'"},
+    {"day": 6, "mission": "Signal Modulation", "objective": "PWM, analogWrite, LED brightness control", "narrative": "The emergency beacon needs variable brightness. Learn to modulate power output."},
+    {"day": 7, "mission": "RGB Beacon", "objective": "RGB LED, color mixing", "narrative": "Build a color-coded status beacon — green for safe, red for danger, blue for comms."},
+    {"day": 8, "mission": "Sensor Array", "objective": "Photoresistor, analog input", "narrative": "Install a light sensor to detect if the outpost hull has breaches letting in daylight."},
+    {"day": 9, "mission": "Sound System", "objective": "Piezo buzzer, tone(), frequencies", "narrative": "Build an audible alarm system. Different frequencies for different threat levels."},
+    {"day": 10, "mission": "Creative Day — Integration", "objective": "Combine Days 6-9 into a system", "narrative": "Tony: 'Time to put it all together. Build me something that would make Stark Industries proud.'"},
+    {"day": 11, "mission": "Logic Gates", "objective": "DIP switches, boolean logic, if/else", "narrative": "The outpost's manual override system needs logic circuits. Tony explains thinking in binary."},
+    {"day": 12, "mission": "Navigation Dial", "objective": "Rotary encoder, interrupts", "narrative": "Build a control dial to navigate the outpost's backup menu system."},
+    {"day": 13, "mission": "Environmental Monitor", "objective": "Serial monitor, data logging", "narrative": "JARVIS needs data input. Connect the sensor array to the terminal for monitoring."},
+    {"day": 14, "mission": "Display Online", "objective": "7-segment display", "narrative": "Get the numeric display working — show power levels, countdown timers."},
+    {"day": 15, "mission": "Creative Day — Dashboard", "objective": "Build a monitoring dashboard", "narrative": "Tony: 'Every good lab needs a dashboard. Even in the Arctic.'"},
+    {"day": 16, "mission": "Visual Interface", "objective": "OLED display basics", "narrative": "The main screen flickers to life. Build a visual interface for the outpost's systems."},
+    {"day": 17, "mission": "Custom Graphics", "objective": "OLED graphics, pixels, shapes", "narrative": "Tony: 'A good UI makes the difference between a genius and a guy with a soldering iron.'"},
+    {"day": 18, "mission": "Data Visualization", "objective": "OLED charts, sensor data display", "narrative": "Display real-time environmental data on the OLED screen."},
+    {"day": 19, "mission": "Animation", "objective": "OLED animation, sprites", "narrative": "JARVIS needs a face. Build an animated status indicator on the display."},
+    {"day": 20, "mission": "Creative Day — Interface", "objective": "Build a complete OLED interface", "narrative": "Tony: 'Make it look like something I'd put in a suit.'"},
+    {"day": 21, "mission": "Security System", "objective": "Keypad input, password system", "narrative": "The outpost needs security. Build a keypad-based access system."},
+    {"day": 22, "mission": "Access Control", "objective": "Keypad + servo/relay control", "narrative": "Connect the security system to actual door locks (simulated with servos)."},
+    {"day": 23, "mission": "Comms Protocol", "objective": "Serial communication, protocols", "narrative": "The communication array is partially repaired. Build a data protocol to test it."},
+    {"day": 24, "mission": "Frequency Scanner", "objective": "Advanced analog, signal processing", "narrative": "Scan for rescue frequencies. The recruit is getting closer to contact."},
+    {"day": 25, "mission": "Creative Day — Comms", "objective": "Build a communication device", "narrative": "Tony: 'Build me something that can reach Avengers Tower. I dare you.'"},
+    {"day": 26, "mission": "Automation", "objective": "Timers, scheduled tasks, watchdog", "narrative": "Systems need to run autonomously. Build automated monitoring routines."},
+    {"day": 27, "mission": "Integration Hub", "objective": "Combining all sensors and displays", "narrative": "Connect everything into one unified system. The outpost comes alive."},
+    {"day": 28, "mission": "Distress Signal", "objective": "Complex project combining everything", "narrative": "Build the distress beacon. This is what everything has been leading to."},
+    {"day": 29, "mission": "Final Calibration", "objective": "Testing, debugging, optimization", "narrative": "Fine-tune every system. Tony: 'No Stark project ships with bugs. Well... not many.'"},
+    {"day": 30, "mission": "Rescue Day", "objective": "Final project — all systems go", "narrative": "The signal works. Rescue is incoming. Tony's final transmission: proud, emotional, unforgettable."}
+  ]
+}

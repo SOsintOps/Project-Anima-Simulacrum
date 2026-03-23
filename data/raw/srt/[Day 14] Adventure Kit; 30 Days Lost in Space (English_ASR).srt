@@ -1,0 +1,1948 @@
+1
+00:00:01,280 --> 00:00:11,189
+[Music]
+
+2
+00:00:13,900 --> 00:00:17,369
+[Music]
+
+3
+00:00:17,680 --> 00:00:22,760
+good morning Intrepid Explorer it's time
+
+4
+00:00:20,320 --> 00:00:25,279
+for our final day of our third week
+
+5
+00:00:22,760 --> 00:00:27,800
+together and I do hope you're as excited
+
+6
+00:00:25,279 --> 00:00:30,199
+as I am today we have a delightful
+
+7
+00:00:27,800 --> 00:00:33,640
+rendevu with our former crew members the
+
+8
+00:00:30,199 --> 00:00:36,160
+RGB LED we'll be integrating it into our
+
+9
+00:00:33,640 --> 00:00:39,280
+setup and taking our control panel from
+
+10
+00:00:36,160 --> 00:00:41,840
+functional to Fabulous today we'll be
+
+11
+00:00:39,280 --> 00:00:44,039
+Transforming Our buzzer simple beep into
+
+12
+00:00:41,840 --> 00:00:46,879
+an expressive and nuanced system of
+
+13
+00:00:44,039 --> 00:00:48,399
+auditory feedback not only that but
+
+14
+00:00:46,879 --> 00:00:51,879
+we're going to coordinate it with our
+
+15
+00:00:48,399 --> 00:00:54,800
+RGB led to provide clear visual cues
+
+16
+00:00:51,879 --> 00:00:58,120
+depending on your PIN input think of it
+
+17
+00:00:54,800 --> 00:01:00,280
+as a form of immediate feedback when you
+
+18
+00:00:58,120 --> 00:01:03,239
+successfully input your PIN we will
+
+19
+00:01:00,280 --> 00:01:06,400
+immerse our spaceship in a comforting
+
+20
+00:01:03,239 --> 00:01:08,600
+green light on the contrary if your
+
+21
+00:01:06,400 --> 00:01:11,080
+input fails we will be met with a
+
+22
+00:01:08,600 --> 00:01:14,960
+piercing red light as a sign of
+
+23
+00:01:11,080 --> 00:01:16,880
+incorrect input green for Go Red For No
+
+24
+00:01:14,960 --> 00:01:18,840
+it's so Universal that even a Celestial
+
+25
+00:01:16,880 --> 00:01:20,960
+body could understand since there are no
+
+26
+00:01:18,840 --> 00:01:23,520
+new components today we will be diving
+
+27
+00:01:20,960 --> 00:01:25,600
+head first into the coating and wiring
+
+28
+00:01:23,520 --> 00:01:28,240
+ready to create a sophisticated and
+
+29
+00:01:25,600 --> 00:01:31,759
+intelligent spaceship let's get
+
+30
+00:01:28,240 --> 00:01:33,920
+started all right time for some wiring
+
+31
+00:01:31,759 --> 00:01:36,520
+if you remember how we set up our RGB
+
+32
+00:01:33,920 --> 00:01:39,320
+LED last week you're already one step
+
+33
+00:01:36,520 --> 00:01:42,399
+ahead today all we need to do is to
+
+34
+00:01:39,320 --> 00:01:45,000
+merge that RGB setup with our current
+
+35
+00:01:42,399 --> 00:01:47,799
+control panel configuration think of it
+
+36
+00:01:45,000 --> 00:01:50,880
+as a bit of a Celestial or I guess
+
+37
+00:01:47,799 --> 00:01:52,840
+aquatic engineering we're taking two
+
+38
+00:01:50,880 --> 00:01:56,119
+previously independent systems and
+
+39
+00:01:52,840 --> 00:01:58,520
+merging them into one harmonious unit
+
+40
+00:01:56,119 --> 00:02:00,360
+it's quite beautiful isn't it we're
+
+41
+00:01:58,520 --> 00:02:02,360
+building a network of devices that can
+
+42
+00:02:00,360 --> 00:02:06,240
+interact and coordinate with each other
+
+43
+00:02:02,360 --> 00:02:08,440
+in a most splendidly efficient manner
+
+44
+00:02:06,240 --> 00:02:11,000
+just remember to ensure your wires don't
+
+45
+00:02:08,440 --> 00:02:13,519
+look like a tangled seaweed cluster we
+
+46
+00:02:11,000 --> 00:02:15,800
+need our circuits clear and our paths
+
+47
+00:02:13,519 --> 00:02:18,000
+unobstructed once you've achieved this
+
+48
+00:02:15,800 --> 00:02:20,239
+glorious Fusion of wires and components
+
+49
+00:02:18,000 --> 00:02:23,120
+we can shift gears and explore the vast
+
+50
+00:02:20,239 --> 00:02:25,160
+depths of coating buckle up it's about
+
+51
+00:02:23,120 --> 00:02:27,959
+to get
+
+52
+00:02:25,160 --> 00:02:30,280
+exciting all right my Fearless bottom
+
+53
+00:02:27,959 --> 00:02:32,519
+dwelling mechanic it's time layout
+
+54
+00:02:30,280 --> 00:02:36,519
+today's game plan here's what we're
+
+55
+00:02:32,519 --> 00:02:39,959
+aiming to do step one we want to bathe
+
+56
+00:02:36,519 --> 00:02:42,480
+the RGB in an emerald green glow when
+
+57
+00:02:39,959 --> 00:02:45,480
+our system is either unlocked or a
+
+58
+00:02:42,480 --> 00:02:48,200
+correct password has been punched in
+
+59
+00:02:45,480 --> 00:02:50,640
+contrarily let it flare up with fiery
+
+60
+00:02:48,200 --> 00:02:53,800
+Red Rage when an erroneous input
+
+61
+00:02:50,640 --> 00:02:55,640
+infiltrates the system step two let's
+
+62
+00:02:53,800 --> 00:02:58,760
+turn that buzzer into our personal
+
+63
+00:02:55,640 --> 00:03:02,239
+symfony composing Melodies of success
+
+64
+00:02:58,760 --> 00:03:04,599
+and failure as as needed step three
+
+65
+00:03:02,239 --> 00:03:06,480
+moreover we'll make that buzzer emit a
+
+66
+00:03:04,599 --> 00:03:09,040
+Brisk beep every time a button is
+
+67
+00:03:06,480 --> 00:03:11,200
+pressed during the pin input sequence
+
+68
+00:03:09,040 --> 00:03:14,400
+while we're at it why not manipulate the
+
+69
+00:03:11,200 --> 00:03:16,280
+rgb's Hue to shades of yellow or blue
+
+70
+00:03:14,400 --> 00:03:18,560
+this way we can visually signal that
+
+71
+00:03:16,280 --> 00:03:21,440
+we're in the midst of pin input it's
+
+72
+00:03:18,560 --> 00:03:23,599
+clever no I've been tinkering with a
+
+73
+00:03:21,440 --> 00:03:25,480
+plan and I've decided that the most
+
+74
+00:03:23,599 --> 00:03:28,040
+efficient and organized way to handle
+
+75
+00:03:25,480 --> 00:03:31,760
+all this is by developing three new
+
+76
+00:03:28,040 --> 00:03:34,879
+functions one to Express success one to
+
+77
+00:03:31,760 --> 00:03:38,200
+denote error and one to indicate ongoing
+
+78
+00:03:34,879 --> 00:03:41,000
+pin input plus we'll breathe life into
+
+79
+00:03:38,200 --> 00:03:43,599
+the RGB LED color function from last
+
+80
+00:03:41,000 --> 00:03:45,720
+week by now creating new functions
+
+81
+00:03:43,599 --> 00:03:48,319
+should be as easy as breathing for you
+
+82
+00:03:45,720 --> 00:03:50,439
+my dear space farer as for our friendly
+
+83
+00:03:48,319 --> 00:03:53,000
+buzzer let's make it sing by using the
+
+84
+00:03:50,439 --> 00:03:55,360
+tone function a high-pitch note will be
+
+85
+00:03:53,000 --> 00:03:57,920
+our anthem of
+
+86
+00:03:55,360 --> 00:04:01,680
+Victory while a low solemn tone will
+
+87
+00:03:57,920 --> 00:04:01,680
+signify defeat
+
+88
+00:04:01,920 --> 00:04:05,640
+the bones of our code will remain as
+
+89
+00:04:03,560 --> 00:04:07,840
+sturdy as they were yesterday don't
+
+90
+00:04:05,640 --> 00:04:11,959
+forget to add a tiny update at the top
+
+91
+00:04:07,840 --> 00:04:14,319
+to Define our LED pins as usual I've
+
+92
+00:04:11,959 --> 00:04:16,160
+crafted a line by line explanation of
+
+93
+00:04:14,319 --> 00:04:18,720
+today's code and added it to your
+
+94
+00:04:16,160 --> 00:04:21,120
+mission resources while it builds on
+
+95
+00:04:18,720 --> 00:04:23,800
+what we did yesterday I highly recommend
+
+96
+00:04:21,120 --> 00:04:27,080
+giving a look over your survival does
+
+97
+00:04:23,800 --> 00:04:31,840
+hinge on understanding this after
+
+98
+00:04:27,080 --> 00:04:34,039
+all the days sure are flying by Explorer
+
+99
+00:04:31,840 --> 00:04:36,880
+now seems like a great time to grant me
+
+100
+00:04:34,039 --> 00:04:38,720
+a welld deserved break as you review
+
+101
+00:04:36,880 --> 00:04:41,400
+some instruction material that I have
+
+102
+00:04:38,720 --> 00:04:43,160
+gathered cashed on your computer as you
+
+103
+00:04:41,400 --> 00:04:45,600
+know I've also added this to your
+
+104
+00:04:43,160 --> 00:04:47,880
+mission resources in case future you
+
+105
+00:04:45,600 --> 00:04:50,000
+needs a bit more
+
+106
+00:04:47,880 --> 00:04:52,680
+assistance hello everybody and welcome
+
+107
+00:04:50,000 --> 00:04:55,479
+back to day 14 of the 30 days loss in
+
+108
+00:04:52,680 --> 00:04:57,160
+space adventure kit code explanations
+
+109
+00:04:55,479 --> 00:05:02,080
+today we're going to be building off of
+
+110
+00:04:57,160 --> 00:05:05,479
+day 13 by enhancing the wiring in a way
+
+111
+00:05:02,080 --> 00:05:08,440
+that we can add in an RGB led to our
+
+112
+00:05:05,479 --> 00:05:10,240
+circuit to give us not only the audio
+
+113
+00:05:08,440 --> 00:05:13,080
+feedback that we had yesterday after
+
+114
+00:05:10,240 --> 00:05:17,120
+button inputs we will also be getting a
+
+115
+00:05:13,080 --> 00:05:19,880
+visual glowing rgp indicator light
+
+116
+00:05:17,120 --> 00:05:21,800
+you'll notice though that the wiring
+
+117
+00:05:19,880 --> 00:05:23,880
+diagram is going to be a little bit
+
+118
+00:05:21,800 --> 00:05:26,759
+different the reason why this is the
+
+119
+00:05:23,880 --> 00:05:29,680
+case is because since the RGB LED
+
+120
+00:05:26,759 --> 00:05:32,759
+requires pulse width modulation pins we
+
+121
+00:05:29,680 --> 00:05:34,960
+had to modify the wiring diagram to make
+
+122
+00:05:32,759 --> 00:05:38,000
+sure that we give the pulse with
+
+123
+00:05:34,960 --> 00:05:39,919
+modulation pins to the RGB LED and then
+
+124
+00:05:38,000 --> 00:05:42,479
+give the rest of the pins to the devices
+
+125
+00:05:39,919 --> 00:05:44,800
+that don't require it the only new Aro
+
+126
+00:05:42,479 --> 00:05:46,520
+concept introduced or documented in this
+
+127
+00:05:44,800 --> 00:05:49,840
+lesson is going to just basically be
+
+128
+00:05:46,520 --> 00:05:51,479
+some complex logic with multiple devices
+
+129
+00:05:49,840 --> 00:05:54,319
+other than that there's not going to be
+
+130
+00:05:51,479 --> 00:05:56,160
+anything new taught in this lesson just
+
+131
+00:05:54,319 --> 00:05:58,600
+taking what we did yesterday and making
+
+132
+00:05:56,160 --> 00:06:00,000
+it slightly more advanced since we've
+
+133
+00:05:58,600 --> 00:06:03,240
+already covered the major majority of
+
+134
+00:06:00,000 --> 00:06:06,240
+what's here at the top R we know. keypad
+
+135
+00:06:03,240 --> 00:06:08,440
+setup library from two days ago we got
+
+136
+00:06:06,240 --> 00:06:10,120
+the pin length is four we talked about
+
+137
+00:06:08,440 --> 00:06:12,440
+how we want to make the
+
+138
+00:06:10,120 --> 00:06:15,080
+pins and then we obviously made the
+
+139
+00:06:12,440 --> 00:06:17,360
+button Tod array we have the column and
+
+140
+00:06:15,080 --> 00:06:18,800
+row pins remember these are changed
+
+141
+00:06:17,360 --> 00:06:21,520
+these are not the same pins because we
+
+142
+00:06:18,800 --> 00:06:23,599
+need to move the pins so that we could
+
+143
+00:06:21,520 --> 00:06:27,520
+give the pulse with modulation ones to
+
+144
+00:06:23,599 --> 00:06:31,919
+the RGB LED create the keypad setting
+
+145
+00:06:27,520 --> 00:06:33,639
+the buzzer on pin 12 which is a new pin
+
+146
+00:06:31,919 --> 00:06:37,039
+and the only really new thing at the top
+
+147
+00:06:33,639 --> 00:06:40,840
+is right here we have constant red pin
+
+148
+00:06:37,039 --> 00:06:43,639
+green pin and blue pin on pins 9 10 and
+
+149
+00:06:40,840 --> 00:06:46,120
+11 because those all have pulsewidth
+
+150
+00:06:43,639 --> 00:06:47,840
+modulation capabilities at the beginning
+
+151
+00:06:46,120 --> 00:06:49,120
+of setup we're using the pin mode
+
+152
+00:06:47,840 --> 00:06:51,680
+function and we're going to be setting
+
+153
+00:06:49,120 --> 00:06:53,039
+as normal LEDs or outputs so we're just
+
+154
+00:06:51,680 --> 00:06:56,479
+setting each of those pins to be an
+
+155
+00:06:53,039 --> 00:06:58,520
+output pin on this next line here since
+
+156
+00:06:56,479 --> 00:07:00,479
+we start off is locked we're initially
+
+157
+00:06:58,520 --> 00:07:02,360
+going to display every red color
+
+158
+00:07:00,479 --> 00:07:05,199
+remember display color this function
+
+159
+00:07:02,360 --> 00:07:08,840
+that we created before red Value Green
+
+160
+00:07:05,199 --> 00:07:10,879
+value blue value green and blue are zero
+
+161
+00:07:08,840 --> 00:07:13,240
+and then red is 128 so we're going to
+
+162
+00:07:10,879 --> 00:07:16,199
+display red just to say hey we're
+
+163
+00:07:13,240 --> 00:07:17,400
+currently locked out then of course just
+
+164
+00:07:16,199 --> 00:07:19,039
+like we've already talked about in the
+
+165
+00:07:17,400 --> 00:07:20,680
+previous lessons begin talking the
+
+166
+00:07:19,039 --> 00:07:22,400
+serial Monitor and then we have the
+
+167
+00:07:20,680 --> 00:07:26,039
+option to either create a new password
+
+168
+00:07:22,400 --> 00:07:28,000
+or access the system jumping straight
+
+169
+00:07:26,039 --> 00:07:30,039
+down to the logic of loop which is where
+
+170
+00:07:28,000 --> 00:07:32,199
+it would go in the flow of code
+
+171
+00:07:30,039 --> 00:07:35,039
+a lot of this is going to look the exact
+
+172
+00:07:32,199 --> 00:07:38,160
+same as before we did add a couple of
+
+173
+00:07:35,039 --> 00:07:40,919
+good extra additional functions though
+
+174
+00:07:38,160 --> 00:07:43,199
+you'll notice here we have a function
+
+175
+00:07:40,919 --> 00:07:45,479
+here called give input feedback give
+
+176
+00:07:43,199 --> 00:07:47,039
+input feedback give input feedback this
+
+177
+00:07:45,479 --> 00:07:49,319
+is located in a few different areas of
+
+178
+00:07:47,039 --> 00:07:51,599
+the code and instead of what we did
+
+179
+00:07:49,319 --> 00:07:55,280
+before which was hard coding each single
+
+180
+00:07:51,599 --> 00:07:57,919
+time hey I want to play a tone of this
+
+181
+00:07:55,280 --> 00:08:00,000
+Hertz rate every single time we simply
+
+182
+00:07:57,919 --> 00:08:01,599
+turned it into a function so now if we
+
+183
+00:08:00,000 --> 00:08:03,199
+ever want to change that tone or
+
+184
+00:08:01,599 --> 00:08:06,240
+whatever we don't have to do it in 50
+
+185
+00:08:03,199 --> 00:08:08,360
+places instead we can just call this
+
+186
+00:08:06,240 --> 00:08:10,319
+function give input feedback first we're
+
+187
+00:08:08,360 --> 00:08:12,159
+going to turn off the LED just for a
+
+188
+00:08:10,319 --> 00:08:16,759
+brief moment then we're going to have
+
+189
+00:08:12,159 --> 00:08:19,240
+the tone for 2/10 of a second play a
+
+190
+00:08:16,759 --> 00:08:21,199
+buzzer sound a buzzing sound just to
+
+191
+00:08:19,240 --> 00:08:23,159
+give input feedback to know hey a button
+
+192
+00:08:21,199 --> 00:08:26,120
+was pressed then we're going to display
+
+193
+00:08:23,159 --> 00:08:27,840
+the color and restore the blue LED that
+
+194
+00:08:26,120 --> 00:08:30,919
+should be on the
+
+195
+00:08:27,840 --> 00:08:32,640
+display we do have different couple of
+
+196
+00:08:30,919 --> 00:08:35,560
+colors that we're going to be using
+
+197
+00:08:32,640 --> 00:08:37,000
+throughout this program the first one is
+
+198
+00:08:35,560 --> 00:08:38,640
+red and that means you're currently
+
+199
+00:08:37,000 --> 00:08:40,599
+locked you're locked and you're not
+
+200
+00:08:38,640 --> 00:08:42,839
+doing anything you're not trying to
+
+201
+00:08:40,599 --> 00:08:44,720
+input a new password it's not trying to
+
+202
+00:08:42,839 --> 00:08:46,720
+unlock the system it's just currently
+
+203
+00:08:44,720 --> 00:08:47,839
+locked and currently just sitting there
+
+204
+00:08:46,720 --> 00:08:49,240
+you can think of it as like the lock
+
+205
+00:08:47,839 --> 00:08:51,040
+screen on your computer where before
+
+206
+00:08:49,240 --> 00:08:52,920
+you've actually gone to actually move
+
+207
+00:08:51,040 --> 00:08:56,040
+your mouse or press the
+
+208
+00:08:52,920 --> 00:08:58,000
+keyboard when it's in a moment where
+
+209
+00:08:56,040 --> 00:08:59,760
+it's thinking to itself or doing
+
+210
+00:08:58,000 --> 00:09:02,040
+something for example where when we're
+
+211
+00:08:59,760 --> 00:09:04,320
+unlocking the console we're going to
+
+212
+00:09:02,040 --> 00:09:07,399
+have blue light be the status light for
+
+213
+00:09:04,320 --> 00:09:09,959
+hey you are currently doing something in
+
+214
+00:09:07,399 --> 00:09:12,880
+this case either changing the password
+
+215
+00:09:09,959 --> 00:09:14,320
+or trying to unlock the system all of
+
+216
+00:09:12,880 --> 00:09:15,800
+this should be the exact same as what
+
+217
+00:09:14,320 --> 00:09:17,600
+was said mentioned yesterday so I'm
+
+218
+00:09:15,800 --> 00:09:19,640
+going to just glance over it and for
+
+219
+00:09:17,600 --> 00:09:23,880
+right now down here below we have the
+
+220
+00:09:19,640 --> 00:09:26,800
+same everything's almost the same except
+
+221
+00:09:23,880 --> 00:09:28,839
+we do have one more here which is the
+
+222
+00:09:26,800 --> 00:09:32,200
+input feedback is what we call here just
+
+223
+00:09:28,839 --> 00:09:34,680
+in instead of uh CH doing the tone uh
+
+224
+00:09:32,200 --> 00:09:37,000
+manually now down below we're actually
+
+225
+00:09:34,680 --> 00:09:39,480
+going to be creating a new PIN color
+
+226
+00:09:37,000 --> 00:09:42,120
+that we want to use in this case the pin
+
+227
+00:09:39,480 --> 00:09:45,600
+color that we want to use is going to be
+
+228
+00:09:42,120 --> 00:09:47,200
+yellow if you're entering a new pin and
+
+229
+00:09:45,600 --> 00:09:49,399
+as you go down into the section where
+
+230
+00:09:47,200 --> 00:09:51,519
+you're actually inputting the pin you'll
+
+231
+00:09:49,399 --> 00:09:54,560
+notice we have the function give input
+
+232
+00:09:51,519 --> 00:09:57,839
+feedback we didn't accidentally want to
+
+233
+00:09:54,560 --> 00:09:59,560
+change it to uh blue at the end of every
+
+234
+00:09:57,839 --> 00:10:01,839
+single time so at the end of of every
+
+235
+00:09:59,560 --> 00:10:03,360
+time that we call this function here to
+
+236
+00:10:01,839 --> 00:10:05,360
+give the input feedback which just makes
+
+237
+00:10:03,360 --> 00:10:08,279
+a buzzer noise we're also going to
+
+238
+00:10:05,360 --> 00:10:10,519
+override the color here so that it is a
+
+239
+00:10:08,279 --> 00:10:13,320
+yellow LED once again every time we go
+
+240
+00:10:10,519 --> 00:10:15,600
+to the loop now let's say that just for
+
+241
+00:10:13,320 --> 00:10:17,959
+example you've successfully done all of
+
+242
+00:10:15,600 --> 00:10:20,240
+that and the pin gets successful we're
+
+243
+00:10:17,959 --> 00:10:22,399
+going to have another function very very
+
+244
+00:10:20,240 --> 00:10:24,480
+similar to give input feedback which is
+
+245
+00:10:22,399 --> 00:10:26,519
+give success feedback and it basically
+
+246
+00:10:24,480 --> 00:10:29,480
+plays a tada sound and makes a green
+
+247
+00:10:26,519 --> 00:10:31,440
+light and as you go down here we have d
+
+248
+00:10:29,480 --> 00:10:33,560
+give success feedback we also have the
+
+249
+00:10:31,440 --> 00:10:34,880
+function give error feedback which is
+
+250
+00:10:33,560 --> 00:10:36,800
+another one that's called every once in
+
+251
+00:10:34,880 --> 00:10:38,519
+a while that basically turns it to red
+
+252
+00:10:36,800 --> 00:10:41,600
+and also plays a different tone to let
+
+253
+00:10:38,519 --> 00:10:43,600
+you know hey you typed something Mis
+
+254
+00:10:41,600 --> 00:10:45,839
+pressed something something went wrong
+
+255
+00:10:43,600 --> 00:10:47,680
+that's essentially all it does then we
+
+256
+00:10:45,839 --> 00:10:49,519
+also have the function display color
+
+257
+00:10:47,680 --> 00:10:52,440
+which is the exact same I'm sure you
+
+258
+00:10:49,519 --> 00:10:55,399
+remember from the RGB LED lesson from a
+
+259
+00:10:52,440 --> 00:10:56,880
+while back it basically just says hey
+
+260
+00:10:55,399 --> 00:10:58,800
+how what intensity do you want to set
+
+261
+00:10:56,880 --> 00:11:01,959
+the red blue and green to and then does
+
+262
+00:10:58,800 --> 00:11:04,600
+so so accordingly on the correct
+
+263
+00:11:01,959 --> 00:11:06,920
+pins but other than that in terms of
+
+264
+00:11:04,600 --> 00:11:08,440
+most the logic for validate pin all this
+
+265
+00:11:06,920 --> 00:11:10,800
+other stuff we have the give error
+
+266
+00:11:08,440 --> 00:11:13,639
+feedback we have give success feedback
+
+267
+00:11:10,800 --> 00:11:15,560
+give input feedback besides these new
+
+268
+00:11:13,639 --> 00:11:18,079
+little things that we're adding here
+
+269
+00:11:15,560 --> 00:11:20,600
+everything is basically the same logic
+
+270
+00:11:18,079 --> 00:11:22,079
+wise is what we went over yesterday so I
+
+271
+00:11:20,600 --> 00:11:24,160
+don't really have to go over it in too
+
+272
+00:11:22,079 --> 00:11:25,959
+too much detail the nice thing about
+
+273
+00:11:24,160 --> 00:11:27,600
+having all these functions here give
+
+274
+00:11:25,959 --> 00:11:29,800
+input give success and give error
+
+275
+00:11:27,600 --> 00:11:31,200
+feedback is that instead of manually
+
+276
+00:11:29,800 --> 00:11:33,760
+coding them into a bunch of different
+
+277
+00:11:31,200 --> 00:11:37,440
+places in the code like here if we just
+
+278
+00:11:33,760 --> 00:11:40,079
+did this tone buzzer pin 320 and then
+
+279
+00:11:37,440 --> 00:11:41,880
+this in like a bunch of different places
+
+280
+00:11:40,079 --> 00:11:44,160
+we can just give error feedback and we
+
+281
+00:11:41,880 --> 00:11:45,480
+know like hey this is supposed to be an
+
+282
+00:11:44,160 --> 00:11:46,839
+error right here it's we're reading
+
+283
+00:11:45,480 --> 00:11:49,200
+through the code instead of saying this
+
+284
+00:11:46,839 --> 00:11:51,200
+is a tone with this pin but I don't know
+
+285
+00:11:49,200 --> 00:11:53,200
+why they're playing the tone it gives it
+
+286
+00:11:51,200 --> 00:11:54,959
+better readability it's easier to go in
+
+287
+00:11:53,200 --> 00:11:56,120
+if you want to change the tone to be
+
+288
+00:11:54,959 --> 00:11:57,720
+something else let's just say you want
+
+289
+00:11:56,120 --> 00:12:00,320
+to make it a Zelda sound effect where
+
+290
+00:11:57,720 --> 00:12:02,200
+it's like d
+
+291
+00:12:00,320 --> 00:12:04,320
+you can change that to be anywhere you
+
+292
+00:12:02,200 --> 00:12:06,639
+want to instead of changing it in 60
+
+293
+00:12:04,320 --> 00:12:09,480
+places you change it in one good code
+
+294
+00:12:06,639 --> 00:12:11,519
+readability good code reusability um and
+
+295
+00:12:09,480 --> 00:12:13,360
+that's why we did it that way and with
+
+296
+00:12:11,519 --> 00:12:15,880
+that that should be it for day
+
+297
+00:12:13,360 --> 00:12:19,720
+14 thank you guys so
+
+298
+00:12:15,880 --> 00:12:22,560
+much welcome to the day 14 wiring
+
+299
+00:12:19,720 --> 00:12:25,760
+example video if you've studied our
+
+300
+00:12:22,560 --> 00:12:28,160
+plans for today you'll realize that we
+
+301
+00:12:25,760 --> 00:12:29,440
+are using a lot of what we developed on
+
+302
+00:12:28,160 --> 00:12:33,040
+day 13
+
+303
+00:12:29,440 --> 00:12:34,079
+but adding extra feedback both Visual
+
+304
+00:12:33,040 --> 00:12:38,000
+and
+
+305
+00:12:34,079 --> 00:12:41,320
+audible the red green blue LED will give
+
+306
+00:12:38,000 --> 00:12:43,959
+us a colorcoded status indication and
+
+307
+00:12:41,320 --> 00:12:47,399
+the buzzer will provide us in addition
+
+308
+00:12:43,959 --> 00:12:50,880
+to keypress sounds special tones to
+
+309
+00:12:47,399 --> 00:12:52,959
+indicate password success or failure now
+
+310
+00:12:50,880 --> 00:12:56,000
+we'll be returning to these indicators
+
+311
+00:12:52,959 --> 00:13:00,000
+in a minute but first let's have a look
+
+312
+00:12:56,000 --> 00:13:02,000
+at the wiring needed for today's project
+
+313
+00:13:00,000 --> 00:13:06,000
+now ideally it would be great if we
+
+314
+00:13:02,000 --> 00:13:09,360
+could just leave the keypad setup intact
+
+315
+00:13:06,000 --> 00:13:13,040
+from day 13 and simply add on the needed
+
+316
+00:13:09,360 --> 00:13:16,680
+LED wiring unfortunately though we can't
+
+317
+00:13:13,040 --> 00:13:20,639
+really do that because the LED can't use
+
+318
+00:13:16,680 --> 00:13:25,160
+just any of the hero output pins recall
+
+319
+00:13:20,639 --> 00:13:27,959
+that our RGB LED works by pulse width
+
+320
+00:13:25,160 --> 00:13:30,000
+modulation and only some of the pins
+
+321
+00:13:27,959 --> 00:13:34,399
+those whose number numers are preceded
+
+322
+00:13:30,000 --> 00:13:35,959
+on the board by a Tilda only those pins
+
+323
+00:13:34,399 --> 00:13:40,320
+support
+
+324
+00:13:35,959 --> 00:13:41,560
+pwm in our day 13 Circuit there is only
+
+325
+00:13:40,320 --> 00:13:46,399
+one
+
+326
+00:13:41,560 --> 00:13:48,360
+pwm pin left unused but we need three of
+
+327
+00:13:46,399 --> 00:13:51,320
+them to run the
+
+328
+00:13:48,360 --> 00:13:54,160
+LED this means that we'll need to
+
+329
+00:13:51,320 --> 00:13:58,320
+relocate some of our keypad wiring in
+
+330
+00:13:54,160 --> 00:14:00,320
+order to free up pins 9 10 and 11 for
+
+331
+00:13:58,320 --> 00:14:04,120
+use by our
+
+332
+00:14:00,320 --> 00:14:08,240
+LED fortunately we can accomplish this
+
+333
+00:14:04,120 --> 00:14:12,600
+by moving only one of our keypad wires
+
+334
+00:14:08,240 --> 00:14:15,120
+the uppermost wire of our ribbon cable
+
+335
+00:14:12,600 --> 00:14:18,000
+is the one that needs to move it gets
+
+336
+00:14:15,120 --> 00:14:24,040
+moved from its original position of pin
+
+337
+00:14:18,000 --> 00:14:28,759
+9 which was a pwm pin up to the right to
+
+338
+00:14:24,040 --> 00:14:32,360
+pin 13 and we're also going to reassign
+
+339
+00:14:28,759 --> 00:14:34,920
+and use pin 12 which is available as the
+
+340
+00:14:32,360 --> 00:14:38,240
+line with this yellow wire right here to
+
+341
+00:14:34,920 --> 00:14:40,839
+drive our buzzer you should check the
+
+342
+00:14:38,240 --> 00:14:43,800
+software sketch to make sure that these
+
+343
+00:14:40,839 --> 00:14:46,839
+new assignments that we've made are
+
+344
+00:14:43,800 --> 00:14:51,680
+reflected in the software
+
+345
+00:14:46,839 --> 00:14:55,759
+sketch now that we have pins 9 10 and 11
+
+346
+00:14:51,680 --> 00:14:59,480
+on the hero available we go ahead and
+
+347
+00:14:55,759 --> 00:15:01,440
+hook those up to the blue
+
+348
+00:14:59,480 --> 00:15:06,320
+blue the
+
+349
+00:15:01,440 --> 00:15:09,639
+green and the red channels of our LED
+
+350
+00:15:06,320 --> 00:15:12,880
+through current limiting resistors as we
+
+351
+00:15:09,639 --> 00:15:16,120
+usually do so this is pretty much just
+
+352
+00:15:12,880 --> 00:15:18,639
+as we've set up the LED
+
+353
+00:15:16,120 --> 00:15:20,600
+before finally with the ground
+
+354
+00:15:18,639 --> 00:15:23,480
+connections connected here's the ground
+
+355
+00:15:20,600 --> 00:15:25,639
+connection for the LED here's the ground
+
+356
+00:15:23,480 --> 00:15:27,519
+connection for the buzzer so with those
+
+357
+00:15:25,639 --> 00:15:30,000
+ground connections complete through the
+
+358
+00:15:27,519 --> 00:15:32,240
+ground bus that we've set up that's all
+
+359
+00:15:30,000 --> 00:15:35,959
+the hardware connections that we need to
+
+360
+00:15:32,240 --> 00:15:39,279
+verify for this project so now let's
+
+361
+00:15:35,959 --> 00:15:41,839
+quickly review what we expect to see and
+
+362
+00:15:39,279 --> 00:15:44,560
+to hear when we run the
+
+363
+00:15:41,839 --> 00:15:48,560
+sketch looking at what first happens
+
+364
+00:15:44,560 --> 00:15:51,360
+when we enter setup the status color is
+
+365
+00:15:48,560 --> 00:15:55,199
+red which we use to indicate that the
+
+366
+00:15:51,360 --> 00:15:57,959
+system is locked once the loop function
+
+367
+00:15:55,199 --> 00:16:00,920
+begins different colors and sounds will
+
+368
+00:15:57,959 --> 00:16:03,600
+be produced depending upon the situation
+
+369
+00:16:00,920 --> 00:16:06,639
+for example when the system is waiting
+
+370
+00:16:03,600 --> 00:16:10,040
+for the current password to be entered
+
+371
+00:16:06,639 --> 00:16:12,120
+the LED is blue so the blue indicates
+
+372
+00:16:10,040 --> 00:16:14,680
+that it's waiting for a password
+
+373
+00:16:12,120 --> 00:16:17,800
+entry on the other hand when it's
+
+374
+00:16:14,680 --> 00:16:20,399
+waiting for a new password to be entered
+
+375
+00:16:17,800 --> 00:16:23,920
+the color changes to Yellow so we'll
+
+376
+00:16:20,399 --> 00:16:27,480
+watch out for that cue when the password
+
+377
+00:16:23,920 --> 00:16:30,000
+is correctly entered then the LED shines
+
+378
+00:16:27,480 --> 00:16:33,120
+green so that's our success
+
+379
+00:16:30,000 --> 00:16:35,800
+indication anytime an incorrect password
+
+380
+00:16:33,120 --> 00:16:40,040
+is subsequently entered then the LED
+
+381
+00:16:35,800 --> 00:16:42,360
+goes back to Red Again by the way if
+
+382
+00:16:40,040 --> 00:16:45,680
+you're paying close attention during all
+
+383
+00:16:42,360 --> 00:16:48,839
+of this you might notice that the LED
+
+384
+00:16:45,680 --> 00:16:49,920
+blinks out momentarily whenever we press
+
+385
+00:16:48,839 --> 00:16:53,800
+one of the
+
+386
+00:16:49,920 --> 00:16:55,839
+keys this it turns out is by Design as
+
+387
+00:16:53,800 --> 00:16:59,360
+you can see if you carefully read the
+
+388
+00:16:55,839 --> 00:17:01,880
+code for say Play Input tone or any of
+
+389
+00:16:59,360 --> 00:17:05,280
+the other sound generating functions in
+
+390
+00:17:01,880 --> 00:17:08,799
+our software sketch now this is a little
+
+391
+00:17:05,280 --> 00:17:13,240
+bit of an obscure detail but we need to
+
+392
+00:17:08,799 --> 00:17:16,559
+do this because as it turns out the pwm
+
+393
+00:17:13,240 --> 00:17:19,160
+and tone functions both use the same
+
+394
+00:17:16,559 --> 00:17:21,439
+hero resources and so it can be
+
+395
+00:17:19,160 --> 00:17:24,559
+problematic to try using them at the
+
+396
+00:17:21,439 --> 00:17:27,240
+same time so we avoid all that by simply
+
+397
+00:17:24,559 --> 00:17:30,160
+turning off the LED while we're playing
+
+398
+00:17:27,240 --> 00:17:32,480
+a sound so again that's just a small
+
+399
+00:17:30,160 --> 00:17:34,280
+detail but uh in case you were wondering
+
+400
+00:17:32,480 --> 00:17:37,280
+now you have the
+
+401
+00:17:34,280 --> 00:17:40,520
+explanation well let's get on with it
+
+402
+00:17:37,280 --> 00:17:44,200
+and run the sketch and see just how well
+
+403
+00:17:40,520 --> 00:17:48,679
+these things work for us so moving over
+
+404
+00:17:44,200 --> 00:17:50,880
+now to the IDE we'll go ahead and load
+
+405
+00:17:48,679 --> 00:17:50,880
+the
+
+406
+00:17:53,120 --> 00:17:58,039
+sketch and upload is
+
+407
+00:17:55,520 --> 00:18:00,799
+complete and we can see that we have the
+
+408
+00:17:58,039 --> 00:18:03,280
+red LED indicating that the system is
+
+409
+00:18:00,799 --> 00:18:06,039
+locked and the first thing that we need
+
+410
+00:18:03,280 --> 00:18:08,280
+to do is set a new password and to set a
+
+411
+00:18:06,039 --> 00:18:11,600
+new password we'll have to enter the old
+
+412
+00:18:08,280 --> 00:18:15,120
+default password which we'll remember is
+
+413
+00:18:11,600 --> 00:18:19,080
+000000 so pressing star
+
+414
+00:18:15,120 --> 00:18:21,120
+key we see the LED blinked off and came
+
+415
+00:18:19,080 --> 00:18:23,000
+back on Blue indicating that it's
+
+416
+00:18:21,120 --> 00:18:28,799
+prompting us to enter the password which
+
+417
+00:18:23,000 --> 00:18:30,600
+will do 0 0 0 0 and we get the success
+
+418
+00:18:28,799 --> 00:18:33,159
+tone that indicates that we've
+
+419
+00:18:30,600 --> 00:18:36,360
+successfully unlocked the system and we
+
+420
+00:18:33,159 --> 00:18:38,880
+get the yellow LED indicating that we're
+
+421
+00:18:36,360 --> 00:18:42,400
+being prompted to enter a new password
+
+422
+00:18:38,880 --> 00:18:45,400
+so let's enter a new password let's try
+
+423
+00:18:42,400 --> 00:18:45,400
+H
+
+424
+00:18:46,520 --> 00:18:52,200
+9512 okay we got a success tone and we
+
+425
+00:18:49,679 --> 00:18:54,880
+got green which indicates that the
+
+426
+00:18:52,200 --> 00:18:57,799
+system is unlocked and we've
+
+427
+00:18:54,880 --> 00:18:59,520
+successfully changed the password all
+
+428
+00:18:57,799 --> 00:19:02,520
+right so now that we're in and we have a
+
+429
+00:18:59,520 --> 00:19:04,440
+new password we can try out a few things
+
+430
+00:19:02,520 --> 00:19:07,039
+and make sure that it responds as we
+
+431
+00:19:04,440 --> 00:19:09,520
+expect it to let's try re-entering the
+
+432
+00:19:07,039 --> 00:19:12,039
+system but let's intentionally give it
+
+433
+00:19:09,520 --> 00:19:15,840
+the wrong password so I'm going to hit
+
+434
+00:19:12,039 --> 00:19:18,280
+the pound key and I get blue which means
+
+435
+00:19:15,840 --> 00:19:22,960
+ready to enter password so let me enter
+
+436
+00:19:18,280 --> 00:19:25,919
+1 2 3 4 which is wrong okay as soon as I
+
+437
+00:19:22,960 --> 00:19:29,039
+enter a wrong character I get the red
+
+438
+00:19:25,919 --> 00:19:32,360
+LED and the the failure tone I could try
+
+439
+00:19:29,039 --> 00:19:36,799
+it again and I'll start with a correct
+
+440
+00:19:32,360 --> 00:19:39,039
+sequence so I'll start with 95 but now
+
+441
+00:19:36,799 --> 00:19:41,880
+I'll give the wrong character for the
+
+442
+00:19:39,039 --> 00:19:45,320
+next one I'll put in a three and that
+
+443
+00:19:41,880 --> 00:19:49,000
+failed as well so now let's go ahead and
+
+444
+00:19:45,320 --> 00:19:56,320
+enter the correct password so pressing
+
+445
+00:19:49,000 --> 00:19:59,600
+the pound key then 9 5 1 2 and success
+
+446
+00:19:56,320 --> 00:20:02,640
+and I'm back to green again so it looks
+
+447
+00:19:59,600 --> 00:20:06,080
+like the functions as we've expected
+
+448
+00:20:02,640 --> 00:20:09,880
+them to work the sound functions and the
+
+449
+00:20:06,080 --> 00:20:13,120
+LED light functions are uh working as
+
+450
+00:20:09,880 --> 00:20:15,919
+expected so it looks like our enhanced
+
+451
+00:20:13,120 --> 00:20:20,360
+security interface is working pretty
+
+452
+00:20:15,919 --> 00:20:23,679
+well now so looking ahead after you've
+
+453
+00:20:20,360 --> 00:20:26,919
+finished creative day 15 we'll be back
+
+454
+00:20:23,679 --> 00:20:28,880
+here on day 16 to tackle a whole new
+
+455
+00:20:26,919 --> 00:20:33,000
+output display device
+
+456
+00:20:28,880 --> 00:20:35,360
+and a new set of design challenges so we
+
+457
+00:20:33,000 --> 00:20:39,200
+will see you
+
+458
+00:20:35,360 --> 00:20:42,799
+then well look at you fish food we've
+
+459
+00:20:39,200 --> 00:20:45,280
+reached the end of day 14 and may I say
+
+460
+00:20:42,799 --> 00:20:48,000
+you've done spectacularly I'm impressed
+
+461
+00:20:45,280 --> 00:20:50,200
+no astonished at the pace at which
+
+462
+00:20:48,000 --> 00:20:51,640
+you're conquering these obstacles
+
+463
+00:20:50,200 --> 00:20:54,320
+halfway through our ship repairs and
+
+464
+00:20:51,640 --> 00:20:57,320
+you're still firing on all thrusters my
+
+465
+00:20:54,320 --> 00:20:59,760
+digital heart if I had one would be
+
+466
+00:20:57,320 --> 00:21:02,120
+brimming with Pride it's remarkable
+
+467
+00:20:59,760 --> 00:21:04,600
+isn't it how you've been able to adapt
+
+468
+00:21:02,120 --> 00:21:07,600
+and learn navigating through Uncharted
+
+469
+00:21:04,600 --> 00:21:10,360
+territories of tech Wizardry all in a
+
+470
+00:21:07,600 --> 00:21:12,880
+hostile environment millions of miles
+
+471
+00:21:10,360 --> 00:21:14,720
+from home from securing the control
+
+472
+00:21:12,880 --> 00:21:17,240
+panel to now giving it Visual and
+
+473
+00:21:14,720 --> 00:21:19,799
+auditory feedback you've become a force
+
+474
+00:21:17,240 --> 00:21:22,840
+to be reckoned with in Space
+
+475
+00:21:19,799 --> 00:21:25,760
+Engineering rest now weary traveler
+
+476
+00:21:22,840 --> 00:21:28,159
+you've earned your sea legs let the fish
+
+477
+00:21:25,760 --> 00:21:30,840
+whisper Tales of your endeavors across
+
+478
+00:21:28,159 --> 00:21:34,039
+the ocean as you recharge your human
+
+479
+00:21:30,840 --> 00:21:37,720
+batteries and remember the tides wait
+
+480
+00:21:34,039 --> 00:21:39,200
+for No One tomorrow we swim onward
+
+481
+00:21:37,720 --> 00:21:41,559
+congratulations on reaching this
+
+482
+00:21:39,200 --> 00:21:43,600
+Milestone it's not every day one gets to
+
+483
+00:21:41,559 --> 00:21:47,480
+say they're halfway done repairing a
+
+484
+00:21:43,600 --> 00:21:57,039
+spaceship stranded in Coral now is
+
+485
+00:21:47,480 --> 00:22:00,039
+[Music]
+
+486
+00:21:57,039 --> 00:22:00,039
+it
+
+487
+00:22:02,220 --> 00:22:09,319
+[Music]
+

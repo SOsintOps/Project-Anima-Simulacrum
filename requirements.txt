@@ -1,1 +1,14 @@
-PyPDF2
+# Project Anima Simulacrum - Stark Workshop
+# Core dependencies
+
+# HTTP client for VoiceBox API
+requests>=2.31.0
+
+# Audio processing
+pydub>=0.25.1
+
+# PDF parsing (legacy - movie scripts)
+PyPDF2>=3.0.0
+
+# SRT subtitle parsing (optional, we have custom parser)
+# srt>=3.5.3

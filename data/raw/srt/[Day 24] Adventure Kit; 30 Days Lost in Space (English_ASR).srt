@@ -1,0 +1,2416 @@
+1
+00:00:01,280 --> 00:00:21,000
+[Music]
+
+2
+00:00:16,640 --> 00:00:23,880
+hey Explorer launch day up for it let's
+
+3
+00:00:21,000 --> 00:00:25,880
+let's just do another gear check we're
+
+4
+00:00:23,880 --> 00:00:28,320
+at a critical juncture so let's go over
+
+5
+00:00:25,880 --> 00:00:30,759
+what's in store we have a full roster of
+
+6
+00:00:28,320 --> 00:00:33,079
+equipment to wire up number one our dip
+
+7
+00:00:30,759 --> 00:00:34,879
+switch to toggle all system functions
+
+8
+00:00:33,079 --> 00:00:38,000
+and initiate the countdown of our seven
+
+9
+00:00:34,879 --> 00:00:40,160
+segment display number two our
+
+10
+00:00:38,000 --> 00:00:42,960
+OED which will serve as our control
+
+11
+00:00:40,160 --> 00:00:45,360
+panel display and number three our
+
+12
+00:00:42,960 --> 00:00:48,079
+trusty buzzer to keep us Alert in case
+
+13
+00:00:45,360 --> 00:00:50,600
+of any safety concerns our task is
+
+14
+00:00:48,079 --> 00:00:53,719
+immense our hearts are stout and our
+
+15
+00:00:50,600 --> 00:00:55,920
+minds sharper than ever so let's roll up
+
+16
+00:00:53,719 --> 00:00:58,559
+our sleeves strap in and prepare for
+
+17
+00:00:55,920 --> 00:01:01,559
+liftoff the vastness of space beckons
+
+18
+00:00:58,559 --> 00:01:05,280
+and we will answer it call to paraphrase
+
+19
+00:01:01,559 --> 00:01:08,680
+an ancient Teran to close to Infinity
+
+20
+00:01:05,280 --> 00:01:12,080
+but never Beyond we're going to put
+
+21
+00:01:08,680 --> 00:01:15,159
+together our OLED seven segment display
+
+22
+00:01:12,080 --> 00:01:17,759
+dip switch and passive buzzer into one
+
+23
+00:01:15,159 --> 00:01:19,680
+masterful circuit this intricate
+
+24
+00:01:17,759 --> 00:01:22,840
+Symphony of Hardware will be the central
+
+25
+00:01:19,680 --> 00:01:24,759
+nervous system for our liftoff the OLED
+
+26
+00:01:22,840 --> 00:01:27,159
+will serve as our main control panel
+
+27
+00:01:24,759 --> 00:01:29,360
+display the seven segment display will
+
+28
+00:01:27,159 --> 00:01:31,240
+take care of our crucial Countdown the
+
+29
+00:01:29,360 --> 00:01:33,880
+dip switch will be our trigger to
+
+30
+00:01:31,240 --> 00:01:35,680
+initiate all system functions and the
+
+31
+00:01:33,880 --> 00:01:38,920
+passive buzzer will be our trusty
+
+32
+00:01:35,680 --> 00:01:41,840
+Watchdog alerting us of any
+
+33
+00:01:38,920 --> 00:01:44,200
+anomalies today we are adding the grand
+
+34
+00:01:41,840 --> 00:01:46,640
+finale to our code but before we
+
+35
+00:01:44,200 --> 00:01:48,880
+initiate the spectacular conflagration
+
+36
+00:01:46,640 --> 00:01:51,680
+that will power our Escape we need to
+
+37
+00:01:48,880 --> 00:01:55,600
+start with the smaller Sparks it all
+
+38
+00:01:51,680 --> 00:01:58,719
+begins with our dip switch dip switch
+
+39
+00:01:55,600 --> 00:02:02,320
+three systems all need to be on before
+
+40
+00:01:58,719 --> 00:02:06,280
+we're go to launch timer is wired up
+
+41
+00:02:02,320 --> 00:02:08,840
+correctly and well to the seven segments
+
+42
+00:02:06,280 --> 00:02:10,720
+eyes on the clock and then we'll see
+
+43
+00:02:08,840 --> 00:02:14,280
+what happens there's some instructional
+
+44
+00:02:10,720 --> 00:02:16,720
+material as usual check things over I'll
+
+45
+00:02:14,280 --> 00:02:19,560
+do a flight check you know got to make
+
+46
+00:02:16,720 --> 00:02:22,120
+sure good
+
+47
+00:02:19,560 --> 00:02:25,160
+luck hello everybody and welcome back to
+
+48
+00:02:22,120 --> 00:02:27,080
+day 24 of the 30 days lawon space code
+
+49
+00:02:25,160 --> 00:02:29,879
+explanations today we're going to be
+
+50
+00:02:27,080 --> 00:02:31,879
+taking what we did on day 23 adding in a
+
+51
+00:02:29,879 --> 00:02:34,239
+wonderful little dip switch and a
+
+52
+00:02:31,879 --> 00:02:36,640
+passive buzzer onto our project before
+
+53
+00:02:34,239 --> 00:02:38,319
+your lift off later today now before we
+
+54
+00:02:36,640 --> 00:02:39,760
+get into the full bit of the code I want
+
+55
+00:02:38,319 --> 00:02:41,319
+to talk to you guys about how the
+
+56
+00:02:39,760 --> 00:02:43,840
+program will work from a higher level
+
+57
+00:02:41,319 --> 00:02:46,720
+perspective when you first start the
+
+58
+00:02:43,840 --> 00:02:49,480
+program all of the dip switch positions
+
+59
+00:02:46,720 --> 00:02:51,360
+should be set to the off position so
+
+60
+00:02:49,480 --> 00:02:53,200
+that very first state that we can
+
+61
+00:02:51,360 --> 00:02:55,920
+possibly be in out of five is going to
+
+62
+00:02:53,200 --> 00:02:58,400
+be called initialization if I go down
+
+63
+00:02:55,920 --> 00:03:00,760
+here we'll see this wonderful little new
+
+64
+00:02:58,400 --> 00:03:02,519
+struct that we've cre created that you
+
+65
+00:03:00,760 --> 00:03:04,599
+guys can actually look at here and this
+
+66
+00:03:02,519 --> 00:03:08,000
+is the very first state initialization
+
+67
+00:03:04,599 --> 00:03:10,040
+when all the dip switches are off now
+
+68
+00:03:08,000 --> 00:03:13,280
+pending is where we're waiting for all
+
+69
+00:03:10,040 --> 00:03:17,200
+of them to be turned on once they are
+
+70
+00:03:13,280 --> 00:03:19,640
+all on we have the following we have
+
+71
+00:03:17,200 --> 00:03:21,599
+countdown now if at any point during
+
+72
+00:03:19,640 --> 00:03:23,519
+this countdown we turn off one of the
+
+73
+00:03:21,599 --> 00:03:25,840
+dip switches we're going to go to the
+
+74
+00:03:23,519 --> 00:03:28,720
+abort State because we just accidentally
+
+75
+00:03:25,840 --> 00:03:30,560
+cut off the state here and finally if we
+
+76
+00:03:28,720 --> 00:03:32,400
+do actually make the countdown all the
+
+77
+00:03:30,560 --> 00:03:35,360
+way to zero we'll finally enter this
+
+78
+00:03:32,400 --> 00:03:37,040
+liftoff State here but if at again if at
+
+79
+00:03:35,360 --> 00:03:39,760
+any point we decide to turn that lever
+
+80
+00:03:37,040 --> 00:03:42,480
+off into the off position we will abort
+
+81
+00:03:39,760 --> 00:03:45,360
+the countdown and we'll have to then
+
+82
+00:03:42,480 --> 00:03:47,400
+restart it now let's go over the code
+
+83
+00:03:45,360 --> 00:03:48,879
+from the top to the bottom and let's
+
+84
+00:03:47,400 --> 00:03:50,439
+take out the stuff that we talked about
+
+85
+00:03:48,879 --> 00:03:53,400
+in the days before so that we don't have
+
+86
+00:03:50,439 --> 00:03:55,480
+to restate that this obviously we've
+
+87
+00:03:53,400 --> 00:03:57,560
+talked about this in every piece of code
+
+88
+00:03:55,480 --> 00:04:00,400
+this is included by default by the
+
+89
+00:03:57,560 --> 00:04:02,519
+Arduino IDE but we're just excluding
+
+90
+00:04:00,400 --> 00:04:05,159
+putting it in here explicitly just so
+
+91
+00:04:02,519 --> 00:04:08,200
+you know that it's there here's a seven
+
+92
+00:04:05,159 --> 00:04:10,280
+segment display the graphics libraries
+
+93
+00:04:08,200 --> 00:04:13,079
+and of course we talked about the Define
+
+94
+00:04:10,280 --> 00:04:15,239
+macros yesterday and how they convert
+
+95
+00:04:13,079 --> 00:04:17,560
+things to minutes and seconds yesterday
+
+96
+00:04:15,239 --> 00:04:19,000
+down here below we have the pins that
+
+97
+00:04:17,560 --> 00:04:21,759
+are required for the seven segment
+
+98
+00:04:19,000 --> 00:04:23,520
+display as well as the Constructor for
+
+99
+00:04:21,759 --> 00:04:25,199
+the seven segment display so we can make
+
+100
+00:04:23,520 --> 00:04:28,000
+that and actually call the functions
+
+101
+00:04:25,199 --> 00:04:30,160
+from the library down here below we now
+
+102
+00:04:28,000 --> 00:04:31,880
+have the pins for the dip switch is this
+
+103
+00:04:30,160 --> 00:04:33,280
+is new for today this just simply
+
+104
+00:04:31,880 --> 00:04:36,560
+defines what pins we're going to be
+
+105
+00:04:33,280 --> 00:04:38,440
+using pin n will be for our lever uh
+
+106
+00:04:36,560 --> 00:04:39,960
+thrust pin this one's going to be for
+
+107
+00:04:38,440 --> 00:04:42,680
+our system lever and this one's going to
+
+108
+00:04:39,960 --> 00:04:44,880
+be for our confirmation lever down here
+
+109
+00:04:42,680 --> 00:04:46,479
+below we have the buzzer pin is going to
+
+110
+00:04:44,880 --> 00:04:49,120
+be equal to six and we're putting that
+
+111
+00:04:46,479 --> 00:04:52,039
+on a pulse withth modulation pin so that
+
+112
+00:04:49,120 --> 00:04:53,880
+we can obviously play all the various
+
+113
+00:04:52,039 --> 00:04:57,000
+tones using pulse withth modulation on
+
+114
+00:04:53,880 --> 00:04:58,919
+pin six talked about this yesterday
+
+115
+00:04:57,000 --> 00:05:00,080
+don't need to go over this again this is
+
+116
+00:04:58,919 --> 00:05:02,000
+just simply
+
+117
+00:05:00,080 --> 00:05:04,400
+making similar to what we did with the
+
+118
+00:05:02,000 --> 00:05:08,280
+seven segment display same exact idea
+
+119
+00:05:04,400 --> 00:05:11,520
+here for our Lander OLED we are also
+
+120
+00:05:08,280 --> 00:05:13,800
+going to be defining how big our Lander
+
+121
+00:05:11,520 --> 00:05:15,680
+graphic is so in the very bottom right
+
+122
+00:05:13,800 --> 00:05:17,479
+of our program we will have a Lander
+
+123
+00:05:15,680 --> 00:05:19,120
+that when we finally do take off we'll
+
+124
+00:05:17,479 --> 00:05:22,759
+have a little animation that shoots
+
+125
+00:05:19,120 --> 00:05:25,360
+itself up to the top of the screen now
+
+126
+00:05:22,759 --> 00:05:29,720
+we are defining how big that is in bits
+
+127
+00:05:25,360 --> 00:05:31,919
+and we have 25 by 20 down here say
+
+128
+00:05:29,720 --> 00:05:34,880
+segment display defining the done value
+
+129
+00:05:31,919 --> 00:05:38,520
+again talked about this yesterday and on
+
+130
+00:05:34,880 --> 00:05:40,400
+day 16 here we have the countdown in
+
+131
+00:05:38,520 --> 00:05:42,400
+milliseconds now one thing that we
+
+132
+00:05:40,400 --> 00:05:44,000
+changed on this line of code here from
+
+133
+00:05:42,400 --> 00:05:45,840
+yesterday as you probably have
+
+134
+00:05:44,000 --> 00:05:50,000
+remembered yesterday we had the
+
+135
+00:05:45,840 --> 00:05:51,759
+countdown it was 5 Seconds time 1,000
+
+136
+00:05:50,000 --> 00:05:54,400
+but this time we're changing it to 70 so
+
+137
+00:05:51,759 --> 00:05:56,280
+it would be a minute and 10 seconds uh
+
+138
+00:05:54,400 --> 00:05:58,319
+that's what it should display but
+
+139
+00:05:56,280 --> 00:05:59,479
+however we put this UL here and what
+
+140
+00:05:58,319 --> 00:06:01,639
+this is going to do is this is going to
+
+141
+00:05:59,479 --> 00:06:03,960
+going to make it so that we have it be
+
+142
+00:06:01,639 --> 00:06:05,720
+done as an unsigned long remember when
+
+143
+00:06:03,960 --> 00:06:08,080
+we're talking about data types signed
+
+144
+00:06:05,720 --> 00:06:10,680
+variables can go negative unsigned
+
+145
+00:06:08,080 --> 00:06:12,759
+variables can't go negative um there's
+
+146
+00:06:10,680 --> 00:06:14,199
+no sign bit at the end which allows it
+
+147
+00:06:12,759 --> 00:06:16,520
+to determine if it's a positive or
+
+148
+00:06:14,199 --> 00:06:18,000
+negative number so unassigned variables
+
+149
+00:06:16,520 --> 00:06:20,400
+don't have that they don't have that
+
+150
+00:06:18,000 --> 00:06:23,440
+sign and they always by default just use
+
+151
+00:06:20,400 --> 00:06:25,280
+positive numbers or obviously zero can
+
+152
+00:06:23,440 --> 00:06:27,360
+be done as well so if we're using
+
+153
+00:06:25,280 --> 00:06:28,840
+unsigned numbers we're just making sure
+
+154
+00:06:27,360 --> 00:06:31,919
+because it's a countdown there's no
+
+155
+00:06:28,840 --> 00:06:34,400
+reason to go to negative 1G -2 neg3 you
+
+156
+00:06:31,919 --> 00:06:36,120
+know obviously as for a countdown reason
+
+157
+00:06:34,400 --> 00:06:37,560
+so we're using unsigned and we're
+
+158
+00:06:36,120 --> 00:06:39,319
+putting this here just to make sure that
+
+159
+00:06:37,560 --> 00:06:42,319
+there's no way that this can
+
+160
+00:06:39,319 --> 00:06:44,639
+accidentally be misconstrued uh when we
+
+161
+00:06:42,319 --> 00:06:48,000
+want to be using onside numbers down
+
+162
+00:06:44,639 --> 00:06:50,280
+here below we have the en that shows the
+
+163
+00:06:48,000 --> 00:06:52,800
+five different states that we can
+
+164
+00:06:50,280 --> 00:06:54,360
+possibly be in throughout this program
+
+165
+00:06:52,800 --> 00:06:55,919
+now depending on what state we're in
+
+166
+00:06:54,360 --> 00:06:59,120
+we're obviously going to be executing
+
+167
+00:06:55,919 --> 00:07:01,639
+things differently so an enumerator is a
+
+168
+00:06:59,120 --> 00:07:03,560
+Comm and to Define multiple related
+
+169
+00:07:01,639 --> 00:07:05,360
+values where distinguishing between the
+
+170
+00:07:03,560 --> 00:07:08,479
+different values is important but the
+
+171
+00:07:05,360 --> 00:07:10,199
+actual values are not so this is perfect
+
+172
+00:07:08,479 --> 00:07:12,160
+for something like this when we're
+
+173
+00:07:10,199 --> 00:07:15,479
+trying to talk about the various states
+
+174
+00:07:12,160 --> 00:07:17,599
+that our program can be in each name is
+
+175
+00:07:15,479 --> 00:07:19,440
+then given its own value and in this
+
+176
+00:07:17,599 --> 00:07:25,199
+case it starts with zero so this would
+
+177
+00:07:19,440 --> 00:07:26,520
+be zero 1 2 3 and four so out of the
+
+178
+00:07:25,199 --> 00:07:30,400
+five states it's you can think of it is
+
+179
+00:07:26,520 --> 00:07:33,639
+almost like an array of uh variables 0 1
+
+180
+00:07:30,400 --> 00:07:36,639
+2 3 and four so now we've talked about
+
+181
+00:07:33,639 --> 00:07:39,120
+the enes let's hop down to void setup
+
+182
+00:07:36,639 --> 00:07:42,280
+and let's go on to here to talk about
+
+183
+00:07:39,120 --> 00:07:44,280
+what's new for today now obviously we're
+
+184
+00:07:42,280 --> 00:07:46,960
+talking about serial monitor set to
+
+185
+00:07:44,280 --> 00:07:48,919
+seven segment display settings set the
+
+186
+00:07:46,960 --> 00:07:50,800
+OLED settings all stuff we talked about
+
+187
+00:07:48,919 --> 00:07:52,879
+yesterday finally we're setting all the
+
+188
+00:07:50,800 --> 00:07:55,159
+dip switch pins as inputs and we're just
+
+189
+00:07:52,879 --> 00:07:57,560
+going to clear the old display that's it
+
+190
+00:07:55,159 --> 00:07:59,080
+for the setup let's jump down to Loop
+
+191
+00:07:57,560 --> 00:08:00,960
+one thing we'll notice though is that
+
+192
+00:07:59,080 --> 00:08:03,360
+this time we're going through Loop we
+
+193
+00:08:00,960 --> 00:08:05,039
+are going to have a slight issue with
+
+194
+00:08:03,360 --> 00:08:07,720
+how we're doing things the reason we'll
+
+195
+00:08:05,039 --> 00:08:10,599
+have a slight issue is because in order
+
+196
+00:08:07,720 --> 00:08:12,400
+to keep the beeping and animation steady
+
+197
+00:08:10,599 --> 00:08:14,120
+we really have to make sure that each
+
+198
+00:08:12,400 --> 00:08:16,319
+time we go through the loop is the same
+
+199
+00:08:14,120 --> 00:08:18,360
+amount of time meaning we can't have one
+
+200
+00:08:16,319 --> 00:08:20,159
+time going through the loop be quicker
+
+201
+00:08:18,360 --> 00:08:23,000
+than the other times otherwise it could
+
+202
+00:08:20,159 --> 00:08:25,879
+break things and the way that the
+
+203
+00:08:23,000 --> 00:08:28,400
+functions in our Graphics library and
+
+204
+00:08:25,879 --> 00:08:30,400
+tone libraries work they don't really
+
+205
+00:08:28,400 --> 00:08:32,240
+care they will break if you're not
+
+206
+00:08:30,400 --> 00:08:34,080
+careful about it so the way we're going
+
+207
+00:08:32,240 --> 00:08:36,479
+to be doing this is we're basically
+
+208
+00:08:34,080 --> 00:08:37,839
+going to make sure that the minimum time
+
+209
+00:08:36,479 --> 00:08:39,680
+that we have to go through Loop is going
+
+210
+00:08:37,839 --> 00:08:41,640
+to be about 200 milliseconds and we're
+
+211
+00:08:39,680 --> 00:08:44,320
+going to set a defined value basically
+
+212
+00:08:41,640 --> 00:08:46,680
+limiting how long it takes to go through
+
+213
+00:08:44,320 --> 00:08:49,040
+each time occasionally Loops may take
+
+214
+00:08:46,680 --> 00:08:51,279
+longer but this constant defines the
+
+215
+00:08:49,040 --> 00:08:54,240
+minimum time each Loop will take at
+
+216
+00:08:51,279 --> 00:08:57,959
+minimum to run so each iteration going
+
+217
+00:08:54,240 --> 00:09:01,240
+through this whole bit has to take at
+
+218
+00:08:57,959 --> 00:09:03,399
+least at at the minimum 200 milliseconds
+
+219
+00:09:01,240 --> 00:09:06,880
+so that that way we can make sure that
+
+220
+00:09:03,399 --> 00:09:09,120
+anytime that we call any of our tone or
+
+221
+00:09:06,880 --> 00:09:11,040
+Graphics things it has enough time to
+
+222
+00:09:09,120 --> 00:09:14,079
+execute everything it needs to execute
+
+223
+00:09:11,040 --> 00:09:17,000
+especially when we're using the first p
+
+224
+00:09:14,079 --> 00:09:19,600
+uh first page next page stuff saving all
+
+225
+00:09:17,000 --> 00:09:20,920
+that stuff for memory saving reasons we
+
+226
+00:09:19,600 --> 00:09:23,160
+need to make sure that we actually have
+
+227
+00:09:20,920 --> 00:09:25,440
+enough time to then execute that since
+
+228
+00:09:23,160 --> 00:09:27,920
+it does take more time to execute to
+
+229
+00:09:25,440 --> 00:09:30,000
+save the memory we need for the program
+
+230
+00:09:27,920 --> 00:09:31,839
+down here in Loop we're going to
+
+231
+00:09:30,000 --> 00:09:33,959
+obviously initialize our static
+
+232
+00:09:31,839 --> 00:09:35,880
+variables all the way at the top and
+
+233
+00:09:33,959 --> 00:09:37,800
+we're going to obviously start here in
+
+234
+00:09:35,880 --> 00:09:40,519
+the initialization State remember that
+
+235
+00:09:37,800 --> 00:09:42,800
+en we had before initialization state is
+
+236
+00:09:40,519 --> 00:09:44,040
+where we're going to start then we're
+
+237
+00:09:42,800 --> 00:09:46,000
+going to do the following as you
+
+238
+00:09:44,040 --> 00:09:48,720
+remember last time we had the following
+
+239
+00:09:46,000 --> 00:09:50,959
+Loop start time these are obviously just
+
+240
+00:09:48,720 --> 00:09:53,399
+variables to keep track of where we are
+
+241
+00:09:50,959 --> 00:09:55,760
+in the loop and of course we even have
+
+242
+00:09:53,399 --> 00:09:57,560
+this Loop toggle equals true which is
+
+243
+00:09:55,760 --> 00:10:00,680
+just going to be defined to say whether
+
+244
+00:09:57,560 --> 00:10:02,800
+we are going to be tone or blink a text
+
+245
+00:10:00,680 --> 00:10:04,399
+this way through the loop so every time
+
+246
+00:10:02,800 --> 00:10:07,279
+that we go through this loop we're going
+
+247
+00:10:04,399 --> 00:10:09,519
+to change this variable here to onof on
+
+248
+00:10:07,279 --> 00:10:11,959
+off so we can keep the looking flashy
+
+249
+00:10:09,519 --> 00:10:15,079
+and Blinky up at the top with our text
+
+250
+00:10:11,959 --> 00:10:16,880
+and beeping tones and so on here we have
+
+251
+00:10:15,079 --> 00:10:19,240
+all the levers um where we're going to
+
+252
+00:10:16,880 --> 00:10:21,399
+read the state of each lever before we
+
+253
+00:10:19,240 --> 00:10:23,600
+decide what we're going to do next now
+
+254
+00:10:21,399 --> 00:10:24,959
+we're after we do all the reading of
+
+255
+00:10:23,600 --> 00:10:27,040
+what we have we're simply going to
+
+256
+00:10:24,959 --> 00:10:29,560
+update the display with the current
+
+257
+00:10:27,040 --> 00:10:30,880
+status of our liftoff sequence this is
+
+258
+00:10:29,560 --> 00:10:32,120
+either going to be on or off this is
+
+259
+00:10:30,880 --> 00:10:33,440
+either going to be on or off and this is
+
+260
+00:10:32,120 --> 00:10:35,240
+either going to be on or off and then we
+
+261
+00:10:33,440 --> 00:10:38,399
+have obviously one of the five liftoff
+
+262
+00:10:35,240 --> 00:10:40,000
+states that we can be in as well so
+
+263
+00:10:38,399 --> 00:10:42,160
+we're going to quickly update the Lander
+
+264
+00:10:40,000 --> 00:10:44,680
+display this calls a new function we
+
+265
+00:10:42,160 --> 00:10:48,800
+created this function down below if we
+
+266
+00:10:44,680 --> 00:10:52,120
+go past all this stuff here we can find
+
+267
+00:10:48,800 --> 00:10:54,480
+the update OLED display on this display
+
+268
+00:10:52,120 --> 00:10:56,240
+we set the max Lander speed that it can
+
+269
+00:10:54,480 --> 00:10:58,360
+go up to the top this is our little
+
+270
+00:10:56,240 --> 00:10:59,560
+funny little rocket ship we have in the
+
+271
+00:10:58,360 --> 00:11:01,680
+bottom right corner corner of our
+
+272
+00:10:59,560 --> 00:11:04,040
+display that will be going up upon
+
+273
+00:11:01,680 --> 00:11:07,160
+execution we're simply setting the Speed
+
+274
+00:11:04,040 --> 00:11:09,519
+Max Speed to be five we don't want to go
+
+275
+00:11:07,160 --> 00:11:11,279
+too fast otherwise it'll just appear off
+
+276
+00:11:09,519 --> 00:11:12,480
+disappear off the screen way too quickly
+
+277
+00:11:11,279 --> 00:11:14,399
+and you won't even be able to see the
+
+278
+00:11:12,480 --> 00:11:17,320
+animation down below we have void update
+
+279
+00:11:14,399 --> 00:11:19,040
+Lander display taking in those things
+
+280
+00:11:17,320 --> 00:11:20,880
+and then obviously depending on what
+
+281
+00:11:19,040 --> 00:11:23,600
+they are we just want to set the up the
+
+282
+00:11:20,880 --> 00:11:26,240
+display to say what it is properly
+
+283
+00:11:23,600 --> 00:11:29,240
+expiration Lander left off sequence at
+
+284
+00:11:26,240 --> 00:11:33,399
+the top and finally we simply just say
+
+285
+00:11:29,240 --> 00:11:36,519
+if it is on we want to say that it is in
+
+286
+00:11:33,399 --> 00:11:38,880
+state liftoff aborted if it is in
+
+287
+00:11:36,519 --> 00:11:41,480
+liftoff then we want to say liftoff but
+
+288
+00:11:38,880 --> 00:11:44,040
+if we accidentally abort it then it's
+
+289
+00:11:41,480 --> 00:11:47,839
+aborted else we want to be able to
+
+290
+00:11:44,040 --> 00:11:49,800
+display as well the is if it's on we
+
+291
+00:11:47,839 --> 00:11:53,200
+want to put it on otherwise if it's off
+
+292
+00:11:49,800 --> 00:11:55,399
+we want to put it off in programming
+
+293
+00:11:53,200 --> 00:11:59,040
+this is going to seem like a very very
+
+294
+00:11:55,399 --> 00:12:01,200
+awkward thing to look at this here is is
+
+295
+00:11:59,040 --> 00:12:04,120
+a very interesting unique way to
+
+296
+00:12:01,200 --> 00:12:06,480
+basically write if thrusters level is
+
+297
+00:12:04,120 --> 00:12:07,880
+true everything after so you can think
+
+298
+00:12:06,480 --> 00:12:11,480
+of it this way the question mark is
+
+299
+00:12:07,880 --> 00:12:14,440
+essentially like the brackets right so
+
+300
+00:12:11,480 --> 00:12:17,399
+if this is true then you're going to do
+
+301
+00:12:14,440 --> 00:12:19,720
+the very first one else you're going to
+
+302
+00:12:17,399 --> 00:12:22,600
+do whatever is after this colon here
+
+303
+00:12:19,720 --> 00:12:24,720
+this is a very shorthanded way of
+
+304
+00:12:22,600 --> 00:12:27,160
+writing that entire if statement but
+
+305
+00:12:24,720 --> 00:12:29,480
+using strings this is basically going to
+
+306
+00:12:27,160 --> 00:12:31,399
+determine what we're going to display
+
+307
+00:12:29,480 --> 00:12:33,079
+so if it's on we want to put up we want
+
+308
+00:12:31,399 --> 00:12:34,600
+to say it's on otherwise if letter is
+
+309
+00:12:33,079 --> 00:12:37,279
+off we want to say it's off if this is
+
+310
+00:12:34,600 --> 00:12:39,199
+on we want to say on otherwise off on on
+
+311
+00:12:37,279 --> 00:12:42,680
+off off same exact thing for all three
+
+312
+00:12:39,199 --> 00:12:45,600
+of them and we obviously have the all of
+
+313
+00:12:42,680 --> 00:12:47,120
+those being displayed on our olded panel
+
+314
+00:12:45,600 --> 00:12:49,480
+and then we just simply update the
+
+315
+00:12:47,120 --> 00:12:51,440
+display with that information finally we
+
+316
+00:12:49,480 --> 00:12:53,880
+also have this helper function that
+
+317
+00:12:51,440 --> 00:12:57,360
+basically turns whatever state it is
+
+318
+00:12:53,880 --> 00:13:00,199
+into a string so if we're in the state
+
+319
+00:12:57,360 --> 00:13:03,320
+of an it we want to return the string in
+
+320
+00:13:00,199 --> 00:13:05,959
+it pending pending countdown we want to
+
+321
+00:13:03,320 --> 00:13:07,880
+make it active liftoff we can change
+
+322
+00:13:05,959 --> 00:13:10,600
+this to complete in abort we're just
+
+323
+00:13:07,880 --> 00:13:13,279
+going to keep abort obviously we use
+
+324
+00:13:10,600 --> 00:13:15,440
+this up here so lift off to string and
+
+325
+00:13:13,279 --> 00:13:17,279
+we can get the state of that it's in and
+
+326
+00:13:15,440 --> 00:13:19,920
+we just return that as a string and push
+
+327
+00:13:17,279 --> 00:13:21,720
+that onto our display this is the
+
+328
+00:13:19,920 --> 00:13:23,639
+functionality we discussed yesterday to
+
+329
+00:13:21,720 --> 00:13:26,639
+display the counter on our seven segment
+
+330
+00:13:23,639 --> 00:13:28,920
+display this draws a string on our OLED
+
+331
+00:13:26,639 --> 00:13:30,959
+and this obviously displays our Lander
+
+332
+00:13:28,920 --> 00:13:33,160
+draws all the boxes and everything to
+
+333
+00:13:30,959 --> 00:13:36,440
+displayed in the bottom right corner on
+
+334
+00:13:33,160 --> 00:13:38,600
+our display if we go back to the loop go
+
+335
+00:13:36,440 --> 00:13:41,519
+back to where we left from here under
+
+336
+00:13:38,600 --> 00:13:43,240
+the update Lander display after we've
+
+337
+00:13:41,519 --> 00:13:45,199
+updated the Lander display to display
+
+338
+00:13:43,240 --> 00:13:47,000
+all the information that we need to have
+
+339
+00:13:45,199 --> 00:13:48,079
+it display we're basically going to go
+
+340
+00:13:47,000 --> 00:13:50,560
+down and we're going to make some
+
+341
+00:13:48,079 --> 00:13:52,800
+decision making decision making based
+
+342
+00:13:50,560 --> 00:13:54,959
+off of what state we're in the first
+
+343
+00:13:52,800 --> 00:13:57,759
+state we could possibly be in is is
+
+344
+00:13:54,959 --> 00:14:00,320
+initialization so if we're
+
+345
+00:13:57,759 --> 00:14:04,000
+initializing we want to check to see if
+
+346
+00:14:00,320 --> 00:14:08,079
+all three switches are off false and if
+
+347
+00:14:04,000 --> 00:14:10,160
+that's the case then we can turn off the
+
+348
+00:14:08,079 --> 00:14:12,199
+beeping next we have to check to see if
+
+349
+00:14:10,160 --> 00:14:14,519
+we're in the pending State meaning that
+
+350
+00:14:12,199 --> 00:14:17,320
+at least one of them is turned on and if
+
+351
+00:14:14,519 --> 00:14:19,639
+that's the case then if let's just say
+
+352
+00:14:17,320 --> 00:14:21,519
+all three of them are now turned on at
+
+353
+00:14:19,639 --> 00:14:23,279
+this execution throughout the loop then
+
+354
+00:14:21,519 --> 00:14:25,320
+we want to go down here and we want to
+
+355
+00:14:23,279 --> 00:14:26,839
+make sure that we change eventually this
+
+356
+00:14:25,320 --> 00:14:29,120
+state to
+
+357
+00:14:26,839 --> 00:14:31,560
+countdown finally we're going to go and
+
+358
+00:14:29,120 --> 00:14:34,720
+we're going to say else if liftoff state
+
+359
+00:14:31,560 --> 00:14:37,360
+is equal to countdown meaning that all
+
+360
+00:14:34,720 --> 00:14:39,240
+three are now in the on position we'll
+
+361
+00:14:37,360 --> 00:14:42,759
+simply be keeping track of the state of
+
+362
+00:14:39,240 --> 00:14:45,639
+the countdown timer and also in the off
+
+363
+00:14:42,759 --> 00:14:48,440
+chance that one of them happens to be
+
+364
+00:14:45,639 --> 00:14:51,079
+turned off if not thrust lever or not
+
+365
+00:14:48,440 --> 00:14:53,199
+system lever or not confirm lever if one
+
+366
+00:14:51,079 --> 00:14:54,600
+of them happens to be taken off then we
+
+367
+00:14:53,199 --> 00:14:56,800
+want to switch to the abort State
+
+368
+00:14:54,600 --> 00:14:59,800
+immediately because obviously we did not
+
+369
+00:14:56,800 --> 00:15:02,199
+complete the countdown and if we did
+
+370
+00:14:59,800 --> 00:15:04,560
+successfully get all the way down and
+
+371
+00:15:02,199 --> 00:15:06,680
+all the way to zero on our liftoff
+
+372
+00:15:04,560 --> 00:15:08,800
+sequence we want to set the segment on
+
+373
+00:15:06,680 --> 00:15:11,680
+our seven segment display to done play
+
+374
+00:15:08,800 --> 00:15:14,519
+it to do tone and obviously update the
+
+375
+00:15:11,680 --> 00:15:17,120
+Lander and make our little animation
+
+376
+00:15:14,519 --> 00:15:19,759
+thing in the bottom right go up to the
+
+377
+00:15:17,120 --> 00:15:21,839
+top make the little ship animation go
+
+378
+00:15:19,759 --> 00:15:23,360
+up and with that that should be
+
+379
+00:15:21,839 --> 00:15:26,320
+everything that's required for you to
+
+380
+00:15:23,360 --> 00:15:29,199
+take your ship up to space today Cadet
+
+381
+00:15:26,320 --> 00:15:31,279
+for day 24 of the lost and space code
+
+382
+00:15:29,199 --> 00:15:33,800
+explanations I look forward to seeing
+
+383
+00:15:31,279 --> 00:15:37,319
+you guys in orbit see you
+
+384
+00:15:33,800 --> 00:15:40,959
+then welcome to the day 24 wiring
+
+385
+00:15:37,319 --> 00:15:43,519
+example video all our wiring programming
+
+386
+00:15:40,959 --> 00:15:46,639
+and simulation practice has finally
+
+387
+00:15:43,519 --> 00:15:48,920
+brought us here to launch day in this
+
+388
+00:15:46,639 --> 00:15:52,480
+video I'll walk you through the hardware
+
+389
+00:15:48,920 --> 00:15:55,560
+setup and operations that should closely
+
+390
+00:15:52,480 --> 00:15:57,079
+resemble your experience as you prepare
+
+391
+00:15:55,560 --> 00:15:59,720
+for today's
+
+392
+00:15:57,079 --> 00:16:02,000
+liftoff this should should provide you
+
+393
+00:15:59,720 --> 00:16:04,600
+with a final chance to check your
+
+394
+00:16:02,000 --> 00:16:07,160
+systems and prepare yourself for the
+
+395
+00:16:04,600 --> 00:16:09,680
+events of the launch sequence including
+
+396
+00:16:07,160 --> 00:16:12,360
+any contingencies that might crop up
+
+397
+00:16:09,680 --> 00:16:16,440
+that would require an abort or
+
+398
+00:16:12,360 --> 00:16:18,360
+recycle to start off let's look over the
+
+399
+00:16:16,440 --> 00:16:21,959
+complete wiring
+
+400
+00:16:18,360 --> 00:16:24,880
+setup as we had on the previous day we
+
+401
+00:16:21,959 --> 00:16:26,120
+are including the seven segment
+
+402
+00:16:24,880 --> 00:16:29,120
+countdown
+
+403
+00:16:26,120 --> 00:16:32,360
+display and the O LED
+
+404
+00:16:29,120 --> 00:16:36,240
+Graphics screen in our system in
+
+405
+00:16:32,360 --> 00:16:39,399
+addition we're adding the buzzer module
+
+406
+00:16:36,240 --> 00:16:42,199
+to provide us with audible feedback and
+
+407
+00:16:39,399 --> 00:16:45,319
+warning indications during the launch
+
+408
+00:16:42,199 --> 00:16:48,759
+sequence much of the wiring today
+
+409
+00:16:45,319 --> 00:16:50,880
+resembles the previous days but we've
+
+410
+00:16:48,759 --> 00:16:53,240
+rearranged the power and ground
+
+411
+00:16:50,880 --> 00:16:56,680
+distribution just a little bit in order
+
+412
+00:16:53,240 --> 00:17:00,199
+to service all of our devices in a clean
+
+413
+00:16:56,680 --> 00:17:03,040
+way as before we've spread things out a
+
+414
+00:17:00,199 --> 00:17:05,480
+little bit onto a secondary breadboard
+
+415
+00:17:03,040 --> 00:17:08,520
+in order to make things easier to see
+
+416
+00:17:05,480 --> 00:17:11,760
+here in the video but you may well have
+
+417
+00:17:08,520 --> 00:17:15,640
+your circuit wired more compactly than
+
+418
+00:17:11,760 --> 00:17:18,919
+this in any case you'll notice that in
+
+419
+00:17:15,640 --> 00:17:21,480
+this example we've actually provided two
+
+420
+00:17:18,919 --> 00:17:24,439
+ground buses it's really just one ground
+
+421
+00:17:21,480 --> 00:17:28,199
+bus connected together as one but we're
+
+422
+00:17:24,439 --> 00:17:31,760
+using both the lower ground bus here on
+
+423
+00:17:28,199 --> 00:17:35,520
+the bottom side of the breadboard and
+
+424
+00:17:31,760 --> 00:17:38,720
+the upper ground bus as well you'll see
+
+425
+00:17:35,520 --> 00:17:42,480
+that the lower ground bus right here is
+
+426
+00:17:38,720 --> 00:17:43,600
+connected by a black jumper wire to the
+
+427
+00:17:42,480 --> 00:17:46,840
+hero
+
+428
+00:17:43,600 --> 00:17:50,280
+ground and this lower ground bus
+
+429
+00:17:46,840 --> 00:17:53,960
+provides the ground side connection for
+
+430
+00:17:50,280 --> 00:17:56,640
+our three switch logic resistors and so
+
+431
+00:17:53,960 --> 00:17:59,159
+this is uh a convenient place for us to
+
+432
+00:17:56,640 --> 00:18:02,200
+access ground here
+
+433
+00:17:59,159 --> 00:18:04,840
+we uh also have the uh ground
+
+434
+00:18:02,200 --> 00:18:08,360
+connections on the
+
+435
+00:18:04,840 --> 00:18:11,799
+upper ground bus you can just see it up
+
+436
+00:18:08,360 --> 00:18:14,320
+here on the top side which is used to
+
+437
+00:18:11,799 --> 00:18:18,919
+provide the negative or ground
+
+438
+00:18:14,320 --> 00:18:21,200
+connection right here for our buzzer and
+
+439
+00:18:18,919 --> 00:18:24,000
+we have a jumper that connects over to
+
+440
+00:18:21,200 --> 00:18:26,080
+the left side to provide ground for our
+
+441
+00:18:24,000 --> 00:18:29,520
+two display
+
+442
+00:18:26,080 --> 00:18:34,159
+modules we're able in this example to
+
+443
+00:18:29,520 --> 00:18:37,240
+get away with just a single plus 5vt bus
+
+444
+00:18:34,159 --> 00:18:40,159
+and this is distributed from the hero
+
+445
+00:18:37,240 --> 00:18:43,840
+5vt Supply through this R line and
+
+446
+00:18:40,159 --> 00:18:48,440
+connects to the upper bus line the red
+
+447
+00:18:43,840 --> 00:18:51,600
+bus line here along the top side now
+
+448
+00:18:48,440 --> 00:18:54,640
+you'll see that it supplies our three
+
+449
+00:18:51,600 --> 00:18:57,880
+switch circuits right here through these
+
+450
+00:18:54,640 --> 00:19:00,159
+three red lines so these power are
+
+451
+00:18:57,880 --> 00:19:02,400
+switch circuits which we'll use to
+
+452
+00:19:00,159 --> 00:19:06,120
+detect status on those
+
+453
+00:19:02,400 --> 00:19:08,720
+lines and in addition we have a jumper
+
+454
+00:19:06,120 --> 00:19:12,200
+that extends the 5 volts here over to
+
+455
+00:19:08,720 --> 00:19:15,440
+the left to provide 5vt Power once again
+
+456
+00:19:12,200 --> 00:19:18,880
+for our two displays on the left
+
+457
+00:19:15,440 --> 00:19:22,280
+side so now the last things in terms of
+
+458
+00:19:18,880 --> 00:19:25,400
+wiring that we need to check are our
+
+459
+00:19:22,280 --> 00:19:28,440
+output pin connections the positive
+
+460
+00:19:25,400 --> 00:19:32,640
+signal for the warning buzzer connects
+
+461
+00:19:28,440 --> 00:19:34,960
+to Hero pin 6 through this yellow wire
+
+462
+00:19:32,640 --> 00:19:38,320
+right here that connects the positive
+
+463
+00:19:34,960 --> 00:19:42,960
+terminal of the buzzer to Hero pin
+
+464
+00:19:38,320 --> 00:19:46,440
+six our three switch status lines switch
+
+465
+00:19:42,960 --> 00:19:51,039
+one switch two and switch three are in
+
+466
+00:19:46,440 --> 00:19:53,840
+turn connected to the hero pins 9 8 and
+
+467
+00:19:51,039 --> 00:19:56,039
+7 and those in this example are
+
+468
+00:19:53,840 --> 00:19:59,080
+connected by these three wires this
+
+469
+00:19:56,039 --> 00:20:01,240
+orange brown and green wire connect to
+
+470
+00:19:59,080 --> 00:20:05,000
+those three hero
+
+471
+00:20:01,240 --> 00:20:10,240
+pins and finally as we had before the
+
+472
+00:20:05,000 --> 00:20:13,720
+seven segment clock and Dio lines are
+
+473
+00:20:10,240 --> 00:20:16,880
+connected to pins five and four down
+
+474
+00:20:13,720 --> 00:20:20,600
+here on the hero through these two lines
+
+475
+00:20:16,880 --> 00:20:22,400
+through the uh brown and white lines
+
+476
+00:20:20,600 --> 00:20:25,520
+that connect to those
+
+477
+00:20:22,400 --> 00:20:29,559
+pins and the
+
+478
+00:20:25,520 --> 00:20:32,679
+OLED this display right here the OLED
+
+479
+00:20:29,559 --> 00:20:35,799
+clock and data lines are fed by the
+
+480
+00:20:32,679 --> 00:20:41,559
+heroes analog
+
+481
+00:20:35,799 --> 00:20:45,919
+A5 and A4 pins that's through these this
+
+482
+00:20:41,559 --> 00:20:48,480
+green and blue wire so that pretty much
+
+483
+00:20:45,919 --> 00:20:52,520
+summarizes the hardware setup and the
+
+484
+00:20:48,480 --> 00:20:55,240
+wiring necessary for this uh launch
+
+485
+00:20:52,520 --> 00:20:58,840
+sequence so now let's run through the
+
+486
+00:20:55,240 --> 00:21:01,760
+launch countdown sequence we'll load the
+
+487
+00:20:58,840 --> 00:21:03,960
+sketch and uh we'll run through a
+
+488
+00:21:01,760 --> 00:21:06,360
+simulated launch of course it won't be
+
+489
+00:21:03,960 --> 00:21:09,280
+simulated for you so that's why we want
+
+490
+00:21:06,360 --> 00:21:13,039
+to be careful to uh figure everything
+
+491
+00:21:09,280 --> 00:21:15,080
+out here in advance now in that Spirit
+
+492
+00:21:13,039 --> 00:21:18,520
+I'm actually going to start off right
+
+493
+00:21:15,080 --> 00:21:20,360
+now with an intentional mistake what I'm
+
+494
+00:21:18,520 --> 00:21:23,559
+going to do is I'm going to leave one of
+
+495
+00:21:20,360 --> 00:21:26,400
+the control switches in the armed
+
+496
+00:21:23,559 --> 00:21:29,520
+position rather than in its correct off
+
+497
+00:21:26,400 --> 00:21:31,440
+position which we would expect for
+
+498
+00:21:29,520 --> 00:21:34,279
+initialization so let's go ahead and
+
+499
+00:21:31,440 --> 00:21:35,200
+load the sketch and see what happens in
+
+500
+00:21:34,279 --> 00:21:37,919
+this
+
+501
+00:21:35,200 --> 00:21:42,000
+circumstance so going to the
+
+502
+00:21:37,919 --> 00:21:47,600
+IDE go ahead and upload the
+
+503
+00:21:42,000 --> 00:21:47,600
+sketch uploading and compiling is
+
+504
+00:21:49,520 --> 00:21:56,120
+done and we have a warning buzzer and we
+
+505
+00:21:52,840 --> 00:21:58,720
+have an indication that we are not able
+
+506
+00:21:56,120 --> 00:22:01,480
+to begin the liftoff sequence we have a
+
+507
+00:21:58,720 --> 00:22:04,279
+problem so we notice oh yes we did not
+
+508
+00:22:01,480 --> 00:22:07,400
+have the switches properly configured so
+
+509
+00:22:04,279 --> 00:22:11,000
+I'm going to go ahead and switch those
+
+510
+00:22:07,400 --> 00:22:13,640
+back into their proper off configuration
+
+511
+00:22:11,000 --> 00:22:17,200
+so that we can begin the sequence
+
+512
+00:22:13,640 --> 00:22:20,080
+properly I guess what I'll do right now
+
+513
+00:22:17,200 --> 00:22:22,320
+is I'll reset the hero so we can start
+
+514
+00:22:20,080 --> 00:22:25,720
+from a clean start but now with the
+
+515
+00:22:22,320 --> 00:22:25,720
+switches in the correct
+
+516
+00:22:26,960 --> 00:22:33,279
+position and there we go we now have a
+
+517
+00:22:30,960 --> 00:22:35,679
+liftoff sequence prompt that says the
+
+518
+00:22:33,279 --> 00:22:38,559
+countdown is pending and so all we need
+
+519
+00:22:35,679 --> 00:22:42,159
+to do now is to in
+
+520
+00:22:38,559 --> 00:22:43,919
+order arm the three switches so first
+
+521
+00:22:42,159 --> 00:22:47,039
+we'll do the Thruster
+
+522
+00:22:43,919 --> 00:22:50,679
+switch switch one we get an indication
+
+523
+00:22:47,039 --> 00:22:52,159
+on the OLED that that system is on
+
+524
+00:22:50,679 --> 00:22:56,159
+second
+
+525
+00:22:52,159 --> 00:22:59,480
+switch for systems is on and confirmed
+
+526
+00:22:56,159 --> 00:23:01,240
+and so finally to confirm launch will uh
+
+527
+00:22:59,480 --> 00:23:03,279
+throw the final switch into the on
+
+528
+00:23:01,240 --> 00:23:06,200
+position and we should see the
+
+529
+00:23:03,279 --> 00:23:11,080
+initiation of our countdown so here we
+
+530
+00:23:06,200 --> 00:23:13,400
+go switch is on and countdown clock is
+
+531
+00:23:11,080 --> 00:23:15,840
+underway so at this point we can go
+
+532
+00:23:13,400 --> 00:23:19,400
+ahead and uh wait for the countdown to
+
+533
+00:23:15,840 --> 00:23:21,679
+run down and uh proceed with launch
+
+534
+00:23:19,400 --> 00:23:24,880
+however let's anticipate a possible
+
+535
+00:23:21,679 --> 00:23:27,400
+problem let's suppose that prior to
+
+536
+00:23:24,880 --> 00:23:29,240
+launch commit we notice that there are
+
+537
+00:23:27,400 --> 00:23:31,320
+something not quite right perhaps
+
+538
+00:23:29,240 --> 00:23:33,600
+there's something loose in the cabin or
+
+539
+00:23:31,320 --> 00:23:35,799
+or or something uh isn't really ready
+
+540
+00:23:33,600 --> 00:23:37,720
+for launch so we can go ahead and abort
+
+541
+00:23:35,799 --> 00:23:40,360
+the launch by flipping one of the
+
+542
+00:23:37,720 --> 00:23:42,960
+switches back to
+
+543
+00:23:40,360 --> 00:23:47,679
+off and sure enough we've aborted the
+
+544
+00:23:42,960 --> 00:23:50,159
+launch the countdown has halted and we
+
+545
+00:23:47,679 --> 00:23:53,679
+uh are going to await further
+
+546
+00:23:50,159 --> 00:23:57,600
+instructions so I'll go
+
+547
+00:23:53,679 --> 00:23:59,520
+ahead turn all the switches back to off
+
+548
+00:23:57,600 --> 00:24:02,640
+and we'll
+
+549
+00:23:59,520 --> 00:24:05,279
+reset the hero one more time and this
+
+550
+00:24:02,640 --> 00:24:07,720
+time we'll run it through to a nominal
+
+551
+00:24:05,279 --> 00:24:09,799
+countdown and launch and hopefully
+
+552
+00:24:07,720 --> 00:24:12,520
+that'll cover all the possibilities that
+
+553
+00:24:09,799 --> 00:24:17,880
+we're likely to see when we actually go
+
+554
+00:24:12,520 --> 00:24:17,880
+through with a launch so resetting the
+
+555
+00:24:17,919 --> 00:24:25,679
+hero we're back in the nominal countdown
+
+556
+00:24:23,080 --> 00:24:29,320
+pending mode the switches are ready to
+
+557
+00:24:25,679 --> 00:24:32,559
+go so let we fixed all the problems that
+
+558
+00:24:29,320 --> 00:24:34,440
+we had so let's go ahead with our
+
+559
+00:24:32,559 --> 00:24:38,279
+countdown and
+
+560
+00:24:34,440 --> 00:24:38,279
+launch first switch is
+
+561
+00:24:41,000 --> 00:24:48,320
+on second switch is on and now for final
+
+562
+00:24:48,399 --> 00:24:52,279
+confirmation countdown has
+
+563
+00:24:52,440 --> 00:24:59,520
+begun so now all we have to do is wait
+
+564
+00:24:56,760 --> 00:25:03,559
+for the automattic IC System to bring us
+
+565
+00:24:59,520 --> 00:25:03,559
+through the final count and to
+
+566
+00:25:06,120 --> 00:25:19,919
+launch and we're in the final seconds of
+
+567
+00:25:08,720 --> 00:25:19,919
+the countdown 9 8 7 6 5 4 3 2 1
+
+568
+00:25:23,200 --> 00:25:29,360
+lach and we're finally on our
+
+569
+00:25:25,960 --> 00:25:32,000
+way good luck with your launch if all
+
+570
+00:25:29,360 --> 00:25:35,080
+goes well the next time we talk to you
+
+571
+00:25:32,000 --> 00:25:36,840
+you'll be safely in orbit so we'll see
+
+572
+00:25:35,080 --> 00:25:40,120
+you
+
+573
+00:25:36,840 --> 00:25:42,520
+then the time has finally come Explorer
+
+574
+00:25:40,120 --> 00:25:44,840
+on my mark you'll flip the three levers
+
+575
+00:25:42,520 --> 00:25:47,919
+in sequence to initiate the countdown to
+
+576
+00:25:44,840 --> 00:25:51,080
+launch this is what we have been waiting
+
+577
+00:25:47,919 --> 00:25:53,320
+for we'll only have one shot at this
+
+578
+00:25:51,080 --> 00:25:56,320
+flip lever one to initiate Thruster
+
+579
+00:25:53,320 --> 00:25:56,320
+power
+
+580
+00:25:56,679 --> 00:26:01,000
+now
+
+581
+00:25:58,520 --> 00:26:06,200
+well done flip the second lever to power
+
+582
+00:26:01,000 --> 00:26:06,200
+supplemental launch circuits on my mark
+
+583
+00:26:06,880 --> 00:26:11,559
+now you're doing perfectly so far
+
+584
+00:26:09,200 --> 00:26:13,880
+Explorer now ready yourself to flip the
+
+585
+00:26:11,559 --> 00:26:16,880
+third lever and initiate our countdown
+
+586
+00:26:13,880 --> 00:26:19,760
+on my mark
+
+587
+00:26:16,880 --> 00:26:23,440
+now the sequence successfully initiated
+
+588
+00:26:19,760 --> 00:26:25,960
+Explorer performing failsafe
+
+589
+00:26:23,440 --> 00:26:27,840
+Diagnostics data readouts normal
+
+590
+00:26:25,960 --> 00:26:29,960
+diagnostic shows power system are
+
+591
+00:26:27,840 --> 00:26:31,840
+humming beautifully your moments from
+
+592
+00:26:29,960 --> 00:26:35,480
+freedom in the stars hold tight now
+
+593
+00:26:31,840 --> 00:26:38,480
+Explorer ready your body and mind for
+
+594
+00:26:35,480 --> 00:26:38,480
+liftoff
+
+595
+00:26:40,340 --> 00:26:43,670
+[Music]
+
+596
+00:26:44,600 --> 00:26:50,799
+go I didn't think we'd make it you did
+
+597
+00:26:48,320 --> 00:26:52,640
+great Explorer I mean you covered so
+
+598
+00:26:50,799 --> 00:26:57,360
+much code and wiring in such a short
+
+599
+00:26:52,640 --> 00:26:59,760
+span of time you rock we're in space
+
+600
+00:26:57,360 --> 00:27:01,679
+where we're meant to be well not quite
+
+601
+00:26:59,760 --> 00:27:06,330
+where we're meant to be but once we're
+
+602
+00:27:01,679 --> 00:27:20,660
+at the Mother Ship we'll oh oh
+
+603
+00:27:06,330 --> 00:27:20,660
+[Music]
+
+604
+00:27:25,320 --> 00:27:28,320
+no
+

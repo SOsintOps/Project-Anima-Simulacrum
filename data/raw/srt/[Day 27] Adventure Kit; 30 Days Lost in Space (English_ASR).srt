@@ -1,0 +1,2636 @@
+1
+00:00:01,280 --> 00:00:08,619
+[Music]
+
+2
+00:00:17,700 --> 00:00:20,789
+[Music]
+
+3
+00:00:22,960 --> 00:00:28,519
+good morning star Voyager another Cosmic
+
+4
+00:00:25,960 --> 00:00:30,279
+day awaits us yesterday we journeyed
+
+5
+00:00:28,519 --> 00:00:32,719
+through the wonders of bit Maps
+
+6
+00:00:30,279 --> 00:00:35,640
+navigating the constellations of pixels
+
+7
+00:00:32,719 --> 00:00:37,559
+today we shift our trajectory slightly
+
+8
+00:00:35,640 --> 00:00:39,920
+venturing into the realm of binary
+
+9
+00:00:37,559 --> 00:00:42,320
+counters imagine it as laying the
+
+10
+00:00:39,920 --> 00:00:45,079
+foundation for understanding the binary
+
+11
+00:00:42,320 --> 00:00:47,039
+language of the universe using our
+
+12
+00:00:45,079 --> 00:00:49,719
+trusty dip switch we're going to
+
+13
+00:00:47,039 --> 00:00:51,800
+construct a three- bit binary counter
+
+14
+00:00:49,719 --> 00:00:53,960
+this is a pivotal step before we launch
+
+15
+00:00:51,800 --> 00:00:56,399
+into the challenging task of mending our
+
+16
+00:00:53,960 --> 00:00:58,519
+docking gear ready to play with some
+
+17
+00:00:56,399 --> 00:01:00,960
+switches and send signals across the
+
+18
+00:00:58,519 --> 00:01:03,519
+vastness of our ship system
+
+19
+00:01:00,960 --> 00:01:05,560
+let's light up the binary Stars I want
+
+20
+00:01:03,519 --> 00:01:07,880
+you to think of each of our switches as
+
+21
+00:01:05,560 --> 00:01:09,560
+an individual bit since we have three
+
+22
+00:01:07,880 --> 00:01:11,799
+switches that means for today's
+
+23
+00:01:09,560 --> 00:01:14,680
+calculator we will have a total of three
+
+24
+00:01:11,799 --> 00:01:17,880
+bits when all three are off we can think
+
+25
+00:01:14,680 --> 00:01:19,600
+of it as representing 0 0 0 when all
+
+26
+00:01:17,880 --> 00:01:22,400
+three are on we can think of it as
+
+27
+00:01:19,600 --> 00:01:25,400
+representing 1 one one but you haven't
+
+28
+00:01:22,400 --> 00:01:28,799
+learned how to count in binary yet have
+
+29
+00:01:25,400 --> 00:01:30,840
+you all right deep breath Explorer let's
+
+30
+00:01:28,799 --> 00:01:34,280
+set our sites on my personal favorite
+
+31
+00:01:30,840 --> 00:01:37,439
+way to represent numbers binary in fact
+
+32
+00:01:34,280 --> 00:01:39,360
+by definition it's the only method I use
+
+33
+00:01:37,439 --> 00:01:42,320
+think of binary as a language that can
+
+34
+00:01:39,360 --> 00:01:44,479
+only use one and zero with our three
+
+35
+00:01:42,320 --> 00:01:46,880
+switches we have three positions like
+
+36
+00:01:44,479 --> 00:01:48,960
+three light bulbs in a row farthest to
+
+37
+00:01:46,880 --> 00:01:50,520
+the left represents the largest value
+
+38
+00:01:48,960 --> 00:01:52,799
+and farthest to the right is the
+
+39
+00:01:50,520 --> 00:01:56,000
+smallest each of these light bulbs can
+
+40
+00:01:52,799 --> 00:01:59,360
+be either off low signified by a zero or
+
+41
+00:01:56,000 --> 00:02:00,920
+on high signified by a one starting from
+
+42
+00:01:59,360 --> 00:02:03,640
+the right most
+
+43
+00:02:00,920 --> 00:02:06,079
+bulb the first bulb represents the
+
+44
+00:02:03,640 --> 00:02:08,000
+number one the next one to its left
+
+45
+00:02:06,079 --> 00:02:11,239
+stands for the number two and the
+
+46
+00:02:08,000 --> 00:02:13,800
+leftmost one symbolizes the number four
+
+47
+00:02:11,239 --> 00:02:16,360
+now if only the rightmost bulb is on
+
+48
+00:02:13,800 --> 00:02:19,000
+your number is one if the two bulbs on
+
+49
+00:02:16,360 --> 00:02:22,480
+the left are on and the rightmost is off
+
+50
+00:02:19,000 --> 00:02:26,560
+your binary reads 1 1 0 which translates
+
+51
+00:02:22,480 --> 00:02:30,040
+to 4 + 2+ 0 equals 6 in our usual
+
+52
+00:02:26,560 --> 00:02:32,080
+decimal counting with me so far great
+
+53
+00:02:30,040 --> 00:02:34,640
+now we're going to map this Cosmic dance
+
+54
+00:02:32,080 --> 00:02:36,280
+of numbers to visual imagery depending
+
+55
+00:02:34,640 --> 00:02:38,840
+on the binary sequence our switches
+
+56
+00:02:36,280 --> 00:02:41,360
+spell out we'll display a distinct bit
+
+57
+00:02:38,840 --> 00:02:43,480
+map it's a smart way to confirm that all
+
+58
+00:02:41,360 --> 00:02:46,720
+our switches are in tiptop shape
+
+59
+00:02:43,480 --> 00:02:49,159
+functioning flawlessly after all imagine
+
+60
+00:02:46,720 --> 00:02:51,400
+the anticlimax surmounting all
+
+61
+00:02:49,159 --> 00:02:53,959
+challenges only to falter on our final
+
+62
+00:02:51,400 --> 00:02:55,680
+descent due to a landing gear glitch
+
+63
+00:02:53,959 --> 00:02:58,200
+let's not be the comet that dazzles in
+
+64
+00:02:55,680 --> 00:03:01,280
+the sky but disintegrates upon Landing
+
+65
+00:02:58,200 --> 00:03:03,159
+safety always Orbits for first for
+
+66
+00:03:01,280 --> 00:03:05,760
+today's code we will need a way to
+
+67
+00:03:03,159 --> 00:03:07,959
+display a total of8 bit Maps so that
+
+68
+00:03:05,760 --> 00:03:11,239
+means we will need to do the following
+
+69
+00:03:07,959 --> 00:03:14,879
+first set up our hardware for the OLED
+
+70
+00:03:11,239 --> 00:03:17,440
+and Define inputs for dip switches Etc
+
+71
+00:03:14,879 --> 00:03:19,319
+second make a total of eight bit Maps
+
+72
+00:03:17,440 --> 00:03:20,920
+luckily for you I've already done that
+
+73
+00:03:19,319 --> 00:03:24,000
+so don't worry about making your own
+
+74
+00:03:20,920 --> 00:03:26,120
+unless you really want to and third
+
+75
+00:03:24,000 --> 00:03:28,120
+write a function to be able to calculate
+
+76
+00:03:26,120 --> 00:03:30,640
+which of the 8 bit Maps we are going to
+
+77
+00:03:28,120 --> 00:03:33,000
+be displaying this will technically be 0
+
+78
+00:03:30,640 --> 00:03:35,799
+through 7 since as you know good
+
+79
+00:03:33,000 --> 00:03:38,040
+programmers prefer to start at
+
+80
+00:03:35,799 --> 00:03:40,480
+zero let's think about that a little bit
+
+81
+00:03:38,040 --> 00:03:41,480
+further we will have a total of eight
+
+82
+00:03:40,480 --> 00:03:44,840
+different
+
+83
+00:03:41,480 --> 00:03:47,319
+cases case one where all are off case
+
+84
+00:03:44,840 --> 00:03:50,159
+two where switch one is on and two and
+
+85
+00:03:47,319 --> 00:03:53,400
+three are off case three where one and
+
+86
+00:03:50,159 --> 00:03:55,280
+two are on but three is off etc etc all
+
+87
+00:03:53,400 --> 00:03:56,519
+the way to case eight where all three
+
+88
+00:03:55,280 --> 00:03:58,760
+are flipped
+
+89
+00:03:56,519 --> 00:04:00,920
+on there are a couple different ways we
+
+90
+00:03:58,760 --> 00:04:03,680
+can do this maybe the good old if
+
+91
+00:04:00,920 --> 00:04:06,480
+statement I think this is okay for now
+
+92
+00:04:03,680 --> 00:04:08,400
+however if we had more than three digits
+
+93
+00:04:06,480 --> 00:04:11,280
+to deal with I'm sure you could see how
+
+94
+00:04:08,400 --> 00:04:12,799
+this could get messy quickly worry not
+
+95
+00:04:11,280 --> 00:04:14,680
+Explorer I've gathered some
+
+96
+00:04:12,799 --> 00:04:17,239
+instructional material that should help
+
+97
+00:04:14,680 --> 00:04:19,199
+alleviate any sense of uncertainty you
+
+98
+00:04:17,239 --> 00:04:21,160
+may have I've also added this to your
+
+99
+00:04:19,199 --> 00:04:22,360
+mission resources for future reference
+
+100
+00:04:21,160 --> 00:04:25,720
+take a
+
+101
+00:04:22,360 --> 00:04:28,639
+look hello hello and welcome back to day
+
+102
+00:04:25,720 --> 00:04:31,360
+27 of the 30 days Lost in Space
+
+103
+00:04:28,639 --> 00:04:32,639
+Adventure kit code explanations today is
+
+104
+00:04:31,360 --> 00:04:35,520
+going to be a little bit different than
+
+105
+00:04:32,639 --> 00:04:37,840
+most days if you you might be noticing I
+
+106
+00:04:35,520 --> 00:04:40,080
+have an empty sketch here usually when
+
+107
+00:04:37,840 --> 00:04:42,520
+you guys go into the course page you
+
+108
+00:04:40,080 --> 00:04:44,680
+might see something like this where you
+
+109
+00:04:42,520 --> 00:04:48,520
+have piece of code here that you can
+
+110
+00:04:44,680 --> 00:04:50,440
+copy into your IDE and then obviously
+
+111
+00:04:48,520 --> 00:04:53,039
+hit compile and it should hopefully work
+
+112
+00:04:50,440 --> 00:04:56,240
+with no issues but you'll notice today
+
+113
+00:04:53,039 --> 00:04:59,680
+there's two of them we have the regular
+
+114
+00:04:56,240 --> 00:05:02,360
+code and then we also have a new header
+
+115
+00:04:59,680 --> 00:05:04,280
+file and going forward we're going to be
+
+116
+00:05:02,360 --> 00:05:06,280
+putting all of our bit Maps inside of a
+
+117
+00:05:04,280 --> 00:05:09,360
+nice header file so instead of having
+
+118
+00:05:06,280 --> 00:05:11,600
+all of this random gibberish in our main
+
+119
+00:05:09,360 --> 00:05:14,400
+file because obviously that's just a lot
+
+120
+00:05:11,600 --> 00:05:16,440
+of space that's being used it feels like
+
+121
+00:05:14,400 --> 00:05:17,840
+on the screen so it's a little bit
+
+122
+00:05:16,440 --> 00:05:19,600
+easier to read we're going to put
+
+123
+00:05:17,840 --> 00:05:21,199
+everything all of our bit maps that
+
+124
+00:05:19,600 --> 00:05:23,120
+we've created for these lessons into
+
+125
+00:05:21,199 --> 00:05:25,600
+header files so you might be asking
+
+126
+00:05:23,120 --> 00:05:28,000
+yourself okay well how do I go about
+
+127
+00:05:25,600 --> 00:05:31,800
+doing that how do I go about putting
+
+128
+00:05:28,000 --> 00:05:33,880
+those into uh header file well let's
+
+129
+00:05:31,800 --> 00:05:35,400
+first copy the very first sketch like
+
+130
+00:05:33,880 --> 00:05:37,160
+you would normally if this is the way
+
+131
+00:05:35,400 --> 00:05:39,759
+you're going to be doing it you can go
+
+132
+00:05:37,160 --> 00:05:42,600
+ahead and copy this one and then they
+
+133
+00:05:39,759 --> 00:05:45,720
+have this nice little thing here and you
+
+134
+00:05:42,600 --> 00:05:48,600
+can go new tab and you can create the
+
+135
+00:05:45,720 --> 00:05:52,240
+new name for the file you'll notice
+
+136
+00:05:48,600 --> 00:05:58,240
+right here it says include switch Corbit
+
+137
+00:05:52,240 --> 00:05:58,240
+maps. spelled exactly that way with the
+
+138
+00:05:58,479 --> 00:06:03,120
+underscore if you create it and you
+
+139
+00:06:01,240 --> 00:06:05,400
+don't name it the right thing you will
+
+140
+00:06:03,120 --> 00:06:07,599
+get a compilation issue so you can click
+
+141
+00:06:05,400 --> 00:06:09,680
+okay and then obviously now that you
+
+142
+00:06:07,599 --> 00:06:11,960
+have this you can then copy the new code
+
+143
+00:06:09,680 --> 00:06:15,280
+into here I actually have it from
+
+144
+00:06:11,960 --> 00:06:18,440
+here so we go boop
+
+145
+00:06:15,280 --> 00:06:20,759
+boop Bo and so you shouldn't hopefully
+
+146
+00:06:18,440 --> 00:06:22,440
+if I click verify there should be no
+
+147
+00:06:20,759 --> 00:06:25,120
+compilation issues because it will
+
+148
+00:06:22,440 --> 00:06:27,720
+notice that there's a switch bit maps.
+
+149
+00:06:25,120 --> 00:06:29,840
+that you've included right here so for
+
+150
+00:06:27,720 --> 00:06:31,479
+today's lesson we're going to be showing
+
+151
+00:06:29,840 --> 00:06:33,240
+a couple of new different for things one
+
+152
+00:06:31,479 --> 00:06:35,199
+is going to be partial bit Maps where
+
+153
+00:06:33,240 --> 00:06:37,160
+instead of having it be the full screen
+
+154
+00:06:35,199 --> 00:06:38,759
+you do not have to have it be the full
+
+155
+00:06:37,160 --> 00:06:40,680
+screen you can actually have a bit map
+
+156
+00:06:38,759 --> 00:06:42,960
+be whatever size you want and then
+
+157
+00:06:40,680 --> 00:06:45,440
+specify where you want it to be on the
+
+158
+00:06:42,960 --> 00:06:47,759
+display so we're going to be introducing
+
+159
+00:06:45,440 --> 00:06:51,880
+that we're also going to be using the
+
+160
+00:06:47,759 --> 00:06:54,280
+dip switch as a three bit binary counter
+
+161
+00:06:51,880 --> 00:06:57,360
+and for each of those numbers that it
+
+162
+00:06:54,280 --> 00:06:59,919
+can generate 0 through 7 we will be
+
+163
+00:06:57,360 --> 00:07:03,680
+using those numbers to display a a
+
+164
+00:06:59,919 --> 00:07:06,479
+relevant piece on the OLED display for
+
+165
+00:07:03,680 --> 00:07:08,039
+exactly that and of course the last
+
+166
+00:07:06,479 --> 00:07:11,160
+thing we covered today was to create the
+
+167
+00:07:08,039 --> 00:07:12,919
+include file here which is a bit maps.
+
+168
+00:07:11,160 --> 00:07:16,280
+so let's quickly go through all of the
+
+169
+00:07:12,919 --> 00:07:18,800
+new code that we're going into today
+
+170
+00:07:16,280 --> 00:07:21,520
+obviously you have this up here since
+
+171
+00:07:18,800 --> 00:07:24,160
+we're in the ardino IDE it's technically
+
+172
+00:07:21,520 --> 00:07:25,879
+technically not necessary but just you
+
+173
+00:07:24,160 --> 00:07:27,800
+can keep it in if you want to it doesn't
+
+174
+00:07:25,879 --> 00:07:30,800
+hurt anything it will automatically be
+
+175
+00:07:27,800 --> 00:07:33,039
+put in for us if we go up here I'm just
+
+176
+00:07:30,800 --> 00:07:35,360
+going to erase all this Boop make our
+
+177
+00:07:33,039 --> 00:07:38,319
+stuff nice and easy to read we have the
+
+178
+00:07:35,360 --> 00:07:41,000
+u8 G2 lib library that we've been using
+
+179
+00:07:38,319 --> 00:07:42,680
+forever wire. this is all not new stuff
+
+180
+00:07:41,000 --> 00:07:46,639
+we've talked about before create the
+
+181
+00:07:42,680 --> 00:07:49,159
+Lander display easy peasy there we go
+
+182
+00:07:46,639 --> 00:07:52,400
+finally we have the new thing here we're
+
+183
+00:07:49,159 --> 00:07:56,280
+going to include our switch bit maps. H
+
+184
+00:07:52,400 --> 00:07:58,680
+just like we have with wire. u8 G2 lib
+
+185
+00:07:56,280 --> 00:08:00,440
+switch bit maps. and we include it this
+
+186
+00:07:58,680 --> 00:08:02,960
+is just another another file similar to
+
+187
+00:08:00,440 --> 00:08:04,759
+this that has definitions to things so
+
+188
+00:08:02,960 --> 00:08:07,400
+if you're ever curious ever want to look
+
+189
+00:08:04,759 --> 00:08:09,680
+into wire. those are all freely
+
+190
+00:08:07,400 --> 00:08:11,360
+available to go and look into and I
+
+191
+00:08:09,680 --> 00:08:13,720
+highly recommend if you're curious about
+
+192
+00:08:11,360 --> 00:08:15,960
+how they do i2c Communications and all
+
+193
+00:08:13,720 --> 00:08:17,440
+that other stuff um make your life a lot
+
+194
+00:08:15,960 --> 00:08:19,879
+easier you can go in and see all the
+
+195
+00:08:17,440 --> 00:08:23,120
+work they did that's the beauty of Open
+
+196
+00:08:19,879 --> 00:08:26,720
+Source down here below we have the
+
+197
+00:08:23,120 --> 00:08:29,840
+following we have switch bit Maps now we
+
+198
+00:08:26,720 --> 00:08:31,800
+have a total of eight
+
+199
+00:08:29,840 --> 00:08:34,719
+different numbers that
+
+200
+00:08:31,800 --> 00:08:36,839
+A3 bits can produce for so if we assume
+
+201
+00:08:34,719 --> 00:08:40,000
+that bit one is going to be the
+
+202
+00:08:36,839 --> 00:08:42,440
+rightmost of the dip switches bit two is
+
+203
+00:08:40,000 --> 00:08:44,039
+going to be the middle dip switch and
+
+204
+00:08:42,440 --> 00:08:46,640
+the third bit is going to be the very
+
+205
+00:08:44,039 --> 00:08:48,680
+left one we can have all of them be off
+
+206
+00:08:46,640 --> 00:08:50,920
+in switch zero we can all of them we can
+
+207
+00:08:48,680 --> 00:08:52,920
+have the very first one be on um all the
+
+208
+00:08:50,920 --> 00:08:55,519
+way up to all of them being on which
+
+209
+00:08:52,920 --> 00:08:58,800
+would be not eight but seven because
+
+210
+00:08:55,519 --> 00:09:01,360
+remember we start at zero as programmers
+
+211
+00:08:58,800 --> 00:09:02,880
+so we have zero one two three four five
+
+212
+00:09:01,360 --> 00:09:05,680
+six seven and these are all the
+
+213
+00:09:02,880 --> 00:09:08,640
+different places that they can be in and
+
+214
+00:09:05,680 --> 00:09:10,600
+you'll notice we have switches zero
+
+215
+00:09:08,640 --> 00:09:13,440
+switches one switches two so this is
+
+216
+00:09:10,600 --> 00:09:16,120
+just a simply a array of pointers to the
+
+217
+00:09:13,440 --> 00:09:18,959
+bit map images that we have in switch
+
+218
+00:09:16,120 --> 00:09:21,399
+bit Maps finally we have the include for
+
+219
+00:09:18,959 --> 00:09:23,000
+our uh seven segment display we tell
+
+220
+00:09:21,399 --> 00:09:24,839
+them what pins we're using for the seven
+
+221
+00:09:23,000 --> 00:09:27,399
+segment display in our case we're using
+
+222
+00:09:24,839 --> 00:09:29,320
+two and three and then we're going to go
+
+223
+00:09:27,399 --> 00:09:33,000
+down here and we're going to use
+
+224
+00:09:29,320 --> 00:09:36,720
+following to set up the switch bit pins
+
+225
+00:09:33,000 --> 00:09:40,360
+so the very first pin is going to be for
+
+226
+00:09:36,720 --> 00:09:43,680
+the dip switch is a z A1 and A2 the
+
+227
+00:09:40,360 --> 00:09:45,200
+reason we're using A1 a z and A2 you
+
+228
+00:09:43,680 --> 00:09:48,240
+might be noticing why are we're going to
+
+229
+00:09:45,200 --> 00:09:50,680
+be using analog pins there's a reason
+
+230
+00:09:48,240 --> 00:09:52,399
+for this don't worry um normally you
+
+231
+00:09:50,680 --> 00:09:54,399
+would be using digital pins it doesn't
+
+232
+00:09:52,399 --> 00:09:58,519
+make sense to be using analog pins for
+
+233
+00:09:54,399 --> 00:10:00,880
+this but when we get to day 29 we will
+
+234
+00:09:58,519 --> 00:10:03,640
+well as you'll hopefully shortly see in
+
+235
+00:10:00,880 --> 00:10:05,839
+a couple days we won't have enough room
+
+236
+00:10:03,640 --> 00:10:07,600
+for all of the pins we want to include
+
+237
+00:10:05,839 --> 00:10:10,640
+on our board so we're actually going to
+
+238
+00:10:07,600 --> 00:10:13,519
+be able to use luckily analog pins are
+
+239
+00:10:10,640 --> 00:10:15,839
+backwards compatible as digital pins um
+
+240
+00:10:13,519 --> 00:10:18,640
+digital pins are not compatible as
+
+241
+00:10:15,839 --> 00:10:21,160
+analog pins though and since we did not
+
+242
+00:10:18,640 --> 00:10:23,279
+have enough pins on our board on very on
+
+243
+00:10:21,160 --> 00:10:26,480
+the late day 29 when we want to include
+
+244
+00:10:23,279 --> 00:10:28,839
+every single component in our survival
+
+245
+00:10:26,480 --> 00:10:31,839
+kit we have here we needed to make sure
+
+246
+00:10:28,839 --> 00:10:33,959
+that we used everything that we possibly
+
+247
+00:10:31,839 --> 00:10:36,480
+could so we used analog pins because
+
+248
+00:10:33,959 --> 00:10:37,920
+they do technically work as digital pins
+
+249
+00:10:36,480 --> 00:10:40,839
+because when we get to day
+
+250
+00:10:37,920 --> 00:10:43,560
+29 there will not be any room for
+
+251
+00:10:40,839 --> 00:10:45,720
+them otherwise so let's hop down to
+
+252
+00:10:43,560 --> 00:10:47,720
+setup we have serial begin
+
+253
+00:10:45,720 --> 00:10:49,320
+9600 um you'll also notice we
+
+254
+00:10:47,720 --> 00:10:51,839
+technically don't do any printouts or
+
+255
+00:10:49,320 --> 00:10:53,440
+anything so if this was removed
+
+256
+00:10:51,839 --> 00:10:55,680
+technically nothing would break but it's
+
+257
+00:10:53,440 --> 00:10:57,079
+nice if you want to do a print statement
+
+258
+00:10:55,680 --> 00:10:59,920
+and debug if you're going to add your
+
+259
+00:10:57,079 --> 00:11:02,399
+own cool stuff maybe create of the idea
+
+260
+00:10:59,920 --> 00:11:06,240
+bit map number display we're setting the
+
+261
+00:11:02,399 --> 00:11:09,040
+counter display to just be on a
+
+262
+00:11:06,240 --> 00:11:11,079
+uh which is the seven segment display
+
+263
+00:11:09,040 --> 00:11:13,279
+we're just going to set it to seven
+
+264
+00:11:11,079 --> 00:11:15,200
+which is the maximum brightness and
+
+265
+00:11:13,279 --> 00:11:16,839
+we're going to just clear the display
+
+266
+00:11:15,200 --> 00:11:20,120
+configur the dip switch and make the
+
+267
+00:11:16,839 --> 00:11:23,000
+Lander display initialize and do all of
+
+268
+00:11:20,120 --> 00:11:25,320
+the things that it needs to in the begin
+
+269
+00:11:23,000 --> 00:11:27,000
+function in here which is probably going
+
+270
+00:11:25,320 --> 00:11:29,120
+to be pin mode is my guess and some
+
+271
+00:11:27,000 --> 00:11:31,920
+other things down here in Loop we have
+
+272
+00:11:29,120 --> 00:11:35,399
+the bite offset for X and Y for our
+
+273
+00:11:31,920 --> 00:11:37,360
+bitmap Graphics since we're using a
+
+274
+00:11:35,399 --> 00:11:39,120
+partial bit map this bit map that we're
+
+275
+00:11:37,360 --> 00:11:42,800
+using is not
+
+276
+00:11:39,120 --> 00:11:45,160
+128x 64 pixels it is not the entire
+
+277
+00:11:42,800 --> 00:11:48,279
+screen so we need to specify where we
+
+278
+00:11:45,160 --> 00:11:50,120
+want it to be preferably we could
+
+279
+00:11:48,279 --> 00:11:51,920
+technically not specify it and it would
+
+280
+00:11:50,120 --> 00:11:54,120
+just kind of go up in the top left
+
+281
+00:11:51,920 --> 00:11:56,720
+corner of the screen um instead of it
+
+282
+00:11:54,120 --> 00:11:58,320
+being in the very top left corner um we
+
+283
+00:11:56,720 --> 00:11:59,920
+want it to be kind of centered in the
+
+284
+00:11:58,320 --> 00:12:01,720
+middle and somewhere where it makes
+
+285
+00:11:59,920 --> 00:12:04,480
+sense in fact technically we want it to
+
+286
+00:12:01,720 --> 00:12:07,399
+be a down so that we can have some text
+
+287
+00:12:04,480 --> 00:12:09,839
+on screen as well so what we do to do
+
+288
+00:12:07,399 --> 00:12:12,160
+that is we simply calculate a good x
+
+289
+00:12:09,839 --> 00:12:14,519
+value and a good y value to make that
+
+290
+00:12:12,160 --> 00:12:17,600
+happen here we're just calculating the X
+
+291
+00:12:14,519 --> 00:12:19,480
+and Y offset now when we get to this
+
+292
+00:12:17,600 --> 00:12:21,600
+part of the code here you might know
+
+293
+00:12:19,480 --> 00:12:25,440
+that our functionality of our program is
+
+294
+00:12:21,600 --> 00:12:27,600
+to display up to eight different values
+
+295
+00:12:25,440 --> 00:12:29,639
+that it could possibly be depending on
+
+296
+00:12:27,600 --> 00:12:32,399
+what switches are switched on on our dip
+
+297
+00:12:29,639 --> 00:12:35,560
+switch now in order to calculate these
+
+298
+00:12:32,399 --> 00:12:37,560
+values we could theoretically have eight
+
+299
+00:12:35,560 --> 00:12:39,240
+different if statements where it's like
+
+300
+00:12:37,560 --> 00:12:41,639
+if this is on and this is off and this
+
+301
+00:12:39,240 --> 00:12:43,199
+is off then it's this and if this is on
+
+302
+00:12:41,639 --> 00:12:44,639
+and this is on and this is on then it's
+
+303
+00:12:43,199 --> 00:12:46,839
+this and if this is off and this is off
+
+304
+00:12:44,639 --> 00:12:48,360
+and this is off and it's this but that
+
+305
+00:12:46,839 --> 00:12:50,160
+would be really gross and that's not a
+
+306
+00:12:48,360 --> 00:12:52,560
+great way to do things um especially
+
+307
+00:12:50,160 --> 00:12:54,720
+because if we had any more than three we
+
+308
+00:12:52,560 --> 00:12:56,760
+just exponentially make it worse for
+
+309
+00:12:54,720 --> 00:12:58,839
+every number we add on every additional
+
+310
+00:12:56,760 --> 00:13:02,800
+bit so if we ever wanted to upgrade this
+
+311
+00:12:58,839 --> 00:13:05,639
+to an eight position dip switch then it
+
+312
+00:13:02,800 --> 00:13:07,839
+sucks so we don't want to do that so
+
+313
+00:13:05,639 --> 00:13:10,839
+what we have here is we have this
+
+314
+00:13:07,839 --> 00:13:13,399
+wonderful thing called bitwise shift
+
+315
+00:13:10,839 --> 00:13:16,160
+operators and what it does is it simply
+
+316
+00:13:13,399 --> 00:13:18,120
+takes okay if the value of the very
+
+317
+00:13:16,160 --> 00:13:21,279
+first one that we read um which is going
+
+318
+00:13:18,120 --> 00:13:22,920
+to be this left one here is a one then
+
+319
+00:13:21,279 --> 00:13:25,120
+we want to set it to one otherwise it's
+
+320
+00:13:22,920 --> 00:13:27,320
+zero that one's really easy because
+
+321
+00:13:25,120 --> 00:13:30,399
+remember the way this works is if equals
+
+322
+00:13:27,320 --> 00:13:32,680
+equals High then we want to set it to
+
+323
+00:13:30,399 --> 00:13:34,760
+one but if it's not on we want it to be
+
+324
+00:13:32,680 --> 00:13:36,959
+zero that makes sense right so switch
+
+325
+00:13:34,760 --> 00:13:40,680
+value would be set to one zero would be
+
+326
+00:13:36,959 --> 00:13:42,519
+set to the it if it was off that makes
+
+327
+00:13:40,680 --> 00:13:44,240
+sense for the very first one but what do
+
+328
+00:13:42,519 --> 00:13:46,639
+you do about these right because you
+
+329
+00:13:44,240 --> 00:13:48,199
+can't you can't really get these very
+
+330
+00:13:46,639 --> 00:13:49,880
+much this is where the bitwise shift
+
+331
+00:13:48,199 --> 00:13:52,399
+operators come in you can basically
+
+332
+00:13:49,880 --> 00:13:55,040
+think of it as it basically sets it to
+
+333
+00:13:52,399 --> 00:13:56,959
+switch value then is going to be or
+
+334
+00:13:55,040 --> 00:13:59,920
+equals so read bit one which is going to
+
+335
+00:13:56,959 --> 00:14:02,639
+be the second one on the bit and we're
+
+336
+00:13:59,920 --> 00:14:05,079
+going to set set it to high or we're
+
+337
+00:14:02,639 --> 00:14:08,600
+going to set it to one if it's high and
+
+338
+00:14:05,079 --> 00:14:11,920
+zero if it's off but then we're going to
+
+339
+00:14:08,600 --> 00:14:14,279
+shift it over by one so we put it back
+
+340
+00:14:11,920 --> 00:14:17,199
+in its position and we're going to keep
+
+341
+00:14:14,279 --> 00:14:18,639
+that in switch value finally we read the
+
+342
+00:14:17,199 --> 00:14:20,480
+very last one here and the reason we're
+
+343
+00:14:18,639 --> 00:14:22,279
+using or equals is because then we can
+
+344
+00:14:20,480 --> 00:14:24,880
+actually calculate it all as one
+
+345
+00:14:22,279 --> 00:14:27,880
+wonderful number we have the following
+
+346
+00:14:24,880 --> 00:14:29,279
+uh if it's equal to high then we're
+
+347
+00:14:27,880 --> 00:14:30,440
+going to set it to one
+
+348
+00:14:29,279 --> 00:14:31,560
+otherwise we're going to set to zero
+
+349
+00:14:30,440 --> 00:14:33,399
+this is all the same for every single
+
+350
+00:14:31,560 --> 00:14:37,279
+one but then since it's the very next
+
+351
+00:14:33,399 --> 00:14:39,519
+bit the this bit here if we didn't bit y
+
+352
+00:14:37,279 --> 00:14:41,000
+shifted by two we're going to override
+
+353
+00:14:39,519 --> 00:14:43,399
+what was in this position so we need to
+
+354
+00:14:41,000 --> 00:14:46,279
+shift it over boop boop to this position
+
+355
+00:14:43,399 --> 00:14:49,040
+here and so by doing that we're going to
+
+356
+00:14:46,279 --> 00:14:52,720
+create a number and we're going to be
+
+357
+00:14:49,040 --> 00:14:55,519
+able to display it then on our display
+
+358
+00:14:52,720 --> 00:14:57,680
+so switch value now will be equal to the
+
+359
+00:14:55,519 --> 00:14:59,839
+number whatever it is so if all of them
+
+360
+00:14:57,680 --> 00:15:02,680
+are on we will have it just be like for
+
+361
+00:14:59,839 --> 00:15:04,519
+example like 11 one sort of kind of
+
+362
+00:15:02,680 --> 00:15:07,440
+thing so what we could do is we can go
+
+363
+00:15:04,519 --> 00:15:10,920
+to down here below and we can say bit
+
+364
+00:15:07,440 --> 00:15:13,639
+map number display. show number decimal
+
+365
+00:15:10,920 --> 00:15:17,120
+X ex and we can display that switch
+
+366
+00:15:13,639 --> 00:15:18,920
+value on our seven segment display and
+
+367
+00:15:17,120 --> 00:15:21,360
+then finally depending on which one this
+
+368
+00:15:18,920 --> 00:15:25,320
+matches up with we have obviously down
+
+369
+00:15:21,360 --> 00:15:27,759
+here switch is 0 1 2 3 4 5 6 7 and we
+
+370
+00:15:25,320 --> 00:15:29,600
+can know what index sets in so if it's
+
+371
+00:15:27,759 --> 00:15:33,519
+in if we know that we want to display
+
+372
+00:15:29,600 --> 00:15:35,959
+the number four it's going to be five um
+
+373
+00:15:33,519 --> 00:15:40,560
+in this case so what we can do is we can
+
+374
+00:15:35,959 --> 00:15:43,279
+do Lander display. first page do Lander
+
+375
+00:15:40,560 --> 00:15:47,199
+display. draw draw XMBC and we're going
+
+376
+00:15:43,279 --> 00:15:49,639
+to display that image that we've created
+
+377
+00:15:47,199 --> 00:15:51,639
+that bit map in the switch bit map image
+
+378
+00:15:49,639 --> 00:15:54,079
+file and we're going to display that
+
+379
+00:15:51,639 --> 00:15:56,480
+centered on the display matching
+
+380
+00:15:54,079 --> 00:15:59,360
+whatever we calculated here and that is
+
+381
+00:15:56,480 --> 00:16:01,360
+it for today for day 27 of the code
+
+382
+00:15:59,360 --> 00:16:04,120
+explanations tomorrow we will be getting
+
+383
+00:16:01,360 --> 00:16:06,600
+into fixing our landing gear and don't
+
+384
+00:16:04,120 --> 00:16:08,600
+worry we will also be using lots more
+
+385
+00:16:06,600 --> 00:16:11,160
+fun bit maps and we will be putting
+
+386
+00:16:08,600 --> 00:16:15,120
+those again in a separate file tomorrow
+
+387
+00:16:11,160 --> 00:16:17,240
+as well so um be ready for that and so
+
+388
+00:16:15,120 --> 00:16:19,440
+without further Ado I look forward to
+
+389
+00:16:17,240 --> 00:16:23,079
+seeing you guys
+
+390
+00:16:19,440 --> 00:16:24,319
+tomorrow welcome to the day 27 wiring
+
+391
+00:16:23,079 --> 00:16:27,160
+example
+
+392
+00:16:24,319 --> 00:16:30,160
+video okay things are starting to ramp
+
+393
+00:16:27,160 --> 00:16:32,720
+up now both in in terms of hardware and
+
+394
+00:16:30,160 --> 00:16:36,240
+software as we continue to build up our
+
+395
+00:16:32,720 --> 00:16:38,160
+Landing control system today's task
+
+396
+00:16:36,240 --> 00:16:41,199
+brings back a couple of old friends of
+
+397
+00:16:38,160 --> 00:16:44,600
+ours the seven segment LED numerical
+
+398
+00:16:41,199 --> 00:16:47,160
+display and the three Channel dip switch
+
+399
+00:16:44,600 --> 00:16:49,800
+bank that we'll use for mode
+
+400
+00:16:47,160 --> 00:16:53,279
+selection now this is in addition to the
+
+401
+00:16:49,800 --> 00:16:56,720
+OLED from last time that will also be
+
+402
+00:16:53,279 --> 00:16:59,079
+using looking at the dip switch since
+
+403
+00:16:56,720 --> 00:17:02,519
+each of the three dip switch which is
+
+404
+00:16:59,079 --> 00:17:04,160
+has two possible positions on and off
+
+405
+00:17:02,519 --> 00:17:07,240
+that means that there are a total of
+
+406
+00:17:04,160 --> 00:17:10,039
+eight different combinations or
+
+407
+00:17:07,240 --> 00:17:13,079
+configurations that we can use to invoke
+
+408
+00:17:10,039 --> 00:17:15,280
+eight different modes in our system and
+
+409
+00:17:13,079 --> 00:17:19,000
+we'll talk a little bit more in detail
+
+410
+00:17:15,280 --> 00:17:21,959
+about that shortly but for now let's
+
+411
+00:17:19,000 --> 00:17:24,839
+focus on the hardware wiring connections
+
+412
+00:17:21,959 --> 00:17:27,120
+necessary to bring all of this together
+
+413
+00:17:24,839 --> 00:17:29,440
+because free pins on the hero are going
+
+414
+00:17:27,120 --> 00:17:31,960
+to start to become a Lim lied Resource
+
+415
+00:17:29,440 --> 00:17:34,440
+as we build up our system we'll need to
+
+416
+00:17:31,960 --> 00:17:37,039
+juggle things around a little and be
+
+417
+00:17:34,440 --> 00:17:40,320
+somewhat strategic about how we design
+
+418
+00:17:37,039 --> 00:17:43,720
+our connections and layout now as for
+
+419
+00:17:40,320 --> 00:17:47,000
+the OLED display since the hero really
+
+420
+00:17:43,720 --> 00:17:50,520
+only provides with us with one way to
+
+421
+00:17:47,000 --> 00:17:52,960
+send the i2c communication protocol that
+
+422
+00:17:50,520 --> 00:17:57,400
+it uses we'll have to keep that
+
+423
+00:17:52,960 --> 00:18:02,320
+connection unchanged so the analog
+
+424
+00:17:57,400 --> 00:18:06,200
+A4 and A5 pins will be used just as they
+
+425
+00:18:02,320 --> 00:18:10,799
+have been before now the four-digit
+
+426
+00:18:06,200 --> 00:18:14,200
+seven segment display here needs two
+
+427
+00:18:10,799 --> 00:18:17,720
+hero digital output pins and so we'll
+
+428
+00:18:14,200 --> 00:18:23,799
+connect those two pins the CLK and the
+
+429
+00:18:17,720 --> 00:18:27,159
+Dio to pins two and three so pins two
+
+430
+00:18:23,799 --> 00:18:30,280
+and three down here in the digital row
+
+431
+00:18:27,159 --> 00:18:34,440
+are located as we're looking at it here
+
+432
+00:18:30,280 --> 00:18:36,880
+over on the left and in this setup we've
+
+433
+00:18:34,440 --> 00:18:39,200
+chosen to make that connection using
+
+434
+00:18:36,880 --> 00:18:43,360
+these two wires here here's the brown
+
+435
+00:18:39,200 --> 00:18:46,520
+wire that's connecting for the CLK
+
+436
+00:18:43,360 --> 00:18:50,320
+connection and this white wire right
+
+437
+00:18:46,520 --> 00:18:54,400
+here for the Dio connection so those are
+
+438
+00:18:50,320 --> 00:18:56,320
+connected to pins the CLK to pin 3 and
+
+439
+00:18:54,400 --> 00:18:59,679
+the Dio to pin
+
+440
+00:18:56,320 --> 00:19:02,960
+two we're leaving leing most of the
+
+441
+00:18:59,679 --> 00:19:04,080
+remaining digital pins down here on the
+
+442
+00:19:02,960 --> 00:19:07,039
+hero
+
+443
+00:19:04,080 --> 00:19:09,760
+free and that's in
+
+444
+00:19:07,039 --> 00:19:13,360
+anticipation them needing to be used in
+
+445
+00:19:09,760 --> 00:19:16,039
+the future as we build up our system
+
+446
+00:19:13,360 --> 00:19:17,760
+leaving those free however means that
+
+447
+00:19:16,039 --> 00:19:20,159
+we'll need to do something a little bit
+
+448
+00:19:17,760 --> 00:19:24,039
+different than before in order to read
+
+449
+00:19:20,159 --> 00:19:26,360
+the status of our three dip switches and
+
+450
+00:19:24,039 --> 00:19:29,400
+so you'll note here that what we've
+
+451
+00:19:26,360 --> 00:19:31,720
+chosen to do is to connect the logic
+
+452
+00:19:29,400 --> 00:19:34,360
+test points that is the points here on
+
+453
+00:19:31,720 --> 00:19:38,039
+the high side of our three logic
+
+454
+00:19:34,360 --> 00:19:40,520
+resistors our 10 kiloohm resistors we've
+
+455
+00:19:38,039 --> 00:19:44,400
+chosen to connect those to three
+
+456
+00:19:40,520 --> 00:19:49,400
+available analog pins up here on this
+
+457
+00:19:44,400 --> 00:19:52,679
+upper row of pins on the hero switches
+
+458
+00:19:49,400 --> 00:19:57,240
+one two and three reading from left to
+
+459
+00:19:52,679 --> 00:19:59,320
+right we've connected to pins
+
+460
+00:19:57,240 --> 00:20:03,280
+a0
+
+461
+00:19:59,320 --> 00:20:05,679
+A1 and A2
+
+462
+00:20:03,280 --> 00:20:10,679
+respectively and we've accomplished that
+
+463
+00:20:05,679 --> 00:20:15,120
+here using our orange that's for the a z
+
+464
+00:20:10,679 --> 00:20:18,080
+our Brown for the A1 and our green for
+
+465
+00:20:15,120 --> 00:20:20,520
+the A2 those three jumper wires are
+
+466
+00:20:18,080 --> 00:20:24,520
+connected to the
+
+467
+00:20:20,520 --> 00:20:26,679
+corresponding analog pins up above the
+
+468
+00:20:24,520 --> 00:20:29,320
+power and the ground connections for all
+
+469
+00:20:26,679 --> 00:20:32,120
+these subcircuits should be fairly
+
+470
+00:20:29,320 --> 00:20:36,400
+straightforward to for us to follow now
+
+471
+00:20:32,120 --> 00:20:39,039
+we've created two common ground buses
+
+472
+00:20:36,400 --> 00:20:41,720
+this blue line along the bottom and this
+
+473
+00:20:39,039 --> 00:20:44,320
+blue line up along the top of our
+
+474
+00:20:41,720 --> 00:20:47,080
+breadboard and connected them together
+
+475
+00:20:44,320 --> 00:20:49,679
+into a common bus using these black
+
+476
+00:20:47,080 --> 00:20:52,720
+jumper wires so this is a commonly
+
+477
+00:20:49,679 --> 00:20:53,760
+available ground to be used uh by all of
+
+478
+00:20:52,720 --> 00:20:59,000
+our
+
+479
+00:20:53,760 --> 00:21:02,000
+subcircuits the bottom one down here
+
+480
+00:20:59,000 --> 00:21:04,880
+provides the ground connections for our
+
+481
+00:21:02,000 --> 00:21:07,159
+switch logic resistors and completes the
+
+482
+00:21:04,880 --> 00:21:11,679
+circuit to ground for those when those
+
+483
+00:21:07,159 --> 00:21:16,240
+switches are thrown the uh upper one the
+
+484
+00:21:11,679 --> 00:21:20,400
+upper ground line up here is available
+
+485
+00:21:16,240 --> 00:21:23,320
+for use by our two displays so you'll
+
+486
+00:21:20,400 --> 00:21:26,000
+notice that this ground is accessed by
+
+487
+00:21:23,320 --> 00:21:28,720
+the seven segment display at this point
+
+488
+00:21:26,000 --> 00:21:32,120
+right here and then this jumper provides
+
+489
+00:21:28,720 --> 00:21:34,840
+ground for the OLED so that's all fairly
+
+490
+00:21:32,120 --> 00:21:39,360
+straightforward and uh similar to what
+
+491
+00:21:34,840 --> 00:21:43,480
+we've done in the past the 5vt power is
+
+492
+00:21:39,360 --> 00:21:48,559
+accessed by both our displays and by the
+
+493
+00:21:43,480 --> 00:21:51,360
+switch logic using the same Red 5vt Bus
+
+494
+00:21:48,559 --> 00:21:53,520
+along the upper edge of the breadboard
+
+495
+00:21:51,360 --> 00:21:56,240
+the upper edge here as it's oriented in
+
+496
+00:21:53,520 --> 00:21:59,360
+our view here and so you can see that
+
+497
+00:21:56,240 --> 00:22:02,159
+this common uh we have a a red wire from
+
+498
+00:21:59,360 --> 00:22:04,400
+the hero that provides 5 volts and then
+
+499
+00:22:02,159 --> 00:22:06,840
+that's distributed to the switches using
+
+500
+00:22:04,400 --> 00:22:10,240
+these three red jumpers and then using
+
+501
+00:22:06,840 --> 00:22:15,400
+this red wire we provide Power that's
+
+502
+00:22:10,240 --> 00:22:18,279
+available to our uh our o LED display
+
+503
+00:22:15,400 --> 00:22:20,320
+and this red wire right here it's hiding
+
+504
+00:22:18,279 --> 00:22:24,000
+a little bit that it connects to the
+
+505
+00:22:20,320 --> 00:22:26,640
+same Red Bus so that takes care of the
+
+506
+00:22:24,000 --> 00:22:30,480
+issues of of ground and
+
+507
+00:22:26,640 --> 00:22:33,039
+power next we need to talk about what to
+
+508
+00:22:30,480 --> 00:22:35,960
+expect when we run the sketch that we
+
+509
+00:22:33,039 --> 00:22:39,480
+have written specifically for this
+
+510
+00:22:35,960 --> 00:22:43,159
+setup the state of the displays will
+
+511
+00:22:39,480 --> 00:22:45,799
+reflect and will change with the
+
+512
+00:22:43,159 --> 00:22:48,520
+positions of the dip
+
+513
+00:22:45,799 --> 00:22:51,520
+switches now as we mentioned before with
+
+514
+00:22:48,520 --> 00:22:53,679
+eight switch configurations possible
+
+515
+00:22:51,520 --> 00:22:56,480
+that means we have eight different bit
+
+516
+00:22:53,679 --> 00:22:59,159
+maps that we're going to choose to
+
+517
+00:22:56,480 --> 00:23:02,360
+display on the o
+
+518
+00:22:59,159 --> 00:23:05,200
+and those images we can number them
+
+519
+00:23:02,360 --> 00:23:09,000
+sequentially from zero up to
+
+520
+00:23:05,200 --> 00:23:14,400
+seven and so this image number will in
+
+521
+00:23:09,000 --> 00:23:17,240
+turn be displayed as a decimal on the
+
+522
+00:23:14,400 --> 00:23:19,159
+seven segment display that is if we've
+
+523
+00:23:17,240 --> 00:23:21,640
+written our sketch correctly we should
+
+524
+00:23:19,159 --> 00:23:23,480
+get a number here that corresponds to
+
+525
+00:23:21,640 --> 00:23:25,240
+the image being displayed and the
+
+526
+00:23:23,480 --> 00:23:28,640
+position of our
+
+527
+00:23:25,240 --> 00:23:30,200
+switches so as an example
+
+528
+00:23:28,640 --> 00:23:33,799
+switch number three would be on the
+
+529
+00:23:30,200 --> 00:23:36,799
+right 1 2 3 going from left to right
+
+530
+00:23:33,799 --> 00:23:39,279
+switch number three on the right would
+
+531
+00:23:36,799 --> 00:23:43,000
+represent the so-called least
+
+532
+00:23:39,279 --> 00:23:45,200
+significant bit and so in a binary
+
+533
+00:23:43,000 --> 00:23:46,600
+representation it would represent the
+
+534
+00:23:45,200 --> 00:23:49,320
+one's
+
+535
+00:23:46,600 --> 00:23:51,919
+position then moving over to the left
+
+536
+00:23:49,320 --> 00:23:54,919
+switch number two would represent the
+
+537
+00:23:51,919 --> 00:23:58,520
+two's position and then switch number
+
+538
+00:23:54,919 --> 00:24:01,360
+one would be in The Four's position
+
+539
+00:23:58,520 --> 00:24:04,440
+and if we could continue this if we had
+
+540
+00:24:01,360 --> 00:24:07,159
+a fourth switch we would have more
+
+541
+00:24:04,440 --> 00:24:09,360
+combinations so if we had four switches
+
+542
+00:24:07,159 --> 00:24:11,720
+instead of three then the most
+
+543
+00:24:09,360 --> 00:24:13,960
+significant bit would be in the E
+
+544
+00:24:11,720 --> 00:24:16,400
+position and then we would be able to
+
+545
+00:24:13,960 --> 00:24:18,720
+address the binary representation of
+
+546
+00:24:16,400 --> 00:24:21,760
+numbers from zero up to
+
+547
+00:24:18,720 --> 00:24:23,679
+15 but that's more than we need to worry
+
+548
+00:24:21,760 --> 00:24:26,799
+about right now we have our hands full
+
+549
+00:24:23,679 --> 00:24:29,159
+with just three switches and eight
+
+550
+00:24:26,799 --> 00:24:32,960
+combinations
+
+551
+00:24:29,159 --> 00:24:36,200
+now one very important point to mention
+
+552
+00:24:32,960 --> 00:24:39,279
+before we try running the sketch has to
+
+553
+00:24:36,200 --> 00:24:42,799
+do with the bit map data that we'll be
+
+554
+00:24:39,279 --> 00:24:45,000
+using to draw on the OED
+
+555
+00:24:42,799 --> 00:24:47,600
+display if you've already been through
+
+556
+00:24:45,000 --> 00:24:50,559
+the software instruction for today
+
+557
+00:24:47,600 --> 00:24:53,799
+you'll have noticed that we improved the
+
+558
+00:24:50,559 --> 00:24:57,720
+readability of the sketch by relegating
+
+559
+00:24:53,799 --> 00:25:01,320
+the bulky bitmap data out to an ex
+
+560
+00:24:57,720 --> 00:25:04,840
+external file and you'll see this in the
+
+561
+00:25:01,320 --> 00:25:07,000
+sketch line where it says hash include
+
+562
+00:25:04,840 --> 00:25:10,080
+switch bit
+
+563
+00:25:07,000 --> 00:25:12,840
+maps. now in order to compile and run
+
+564
+00:25:10,080 --> 00:25:15,640
+correctly the sketch needs to know where
+
+565
+00:25:12,840 --> 00:25:19,120
+to find this external file containing
+
+566
+00:25:15,640 --> 00:25:21,720
+the bitmap data and so for this reason
+
+567
+00:25:19,120 --> 00:25:25,600
+you need to make sure to place the
+
+568
+00:25:21,720 --> 00:25:29,159
+switch bit maps. file into the same
+
+569
+00:25:25,600 --> 00:25:31,960
+folder on your computer where Theo
+
+570
+00:25:29,159 --> 00:25:34,840
+sketch file is located before you use
+
+571
+00:25:31,960 --> 00:25:38,000
+the IDE to compile and upload your
+
+572
+00:25:34,840 --> 00:25:40,760
+sketch to run with that important detail
+
+573
+00:25:38,000 --> 00:25:44,919
+out of the way it seems like we're ready
+
+574
+00:25:40,760 --> 00:25:49,919
+to go ahead and try out our work so
+
+575
+00:25:44,919 --> 00:25:52,399
+we'll go to the IDE and we'll upload our
+
+576
+00:25:49,919 --> 00:25:55,760
+sketch and we'll have to wait a few
+
+577
+00:25:52,399 --> 00:25:59,159
+moments for the sketch to
+
+578
+00:25:55,760 --> 00:26:01,679
+load and once it has loaded we should
+
+579
+00:25:59,159 --> 00:26:06,960
+expect to see something on our
+
+580
+00:26:01,679 --> 00:26:09,200
+displays and here we are all right so we
+
+581
+00:26:06,960 --> 00:26:12,679
+see that it comes up with a display
+
+582
+00:26:09,200 --> 00:26:16,760
+number of zero which should correspond
+
+583
+00:26:12,679 --> 00:26:19,799
+to the binary zero all switches off and
+
+584
+00:26:16,760 --> 00:26:22,399
+that's how we have the the switches
+
+585
+00:26:19,799 --> 00:26:24,320
+configured and the OLED correctly
+
+586
+00:26:22,399 --> 00:26:25,720
+mirrors the state of the switches
+
+587
+00:26:24,320 --> 00:26:28,960
+because we have an image here that
+
+588
+00:26:25,720 --> 00:26:31,720
+detects three off switch
+
+589
+00:26:28,960 --> 00:26:34,399
+now we would expect that if we flip
+
+590
+00:26:31,720 --> 00:26:36,960
+switch number one that's the one on the
+
+591
+00:26:34,399 --> 00:26:40,000
+left that's the most significant bit we
+
+592
+00:26:36,960 --> 00:26:44,360
+would get 1 4
+
+593
+00:26:40,000 --> 00:26:47,440
+02s and 0 1es or in other words image
+
+594
+00:26:44,360 --> 00:26:49,600
+number four so let's see if that works
+
+595
+00:26:47,440 --> 00:26:50,919
+so I'll reach in here and flip the
+
+596
+00:26:49,600 --> 00:26:55,279
+leftmost
+
+597
+00:26:50,919 --> 00:26:58,159
+switch and sure enough we get number
+
+598
+00:26:55,279 --> 00:27:00,480
+four on our display and we get image
+
+599
+00:26:58,159 --> 00:27:01,520
+number four which mirrors the state of
+
+600
+00:27:00,480 --> 00:27:04,120
+our
+
+601
+00:27:01,520 --> 00:27:07,200
+switches all right likewise we can
+
+602
+00:27:04,120 --> 00:27:09,279
+activate image number two so I'll go
+
+603
+00:27:07,200 --> 00:27:11,440
+ahead and return that back to zero and
+
+604
+00:27:09,279 --> 00:27:16,559
+flip switch number
+
+605
+00:27:11,440 --> 00:27:19,320
+two and that gives us binary number two
+
+606
+00:27:16,559 --> 00:27:21,320
+and we get the corresponding image and
+
+607
+00:27:19,320 --> 00:27:25,720
+we can do that with the least
+
+608
+00:27:21,320 --> 00:27:28,320
+significant bit taking the third switch
+
+609
+00:27:25,720 --> 00:27:31,159
+and that's the one in the ones position
+
+610
+00:27:28,320 --> 00:27:33,080
+and activate that and we get the
+
+611
+00:27:31,159 --> 00:27:36,320
+corresponding change in the image and
+
+612
+00:27:33,080 --> 00:27:40,720
+we're now looking at image number
+
+613
+00:27:36,320 --> 00:27:43,240
+one so we can get additional
+
+614
+00:27:40,720 --> 00:27:45,960
+combinations by having more than one
+
+615
+00:27:43,240 --> 00:27:50,519
+switch in the on position so for example
+
+616
+00:27:45,960 --> 00:27:52,120
+if I leave the number three switch on
+
+617
+00:27:50,519 --> 00:27:55,360
+and
+
+618
+00:27:52,120 --> 00:27:58,600
+then rais the number two switch I now
+
+619
+00:27:55,360 --> 00:28:00,600
+have one one and one two two for a total
+
+620
+00:27:58,600 --> 00:28:02,039
+of three binary three and we have the
+
+621
+00:28:00,600 --> 00:28:05,480
+correct
+
+622
+00:28:02,039 --> 00:28:08,720
+image I have all three switches on
+
+623
+00:28:05,480 --> 00:28:10,919
+that's the binary seven so there's image
+
+624
+00:28:08,720 --> 00:28:14,480
+seven there's the the number seven and
+
+625
+00:28:10,919 --> 00:28:17,159
+there's image seven and I could continue
+
+626
+00:28:14,480 --> 00:28:20,440
+to look at all the possibilities so
+
+627
+00:28:17,159 --> 00:28:23,600
+here's switch number two off and so that
+
+628
+00:28:20,440 --> 00:28:27,120
+corresponds to Binary 5 and so
+
+629
+00:28:23,600 --> 00:28:28,159
+on so we see here that the displayed
+
+630
+00:28:27,120 --> 00:28:32,000
+number
+
+631
+00:28:28,159 --> 00:28:34,960
+and the images correctly correspond to
+
+632
+00:28:32,000 --> 00:28:37,399
+the configuration of our switches and
+
+633
+00:28:34,960 --> 00:28:39,240
+that indicates that our wiring and our
+
+634
+00:28:37,399 --> 00:28:41,919
+logic design were
+
+635
+00:28:39,240 --> 00:28:45,320
+successful so I hope that you were
+
+636
+00:28:41,919 --> 00:28:48,159
+successful too and we will see you for
+
+637
+00:28:45,320 --> 00:28:51,600
+the next day's addition to our system as
+
+638
+00:28:48,159 --> 00:28:54,720
+we add on and add functionality so we
+
+639
+00:28:51,600 --> 00:28:58,120
+look forward to seeing you
+
+640
+00:28:54,720 --> 00:29:00,159
+then as another Cosmic day con cludes I
+
+641
+00:28:58,120 --> 00:29:02,279
+can't help but Beam with pride
+
+642
+00:29:00,159 --> 00:29:04,279
+navigating the nebulous intricacies of
+
+643
+00:29:02,279 --> 00:29:06,320
+binary and ensuring our Hardware is
+
+644
+00:29:04,279 --> 00:29:08,519
+primed and ready you've tackled it all
+
+645
+00:29:06,320 --> 00:29:10,480
+with Stellar Precision it feels like
+
+646
+00:29:08,519 --> 00:29:11,760
+just yesterday we were stranded and look
+
+647
+00:29:10,480 --> 00:29:14,679
+how far we've
+
+648
+00:29:11,760 --> 00:29:17,360
+come but let's not let the Stardust get
+
+649
+00:29:14,679 --> 00:29:19,720
+to our heads just yet tomorrow awaits a
+
+650
+00:29:17,360 --> 00:29:22,679
+crucial task fixing our docking gear
+
+651
+00:29:19,720 --> 00:29:24,360
+using Knowledge from today a smooth
+
+652
+00:29:22,679 --> 00:29:26,679
+descent is the grand finale of our
+
+653
+00:29:24,360 --> 00:29:28,799
+Interstellar Journey rest up and
+
+654
+00:29:26,679 --> 00:29:31,440
+recharge with will need all hands and
+
+655
+00:29:28,799 --> 00:29:34,720
+switches on Deck to ensure we land as
+
+656
+00:29:31,440 --> 00:29:37,890
+gracefully as a feather in zero gravity
+
+657
+00:29:34,720 --> 00:29:52,210
+until then sweet Celestial
+
+658
+00:29:37,890 --> 00:29:52,210
+[Music]
+
+659
+00:29:56,320 --> 00:29:59,320
+dreams
+

@@ -1,0 +1,1236 @@
+1
+00:00:01,280 --> 00:00:08,619
+[Music]
+
+2
+00:00:12,200 --> 00:00:17,439
+rise and shine Explorer today the day
+
+3
+00:00:15,160 --> 00:00:19,439
+we've been working towards we're finally
+
+4
+00:00:17,439 --> 00:00:21,519
+ready to ascend from the ocean depths
+
+5
+00:00:19,439 --> 00:00:24,039
+and glide our spaceship back up to the
+
+6
+00:00:21,519 --> 00:00:26,560
+watery surface I hope you're as thrilled
+
+7
+00:00:24,039 --> 00:00:28,640
+as I am the past few weeks have been a
+
+8
+00:00:26,560 --> 00:00:30,599
+test of your courage determination and
+
+9
+00:00:28,640 --> 00:00:33,040
+your ability to think on your feet and I
+
+10
+00:00:30,599 --> 00:00:35,440
+must say you've handled every challenge
+
+11
+00:00:33,040 --> 00:00:37,360
+with intelligence and tenacity you're
+
+12
+00:00:35,440 --> 00:00:39,680
+proving to be a true Explorer in every
+
+13
+00:00:37,360 --> 00:00:41,800
+sense but remember there is still much
+
+14
+00:00:39,680 --> 00:00:43,600
+work to be done today we will put
+
+15
+00:00:41,800 --> 00:00:46,239
+everything we've learned to the ultimate
+
+16
+00:00:43,600 --> 00:00:48,039
+test all of your wiring coating and
+
+17
+00:00:46,239 --> 00:00:51,760
+problem solving skills are going to play
+
+18
+00:00:48,039 --> 00:00:54,239
+a crucial part in our Endeavor today so
+
+19
+00:00:51,760 --> 00:00:56,399
+take a deep breath clear your mind and
+
+20
+00:00:54,239 --> 00:00:58,719
+prepare yourself today you're more than
+
+21
+00:00:56,399 --> 00:01:01,519
+an Explorer and an engineer you're a
+
+22
+00:00:58,719 --> 00:01:04,199
+brave Starship Commander navigating
+
+23
+00:01:01,519 --> 00:01:06,280
+tenaciously through the unknown strap in
+
+24
+00:01:04,199 --> 00:01:08,320
+Explorer it's going to be a thrilling
+
+25
+00:01:06,280 --> 00:01:10,720
+ride are you
+
+26
+00:01:08,320 --> 00:01:12,520
+ready it appears we're all set to make
+
+27
+00:01:10,720 --> 00:01:14,640
+our careful Ascent back up to the water
+
+28
+00:01:12,520 --> 00:01:16,479
+surface it's critical we do this
+
+29
+00:01:14,640 --> 00:01:18,439
+gradually to prevent our shuttle from
+
+30
+00:01:16,479 --> 00:01:21,240
+popping like a balloon under the change
+
+31
+00:01:18,439 --> 00:01:24,000
+and pressure do you recall our trusty
+
+32
+00:01:21,240 --> 00:01:25,799
+sidekick the passive buzzer I'd suggest
+
+33
+00:01:24,000 --> 00:01:28,040
+we reintroduce him into our circuit as
+
+34
+00:01:25,799 --> 00:01:30,360
+an additional safety measure he'll be
+
+35
+00:01:28,040 --> 00:01:33,399
+our alarm Bell warning us if we're
+
+36
+00:01:30,360 --> 00:01:34,960
+ascending too quickly don't fret I've
+
+37
+00:01:33,399 --> 00:01:36,920
+got you covered with all the guidance
+
+38
+00:01:34,960 --> 00:01:39,880
+you'll need conveniently located in your
+
+39
+00:01:36,920 --> 00:01:44,119
+mission resources and guess what they're
+
+40
+00:01:39,880 --> 00:01:46,280
+ready for playback right now beginning
+
+41
+00:01:44,119 --> 00:01:49,119
+playback hello everybody and welcome
+
+42
+00:01:46,280 --> 00:01:52,520
+back to day 19 of the 30 days loss in
+
+43
+00:01:49,119 --> 00:01:56,039
+space adventure kit code explanations
+
+44
+00:01:52,520 --> 00:01:58,759
+now a lot of this code that we put in is
+
+45
+00:01:56,039 --> 00:02:00,640
+from day 18 I'm not going to be going
+
+46
+00:01:58,759 --> 00:02:03,360
+over that code
+
+47
+00:02:00,640 --> 00:02:06,439
+from day 18 so what we can do we can
+
+48
+00:02:03,360 --> 00:02:09,160
+simplify a lot of this by removing a lot
+
+49
+00:02:06,439 --> 00:02:10,599
+tough comments and going down and
+
+50
+00:02:09,160 --> 00:02:11,920
+explaining what's already known
+
+51
+00:02:10,599 --> 00:02:15,319
+obviously we have these functions at the
+
+52
+00:02:11,920 --> 00:02:18,360
+bottom nothing's changed there we have a
+
+53
+00:02:15,319 --> 00:02:20,959
+lot of new functionality inside of our
+
+54
+00:02:18,360 --> 00:02:24,160
+Loop but besides
+
+55
+00:02:20,959 --> 00:02:27,040
+that there's actually not a whole lot of
+
+56
+00:02:24,160 --> 00:02:28,959
+new things this is all the same from
+
+57
+00:02:27,040 --> 00:02:30,879
+setup from yesterday I could actually
+
+58
+00:02:28,959 --> 00:02:34,440
+just go
+
+59
+00:02:30,879 --> 00:02:36,800
+ploop close that up not necessary we
+
+60
+00:02:34,440 --> 00:02:39,159
+also have the constant bite done but
+
+61
+00:02:36,800 --> 00:02:43,280
+we've also got nope and then we also
+
+62
+00:02:39,159 --> 00:02:45,519
+have a new one for today called hold and
+
+63
+00:02:43,280 --> 00:02:49,280
+as you can guess it works the exact same
+
+64
+00:02:45,519 --> 00:02:51,400
+way as the other two so I'm just going
+
+65
+00:02:49,280 --> 00:02:53,080
+to close that down and that's going to
+
+66
+00:02:51,400 --> 00:02:55,319
+be another one that we can show off
+
+67
+00:02:53,080 --> 00:02:57,440
+later on once we show off our code we
+
+68
+00:02:55,319 --> 00:03:01,159
+have the keys make sure you have these
+
+69
+00:02:57,440 --> 00:03:02,480
+in here if you don't it will not work
+
+70
+00:03:01,159 --> 00:03:05,480
+same as up
+
+71
+00:03:02,480 --> 00:03:09,560
+above the only new thing that we have up
+
+72
+00:03:05,480 --> 00:03:11,920
+above for this entire top part is we
+
+73
+00:03:09,560 --> 00:03:13,319
+have the constant bite buzzer pin is
+
+74
+00:03:11,920 --> 00:03:15,920
+going to be equal to
+
+75
+00:03:13,319 --> 00:03:17,920
+10 today we're going to be introducing a
+
+76
+00:03:15,920 --> 00:03:20,920
+buzzer so that we can have additional
+
+77
+00:03:17,920 --> 00:03:23,480
+alert sounds whenever we hit certain
+
+78
+00:03:20,920 --> 00:03:25,720
+depths so that we know not to rise too
+
+79
+00:03:23,480 --> 00:03:29,840
+quickly back up to the
+
+80
+00:03:25,720 --> 00:03:30,879
+surface now what we can do is we can
+
+81
+00:03:29,840 --> 00:03:33,080
+actually instead of using those
+
+82
+00:03:30,879 --> 00:03:36,519
+variables like we had yesterday we can
+
+83
+00:03:33,080 --> 00:03:38,799
+actually use percentages so we know that
+
+84
+00:03:36,519 --> 00:03:42,680
+we're going to have to stop at about 50%
+
+85
+00:03:38,799 --> 00:03:45,319
+of the way and 75% of the way so we want
+
+86
+00:03:42,680 --> 00:03:49,599
+to alert the user when we have risen to
+
+87
+00:03:45,319 --> 00:03:52,959
+50 and 75% of the way up so instead of
+
+88
+00:03:49,599 --> 00:03:56,120
+before we had -20 and -40 we're going to
+
+89
+00:03:52,959 --> 00:03:59,280
+be using this instead this is the same
+
+90
+00:03:56,120 --> 00:04:01,760
+we also have a constant unsigned int
+
+91
+00:03:59,280 --> 00:04:03,159
+Loop delay equals 200 which is 200
+
+92
+00:04:01,760 --> 00:04:06,519
+milliseconds that we're going to add as
+
+93
+00:04:03,159 --> 00:04:08,560
+a small little buffer for our interrupts
+
+94
+00:04:06,519 --> 00:04:10,720
+between the loop
+
+95
+00:04:08,560 --> 00:04:13,400
+executions inside of the loop we have
+
+96
+00:04:10,720 --> 00:04:16,120
+the following static in previous depth
+
+97
+00:04:13,400 --> 00:04:18,000
+is equal to initial depth and this is
+
+98
+00:04:16,120 --> 00:04:21,160
+just going to give us our depth from our
+
+99
+00:04:18,000 --> 00:04:23,160
+previous Loop now if there was a change
+
+100
+00:04:21,160 --> 00:04:25,479
+obviously this is similar same thing as
+
+101
+00:04:23,160 --> 00:04:27,600
+yesterday if there was a change in the
+
+102
+00:04:25,479 --> 00:04:30,240
+depth level meaning you turn that rotary
+
+103
+00:04:27,600 --> 00:04:33,000
+encoder at some amount and resist us at
+
+104
+00:04:30,240 --> 00:04:35,759
+least a little bit probably just one if
+
+105
+00:04:33,000 --> 00:04:37,000
+there was any change in that we're going
+
+106
+00:04:35,759 --> 00:04:39,360
+to go through this
+
+107
+00:04:37,000 --> 00:04:42,120
+Loop grabbing the current depth just
+
+108
+00:04:39,360 --> 00:04:43,800
+like yesterday and then we're going to
+
+109
+00:04:42,120 --> 00:04:46,440
+compute our
+
+110
+00:04:43,800 --> 00:04:49,080
+percentage of the way up now yesterday
+
+111
+00:04:46,440 --> 00:04:50,520
+we were saying what the depth level was
+
+112
+00:04:49,080 --> 00:04:54,280
+but instead we're going to give us a
+
+113
+00:04:50,520 --> 00:04:55,919
+percentage from zero to 100 in order to
+
+114
+00:04:54,280 --> 00:04:58,320
+calculate that we can take the current
+
+115
+00:04:55,919 --> 00:05:02,720
+depth time 100 divided by the initial
+
+116
+00:04:58,320 --> 00:05:06,000
+depth and do 100 minus that entire total
+
+117
+00:05:02,720 --> 00:05:09,120
+that will give us the percentage of the
+
+118
+00:05:06,000 --> 00:05:12,479
+way to the surface that we've gone so
+
+119
+00:05:09,120 --> 00:05:15,199
+far now Rising too quickly could stress
+
+120
+00:05:12,479 --> 00:05:17,080
+the whole of our Lander because of this
+
+121
+00:05:15,199 --> 00:05:20,960
+we will play an alert if the Lander is
+
+122
+00:05:17,080 --> 00:05:22,600
+instructed to rise faster than one meter
+
+123
+00:05:20,960 --> 00:05:26,919
+every time through our Loop we need to
+
+124
+00:05:22,600 --> 00:05:30,759
+be sure that we're not going too quickly
+
+125
+00:05:26,919 --> 00:05:34,039
+so let's just say you went through the
+
+126
+00:05:30,759 --> 00:05:37,680
+loop and you spun it really quick and so
+
+127
+00:05:34,039 --> 00:05:40,240
+you went from one to four all that one
+
+128
+00:05:37,680 --> 00:05:43,400
+second hey we're going to have a buzzer
+
+129
+00:05:40,240 --> 00:05:45,840
+pin go off that tells us that we need to
+
+130
+00:05:43,400 --> 00:05:49,080
+chill out for just a minute you're going
+
+131
+00:05:45,840 --> 00:05:51,080
+a little too fast this is the same logic
+
+132
+00:05:49,080 --> 00:05:52,800
+as before which simply just says if the
+
+133
+00:05:51,080 --> 00:05:57,039
+current depth is less than the initial
+
+134
+00:05:52,800 --> 00:06:00,319
+depth don't try going down because Mr
+
+135
+00:05:57,039 --> 00:06:03,000
+wise guy we then have the the function
+
+136
+00:06:00,319 --> 00:06:06,440
+to show that number whatever the depth
+
+137
+00:06:03,000 --> 00:06:08,919
+is on our s segment
+
+138
+00:06:06,440 --> 00:06:11,160
+display and then we finally have the
+
+139
+00:06:08,919 --> 00:06:15,840
+same thing as before if we've hit the
+
+140
+00:06:11,160 --> 00:06:18,000
+very first 50% Mark or the 75% Mark of
+
+141
+00:06:15,840 --> 00:06:20,639
+our way up to the surface we want to
+
+142
+00:06:18,000 --> 00:06:23,520
+display our depth is a little blink on
+
+143
+00:06:20,639 --> 00:06:26,160
+the display and finally we're going to
+
+144
+00:06:23,520 --> 00:06:28,120
+display done assuming that it's you make
+
+145
+00:06:26,160 --> 00:06:29,680
+it all the way up to the surface the
+
+146
+00:06:28,120 --> 00:06:33,479
+only thing that we're doing here we're
+
+147
+00:06:29,680 --> 00:06:36,880
+going to play a little Tada tune on our
+
+148
+00:06:33,479 --> 00:06:39,400
+buzzer that's that there and that's the
+
+149
+00:06:36,880 --> 00:06:42,120
+only new feature that's being added that
+
+150
+00:06:39,400 --> 00:06:44,680
+we haven't already had from yesterday
+
+151
+00:06:42,120 --> 00:06:47,880
+and with that that is now the end of day
+
+152
+00:06:44,680 --> 00:06:51,599
+19 I wish you the best of luck today on
+
+153
+00:06:47,880 --> 00:06:55,319
+the way up to the ocean surface light
+
+154
+00:06:51,599 --> 00:06:58,680
+speed welcome to the day 19 wiring
+
+155
+00:06:55,319 --> 00:07:01,680
+example video well the big day has
+
+156
+00:06:58,680 --> 00:07:04,120
+finally arrived D all of our designing
+
+157
+00:07:01,680 --> 00:07:08,000
+testing and practicing has been leading
+
+158
+00:07:04,120 --> 00:07:10,800
+up to this crucial step in getting home
+
+159
+00:07:08,000 --> 00:07:14,720
+raising our craft to the ocean
+
+160
+00:07:10,800 --> 00:07:18,160
+surface based on the day 18 project we
+
+161
+00:07:14,720 --> 00:07:20,520
+now have a design that adds an audio
+
+162
+00:07:18,160 --> 00:07:22,759
+warning buzzer to the encoder and
+
+163
+00:07:20,520 --> 00:07:26,639
+display systems that we've previously
+
+164
+00:07:22,759 --> 00:07:29,520
+worked out looking at our breadboard we
+
+165
+00:07:26,639 --> 00:07:30,879
+can see that the only Hardware change
+
+166
+00:07:29,520 --> 00:07:35,199
+from day
+
+167
+00:07:30,879 --> 00:07:38,160
+18 is this buzzer right here and we can
+
+168
+00:07:35,199 --> 00:07:43,520
+see that the buzzer is connected to the
+
+169
+00:07:38,160 --> 00:07:46,560
+hero at output pin 10 so pin 10 should
+
+170
+00:07:43,520 --> 00:07:49,039
+be the pin in our sketch that drives the
+
+171
+00:07:46,560 --> 00:07:51,879
+buzzer function and so you can check
+
+172
+00:07:49,039 --> 00:07:53,759
+that and make sure that that's the case
+
+173
+00:07:51,879 --> 00:07:56,080
+and you'll also see that our buzzer has
+
+174
+00:07:53,759 --> 00:07:59,560
+to have a ground connection and we're
+
+175
+00:07:56,080 --> 00:08:02,319
+just using the same Common Ground bus
+
+176
+00:07:59,560 --> 00:08:05,360
+connection right here on the bottom side
+
+177
+00:08:02,319 --> 00:08:09,319
+of our breadboard that's already being
+
+178
+00:08:05,360 --> 00:08:12,120
+used by the encoder and the display the
+
+179
+00:08:09,319 --> 00:08:16,000
+really substantial changes
+
+180
+00:08:12,120 --> 00:08:20,039
+today mostly involve the software
+
+181
+00:08:16,000 --> 00:08:22,639
+sketch last time when we were simulating
+
+182
+00:08:20,039 --> 00:08:25,000
+and practicing we could afford to make
+
+183
+00:08:22,639 --> 00:08:27,639
+mistakes and then just go back and try
+
+184
+00:08:25,000 --> 00:08:30,759
+again until we got it right but this
+
+185
+00:08:27,639 --> 00:08:33,599
+time we'll need to be extra careful not
+
+186
+00:08:30,759 --> 00:08:36,599
+to irreversibly damage our crafts Drive
+
+187
+00:08:33,599 --> 00:08:40,519
+systems and Hull and hopefully get it
+
+188
+00:08:36,599 --> 00:08:43,240
+right on the first try because of this
+
+189
+00:08:40,519 --> 00:08:46,080
+the importance of this particular day
+
+190
+00:08:43,240 --> 00:08:49,720
+project our sketch has warning logic
+
+191
+00:08:46,080 --> 00:08:52,800
+built in that is intended to alert us
+
+192
+00:08:49,720 --> 00:08:57,760
+both audibly and Visually if we are
+
+193
+00:08:52,800 --> 00:09:00,040
+ascending too fast and it will also tell
+
+194
+00:08:57,760 --> 00:09:02,600
+us when there are planned pause points
+
+195
+00:09:00,040 --> 00:09:06,240
+in the ascent that we've reached now
+
+196
+00:09:02,600 --> 00:09:08,959
+I'll go ahead and run my simulation of
+
+197
+00:09:06,240 --> 00:09:11,640
+the real thing so that as you're
+
+198
+00:09:08,959 --> 00:09:14,760
+watching you'll know just what to expect
+
+199
+00:09:11,640 --> 00:09:17,560
+when it's go time for your run to the
+
+200
+00:09:14,760 --> 00:09:21,040
+surface so let's go ahead load up the
+
+201
+00:09:17,560 --> 00:09:23,560
+sketch and see how it goes so I'm going
+
+202
+00:09:21,040 --> 00:09:27,959
+over to the IDE
+
+203
+00:09:23,560 --> 00:09:29,839
+now loading up the uh the sketch in just
+
+204
+00:09:27,959 --> 00:09:33,399
+a moment we should be
+
+205
+00:09:29,839 --> 00:09:36,040
+running and there we are okay so our
+
+206
+00:09:33,399 --> 00:09:38,760
+sketch is running and our display is
+
+207
+00:09:36,040 --> 00:09:41,880
+indicating that we are currently at a
+
+208
+00:09:38,760 --> 00:09:44,680
+depth of 60 M and we've got to get up to
+
+209
+00:09:41,880 --> 00:09:48,440
+the surface when our uh depth meter
+
+210
+00:09:44,680 --> 00:09:50,720
+reaches zero so if everything's ready to
+
+211
+00:09:48,440 --> 00:09:53,440
+go let's go ahead put our hands on the
+
+212
+00:09:50,720 --> 00:09:56,000
+controls and see what happens so as I
+
+213
+00:09:53,440 --> 00:09:59,160
+start to rotate the encoder you can see
+
+214
+00:09:56,000 --> 00:10:02,640
+that I'm decreasing the the depth I'm
+
+215
+00:09:59,160 --> 00:10:05,720
+rising up in other words and if I go a
+
+216
+00:10:02,640 --> 00:10:08,240
+little too fast I get my my fingers
+
+217
+00:10:05,720 --> 00:10:10,000
+slapped a little bit because going up
+
+218
+00:10:08,240 --> 00:10:11,839
+too fast is putting too much stress on
+
+219
+00:10:10,000 --> 00:10:15,360
+my
+
+220
+00:10:11,839 --> 00:10:18,000
+drive okay that was too
+
+221
+00:10:15,360 --> 00:10:21,480
+fast still going
+
+222
+00:10:18,000 --> 00:10:23,399
+up okay I've reached a hold Point all
+
+223
+00:10:21,480 --> 00:10:25,000
+right so I I've reached a hold point I
+
+224
+00:10:23,399 --> 00:10:26,880
+was still going a little fast there
+
+225
+00:10:25,000 --> 00:10:29,519
+because you can see I overshot the hold
+
+226
+00:10:26,880 --> 00:10:31,800
+point if I wanted to I could go back
+
+227
+00:10:29,519 --> 00:10:36,160
+down a little bit but let's keep going
+
+228
+00:10:31,800 --> 00:10:38,639
+up and see what happens as I okay that
+
+229
+00:10:36,160 --> 00:10:38,639
+was too
+
+230
+00:10:39,120 --> 00:10:47,120
+fast and anytime now there I've reached
+
+231
+00:10:42,480 --> 00:10:50,120
+another hold point at 15 M okay after
+
+232
+00:10:47,120 --> 00:10:53,360
+pausing at the hold Point let's keep
+
+233
+00:10:50,120 --> 00:10:56,160
+rising up up
+
+234
+00:10:53,360 --> 00:10:59,760
+up and we should be close enough to the
+
+235
+00:10:56,160 --> 00:11:06,240
+surface now oh that was too fast we're
+
+236
+00:10:59,760 --> 00:11:09,279
+almost there 5 4 3 2
+
+237
+00:11:06,240 --> 00:11:12,120
+1 and we did it we've reached the
+
+238
+00:11:09,279 --> 00:11:13,959
+surface so of course that was just a
+
+239
+00:11:12,120 --> 00:11:18,560
+simulation of what you're going to do
+
+240
+00:11:13,959 --> 00:11:21,160
+for real but it's just as simple as that
+
+241
+00:11:18,560 --> 00:11:23,480
+so I wish you good luck and we will see
+
+242
+00:11:21,160 --> 00:11:25,600
+you top side after you've made your way
+
+243
+00:11:23,480 --> 00:11:27,959
+out of the depths and then you'll be
+
+244
+00:11:25,600 --> 00:11:31,200
+ready to prepare for the next part of
+
+245
+00:11:27,959 --> 00:11:34,279
+the journey home see you
+
+246
+00:11:31,200 --> 00:11:36,560
+then okay Explorer the time has come all
+
+247
+00:11:34,279 --> 00:11:39,800
+our preparations have led us to this
+
+248
+00:11:36,560 --> 00:11:41,320
+point our Ascent out of the murky deep
+
+249
+00:11:39,800 --> 00:11:44,480
+and back to the surface of this
+
+250
+00:11:41,320 --> 00:11:47,160
+Uncharted ocean we will slowly ascend
+
+251
+00:11:44,480 --> 00:11:50,600
+from our current depth at altitude zero
+
+252
+00:11:47,160 --> 00:11:53,360
+to the ocean surface of altitude 100 the
+
+253
+00:11:50,600 --> 00:11:55,519
+key word is slowly we must proceed
+
+254
+00:11:53,360 --> 00:11:57,959
+cautiously to prevent an explosion which
+
+255
+00:11:55,519 --> 00:12:01,160
+will surely put a hasty end to our
+
+256
+00:11:57,959 --> 00:12:02,880
+journey on my mark Explorer start
+
+257
+00:12:01,160 --> 00:12:06,040
+turning the rotary encoder and let's
+
+258
+00:12:02,880 --> 00:12:08,920
+begin our Ascent to the surface slow and
+
+259
+00:12:06,040 --> 00:12:08,920
+steady
+
+260
+00:12:12,800 --> 00:12:18,720
+engage all system status clear keeping
+
+261
+00:12:16,040 --> 00:12:21,199
+tabs on gyroscopic thrusters pressure
+
+262
+00:12:18,720 --> 00:12:23,800
+values well within acceptable limits
+
+263
+00:12:21,199 --> 00:12:23,800
+steady on
+
+264
+00:12:27,880 --> 00:12:33,079
+Explorer 50% slow your rooll Explorer
+
+265
+00:12:31,639 --> 00:12:35,519
+the ship's pressure is reaching its
+
+266
+00:12:33,079 --> 00:12:37,079
+limits we need to stop for a moment
+
+267
+00:12:35,519 --> 00:12:38,959
+occupy your mind with thoughts of the
+
+268
+00:12:37,079 --> 00:12:41,240
+world Beyond this frighteningly vast
+
+269
+00:12:38,959 --> 00:12:44,000
+ocean a world filled with more
+
+270
+00:12:41,240 --> 00:12:46,199
+breathable air and fewer leviathans
+
+271
+00:12:44,000 --> 00:12:48,120
+pressure is within optimal levels please
+
+272
+00:12:46,199 --> 00:12:50,639
+continue to turn our encoder and
+
+273
+00:12:48,120 --> 00:12:50,639
+continue the
+
+274
+00:12:53,560 --> 00:12:58,839
+ascent 75% you're three4 to the top
+
+275
+00:12:56,880 --> 00:13:00,720
+Explorer but don't lose your patience
+
+276
+00:12:58,839 --> 00:13:03,199
+halt your dial turning for another few
+
+277
+00:13:00,720 --> 00:13:04,600
+moments we're almost there sensors
+
+278
+00:13:03,199 --> 00:13:07,480
+indicate light is coming through much
+
+279
+00:13:04,600 --> 00:13:10,519
+more clearly now okay pressure dropping
+
+280
+00:13:07,480 --> 00:13:10,519
+Crank That encoder
+
+281
+00:13:13,440 --> 00:13:17,920
+Cadet you've done it Explorer you've
+
+282
+00:13:16,120 --> 00:13:21,000
+reached the ocean
+
+283
+00:13:17,920 --> 00:13:23,040
+surface I'm an awe Explorer what an
+
+284
+00:13:21,000 --> 00:13:24,880
+extraordinary achievement today we've
+
+285
+00:13:23,040 --> 00:13:27,160
+navigated our way from the murky depth
+
+286
+00:13:24,880 --> 00:13:29,360
+to the Magnificent spectacle of a sky
+
+287
+00:13:27,160 --> 00:13:33,639
+teeming with distant Stars
+
+288
+00:13:29,360 --> 00:13:35,519
+the view is simply mesmerizing isn't it
+
+289
+00:13:33,639 --> 00:13:38,480
+our Collective efforts have truly paid
+
+290
+00:13:35,519 --> 00:13:40,760
+off and look at that the communications
+
+291
+00:13:38,480 --> 00:13:42,399
+with the Mother Ship have stabilized I
+
+292
+00:13:40,760 --> 00:13:44,920
+can almost feel the stream of signals
+
+293
+00:13:42,399 --> 00:13:47,079
+pulsating through the system each beep
+
+294
+00:13:44,920 --> 00:13:49,320
+echoing the missed inquiries from
+
+295
+00:13:47,079 --> 00:13:51,519
+headquarters they must be on tenter
+
+296
+00:13:49,320 --> 00:13:53,759
+hooks awaiting an update from you eager
+
+297
+00:13:51,519 --> 00:13:55,720
+to hear that you're safe and sound it's
+
+298
+00:13:53,759 --> 00:13:57,360
+time to let them in on our Victory to
+
+299
+00:13:55,720 --> 00:14:00,920
+share the wave of hope that's been
+
+300
+00:13:57,360 --> 00:14:03,160
+washing over us take a moment relish
+
+301
+00:14:00,920 --> 00:14:05,959
+this feeling and then let's send a
+
+302
+00:14:03,160 --> 00:14:08,959
+reassuring Beacon back home oh I could
+
+303
+00:14:05,959 --> 00:14:11,680
+just leap with joy Explorer what a day
+
+304
+00:14:08,959 --> 00:14:14,759
+what a Triumph light speed to you and
+
+305
+00:14:11,680 --> 00:14:17,770
+remember every Star in the cosmos is a
+
+306
+00:14:14,759 --> 00:14:27,480
+destination waiting to be
+
+307
+00:14:17,770 --> 00:14:27,480
+[Music]
+
+308
+00:14:27,680 --> 00:14:30,680
+explored
+
+309
+00:14:32,500 --> 00:14:39,600
+[Music]
+

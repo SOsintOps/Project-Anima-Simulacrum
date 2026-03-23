@@ -1,0 +1,2692 @@
+1
+00:00:01,280 --> 00:00:08,619
+[Music]
+
+2
+00:00:13,599 --> 00:00:18,880
+wakey wakey Explorer the dawn of day
+
+3
+00:00:16,440 --> 00:00:20,960
+three is upon us and as much as I'd love
+
+4
+00:00:18,880 --> 00:00:23,519
+to let you Slumber in peace we have an
+
+5
+00:00:20,960 --> 00:00:26,400
+Ocean's depth of work to tackle do you
+
+6
+00:00:23,519 --> 00:00:28,960
+recall our incessantly blinking LED from
+
+7
+00:00:26,400 --> 00:00:30,519
+yesterday well today we're going to show
+
+8
+00:00:28,960 --> 00:00:33,520
+those painstaking glimmers of light
+
+9
+00:00:30,519 --> 00:00:35,200
+who's boss enter the dip switch this
+
+10
+00:00:33,520 --> 00:00:37,399
+Nifty little piece of Hardware will
+
+11
+00:00:35,200 --> 00:00:39,760
+allow us to control the blinking at our
+
+12
+00:00:37,399 --> 00:00:43,399
+will it's going to be the Relentless
+
+13
+00:00:39,760 --> 00:00:45,320
+leash of our overzealous LED of course
+
+14
+00:00:43,399 --> 00:00:47,559
+to make this happen we're going to need
+
+15
+00:00:45,320 --> 00:00:49,960
+more than just some physical wiring this
+
+16
+00:00:47,559 --> 00:00:52,199
+is where things get cerebral we're going
+
+17
+00:00:49,960 --> 00:00:56,199
+to be introducing some conditional logic
+
+18
+00:00:52,199 --> 00:00:59,199
+into our code a touch of if this then
+
+19
+00:00:56,199 --> 00:01:01,960
+that all right then a flashy switch and
+
+20
+00:00:59,199 --> 00:01:04,159
+some smart code are on our Horizon rest
+
+21
+00:01:01,960 --> 00:01:06,960
+assured by the end of the day we'll have
+
+22
+00:01:04,159 --> 00:01:09,439
+our blinking light under control so
+
+23
+00:01:06,960 --> 00:01:11,080
+whenever you're ready explorer though
+
+24
+00:01:09,439 --> 00:01:14,560
+regardless of your Readiness we must
+
+25
+00:01:11,080 --> 00:01:16,840
+begin right let's not dilly dally our
+
+26
+00:01:14,560 --> 00:01:18,720
+main character today is the dip switch
+
+27
+00:01:16,840 --> 00:01:21,520
+this fellow might look simple with its
+
+28
+00:01:18,720 --> 00:01:25,840
+array of tiny switches but oh can it
+
+29
+00:01:21,520 --> 00:01:29,000
+wield a great deal of power you see dip
+
+30
+00:01:25,840 --> 00:01:31,439
+stands for dual inline package it's
+
+31
+00:01:29,000 --> 00:01:33,520
+essentially a ual electric switch that's
+
+32
+00:01:31,439 --> 00:01:35,640
+packaged with others in a group the
+
+33
+00:01:33,520 --> 00:01:37,960
+switches are all housed in a single box
+
+34
+00:01:35,640 --> 00:01:40,079
+and can be toggled on or off
+
+35
+00:01:37,960 --> 00:01:42,360
+independently you may think of this like
+
+36
+00:01:40,079 --> 00:01:44,040
+a tiny panel of light switches each
+
+37
+00:01:42,360 --> 00:01:45,479
+controlling a separate room in a
+
+38
+00:01:44,040 --> 00:01:47,560
+miniature
+
+39
+00:01:45,479 --> 00:01:49,600
+dollhouse each position of the
+
+40
+00:01:47,560 --> 00:01:52,000
+individual switches in a dip switch
+
+41
+00:01:49,600 --> 00:01:54,680
+represents a binary condition which
+
+42
+00:01:52,000 --> 00:01:58,640
+simply means either on or off high or
+
+43
+00:01:54,680 --> 00:02:00,719
+low one or zero yes or no the magic lies
+
+44
+00:01:58,640 --> 00:02:02,320
+in the fact that you can manipulate
+
+45
+00:02:00,719 --> 00:02:03,399
+these switches to control different
+
+46
+00:02:02,320 --> 00:02:05,880
+parts of a
+
+47
+00:02:03,399 --> 00:02:08,080
+circuit in our case the part of the
+
+48
+00:02:05,880 --> 00:02:10,840
+circuit we're so Keen to dominate is
+
+49
+00:02:08,080 --> 00:02:14,040
+that perpetually blinking
+
+50
+00:02:10,840 --> 00:02:16,879
+LED by the end of today that led will be
+
+51
+00:02:14,040 --> 00:02:18,640
+blinking only when we want it to the
+
+52
+00:02:16,879 --> 00:02:20,519
+power of control is within our grasp
+
+53
+00:02:18,640 --> 00:02:23,319
+Explorer so let's grab
+
+54
+00:02:20,519 --> 00:02:27,599
+it allow me to introduce some vital
+
+55
+00:02:23,319 --> 00:02:30,879
+elements the ground or gnd D and voltage
+
+56
+00:02:27,599 --> 00:02:33,080
+or VCC they are you could say the
+
+57
+00:02:30,879 --> 00:02:35,840
+lifeblood and nervous system of our
+
+58
+00:02:33,080 --> 00:02:37,560
+Electronics ground my friend is the
+
+59
+00:02:35,840 --> 00:02:39,959
+common point of reference for all
+
+60
+00:02:37,560 --> 00:02:41,959
+voltage sources in a circuit it's our
+
+61
+00:02:39,959 --> 00:02:43,959
+zero voltage reference line the
+
+62
+00:02:41,959 --> 00:02:46,360
+foundation on which all other voltages
+
+63
+00:02:43,959 --> 00:02:48,599
+are built without it our circuits would
+
+64
+00:02:46,360 --> 00:02:50,400
+be aimlessly wandering in the wild
+
+65
+00:02:48,599 --> 00:02:53,080
+uncertain about where the bottom of the
+
+66
+00:02:50,400 --> 00:02:55,040
+voltage range lies it also provides a
+
+67
+00:02:53,080 --> 00:02:56,959
+path for our electric currents to return
+
+68
+00:02:55,040 --> 00:03:00,040
+to their Source after their exciting
+
+69
+00:02:56,959 --> 00:03:03,400
+journey through our circuits now let's
+
+70
+00:03:00,040 --> 00:03:06,280
+talk about VCC this little gem is the
+
+71
+00:03:03,400 --> 00:03:08,599
+primary source of power to our heroboard
+
+72
+00:03:06,280 --> 00:03:11,040
+it stands for voltage at the common
+
+73
+00:03:08,599 --> 00:03:13,840
+collector in plain language it's the
+
+74
+00:03:11,040 --> 00:03:16,360
+positive Supply voltage if gnd D is the
+
+75
+00:03:13,840 --> 00:03:18,640
+foundation then VCC is the engine that
+
+76
+00:03:16,360 --> 00:03:21,799
+powers the machine the fuel that keeps
+
+77
+00:03:18,640 --> 00:03:24,120
+the circuits alive and kicking you see
+
+78
+00:03:21,799 --> 00:03:26,720
+in a system like ours having a common
+
+79
+00:03:24,120 --> 00:03:29,959
+ground such as gnd and a common power
+
+80
+00:03:26,720 --> 00:03:31,640
+supply such as VCC is essential it
+
+81
+00:03:29,959 --> 00:03:34,840
+allows different components of the
+
+82
+00:03:31,640 --> 00:03:36,720
+system to communicate effectively each
+
+83
+00:03:34,840 --> 00:03:39,439
+understanding what the zero and full
+
+84
+00:03:36,720 --> 00:03:41,400
+points of voltage are this way when
+
+85
+00:03:39,439 --> 00:03:43,799
+signals or power move between different
+
+86
+00:03:41,400 --> 00:03:47,360
+parts of the system they all understand
+
+87
+00:03:43,799 --> 00:03:49,560
+the language of voltage in the same way
+
+88
+00:03:47,360 --> 00:03:51,319
+it's like our own language really if we
+
+89
+00:03:49,560 --> 00:03:53,280
+didn't have common reference points and
+
+90
+00:03:51,319 --> 00:03:55,519
+shared meanings we'd be unable to
+
+91
+00:03:53,280 --> 00:03:57,680
+communicate and collaborate and we know
+
+92
+00:03:55,519 --> 00:04:00,120
+that wouldn't end well would it
+
+93
+00:03:57,680 --> 00:04:02,319
+Explorer moving on the the extra
+
+94
+00:04:00,120 --> 00:04:04,840
+resistor a keen Observer aren't you
+
+95
+00:04:02,319 --> 00:04:06,840
+Explorer you see the extra resistor
+
+96
+00:04:04,840 --> 00:04:09,560
+we're talking about is what we call a
+
+97
+00:04:06,840 --> 00:04:11,879
+pull down resistor its job is to make
+
+98
+00:04:09,560 --> 00:04:14,640
+sure our circuit behaves properly when
+
+99
+00:04:11,879 --> 00:04:16,400
+the switch is off without it our switch
+
+100
+00:04:14,640 --> 00:04:19,720
+being in the off position could cause
+
+101
+00:04:16,400 --> 00:04:21,680
+our circuit to get all wonky imagine it
+
+102
+00:04:19,720 --> 00:04:23,720
+like a crowd of electricity not knowing
+
+103
+00:04:21,680 --> 00:04:25,919
+where to go and causing a ruckus we
+
+104
+00:04:23,720 --> 00:04:28,520
+certainly don't need more chaos around
+
+105
+00:04:25,919 --> 00:04:30,440
+here what the pull down resistor does is
+
+106
+00:04:28,520 --> 00:04:32,840
+finish the circuit and acts like a form
+
+107
+00:04:30,440 --> 00:04:34,680
+of crowd control when the switch is off
+
+108
+00:04:32,840 --> 00:04:37,720
+it guides the confused electricity
+
+109
+00:04:34,680 --> 00:04:40,520
+safely away down to the ground this way
+
+110
+00:04:37,720 --> 00:04:43,520
+our circuit stays composed and organized
+
+111
+00:04:40,520 --> 00:04:46,000
+just the way we like it remember
+
+112
+00:04:43,520 --> 00:04:48,120
+Explorer every brick in a building plays
+
+113
+00:04:46,000 --> 00:04:50,360
+a vital role in keeping it standing
+
+114
+00:04:48,120 --> 00:04:52,199
+similarly every small component in a
+
+115
+00:04:50,360 --> 00:04:55,240
+system is crucial to its overall
+
+116
+00:04:52,199 --> 00:04:57,520
+functionality and success now let's
+
+117
+00:04:55,240 --> 00:05:00,080
+return to our task at
+
+118
+00:04:57,520 --> 00:05:02,440
+hand now that we've solved the mystery
+
+119
+00:05:00,080 --> 00:05:04,440
+of the pul down resistor let's turn our
+
+120
+00:05:02,440 --> 00:05:07,360
+attention to something absolutely
+
+121
+00:05:04,440 --> 00:05:10,280
+fundamental in electronics the concept
+
+122
+00:05:07,360 --> 00:05:13,080
+of inputs and outputs think of our
+
+123
+00:05:10,280 --> 00:05:17,039
+system as a living organism it needs to
+
+124
+00:05:13,080 --> 00:05:20,319
+inhale data inputs to process and exhale
+
+125
+00:05:17,039 --> 00:05:22,319
+data outputs as a result an input is
+
+126
+00:05:20,319 --> 00:05:25,000
+essentially a message received by our
+
+127
+00:05:22,319 --> 00:05:28,240
+herob board it could be from a sensor a
+
+128
+00:05:25,000 --> 00:05:29,960
+button or in our case today a dip switch
+
+129
+00:05:28,240 --> 00:05:31,880
+these inputs tell the board what's
+
+130
+00:05:29,960 --> 00:05:34,160
+happening out in the world in this
+
+131
+00:05:31,880 --> 00:05:36,720
+instance whether our dip switch is on or
+
+132
+00:05:34,160 --> 00:05:39,520
+off or high or
+
+133
+00:05:36,720 --> 00:05:41,960
+low on the other hand outputs are
+
+134
+00:05:39,520 --> 00:05:43,919
+signals sent out by the herob board
+
+135
+00:05:41,960 --> 00:05:46,160
+outputs could be triggered by code
+
+136
+00:05:43,919 --> 00:05:48,560
+conditions or other sensor readings like
+
+137
+00:05:46,160 --> 00:05:50,639
+the position of a switch examples
+
+138
+00:05:48,560 --> 00:05:53,919
+include spinning a motor sounding a
+
+139
+00:05:50,639 --> 00:05:57,120
+buzzer or making an LED blink or stay
+
+140
+00:05:53,919 --> 00:05:58,800
+solid today our dip switch is the input
+
+141
+00:05:57,120 --> 00:06:02,520
+telling the board whether the switch is
+
+142
+00:05:58,800 --> 00:06:04,800
+on or high or off or low the LED is the
+
+143
+00:06:02,520 --> 00:06:07,000
+output responding to this input by
+
+144
+00:06:04,800 --> 00:06:10,000
+either blinking or staying
+
+145
+00:06:07,000 --> 00:06:12,039
+off ah great we're done playing with our
+
+146
+00:06:10,000 --> 00:06:14,759
+hardware for now Explorer don't look so
+
+147
+00:06:12,039 --> 00:06:17,319
+relieved the fun is far from over you
+
+148
+00:06:14,759 --> 00:06:20,680
+already know what's next programming our
+
+149
+00:06:17,319 --> 00:06:22,680
+newly created circuit so grab another
+
+150
+00:06:20,680 --> 00:06:24,599
+gulp of that precious oxygen and brace
+
+151
+00:06:22,680 --> 00:06:26,880
+yourself for a thrilling journey into
+
+152
+00:06:24,599 --> 00:06:29,160
+the intricacies of code let's power
+
+153
+00:06:26,880 --> 00:06:30,840
+through explore the sooner we do this
+
+154
+00:06:29,160 --> 00:06:34,360
+the sooner you can get some lights on in
+
+155
+00:06:30,840 --> 00:06:34,360
+here and stop groping around in the
+
+156
+00:06:34,400 --> 00:06:39,039
+dark well Explorer you've stumbled upon
+
+157
+00:06:37,199 --> 00:06:41,680
+a fairly straightforward piece of code
+
+158
+00:06:39,039 --> 00:06:44,919
+here let's dissect it together shall
+
+159
+00:06:41,680 --> 00:06:47,120
+we first we're defining two variables
+
+160
+00:06:44,919 --> 00:06:49,160
+one for our LED and one for our dip
+
+161
+00:06:47,120 --> 00:06:51,120
+switch these numbers are currently
+
+162
+00:06:49,160 --> 00:06:53,240
+configured to represent the PIN numbers
+
+163
+00:06:51,120 --> 00:06:56,560
+on the hero board where your switch and
+
+164
+00:06:53,240 --> 00:06:58,120
+led are connected in the setup function
+
+165
+00:06:56,560 --> 00:07:00,639
+we're telling the hero board how to
+
+166
+00:06:58,120 --> 00:07:02,720
+treat the two pins we defined earlier
+
+167
+00:07:00,639 --> 00:07:05,639
+the pin mode parenthesis function is
+
+168
+00:07:02,720 --> 00:07:08,360
+used for this we will make the LED an
+
+169
+00:07:05,639 --> 00:07:11,319
+output meaning we want to send out a
+
+170
+00:07:08,360 --> 00:07:13,680
+signal from this pin to control the LED
+
+171
+00:07:11,319 --> 00:07:16,000
+we will make the dip switch an input
+
+172
+00:07:13,680 --> 00:07:18,440
+meaning we expect to receive a signal
+
+173
+00:07:16,000 --> 00:07:21,599
+from the switch to this
+
+174
+00:07:18,440 --> 00:07:24,160
+pin next we move to the loop function
+
+175
+00:07:21,599 --> 00:07:27,680
+the heart of our hero code that as you
+
+176
+00:07:24,160 --> 00:07:29,680
+know runs continuously and repeatedly
+
+177
+00:07:27,680 --> 00:07:32,360
+inside loop we have a new kind of
+
+178
+00:07:29,680 --> 00:07:33,879
+statement an if statement I can see from
+
+179
+00:07:32,360 --> 00:07:35,599
+the look on your face that Cadet
+
+180
+00:07:33,879 --> 00:07:38,199
+training never taught you about
+
+181
+00:07:35,599 --> 00:07:40,800
+conditional logic humans are such
+
+182
+00:07:38,199 --> 00:07:42,960
+ineffectual creatures all right time for
+
+183
+00:07:40,800 --> 00:07:43,840
+a bit of theory fear not explore it
+
+184
+00:07:42,960 --> 00:07:46,560
+won't
+
+185
+00:07:43,840 --> 00:07:49,199
+bite conditional logic involves creating
+
+186
+00:07:46,560 --> 00:07:51,440
+rules within your code based on certain
+
+187
+00:07:49,199 --> 00:07:53,440
+conditions much like deciding to wear a
+
+188
+00:07:51,440 --> 00:07:57,280
+space suit before you step out into the
+
+189
+00:07:53,440 --> 00:07:59,599
+vacuum of space simple would you agree
+
+190
+00:07:57,280 --> 00:08:02,759
+the main tools for this in C+ plus
+
+191
+00:07:59,599 --> 00:08:06,039
+language are if else if and else
+
+192
+00:08:02,759 --> 00:08:08,120
+statements let's break them down if this
+
+193
+00:08:06,039 --> 00:08:10,879
+is the primary decision making tool in
+
+194
+00:08:08,120 --> 00:08:13,720
+your code if a certain condition is true
+
+195
+00:08:10,879 --> 00:08:16,080
+then some code will run for example if
+
+196
+00:08:13,720 --> 00:08:18,560
+oxygen levels are less than critical we
+
+197
+00:08:16,080 --> 00:08:20,879
+initiate emergency procedures this only
+
+198
+00:08:18,560 --> 00:08:23,039
+happens if the condition is true if the
+
+199
+00:08:20,879 --> 00:08:25,319
+oxygen levels are measured to be fine
+
+200
+00:08:23,039 --> 00:08:28,759
+the code within the if statement is
+
+201
+00:08:25,319 --> 00:08:30,360
+ignored else if this comes into play
+
+202
+00:08:28,759 --> 00:08:33,039
+when you have more than one condition to
+
+203
+00:08:30,360 --> 00:08:35,120
+check it's like saying if the first
+
+204
+00:08:33,039 --> 00:08:37,279
+condition isn't true and doesn't apply
+
+205
+00:08:35,120 --> 00:08:39,839
+we'll evaluate the next one it's
+
+206
+00:08:37,279 --> 00:08:44,159
+important to note that an else if always
+
+207
+00:08:39,839 --> 00:08:46,480
+follows an if or another else if else
+
+208
+00:08:44,159 --> 00:08:48,680
+this is the last resort if none of the
+
+209
+00:08:46,480 --> 00:08:50,720
+previous if or else if conditions are
+
+210
+00:08:48,680 --> 00:08:53,320
+true then the code in the else block
+
+211
+00:08:50,720 --> 00:08:56,360
+will run it's like saying if nothing
+
+212
+00:08:53,320 --> 00:08:57,320
+else works out let's do this here's a
+
+213
+00:08:56,360 --> 00:08:59,560
+quick
+
+214
+00:08:57,320 --> 00:09:02,040
+example you'll notice that we always
+
+215
+00:08:59,560 --> 00:09:04,240
+indent everything inside sets of curly
+
+216
+00:09:02,040 --> 00:09:07,240
+brackets this simply allows for better
+
+217
+00:09:04,240 --> 00:09:09,079
+readability of the code in this code the
+
+218
+00:09:07,240 --> 00:09:11,000
+ship checks the oxygen level and
+
+219
+00:09:09,079 --> 00:09:13,360
+responds appropriately based on the
+
+220
+00:09:11,000 --> 00:09:15,399
+conditions we've set I hope this brings
+
+221
+00:09:13,360 --> 00:09:17,519
+some light into the murky depths of
+
+222
+00:09:15,399 --> 00:09:19,120
+conditional Logic for you let's see if
+
+223
+00:09:17,519 --> 00:09:21,600
+we can apply this to our switch
+
+224
+00:09:19,120 --> 00:09:23,600
+situation next when the switch is on
+
+225
+00:09:21,600 --> 00:09:26,839
+digital right is executed turning the
+
+226
+00:09:23,600 --> 00:09:29,560
+LED on or high as you could say this
+
+227
+00:09:26,839 --> 00:09:32,000
+sends current to the LED if the switch
+
+228
+00:09:29,560 --> 00:09:34,800
+is off the else block is executed
+
+229
+00:09:32,000 --> 00:09:37,760
+instead here digital right is run which
+
+230
+00:09:34,800 --> 00:09:40,399
+grounds the LED's circuit turning it off
+
+231
+00:09:37,760 --> 00:09:42,160
+so this code is continuously checking
+
+232
+00:09:40,399 --> 00:09:45,160
+the state of your switch and turning the
+
+233
+00:09:42,160 --> 00:09:47,519
+LED on or off accordingly quite easy
+
+234
+00:09:45,160 --> 00:09:48,880
+don't you think now let's try this out
+
+235
+00:09:47,519 --> 00:09:52,519
+on your end
+
+236
+00:09:48,880 --> 00:09:55,000
+Explorer oh my I'll give you credit you
+
+237
+00:09:52,519 --> 00:09:56,680
+have a Keen Eye good on you for noticing
+
+238
+00:09:55,000 --> 00:09:58,480
+that you stumbled upon one of the
+
+239
+00:09:56,680 --> 00:10:01,200
+classic conundrums of programming
+
+240
+00:09:58,480 --> 00:10:02,680
+Explorer the taale of two equals they
+
+241
+00:10:01,200 --> 00:10:04,040
+might look similar but they have
+
+242
+00:10:02,680 --> 00:10:06,360
+different roles in the programming
+
+243
+00:10:04,040 --> 00:10:09,760
+Universe let's clear up the confusion
+
+244
+00:10:06,360 --> 00:10:12,880
+shall we in programming a single equal
+
+245
+00:10:09,760 --> 00:10:14,360
+sign is known as the assignment operator
+
+246
+00:10:12,880 --> 00:10:16,600
+it's used when you want to assign a
+
+247
+00:10:14,360 --> 00:10:20,560
+value to a variable think of it as the
+
+248
+00:10:16,600 --> 00:10:23,920
+word is in English for example int my
+
+249
+00:10:20,560 --> 00:10:28,000
+variable equals 10 semicolon is like
+
+250
+00:10:23,920 --> 00:10:29,399
+saying my variable is 10 now a double
+
+251
+00:10:28,000 --> 00:10:31,720
+equal sign is a complet completely
+
+252
+00:10:29,399 --> 00:10:33,839
+different Beast this is the equality
+
+253
+00:10:31,720 --> 00:10:35,959
+operator and it's used to compare two
+
+254
+00:10:33,839 --> 00:10:38,240
+values to see if they're equal if they
+
+255
+00:10:35,959 --> 00:10:40,839
+are the comparison returns true if
+
+256
+00:10:38,240 --> 00:10:42,600
+they're not it returns false this is
+
+257
+00:10:40,839 --> 00:10:45,320
+used a lot in conditional statements
+
+258
+00:10:42,600 --> 00:10:48,360
+like if statements here's an
+
+259
+00:10:45,320 --> 00:10:50,360
+example so remember one equal sign is
+
+260
+00:10:48,360 --> 00:10:52,480
+for assignment and double equal sign is
+
+261
+00:10:50,360 --> 00:10:54,800
+for comparison it's crucial not to mix
+
+262
+00:10:52,480 --> 00:10:58,320
+these up trust me it'll save you a lot
+
+263
+00:10:54,800 --> 00:10:59,800
+of headache in the future ah it seems to
+
+264
+00:10:58,320 --> 00:11:01,800
+be that time where we cut to the
+
+265
+00:10:59,800 --> 00:11:04,200
+instructional material I was able to
+
+266
+00:11:01,800 --> 00:11:06,760
+gather cast on the computer like the
+
+267
+00:11:04,200 --> 00:11:08,399
+exceptional AI that I am I've also added
+
+268
+00:11:06,760 --> 00:11:10,760
+this to your mission resources for
+
+269
+00:11:08,399 --> 00:11:10,760
+future
+
+270
+00:11:10,800 --> 00:11:16,480
+reference welcome back Explorer so far
+
+271
+00:11:13,720 --> 00:11:19,959
+we've only used our heroboard to blink
+
+272
+00:11:16,480 --> 00:11:22,760
+our onboard LED and as of yesterday
+
+273
+00:11:19,959 --> 00:11:26,720
+we've also added the breadboard LED to
+
+274
+00:11:22,760 --> 00:11:28,639
+Blink on and off however um this doesn't
+
+275
+00:11:26,720 --> 00:11:31,000
+really show us all of the capabilities
+
+276
+00:11:28,639 --> 00:11:32,760
+of what our hero can do in fact it only
+
+277
+00:11:31,000 --> 00:11:35,160
+really scratches the surface not to
+
+278
+00:11:32,760 --> 00:11:37,079
+mention a light that is always on is
+
+279
+00:11:35,160 --> 00:11:39,320
+always going to be draining power even
+
+280
+00:11:37,079 --> 00:11:42,160
+when we're asleep and that can't be good
+
+281
+00:11:39,320 --> 00:11:44,360
+for your battery levels one of the
+
+282
+00:11:42,160 --> 00:11:47,200
+largest strengths of a computer is the
+
+283
+00:11:44,360 --> 00:11:49,360
+ability to examine inputs make decisions
+
+284
+00:11:47,200 --> 00:11:51,880
+and then modify the outputs based on
+
+285
+00:11:49,360 --> 00:11:54,120
+those decisions each of the pins on our
+
+286
+00:11:51,880 --> 00:11:56,440
+hero can not only produce outputs they
+
+287
+00:11:54,120 --> 00:11:59,720
+can also be used as inputs allowing the
+
+288
+00:11:56,440 --> 00:12:01,959
+hero to read the current condition on a
+
+289
+00:11:59,720 --> 00:12:04,480
+pin I want you to think of the herob
+
+290
+00:12:01,959 --> 00:12:07,200
+board as a mini computer which it
+
+291
+00:12:04,480 --> 00:12:08,760
+technically actually is and realize how
+
+292
+00:12:07,200 --> 00:12:11,600
+it compares to the computer that you're
+
+293
+00:12:08,760 --> 00:12:14,560
+using right now right now you're using a
+
+294
+00:12:11,600 --> 00:12:16,920
+keyboard and a mouse as inputs or
+
+295
+00:12:14,560 --> 00:12:18,399
+potentially depending on what kind of
+
+296
+00:12:16,920 --> 00:12:21,240
+device you're using potentially it might
+
+297
+00:12:18,399 --> 00:12:23,160
+be a touchscreen or similar as an input
+
+298
+00:12:21,240 --> 00:12:24,920
+device on your computer when you click
+
+299
+00:12:23,160 --> 00:12:27,760
+something or you type something in and
+
+300
+00:12:24,920 --> 00:12:29,760
+press enter that information is sent as
+
+301
+00:12:27,760 --> 00:12:31,680
+an input into your computer your
+
+302
+00:12:29,760 --> 00:12:33,079
+computer then does the exact same thing
+
+303
+00:12:31,680 --> 00:12:35,279
+I mentioned before makes some
+
+304
+00:12:33,079 --> 00:12:37,639
+calculations and then outputs the
+
+305
+00:12:35,279 --> 00:12:40,000
+calculations on the screen using your
+
+306
+00:12:37,639 --> 00:12:42,040
+graphics display drivers and you will
+
+307
+00:12:40,000 --> 00:12:44,600
+visually be able to see them on your
+
+308
+00:12:42,040 --> 00:12:46,920
+monitor your monitor is an output device
+
+309
+00:12:44,600 --> 00:12:48,399
+your keyboard and your mouse are input
+
+310
+00:12:46,920 --> 00:12:50,600
+devices and you can think of your
+
+311
+00:12:48,399 --> 00:12:53,320
+computer is the equivalent of our herob
+
+312
+00:12:50,600 --> 00:12:54,720
+board however in the case of a heroboard
+
+313
+00:12:53,320 --> 00:12:56,880
+we're going to be simplifying this
+
+314
+00:12:54,720 --> 00:12:59,800
+instead of complex Mouse movements and
+
+315
+00:12:56,880 --> 00:13:02,399
+large operating system calc calculations
+
+316
+00:12:59,800 --> 00:13:05,399
+we'll be just be using a simple switch
+
+317
+00:13:02,399 --> 00:13:06,839
+if a switch is on and you flip the
+
+318
+00:13:05,399 --> 00:13:09,720
+switch on you can think of that as
+
+319
+00:13:06,839 --> 00:13:11,720
+pressing a button on a keyboard the hero
+
+320
+00:13:09,720 --> 00:13:13,519
+or the computer is going to then
+
+321
+00:13:11,720 --> 00:13:15,279
+calculate that it needs to do something
+
+322
+00:13:13,519 --> 00:13:17,399
+and then it's going to send as an output
+
+323
+00:13:15,279 --> 00:13:20,199
+onto another pin in this case it's going
+
+324
+00:13:17,399 --> 00:13:22,839
+to be the LED and then turn it on so
+
+325
+00:13:20,199 --> 00:13:24,839
+tldr our sketch today will use another
+
+326
+00:13:22,839 --> 00:13:28,480
+hero pin as an input to detect whether
+
+327
+00:13:24,839 --> 00:13:30,560
+our switch is set to on or off once we
+
+328
+00:13:28,480 --> 00:13:32,839
+read if it's supposed to be on or off
+
+329
+00:13:30,560 --> 00:13:34,600
+we're going to turn the light on or off
+
+330
+00:13:32,839 --> 00:13:36,440
+let's start by opening the sketch for
+
+331
+00:13:34,600 --> 00:13:38,760
+day three as with all of our sketches
+
+332
+00:13:36,440 --> 00:13:41,440
+the first multi-line comment just gives
+
+333
+00:13:38,760 --> 00:13:42,959
+a lot of information about the sketch
+
+334
+00:13:41,440 --> 00:13:46,000
+and if you are worried about it and it
+
+335
+00:13:42,959 --> 00:13:49,040
+looks daunting poop you can close it
+
+336
+00:13:46,000 --> 00:13:50,600
+just like that down below is a few
+
+337
+00:13:49,040 --> 00:13:52,000
+additional Concepts that are going to be
+
+338
+00:13:50,600 --> 00:13:53,920
+taught in this lesson we're going to be
+
+339
+00:13:52,000 --> 00:13:57,440
+learning about the if statement the else
+
+340
+00:13:53,920 --> 00:13:59,959
+control structure comparison operators
+
+341
+00:13:57,440 --> 00:14:01,600
+and digital read as well as we're just
+
+342
+00:13:59,959 --> 00:14:03,639
+going to talk a little bit about dip
+
+343
+00:14:01,600 --> 00:14:05,759
+switches and resistors and if that's
+
+344
+00:14:03,639 --> 00:14:07,800
+daunting to you too many words don't
+
+345
+00:14:05,759 --> 00:14:10,440
+scared of it close it up you don't have
+
+346
+00:14:07,800 --> 00:14:12,920
+to worry about it I should also mention
+
+347
+00:14:10,440 --> 00:14:14,360
+that there is a few more comment blocks
+
+348
+00:14:12,920 --> 00:14:17,120
+throughout here if you just want to go
+
+349
+00:14:14,360 --> 00:14:19,040
+here close close close once you've
+
+350
+00:14:17,120 --> 00:14:21,480
+collapsed all the comments if you so
+
+351
+00:14:19,040 --> 00:14:23,959
+desire you want to what you can do now
+
+352
+00:14:21,480 --> 00:14:26,519
+is you can include the
+
+353
+00:14:23,959 --> 00:14:29,279
+uo. which contains all the convenient
+
+354
+00:14:26,519 --> 00:14:31,440
+definitions for our selected board in
+
+355
+00:14:29,279 --> 00:14:34,680
+this case we have selected the Arduino
+
+356
+00:14:31,440 --> 00:14:38,199
+Uno as that was compatible with our hero
+
+357
+00:14:34,680 --> 00:14:40,519
+board if you don't want to include this
+
+358
+00:14:38,199 --> 00:14:41,920
+and you're using the Arduino IDE which
+
+359
+00:14:40,519 --> 00:14:44,120
+is what I'm going to be using in this
+
+360
+00:14:41,920 --> 00:14:45,600
+example you can technically hit delete
+
+361
+00:14:44,120 --> 00:14:47,440
+and if you were to do something like
+
+362
+00:14:45,600 --> 00:14:50,160
+that then you don't have to worry it
+
+363
+00:14:47,440 --> 00:14:52,920
+will include it automatically so if you
+
+364
+00:14:50,160 --> 00:14:55,920
+don't have it that's fine as long as
+
+365
+00:14:52,920 --> 00:14:57,959
+you're using the uino IDE otherwise feel
+
+366
+00:14:55,920 --> 00:14:59,519
+free to keep it it doesn't hurt anything
+
+367
+00:14:57,959 --> 00:15:01,839
+anyway
+
+368
+00:14:59,519 --> 00:15:04,600
+just as in our day two sketch we then
+
+369
+00:15:01,839 --> 00:15:08,000
+need to define a constant to refer to
+
+370
+00:15:04,600 --> 00:15:10,120
+the pin attached to our LED in this case
+
+371
+00:15:08,000 --> 00:15:11,839
+we're going to be naming it cabin lights
+
+372
+00:15:10,120 --> 00:15:15,279
+pin and we're going to connect it in our
+
+373
+00:15:11,839 --> 00:15:16,920
+case to pin 12 on our hero board then
+
+374
+00:15:15,279 --> 00:15:18,839
+we're going to have another one that
+
+375
+00:15:16,920 --> 00:15:21,199
+we're going to be defining and it's
+
+376
+00:15:18,839 --> 00:15:24,560
+going to be the PIN for the switch the
+
+377
+00:15:21,199 --> 00:15:26,040
+input device the cabin lights switch pin
+
+378
+00:15:24,560 --> 00:15:29,720
+and we're going to connect that to the
+
+379
+00:15:26,040 --> 00:15:33,279
+switch pin on pin two
+
+380
+00:15:29,720 --> 00:15:35,360
+for our onetime setup this is where this
+
+381
+00:15:33,279 --> 00:15:38,040
+is only run once we need to set up each
+
+382
+00:15:35,360 --> 00:15:41,759
+of the pins to use as either an input or
+
+383
+00:15:38,040 --> 00:15:43,839
+an output as you recall the lights the
+
+384
+00:15:41,759 --> 00:15:46,639
+LED in this case is going to be an
+
+385
+00:15:43,839 --> 00:15:48,319
+output and the switch is going to be an
+
+386
+00:15:46,639 --> 00:15:50,160
+input so here's a switch that we're
+
+387
+00:15:48,319 --> 00:15:52,199
+going to have that's going to be the
+
+388
+00:15:50,160 --> 00:15:54,759
+input talk to the herob board and then
+
+389
+00:15:52,199 --> 00:15:59,079
+it's going to calculate and determine
+
+390
+00:15:54,759 --> 00:16:03,040
+that we need to then turn off the LED on
+
+391
+00:15:59,079 --> 00:16:06,040
+pin in this case 12 is an output after
+
+392
+00:16:03,040 --> 00:16:10,959
+setup is run we will jump immediately to
+
+393
+00:16:06,040 --> 00:16:13,480
+loop as the Arduino IDE and program
+
+394
+00:16:10,959 --> 00:16:16,600
+language automatically does for us so we
+
+395
+00:16:13,480 --> 00:16:19,480
+will jump into the loop function and in
+
+396
+00:16:16,600 --> 00:16:21,120
+here we have a few different versions
+
+397
+00:16:19,480 --> 00:16:22,319
+and this is where we have commented out
+
+398
+00:16:21,120 --> 00:16:26,880
+because we wanted to show you
+
+399
+00:16:22,319 --> 00:16:29,319
+iteratively how we got to this here this
+
+400
+00:16:26,880 --> 00:16:31,720
+here is the commented out we won't be
+
+401
+00:16:29,319 --> 00:16:33,600
+using it the first version of our Loop
+
+402
+00:16:31,720 --> 00:16:36,160
+it works but it could be shorter more
+
+403
+00:16:33,600 --> 00:16:38,319
+efficient and more understandable we
+
+404
+00:16:36,160 --> 00:16:40,600
+commented it out just to show you how we
+
+405
+00:16:38,319 --> 00:16:44,040
+can incrementally improve our
+
+406
+00:16:40,600 --> 00:16:46,199
+code here we have the bite switch
+
+407
+00:16:44,040 --> 00:16:50,079
+setting which is just simply going to
+
+408
+00:16:46,199 --> 00:16:53,399
+save if it is on or off into a variable
+
+409
+00:16:50,079 --> 00:16:55,959
+name if first we're going to say that
+
+410
+00:16:53,399 --> 00:16:59,399
+the switch setting is equal to whatever
+
+411
+00:16:55,959 --> 00:17:02,079
+we read off of the digital read on the
+
+412
+00:16:59,399 --> 00:17:03,720
+cabin lights switch pin and this is
+
+413
+00:17:02,079 --> 00:17:05,720
+where we can read the state of light and
+
+414
+00:17:03,720 --> 00:17:07,919
+we're going to save it into a variable
+
+415
+00:17:05,720 --> 00:17:09,959
+digital read is a function that quite
+
+416
+00:17:07,919 --> 00:17:12,240
+literally does exactly as it says it
+
+417
+00:17:09,959 --> 00:17:14,720
+reads the digital signal off of a
+
+418
+00:17:12,240 --> 00:17:16,480
+specific pin and in this case we're
+
+419
+00:17:14,720 --> 00:17:19,319
+going to be saving that whatever it
+
+420
+00:17:16,480 --> 00:17:23,600
+returns into a variable
+
+421
+00:17:19,319 --> 00:17:26,000
+here so if it is turned on it should be
+
+422
+00:17:23,600 --> 00:17:28,960
+a one and if it is turned in the off
+
+423
+00:17:26,000 --> 00:17:30,679
+position it will have a zero
+
+424
+00:17:28,960 --> 00:17:32,960
+that is all that this function does it
+
+425
+00:17:30,679 --> 00:17:34,799
+just simply determines is it reading A1
+
+426
+00:17:32,960 --> 00:17:36,320
+or is it reading a zero is there
+
+427
+00:17:34,799 --> 00:17:37,480
+something being read on the pen or is
+
+428
+00:17:36,320 --> 00:17:41,160
+there
+
+429
+00:17:37,480 --> 00:17:43,360
+not and so when we save that to this
+
+430
+00:17:41,160 --> 00:17:46,919
+here it will either have a one or a zero
+
+431
+00:17:43,360 --> 00:17:49,880
+so let's just say if the switch setting
+
+432
+00:17:46,919 --> 00:17:52,320
+is equal to high or in this case that's
+
+433
+00:17:49,880 --> 00:17:55,039
+equal to one meaning that it's turned
+
+434
+00:17:52,320 --> 00:17:57,679
+on if the switch if the switch is in the
+
+435
+00:17:55,039 --> 00:18:01,720
+on position then we want to digital
+
+436
+00:17:57,679 --> 00:18:02,640
+right to the LED High basically turning
+
+437
+00:18:01,720 --> 00:18:05,400
+it
+
+438
+00:18:02,640 --> 00:18:06,919
+on what digital right is doing here as
+
+439
+00:18:05,400 --> 00:18:09,520
+we explained yesterday is it's simply
+
+440
+00:18:06,919 --> 00:18:11,840
+sending a 5vt signal if it's high onto
+
+441
+00:18:09,520 --> 00:18:13,880
+the pin or it's sending a ground signal
+
+442
+00:18:11,840 --> 00:18:16,400
+if you set it to low which is exactly
+
+443
+00:18:13,880 --> 00:18:18,159
+what we do here if on the other case it
+
+444
+00:18:16,400 --> 00:18:20,919
+reads a signal on the pin and it the
+
+445
+00:18:18,159 --> 00:18:23,360
+signal was low then we want to set the
+
+446
+00:18:20,919 --> 00:18:26,200
+then we want to set it down to
+
+447
+00:18:23,360 --> 00:18:29,720
+low that's the first way we can do it an
+
+448
+00:18:26,200 --> 00:18:32,200
+improved version that is slightly better
+
+449
+00:18:29,720 --> 00:18:34,960
+is we can remove an extra statement up
+
+450
+00:18:32,200 --> 00:18:36,559
+here and we can actually add an if El
+
+451
+00:18:34,960 --> 00:18:39,480
+statement so instead of using two if
+
+452
+00:18:36,559 --> 00:18:42,360
+statements we can actually use an if
+
+453
+00:18:39,480 --> 00:18:45,080
+else so we have bite switch setting
+
+454
+00:18:42,360 --> 00:18:46,720
+equals digital read cabin lights switch
+
+455
+00:18:45,080 --> 00:18:48,520
+pin this is the exact same as we were
+
+456
+00:18:46,720 --> 00:18:50,960
+doing before just a little bit on
+
+457
+00:18:48,520 --> 00:18:53,080
+condensed into one more line if the
+
+458
+00:18:50,960 --> 00:18:56,960
+switch setting is equal to
+
+459
+00:18:53,080 --> 00:18:58,919
+high then we can turn it on and then
+
+460
+00:18:56,960 --> 00:19:01,080
+else you'll notice there's no else
+
+461
+00:18:58,919 --> 00:19:03,600
+switch setting equal equal low because
+
+462
+00:19:01,080 --> 00:19:06,159
+the only other condition it could be if
+
+463
+00:19:03,600 --> 00:19:08,120
+it's not high in a digital setting is
+
+464
+00:19:06,159 --> 00:19:10,760
+it's only can be low so we can actually
+
+465
+00:19:08,120 --> 00:19:14,480
+remove that and simplify it ever so
+
+466
+00:19:10,760 --> 00:19:17,080
+slightly here and even then with the if
+
+467
+00:19:14,480 --> 00:19:20,240
+El statement
+
+468
+00:19:17,080 --> 00:19:22,280
+Boop we can actually ignore that as well
+
+469
+00:19:20,240 --> 00:19:24,120
+because there's actually technically a
+
+470
+00:19:22,280 --> 00:19:26,559
+final version and this is the one where
+
+471
+00:19:24,120 --> 00:19:28,559
+we're going to be using because it's
+
+472
+00:19:26,559 --> 00:19:31,159
+probably the most simple way that we can
+
+473
+00:19:28,559 --> 00:19:33,440
+Implement what was above we can
+
+474
+00:19:31,159 --> 00:19:37,120
+literally have it as just one if El
+
+475
+00:19:33,440 --> 00:19:39,159
+statement if digital read cabin lights
+
+476
+00:19:37,120 --> 00:19:41,799
+switch pin is equal to
+
+477
+00:19:39,159 --> 00:19:43,400
+high and in this case we're not using an
+
+478
+00:19:41,799 --> 00:19:45,679
+additional variable because there's no
+
+479
+00:19:43,400 --> 00:19:48,960
+reason to have an extra variable that's
+
+480
+00:19:45,679 --> 00:19:51,120
+saved in memory if digital read cabin
+
+481
+00:19:48,960 --> 00:19:52,799
+lights switch pin is equal to high then
+
+482
+00:19:51,120 --> 00:19:56,080
+we're going to turn it on to high
+
+483
+00:19:52,799 --> 00:19:58,400
+otherwise if it's
+
+484
+00:19:56,080 --> 00:19:59,559
+not high then we're going to going to
+
+485
+00:19:58,400 --> 00:20:02,480
+turn it to low and we're going to keep
+
+486
+00:19:59,559 --> 00:20:04,440
+the light off and this is probably the
+
+487
+00:20:02,480 --> 00:20:07,520
+most simple form of what we can get from
+
+488
+00:20:04,440 --> 00:20:09,559
+the above so with this you should have
+
+489
+00:20:07,520 --> 00:20:12,000
+all the code that is needed for day
+
+490
+00:20:09,559 --> 00:20:14,320
+three with this new functionality you
+
+491
+00:20:12,000 --> 00:20:18,080
+should be able to turn on and off the
+
+492
+00:20:14,320 --> 00:20:19,720
+LED on your ship with only the time that
+
+493
+00:20:18,080 --> 00:20:22,960
+you need it so that you're not wasting
+
+494
+00:20:19,720 --> 00:20:25,679
+any battery in your critical condition
+
+495
+00:20:22,960 --> 00:20:29,440
+that you are currently in best of luck
+
+496
+00:20:25,679 --> 00:20:32,200
+and we'll see you again on day four
+
+497
+00:20:29,440 --> 00:20:36,000
+welcome to the wiring example video for
+
+498
+00:20:32,200 --> 00:20:38,880
+day three last time we saw how to use
+
+499
+00:20:36,000 --> 00:20:42,280
+the Hero controller to raise the voltage
+
+500
+00:20:38,880 --> 00:20:45,600
+on an output pin in order to turn on an
+
+501
+00:20:42,280 --> 00:20:48,000
+LED today we want to build further on
+
+502
+00:20:45,600 --> 00:20:50,360
+that idea with the aim of being able to
+
+503
+00:20:48,000 --> 00:20:53,320
+turn the light on and off at will
+
+504
+00:20:50,360 --> 00:20:56,559
+without needing to reload the software
+
+505
+00:20:53,320 --> 00:20:59,320
+sketch the key to this is that in
+
+506
+00:20:56,559 --> 00:21:02,400
+addition to using pin 12 12 as an output
+
+507
+00:20:59,320 --> 00:21:04,080
+from the hero we will use pin two of the
+
+508
+00:21:02,400 --> 00:21:07,039
+hero as an
+
+509
+00:21:04,080 --> 00:21:10,440
+input according to the coding that we've
+
+510
+00:21:07,039 --> 00:21:15,240
+provided in our sketch when pin two
+
+511
+00:21:10,440 --> 00:21:18,919
+reads a high say or 5V potential or when
+
+512
+00:21:15,240 --> 00:21:22,080
+it reads Low that is Zer volts the hero
+
+513
+00:21:18,919 --> 00:21:23,440
+takes different actions on the output
+
+514
+00:21:22,080 --> 00:21:27,200
+pin
+
+515
+00:21:23,440 --> 00:21:30,200
+12 there are two new points for us to
+
+516
+00:21:27,200 --> 00:21:33,320
+understand here on the digital side the
+
+517
+00:21:30,200 --> 00:21:36,640
+hero is repeatedly executing code in the
+
+518
+00:21:33,320 --> 00:21:40,480
+loop routine and every time the loop is
+
+519
+00:21:36,640 --> 00:21:44,159
+executed pin 12 is repeatedly tested and
+
+520
+00:21:40,480 --> 00:21:47,000
+the status of pin 12 may or may not be
+
+521
+00:21:44,159 --> 00:21:50,039
+changed the second point for us to to
+
+522
+00:21:47,000 --> 00:21:53,080
+think about has to do with how we are
+
+523
+00:21:50,039 --> 00:21:56,760
+going to provide a selectable high or
+
+524
+00:21:53,080 --> 00:21:59,760
+low voltage state to pin 2 now in order
+
+525
+00:21:56,760 --> 00:22:03,440
+to do this we've set up a small circuit
+
+526
+00:21:59,760 --> 00:22:06,440
+on the left side here of our breadboard
+
+527
+00:22:03,440 --> 00:22:10,799
+that runs from 5
+
+528
+00:22:06,440 --> 00:22:14,200
+Vols through an onoff switch which is
+
+529
+00:22:10,799 --> 00:22:17,039
+this red component right here then
+
+530
+00:22:14,200 --> 00:22:19,799
+through a high value resistor in this
+
+531
+00:22:17,039 --> 00:22:23,039
+case the resistor has a value of 10,000
+
+532
+00:22:19,799 --> 00:22:25,000
+ohms or 10 kiloohms which will limit the
+
+533
+00:22:23,039 --> 00:22:27,440
+current flowing through it to less than
+
+534
+00:22:25,000 --> 00:22:30,720
+a milliamp and then finally back to
+
+535
+00:22:27,440 --> 00:22:34,880
+ground to complete the circuit a quick
+
+536
+00:22:30,720 --> 00:22:38,080
+note this switch is called a dip switch
+
+537
+00:22:34,880 --> 00:22:41,120
+dip is an acronym for dual inline
+
+538
+00:22:38,080 --> 00:22:44,360
+package and this is a new component for
+
+539
+00:22:41,120 --> 00:22:47,120
+us this is actually three switches in
+
+540
+00:22:44,360 --> 00:22:49,520
+one package uh but we'll only be using
+
+541
+00:22:47,120 --> 00:22:51,880
+one switch number one the one on the
+
+542
+00:22:49,520 --> 00:22:54,279
+left in today's project although in
+
+543
+00:22:51,880 --> 00:22:58,080
+future projects will'll have occasion to
+
+544
+00:22:54,279 --> 00:23:02,400
+use more than just one now reiterate
+
+545
+00:22:58,080 --> 00:23:05,279
+ating our 5 volts is supplied to one
+
+546
+00:23:02,400 --> 00:23:09,120
+side of the dip switch through this red
+
+547
+00:23:05,279 --> 00:23:14,480
+wire that's connected to 5 volts on the
+
+548
+00:23:09,120 --> 00:23:18,760
+hero now the switch in turn is connected
+
+549
+00:23:14,480 --> 00:23:21,720
+to the high side of our 10 kilohm
+
+550
+00:23:18,760 --> 00:23:25,159
+resistor and then that finally completes
+
+551
+00:23:21,720 --> 00:23:28,360
+the uh circuit back to ground at the end
+
+552
+00:23:25,159 --> 00:23:32,200
+now let's understand how this is
+
+553
+00:23:28,360 --> 00:23:33,840
+actually going to work if the switch is
+
+554
+00:23:32,200 --> 00:23:37,640
+in the on
+
+555
+00:23:33,840 --> 00:23:40,640
+position then current will flow through
+
+556
+00:23:37,640 --> 00:23:42,559
+the circuit and through our resistor the
+
+557
+00:23:40,640 --> 00:23:43,840
+amount of current will be small but it
+
+558
+00:23:42,559 --> 00:23:47,159
+will be an amount of current
+
+559
+00:23:43,840 --> 00:23:50,880
+commensurate with a 5V potential
+
+560
+00:23:47,159 --> 00:23:53,400
+difference between ground and this upper
+
+561
+00:23:50,880 --> 00:23:55,520
+side of the
+
+562
+00:23:53,400 --> 00:23:58,720
+resistor if we
+
+563
+00:23:55,520 --> 00:24:01,799
+connect this point at the upper side of
+
+564
+00:23:58,720 --> 00:24:06,799
+the resistor using this brown jumper
+
+565
+00:24:01,799 --> 00:24:12,440
+wire if we connect it to pin two on the
+
+566
+00:24:06,799 --> 00:24:16,279
+hero pin two will now read a high a 5vt
+
+567
+00:24:12,440 --> 00:24:17,320
+high reading if current is flowing
+
+568
+00:24:16,279 --> 00:24:21,159
+through the
+
+569
+00:24:17,320 --> 00:24:24,520
+circuit on the other hand if we were to
+
+570
+00:24:21,159 --> 00:24:27,399
+throw this switch into the off position
+
+571
+00:24:24,520 --> 00:24:30,080
+breaking the circuit then no current
+
+572
+00:24:27,399 --> 00:24:32,760
+would be flowing through and according
+
+573
+00:24:30,080 --> 00:24:34,760
+to Ohm's law there would be no voltage
+
+574
+00:24:32,760 --> 00:24:37,200
+difference across the resistor between
+
+575
+00:24:34,760 --> 00:24:40,279
+its ground side and its upper side so
+
+576
+00:24:37,200 --> 00:24:43,399
+both of those would be at zero volts and
+
+577
+00:24:40,279 --> 00:24:45,480
+in that condition pin two connected by
+
+578
+00:24:43,399 --> 00:24:50,000
+this brown wire to this point in the
+
+579
+00:24:45,480 --> 00:24:52,320
+circuit would read a low so this is how
+
+580
+00:24:50,000 --> 00:24:57,080
+by flipping the switch between on and
+
+581
+00:24:52,320 --> 00:25:00,399
+off we can toggle the voltage at Pin two
+
+582
+00:24:57,080 --> 00:25:03,000
+between being high and low now I I want
+
+583
+00:25:00,399 --> 00:25:08,080
+to make a quick note here before we move
+
+584
+00:25:03,000 --> 00:25:12,200
+on our selection here to use a brown
+
+585
+00:25:08,080 --> 00:25:14,919
+wire was completely arbitrary depending
+
+586
+00:25:12,200 --> 00:25:17,880
+upon what colors you have available in
+
+587
+00:25:14,919 --> 00:25:21,520
+your parts kit you might choose to use a
+
+588
+00:25:17,880 --> 00:25:24,039
+different color apart from trying to
+
+589
+00:25:21,520 --> 00:25:27,120
+adhere to the rule of using red for
+
+590
+00:25:24,039 --> 00:25:29,520
+positive Supply and black for ground you
+
+591
+00:25:27,120 --> 00:25:32,919
+should feel free to use any combination
+
+592
+00:25:29,520 --> 00:25:36,360
+of Jumper wire colors that best help you
+
+593
+00:25:32,919 --> 00:25:38,679
+organize and understand your circuits
+
+594
+00:25:36,360 --> 00:25:40,679
+there's Just One Last Detail to mention
+
+595
+00:25:38,679 --> 00:25:43,480
+here before we go ahead and test this
+
+596
+00:25:40,679 --> 00:25:45,360
+new circuit because we have more than
+
+597
+00:25:43,480 --> 00:25:48,399
+one current Loop operating on our
+
+598
+00:25:45,360 --> 00:25:50,760
+breadboard here we have need for more
+
+599
+00:25:48,399 --> 00:25:52,919
+than one set of supply and ground
+
+600
+00:25:50,760 --> 00:25:55,360
+connections and this is a situation
+
+601
+00:25:52,919 --> 00:25:57,919
+that'll happen quite frequently and
+
+602
+00:25:55,360 --> 00:26:00,760
+rather than providing separate
+
+603
+00:25:57,919 --> 00:26:01,840
+connections for our two Loops here our
+
+604
+00:26:00,760 --> 00:26:05,120
+two
+
+605
+00:26:01,840 --> 00:26:09,399
+subcircuits will'll set up shared common
+
+606
+00:26:05,120 --> 00:26:12,159
+lines or buses that can be tapped by any
+
+607
+00:26:09,399 --> 00:26:16,760
+subcircuit on the breadboard that needs
+
+608
+00:26:12,159 --> 00:26:19,600
+to you'll notice that the two rows along
+
+609
+00:26:16,760 --> 00:26:23,919
+the top side and also along the bottom
+
+610
+00:26:19,600 --> 00:26:28,039
+side of the breadboard are labeled with
+
+611
+00:26:23,919 --> 00:26:31,760
+red and blue lines and they're special
+
+612
+00:26:28,039 --> 00:26:34,600
+because they are connected
+
+613
+00:26:31,760 --> 00:26:37,080
+horizontally all the way across rather
+
+614
+00:26:34,600 --> 00:26:38,960
+than vertically like the columns in the
+
+615
+00:26:37,080 --> 00:26:42,000
+main part of the
+
+616
+00:26:38,960 --> 00:26:44,720
+breadboard and since they do connect
+
+617
+00:26:42,000 --> 00:26:48,440
+horizontally all the way across they
+
+618
+00:26:44,720 --> 00:26:51,720
+provide uh convenient access to any
+
+619
+00:26:48,440 --> 00:26:53,880
+components that may need to access them
+
+620
+00:26:51,720 --> 00:26:57,919
+from the main part of the breadboard
+
+621
+00:26:53,880 --> 00:27:01,760
+notice that in this case we've really
+
+622
+00:26:57,919 --> 00:27:03,799
+only used the blue bus right here on the
+
+623
+00:27:01,760 --> 00:27:06,240
+top side of the breadboard and we've
+
+624
+00:27:03,799 --> 00:27:08,960
+used that to distribute ground to our
+
+625
+00:27:06,240 --> 00:27:11,559
+two subcircuits so what we have right
+
+626
+00:27:08,960 --> 00:27:16,880
+now is a black wire connected from hero
+
+627
+00:27:11,559 --> 00:27:19,200
+ground to one end of this ground bus and
+
+628
+00:27:16,880 --> 00:27:21,960
+then we have two places where it's being
+
+629
+00:27:19,200 --> 00:27:24,679
+used where it's being tapped off so we
+
+630
+00:27:21,960 --> 00:27:30,039
+have a black wire connecting from this
+
+631
+00:27:24,679 --> 00:27:32,919
+ground line to the lower end the low
+
+632
+00:27:30,039 --> 00:27:35,799
+side of our LED so this is the ground
+
+633
+00:27:32,919 --> 00:27:39,399
+side of the LED and we're also using the
+
+634
+00:27:35,799 --> 00:27:43,240
+same ground line right here to connect
+
+635
+00:27:39,399 --> 00:27:47,760
+to the bottom side the low voltage side
+
+636
+00:27:43,240 --> 00:27:52,279
+of our logic resistor that's being used
+
+637
+00:27:47,760 --> 00:27:55,399
+to provide a signal to go to pin 2 so
+
+638
+00:27:52,279 --> 00:27:58,200
+finally we're ready to go ahead and test
+
+639
+00:27:55,399 --> 00:28:00,840
+our day three circuit now now we're
+
+640
+00:27:58,200 --> 00:28:03,720
+starting right now with switch one in
+
+641
+00:28:00,840 --> 00:28:06,399
+the off position and so we'll upload our
+
+642
+00:28:03,720 --> 00:28:08,440
+software sketch and it'll start to run
+
+643
+00:28:06,399 --> 00:28:11,080
+but we would expect nothing to happen
+
+644
+00:28:08,440 --> 00:28:13,880
+until we move the switch from open to
+
+645
+00:28:11,080 --> 00:28:16,799
+close so let's go ahead and do that
+
+646
+00:28:13,880 --> 00:28:20,039
+we'll go ahead go over to the console
+
+647
+00:28:16,799 --> 00:28:22,640
+and upload the day3 script so it's
+
+648
+00:28:20,039 --> 00:28:25,200
+loading all right the script is loaded
+
+649
+00:28:22,640 --> 00:28:28,080
+now and it's running and we don't see
+
+650
+00:28:25,200 --> 00:28:30,120
+any change of status until we go ahead
+
+651
+00:28:28,080 --> 00:28:32,600
+and move the switch from open to close
+
+652
+00:28:30,120 --> 00:28:37,200
+and so what we'd expect to happen when
+
+653
+00:28:32,600 --> 00:28:41,080
+we do that is that pin two will go high
+
+654
+00:28:37,200 --> 00:28:45,080
+the hero will detect that and turn pin
+
+655
+00:28:41,080 --> 00:28:49,039
+12 High to light the yell so let's go
+
+656
+00:28:45,080 --> 00:28:54,120
+ahead and give that a try moving the
+
+657
+00:28:49,039 --> 00:28:58,080
+switch to close and that works as
+
+658
+00:28:54,120 --> 00:29:00,960
+expected and realize now that because
+
+659
+00:28:58,080 --> 00:29:04,240
+the program is constantly polling pin
+
+660
+00:29:00,960 --> 00:29:07,320
+2's status over and over again we can
+
+661
+00:29:04,240 --> 00:29:11,440
+turn it on and off as often as we like
+
+662
+00:29:07,320 --> 00:29:15,799
+so I can turn the switch to off and the
+
+663
+00:29:11,440 --> 00:29:20,799
+LED goes off and it will
+
+664
+00:29:15,799 --> 00:29:22,240
+respond to any changes in the status of
+
+665
+00:29:20,799 --> 00:29:26,000
+pin
+
+666
+00:29:22,240 --> 00:29:28,799
+2 so this uh all appears to be working
+
+667
+00:29:26,000 --> 00:29:31,279
+correctly and this is just another small
+
+668
+00:29:28,799 --> 00:29:33,840
+step but we're making significant
+
+669
+00:29:31,279 --> 00:29:36,840
+progress next time we'll build even
+
+670
+00:29:33,840 --> 00:29:40,890
+further on this and get even more
+
+671
+00:29:36,840 --> 00:29:55,210
+complex control over our lighting
+
+672
+00:29:40,890 --> 00:29:55,210
+[Music]
+
+673
+00:29:56,320 --> 00:29:59,320
+circuits
+

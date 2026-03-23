@@ -1,0 +1,3036 @@
+1
+00:00:00,320 --> 00:00:04,190
+[Applause]
+
+2
+00:00:01,280 --> 00:00:04,850
+[Music]
+
+3
+00:00:04,190 --> 00:00:08,280
+[Applause]
+
+4
+00:00:04,850 --> 00:00:08,280
+[Music]
+
+5
+00:00:16,560 --> 00:00:21,880
+ah you're up hope you're ready for the
+
+6
+00:00:18,880 --> 00:00:24,279
+dawn of a new day in this damp tin can
+
+7
+00:00:21,880 --> 00:00:26,400
+that we're calling home week three
+
+8
+00:00:24,279 --> 00:00:28,439
+already huh seems like just yesterday
+
+9
+00:00:26,400 --> 00:00:32,160
+you were fumbling over the basics look
+
+10
+00:00:28,439 --> 00:00:34,719
+at you now power light a snazzy RGB
+
+11
+00:00:32,160 --> 00:00:37,320
+battery indicator all pretty impressive
+
+12
+00:00:34,719 --> 00:00:39,840
+I must say this week we're shifting
+
+13
+00:00:37,320 --> 00:00:42,200
+gears enough with the basic survival
+
+14
+00:00:39,840 --> 00:00:45,000
+needs it's time we brought this old ship
+
+15
+00:00:42,200 --> 00:00:47,160
+back to life our goal is to fix up that
+
+16
+00:00:45,000 --> 00:00:49,640
+control panel whose appearance looks as
+
+17
+00:00:47,160 --> 00:00:52,359
+if a martian tried to play tic tac toe
+
+18
+00:00:49,640 --> 00:00:55,760
+on it to start us off we've got a new
+
+19
+00:00:52,359 --> 00:00:59,399
+tool to familiarize oursel with a 4x4
+
+20
+00:00:55,760 --> 00:01:01,840
+keypad I know you must be thrilled do
+
+21
+00:00:59,399 --> 00:01:04,479
+try not to let its looks intimidate you
+
+22
+00:01:01,840 --> 00:01:08,000
+that's 16 whole buttons of potential
+
+23
+00:01:04,479 --> 00:01:10,040
+inputs at our fingertips alongside our
+
+24
+00:01:08,000 --> 00:01:12,479
+new hardware We've Got A New Concept to
+
+25
+00:01:10,040 --> 00:01:14,880
+grasp brace yourself because we're
+
+26
+00:01:12,479 --> 00:01:17,880
+diving into the wonderful world of
+
+27
+00:01:14,880 --> 00:01:20,560
+libraries today think of libraries as
+
+28
+00:01:17,880 --> 00:01:24,400
+your ultimate cheat sheet shortcuts that
+
+29
+00:01:20,560 --> 00:01:26,479
+make coating easier so Dawn your
+
+30
+00:01:24,400 --> 00:01:28,400
+programmer's hat take a sip of that
+
+31
+00:01:26,479 --> 00:01:31,079
+dehydrated coffee and let's tackle the
+
+32
+00:01:28,400 --> 00:01:33,680
+day ahead we've got work to do
+
+33
+00:01:31,079 --> 00:01:36,680
+Explorer all right let's chat about our
+
+34
+00:01:33,680 --> 00:01:38,799
+new piece of Hardware the 4x4 keypad
+
+35
+00:01:36,680 --> 00:01:40,799
+each button when pressed closes a
+
+36
+00:01:38,799 --> 00:01:43,240
+circuit and sends a signal that we can
+
+37
+00:01:40,799 --> 00:01:45,200
+detect and utilize it's similar to a
+
+38
+00:01:43,240 --> 00:01:46,240
+keyboard you might use on a computer but
+
+39
+00:01:45,200 --> 00:01:48,600
+far less
+
+40
+00:01:46,240 --> 00:01:51,439
+complicated these keypads are often used
+
+41
+00:01:48,600 --> 00:01:53,560
+in security systems door entry systems
+
+42
+00:01:51,439 --> 00:01:56,479
+and all sorts of devices where manual
+
+43
+00:01:53,560 --> 00:01:58,840
+input is necessary today we'll be using
+
+44
+00:01:56,479 --> 00:02:00,759
+it as a control interface for our
+
+45
+00:01:58,840 --> 00:02:03,039
+spaceship
+
+46
+00:02:00,759 --> 00:02:05,680
+the real magic happens when each button
+
+47
+00:02:03,039 --> 00:02:07,840
+or key is pressed a unique combination
+
+48
+00:02:05,680 --> 00:02:10,319
+of two connections is made one
+
+49
+00:02:07,840 --> 00:02:12,959
+connection from the four row pins and
+
+50
+00:02:10,319 --> 00:02:15,040
+one from the four column pins this
+
+51
+00:02:12,959 --> 00:02:16,920
+allows us to know exactly which button
+
+52
+00:02:15,040 --> 00:02:19,080
+was pressed without needing a separate
+
+53
+00:02:16,920 --> 00:02:21,440
+input pin for each button each of these
+
+54
+00:02:19,080 --> 00:02:23,879
+16 buttons can serve as an individual
+
+55
+00:02:21,440 --> 00:02:27,080
+input providing us with a wealth of
+
+56
+00:02:23,879 --> 00:02:30,760
+potential interaction options I can see
+
+57
+00:02:27,080 --> 00:02:33,800
+it now we could set a code to trigger a
+
+58
+00:02:30,760 --> 00:02:36,599
+certain action or assign different tasks
+
+59
+00:02:33,800 --> 00:02:39,400
+to different Keys the possibilities are
+
+60
+00:02:36,599 --> 00:02:40,920
+vast and are waiting to be explored this
+
+61
+00:02:39,400 --> 00:02:44,319
+also means we can reduce the amount of
+
+62
+00:02:40,920 --> 00:02:46,480
+input pins needed from 16 to 8 which is
+
+63
+00:02:44,319 --> 00:02:47,879
+important when we have limited pin real
+
+64
+00:02:46,480 --> 00:02:51,159
+estate on our
+
+65
+00:02:47,879 --> 00:02:53,000
+hero but before we dive into all of that
+
+66
+00:02:51,159 --> 00:02:56,239
+let's get this Mighty piece of Machinery
+
+67
+00:02:53,000 --> 00:02:58,680
+wired up and running shall we my that
+
+68
+00:02:56,239 --> 00:03:00,840
+was quite easy looks like we can skip
+
+69
+00:02:58,680 --> 00:03:04,000
+the breadboard entirely
+
+70
+00:03:00,840 --> 00:03:06,000
+today speaking of easy let's hop on to
+
+71
+00:03:04,000 --> 00:03:08,959
+our next coding concept and explore the
+
+72
+00:03:06,000 --> 00:03:11,879
+power of your new partner in crime
+
+73
+00:03:08,959 --> 00:03:13,599
+libraries in coding terms a library is
+
+74
+00:03:11,879 --> 00:03:15,720
+like a prepackaged set of code that
+
+75
+00:03:13,599 --> 00:03:17,959
+provide specific functionality
+
+76
+00:03:15,720 --> 00:03:20,480
+essentially they give you a lot of new
+
+77
+00:03:17,959 --> 00:03:23,159
+functions to use and make your life
+
+78
+00:03:20,480 --> 00:03:25,599
+easier now let's talk about the new
+
+79
+00:03:23,159 --> 00:03:28,720
+library you will need to install the
+
+80
+00:03:25,599 --> 00:03:30,640
+keypad Library this is a custom Library
+
+81
+00:03:28,720 --> 00:03:34,159
+designed specifically for interfacing
+
+82
+00:03:30,640 --> 00:03:37,080
+with keypads of various sizes like a 4x4
+
+83
+00:03:34,159 --> 00:03:39,080
+keypad for example how convenient it
+
+84
+00:03:37,080 --> 00:03:41,640
+includes functions for detecting when
+
+85
+00:03:39,080 --> 00:03:43,720
+keys are pressed which keys are pressed
+
+86
+00:03:41,640 --> 00:03:47,080
+and even some Advanced functionality
+
+87
+00:03:43,720 --> 00:03:50,040
+like multi- key detection by using this
+
+88
+00:03:47,080 --> 00:03:52,280
+keypad Library we can simplify our code
+
+89
+00:03:50,040 --> 00:03:54,040
+and kick our level of efficiency up a
+
+90
+00:03:52,280 --> 00:03:55,319
+notch because who needs more
+
+91
+00:03:54,040 --> 00:03:58,360
+complications when you're trying to
+
+92
+00:03:55,319 --> 00:04:00,400
+repair a spaceship right in order to use
+
+93
+00:03:58,360 --> 00:04:02,760
+our library we'll first need to install
+
+94
+00:04:00,400 --> 00:04:04,799
+it if my calculations are correct there
+
+95
+00:04:02,760 --> 00:04:06,760
+should be a link located somewhere
+
+96
+00:04:04,799 --> 00:04:09,400
+cached on your current computer page to
+
+97
+00:04:06,760 --> 00:04:12,319
+a zip file download that to your
+
+98
+00:04:09,400 --> 00:04:16,359
+computer and then in the Arduino IDE
+
+99
+00:04:12,319 --> 00:04:19,199
+navigate to tools then manage libraries
+
+100
+00:04:16,359 --> 00:04:22,199
+then add zip library and select the
+
+101
+00:04:19,199 --> 00:04:24,720
+newly downloaded zip file take all the
+
+102
+00:04:22,199 --> 00:04:27,080
+time you need preferably as quick as you
+
+103
+00:04:24,720 --> 00:04:29,919
+can I'll be here waiting patiently for
+
+104
+00:04:27,080 --> 00:04:32,360
+you when you return you finished
+
+105
+00:04:29,919 --> 00:04:34,520
+wonderful let's continue Explorer the
+
+106
+00:04:32,360 --> 00:04:37,039
+library allows us to accomplish another
+
+107
+00:04:34,520 --> 00:04:41,080
+New Practical task and that is to create
+
+108
+00:04:37,039 --> 00:04:43,479
+a new unique object a keypad it also
+
+109
+00:04:41,080 --> 00:04:45,960
+adds in functions like get key to tell
+
+110
+00:04:43,479 --> 00:04:47,880
+us which key is being pressed in order
+
+111
+00:04:45,960 --> 00:04:50,120
+for the newly installed library to help
+
+112
+00:04:47,880 --> 00:04:52,919
+us however we need to First provide it
+
+113
+00:04:50,120 --> 00:04:55,800
+with some relevant information here is
+
+114
+00:04:52,919 --> 00:04:58,080
+our list of to-dos we need to tell it
+
+115
+00:04:55,800 --> 00:05:00,039
+how many rows we have how many columns
+
+116
+00:04:58,080 --> 00:05:02,479
+we have the pins that we we are using
+
+117
+00:05:00,039 --> 00:05:05,479
+for our column pins the pins that we are
+
+118
+00:05:02,479 --> 00:05:08,000
+using for our row pins and finally we
+
+119
+00:05:05,479 --> 00:05:11,639
+need to create a key map for the
+
+120
+00:05:08,000 --> 00:05:14,120
+buttons that was quite a mouthful well
+
+121
+00:05:11,639 --> 00:05:15,680
+we know we have four rows four columns
+
+122
+00:05:14,120 --> 00:05:17,400
+and we can take a look at which pins
+
+123
+00:05:15,680 --> 00:05:19,840
+we're using by simply looking at our
+
+124
+00:05:17,400 --> 00:05:22,319
+wiring diagram next we have to make a
+
+125
+00:05:19,840 --> 00:05:24,080
+key map we can achieve this by utilizing
+
+126
+00:05:22,319 --> 00:05:27,120
+a pair of new data structures in
+
+127
+00:05:24,080 --> 00:05:29,199
+programming arrays in the realm of
+
+128
+00:05:27,120 --> 00:05:31,319
+programming an array is a data structure
+
+129
+00:05:29,199 --> 00:05:33,919
+that allows you to store multiple values
+
+130
+00:05:31,319 --> 00:05:36,440
+in a single variable imagine it like a
+
+131
+00:05:33,919 --> 00:05:38,639
+storage box with multiple compartments
+
+132
+00:05:36,440 --> 00:05:41,160
+you can put different items or in our
+
+133
+00:05:38,639 --> 00:05:44,280
+case data values in each compartment and
+
+134
+00:05:41,160 --> 00:05:46,360
+later access them using an index an
+
+135
+00:05:44,280 --> 00:05:49,000
+array is defined by the type of data it
+
+136
+00:05:46,360 --> 00:05:51,600
+can hold like integers Floats or
+
+137
+00:05:49,000 --> 00:05:54,120
+characters once an array is declared the
+
+138
+00:05:51,600 --> 00:05:56,280
+type of data it can hold is fixed you
+
+139
+00:05:54,120 --> 00:05:57,240
+aren't able to mix integers and strings
+
+140
+00:05:56,280 --> 00:05:59,919
+for
+
+141
+00:05:57,240 --> 00:06:02,560
+example each individual value in the
+
+142
+00:05:59,919 --> 00:06:04,680
+array is assigned an index in most
+
+143
+00:06:02,560 --> 00:06:07,520
+languages the first element in the array
+
+144
+00:06:04,680 --> 00:06:09,520
+is indexed as zero so if you have an
+
+145
+00:06:07,520 --> 00:06:11,759
+array of five elements they would be
+
+146
+00:06:09,520 --> 00:06:14,520
+indexed from 0 to
+
+147
+00:06:11,759 --> 00:06:16,319
+four let's discuss this further pay
+
+148
+00:06:14,520 --> 00:06:19,000
+close attention because this is a
+
+149
+00:06:16,319 --> 00:06:21,520
+stumbling block for many new programmers
+
+150
+00:06:19,000 --> 00:06:25,319
+even the best of them remember this like
+
+151
+00:06:21,520 --> 00:06:29,599
+a mantra arrays start at zero not one
+
+152
+00:06:25,319 --> 00:06:32,000
+zero not a nothing got it great take
+
+153
+00:06:29,599 --> 00:06:35,479
+look at this innocent little array
+
+154
+00:06:32,000 --> 00:06:38,160
+grocery list if I ask you what is that
+
+155
+00:06:35,479 --> 00:06:40,840
+grocery list one what would you say
+
+156
+00:06:38,160 --> 00:06:44,599
+here's the array for you to
+
+157
+00:06:40,840 --> 00:06:47,599
+ponder no no it's not milk remember the
+
+158
+00:06:44,599 --> 00:06:52,280
+Mantra milk is lounging at index zero so
+
+159
+00:06:47,599 --> 00:06:54,759
+at index one we have egg good so if our
+
+160
+00:06:52,280 --> 00:06:57,919
+grocery list array has three items what
+
+161
+00:06:54,759 --> 00:07:01,319
+do we find at grocery list
+
+162
+00:06:57,919 --> 00:07:03,440
+three h don't tell me you fell for that
+
+163
+00:07:01,319 --> 00:07:05,680
+it was a trick question Explorer there's
+
+164
+00:07:03,440 --> 00:07:08,280
+nothing there if you were to venture so
+
+165
+00:07:05,680 --> 00:07:10,800
+far out to index 3 you'd be rudely met
+
+166
+00:07:08,280 --> 00:07:12,720
+with an outof bounds exception a digital
+
+167
+00:07:10,800 --> 00:07:16,039
+slap on the wrist for trying to access
+
+168
+00:07:12,720 --> 00:07:19,360
+memory you were not given access to so
+
+169
+00:07:16,039 --> 00:07:21,800
+tread lightly and count carefully with
+
+170
+00:07:19,360 --> 00:07:22,720
+arrays all right Explorer if you've
+
+171
+00:07:21,800 --> 00:07:24,680
+gotten your head around a
+
+172
+00:07:22,720 --> 00:07:27,160
+one-dimensional array let's kick it up a
+
+173
+00:07:24,680 --> 00:07:30,800
+notch get ready for the twodimensional
+
+174
+00:07:27,160 --> 00:07:32,800
+array sounds Stupify do doesn't it think
+
+175
+00:07:30,800 --> 00:07:35,960
+of a one-dimensional array as a straight
+
+176
+00:07:32,800 --> 00:07:37,840
+line a single row of elements now take
+
+177
+00:07:35,960 --> 00:07:40,479
+that line and add more lines below it
+
+178
+00:07:37,840 --> 00:07:43,360
+like a grid voila you have a
+
+179
+00:07:40,479 --> 00:07:45,159
+two-dimensional array think of a matrix
+
+180
+00:07:43,360 --> 00:07:48,240
+such as a chess or
+
+181
+00:07:45,159 --> 00:07:51,680
+checkerboard so if you had a 2d array
+
+182
+00:07:48,240 --> 00:07:54,440
+like this you could access egg from
+
+183
+00:07:51,680 --> 00:07:58,319
+Monday's list with weekly grocery list
+
+184
+00:07:54,440 --> 00:07:59,919
+01 remember our Mantra arrays start at
+
+185
+00:07:58,319 --> 00:08:01,840
+zero
+
+186
+00:07:59,919 --> 00:08:04,319
+be mindful not to lose yourself in the
+
+187
+00:08:01,840 --> 00:08:06,039
+matrix it's all too easy to get an out
+
+188
+00:08:04,319 --> 00:08:09,639
+of bounds exception if you're not
+
+189
+00:08:06,039 --> 00:08:12,720
+careful stay vigilant now let's take a
+
+190
+00:08:09,639 --> 00:08:15,639
+step back and try writing up our key map
+
+191
+00:08:12,720 --> 00:08:17,960
+for example in the context of our 4x4
+
+192
+00:08:15,639 --> 00:08:19,000
+keypad we could have an array that looks
+
+193
+00:08:17,960 --> 00:08:21,840
+like
+
+194
+00:08:19,000 --> 00:08:24,080
+this this two-dimensional array has four
+
+195
+00:08:21,840 --> 00:08:26,759
+rows and four columns to represent the
+
+196
+00:08:24,080 --> 00:08:28,960
+layout of our keypad look similar to
+
+197
+00:08:26,759 --> 00:08:31,000
+anything here's a photo of a different
+
+198
+00:08:28,960 --> 00:08:32,919
+for 4x4 keypad with equivalent
+
+199
+00:08:31,000 --> 00:08:35,440
+functionality as ours from a small
+
+200
+00:08:32,919 --> 00:08:37,599
+company's Adventure kit 2 from around
+
+201
+00:08:35,440 --> 00:08:39,320
+the same era as our hero board was
+
+202
+00:08:37,599 --> 00:08:42,039
+produced well we're not just going to
+
+203
+00:08:39,320 --> 00:08:45,000
+stare at our spanking new 4x4 keypad are
+
+204
+00:08:42,039 --> 00:08:47,399
+we we want to see it in action but how
+
+205
+00:08:45,000 --> 00:08:49,519
+do we read the button presses you ask
+
+206
+00:08:47,399 --> 00:08:52,080
+time to bring out the heavy artillery
+
+207
+00:08:49,519 --> 00:08:54,080
+our keypad Library it's got a Nifty
+
+208
+00:08:52,080 --> 00:08:56,680
+function tucked away in its folds called
+
+209
+00:08:54,080 --> 00:08:58,560
+get key get key does exactly what it
+
+210
+00:08:56,680 --> 00:09:01,079
+sounds like it fetches the key that's
+
+211
+00:08:58,560 --> 00:09:03,720
+been pressed quite ingenious
+
+212
+00:09:01,079 --> 00:09:05,200
+really what do you say we cut to some
+
+213
+00:09:03,720 --> 00:09:08,000
+instructional material that I was able
+
+214
+00:09:05,200 --> 00:09:09,839
+to gather cash on the computer I've also
+
+215
+00:09:08,000 --> 00:09:14,320
+added this to your mission resources for
+
+216
+00:09:09,839 --> 00:09:18,279
+future reference you're welcome as
+
+217
+00:09:14,320 --> 00:09:21,160
+always hello and welcome back to day 11
+
+218
+00:09:18,279 --> 00:09:24,640
+of the code explanations for the 30 days
+
+219
+00:09:21,160 --> 00:09:27,320
+Lost in Space Adventure kit today we're
+
+220
+00:09:24,640 --> 00:09:29,600
+going to be taking a look at the
+
+221
+00:09:27,320 --> 00:09:32,920
+following new Concepts you should
+
+222
+00:09:29,600 --> 00:09:35,160
+hopefully have your 4x4 keypad all wired
+
+223
+00:09:32,920 --> 00:09:38,240
+up we're going to be looking at the new
+
+224
+00:09:35,160 --> 00:09:40,079
+idea of what a library is we're going to
+
+225
+00:09:38,240 --> 00:09:43,079
+be looking at character types and we're
+
+226
+00:09:40,079 --> 00:09:45,399
+going to be looking at arrays both
+
+227
+00:09:43,079 --> 00:09:47,560
+onedimensional and we're actually going
+
+228
+00:09:45,399 --> 00:09:49,959
+to jump straight to two-dimensional for
+
+229
+00:09:47,560 --> 00:09:51,760
+today as well now I'm sure you guys
+
+230
+00:09:49,959 --> 00:09:54,839
+already know that at the top of every
+
+231
+00:09:51,760 --> 00:09:57,360
+single program we have this hashtag or
+
+232
+00:09:54,839 --> 00:10:00,519
+pound sign include
+
+233
+00:09:57,360 --> 00:10:03,440
+uo. we explicit ly put this at the top
+
+234
+00:10:00,519 --> 00:10:05,320
+for the reason of when we get to day 11
+
+235
+00:10:03,440 --> 00:10:07,640
+which is today you guys should already
+
+236
+00:10:05,320 --> 00:10:10,320
+be familiar with the idea of including
+
+237
+00:10:07,640 --> 00:10:12,640
+libraries at the top technically this is
+
+238
+00:10:10,320 --> 00:10:14,760
+a weird exception because the Arduino
+
+239
+00:10:12,640 --> 00:10:17,920
+IDE the program that we're looking at
+
+240
+00:10:14,760 --> 00:10:21,040
+right now automatically includes that
+
+241
+00:10:17,920 --> 00:10:22,399
+whether you have it at the top or not so
+
+242
+00:10:21,040 --> 00:10:24,880
+if you don't have it it will
+
+243
+00:10:22,399 --> 00:10:27,399
+automatically added in for you so this
+
+244
+00:10:24,880 --> 00:10:29,160
+is kind of the weird exception however
+
+245
+00:10:27,399 --> 00:10:30,839
+what happens when you want to add more
+
+246
+00:10:29,160 --> 00:10:33,399
+libraries in that now let's remember
+
+247
+00:10:30,839 --> 00:10:36,399
+what a library is let's take a step back
+
+248
+00:10:33,399 --> 00:10:38,680
+and remember what a library is a library
+
+249
+00:10:36,399 --> 00:10:41,560
+is essentially a bunch of extra code and
+
+250
+00:10:38,680 --> 00:10:44,120
+functionality that you can add to your
+
+251
+00:10:41,560 --> 00:10:46,120
+program with little to no effort
+
+252
+00:10:44,120 --> 00:10:48,360
+basically you're taking somebody else's
+
+253
+00:10:46,120 --> 00:10:50,600
+pre-written code in functions and just
+
+254
+00:10:48,360 --> 00:10:52,560
+adding a pound include to basically get
+
+255
+00:10:50,600 --> 00:10:54,519
+access to all the functions and cool
+
+256
+00:10:52,560 --> 00:10:56,920
+stuff that they've already written and
+
+257
+00:10:54,519 --> 00:10:59,839
+hopefully debugged in this case we need
+
+258
+00:10:56,920 --> 00:11:02,519
+additional functionality to get our 4x4
+
+259
+00:10:59,839 --> 00:11:04,839
+keypad that we've just wired up today
+
+260
+00:11:02,519 --> 00:11:08,800
+working so in order to do that we're
+
+261
+00:11:04,839 --> 00:11:11,839
+going to be downloading a library called
+
+262
+00:11:08,800 --> 00:11:14,279
+keypad. what keypad. H is is it's a
+
+263
+00:11:11,839 --> 00:11:17,240
+library that's used for any variety it
+
+264
+00:11:14,279 --> 00:11:19,839
+could be 4x4 it could be 8 by 8 it could
+
+265
+00:11:17,240 --> 00:11:22,839
+be a 12x 12 it could be 2x two it
+
+266
+00:11:19,839 --> 00:11:26,000
+doesn't matter but the keypad library is
+
+267
+00:11:22,839 --> 00:11:29,600
+a dynamically used library for multiple
+
+268
+00:11:26,000 --> 00:11:31,000
+types of keypad inputs now to download
+
+269
+00:11:29,600 --> 00:11:35,000
+this you're going to want to go to
+
+270
+00:11:31,000 --> 00:11:36,800
+inventor. i/ libraries you're going to
+
+271
+00:11:35,000 --> 00:11:38,000
+want to go down to the adventure kit
+
+272
+00:11:36,800 --> 00:11:41,399
+section and you're going to want to make
+
+273
+00:11:38,000 --> 00:11:43,680
+sure you download the 4x4 keypad library
+
+274
+00:11:41,399 --> 00:11:46,360
+and it should install a zip file
+
+275
+00:11:43,680 --> 00:11:49,639
+somewhere on your machine next you're
+
+276
+00:11:46,360 --> 00:11:51,519
+going to want to go to sketch include
+
+277
+00:11:49,639 --> 00:11:54,079
+library and you're going to click the
+
+278
+00:11:51,519 --> 00:11:56,720
+add. zip library and you're going to
+
+279
+00:11:54,079 --> 00:11:59,440
+select the file that you just downloaded
+
+280
+00:11:56,720 --> 00:12:02,600
+after you've successfully installed that
+
+281
+00:11:59,440 --> 00:12:04,959
+Library if you were to hit compile
+
+282
+00:12:02,600 --> 00:12:08,240
+hopefully you should not be seeing any
+
+283
+00:12:04,959 --> 00:12:08,240
+errors that look like
+
+284
+00:12:08,320 --> 00:12:13,040
+this if you don't have the file you
+
+285
+00:12:10,720 --> 00:12:17,079
+would see something normally that says
+
+286
+00:12:13,040 --> 00:12:20,279
+fatal error keypad. no such file or
+
+287
+00:12:17,079 --> 00:12:22,320
+directory compilation is terminated and
+
+288
+00:12:20,279 --> 00:12:24,440
+it won't compile your program because it
+
+289
+00:12:22,320 --> 00:12:26,279
+doesn't know where to find the required
+
+290
+00:12:24,440 --> 00:12:29,839
+stuff that you said is going to be
+
+291
+00:12:26,279 --> 00:12:31,880
+included in thish file so if you've
+
+292
+00:12:29,839 --> 00:12:35,880
+downloaded it you should be able to go
+
+293
+00:12:31,880 --> 00:12:39,519
+sketch glude Library at. zip library and
+
+294
+00:12:35,880 --> 00:12:39,519
+let me just select it from my downloads
+
+295
+00:12:39,800 --> 00:12:45,079
+folder now I've successfully installed
+
+296
+00:12:42,000 --> 00:12:47,959
+the library hero 4x4 keypad. zip and if
+
+297
+00:12:45,079 --> 00:12:50,639
+I were to try this once
+
+298
+00:12:47,959 --> 00:12:51,959
+again you'll see it compiles with no
+
+299
+00:12:50,639 --> 00:12:55,480
+issues
+
+300
+00:12:51,959 --> 00:12:58,240
+whatsoever now this keypad library has
+
+301
+00:12:55,480 --> 00:13:00,600
+its own required information if we take
+
+302
+00:12:58,240 --> 00:13:03,560
+a look we can actually see what the code
+
+303
+00:13:00,600 --> 00:13:05,839
+inside of this library is doing by going
+
+304
+00:13:03,560 --> 00:13:08,519
+to if we highlight over it we can see
+
+305
+00:13:05,839 --> 00:13:13,000
+exactly where it's
+
+306
+00:13:08,519 --> 00:13:16,560
+located so I've now opened up the key.
+
+307
+00:13:13,000 --> 00:13:18,519
+file um in another editor and this is
+
+308
+00:13:16,560 --> 00:13:19,920
+the library that is the open source
+
+309
+00:13:18,519 --> 00:13:22,839
+library for
+
+310
+00:13:19,920 --> 00:13:26,839
+keypad. the header file contains mostly
+
+311
+00:13:22,839 --> 00:13:29,920
+information that is all more indepth in
+
+312
+00:13:26,839 --> 00:13:32,839
+the C++ file but you can go and let's
+
+313
+00:13:29,920 --> 00:13:35,360
+just jump here for example to the C++
+
+314
+00:13:32,839 --> 00:13:37,360
+file and as you can see it has a ton of
+
+315
+00:13:35,360 --> 00:13:39,800
+code throughout all of here that
+
+316
+00:13:37,360 --> 00:13:41,839
+basically grabs a whole bunch of
+
+317
+00:13:39,800 --> 00:13:43,639
+information and gives us a whole bunch
+
+318
+00:13:41,839 --> 00:13:45,639
+of stuff and I don't want to go through
+
+319
+00:13:43,639 --> 00:13:47,800
+any of this because that's the point of
+
+320
+00:13:45,639 --> 00:13:49,839
+a library a library is the fact that
+
+321
+00:13:47,800 --> 00:13:51,759
+this should all hopefully be working
+
+322
+00:13:49,839 --> 00:13:54,120
+somebody else's code that gives us
+
+323
+00:13:51,759 --> 00:13:56,320
+additional functionality to do a whole
+
+324
+00:13:54,120 --> 00:13:59,120
+bunch of stuff for example there's this
+
+325
+00:13:56,320 --> 00:14:02,279
+get keys function that does all this
+
+326
+00:13:59,120 --> 00:14:06,040
+stuff but in our code if we want to call
+
+327
+00:14:02,279 --> 00:14:10,240
+get keys or we want to define a key
+
+328
+00:14:06,040 --> 00:14:12,000
+keypad all we need to do to do the exact
+
+329
+00:14:10,240 --> 00:14:14,440
+same functionality since we all this is
+
+330
+00:14:12,000 --> 00:14:17,480
+in the code here all we need to do is
+
+331
+00:14:14,440 --> 00:14:22,160
+have the number of rows the number of
+
+332
+00:14:17,480 --> 00:14:24,639
+columns and we want to define the keypad
+
+333
+00:14:22,160 --> 00:14:26,880
+we just simply say keypad calling from
+
+334
+00:14:24,639 --> 00:14:29,240
+that Library we're going to call ours in
+
+335
+00:14:26,880 --> 00:14:34,199
+this code hero keypad equals
+
+336
+00:14:29,240 --> 00:14:34,199
+keypad make keymap with the
+
+337
+00:14:34,279 --> 00:14:38,959
+buttons and we're going to say the rows
+
+338
+00:14:36,920 --> 00:14:40,759
+and columns and column Vin but we have
+
+339
+00:14:38,959 --> 00:14:43,600
+all this in just one
+
+340
+00:14:40,759 --> 00:14:45,720
+line versus this exact same function if
+
+341
+00:14:43,600 --> 00:14:49,000
+we wanted to Define and make a keypad is
+
+342
+00:14:45,720 --> 00:14:51,320
+obviously all of this and requires a
+
+343
+00:14:49,000 --> 00:14:53,560
+functionality from all of this here so
+
+344
+00:14:51,320 --> 00:14:55,920
+this is just a simple way of doing all
+
+345
+00:14:53,560 --> 00:14:58,839
+that extra code but just by using
+
+346
+00:14:55,920 --> 00:15:00,959
+somebody else's pre-existing solution
+
+347
+00:14:58,839 --> 00:15:03,320
+solution instead of Reinventing the
+
+348
+00:15:00,959 --> 00:15:04,959
+wheel as programmers sometimes like to
+
+349
+00:15:03,320 --> 00:15:07,320
+be lazy and we can actually just use
+
+350
+00:15:04,959 --> 00:15:10,160
+somebody else's solution to save time on
+
+351
+00:15:07,320 --> 00:15:11,800
+our code now that means that at the top
+
+352
+00:15:10,160 --> 00:15:14,040
+of any file where we're going to be
+
+353
+00:15:11,800 --> 00:15:15,920
+using the key had library or any other
+
+354
+00:15:14,040 --> 00:15:17,560
+library for example we need to make sure
+
+355
+00:15:15,920 --> 00:15:21,040
+that we include that so that's what this
+
+356
+00:15:17,560 --> 00:15:23,880
+is here include keypad. and we put those
+
+357
+00:15:21,040 --> 00:15:26,720
+in the Syntax for it is to do pound
+
+358
+00:15:23,880 --> 00:15:28,720
+include and then the greater than sign
+
+359
+00:15:26,720 --> 00:15:30,959
+less than sign and then inside we you
+
+360
+00:15:28,720 --> 00:15:32,759
+can just have the header file keypad. H
+
+361
+00:15:30,959 --> 00:15:35,319
+which is inside of that zip file that
+
+362
+00:15:32,759 --> 00:15:37,240
+we've installed next I want to go down
+
+363
+00:15:35,319 --> 00:15:39,839
+and I want to talk about the rest of the
+
+364
+00:15:37,240 --> 00:15:42,279
+requirements for the keypad library in
+
+365
+00:15:39,839 --> 00:15:43,759
+order to Define what the keypad is and
+
+366
+00:15:42,279 --> 00:15:45,880
+what it's going to be doing we need to
+
+367
+00:15:43,759 --> 00:15:47,199
+have a little bit of information first
+
+368
+00:15:45,880 --> 00:15:48,399
+of all we need to know how many rows
+
+369
+00:15:47,199 --> 00:15:50,800
+there's going to be and we need to know
+
+370
+00:15:48,399 --> 00:15:55,279
+how many columns there's going to be in
+
+371
+00:15:50,800 --> 00:15:59,000
+this case rows and columns are both four
+
+372
+00:15:55,279 --> 00:16:00,720
+because we have a 4x4 keypad so this
+
+373
+00:15:59,000 --> 00:16:02,600
+it's pretty easy I'm just keeping these
+
+374
+00:16:00,720 --> 00:16:04,360
+at the top so that later on in the code
+
+375
+00:16:02,600 --> 00:16:07,920
+they should be hopefully very easy to
+
+376
+00:16:04,360 --> 00:16:11,519
+add in next we need to know what pins
+
+377
+00:16:07,920 --> 00:16:13,759
+are we talking to on the herob board
+
+378
+00:16:11,519 --> 00:16:17,480
+well in this case if you follow the
+
+379
+00:16:13,759 --> 00:16:22,360
+wiring diagram that we have the row pins
+
+380
+00:16:17,480 --> 00:16:24,560
+are going to be pins 5 4 3 and two and
+
+381
+00:16:22,360 --> 00:16:29,160
+the pins for the column are going to be
+
+382
+00:16:24,560 --> 00:16:31,839
+6 7 8 and 9 if you change up the wiring
+
+383
+00:16:29,160 --> 00:16:34,040
+diagram in any way whatsoever this will
+
+384
+00:16:31,839 --> 00:16:35,959
+probably no longer work so make sure
+
+385
+00:16:34,040 --> 00:16:38,399
+that you follow the code and wiring
+
+386
+00:16:35,959 --> 00:16:40,360
+diagram that we've provided very closely
+
+387
+00:16:38,399 --> 00:16:43,639
+if you're going to be making any
+
+388
+00:16:40,360 --> 00:16:45,839
+changes however let's take a step back
+
+389
+00:16:43,639 --> 00:16:48,519
+you probably have not seen this format
+
+390
+00:16:45,839 --> 00:16:50,680
+before this format is completely new and
+
+391
+00:16:48,519 --> 00:16:53,800
+this introduces A New Concept in the
+
+392
+00:16:50,680 --> 00:16:57,440
+programming languages this is called an
+
+393
+00:16:53,800 --> 00:16:59,720
+array this is a constant array that
+
+394
+00:16:57,440 --> 00:17:02,519
+contains the PIN connected to the
+
+395
+00:16:59,720 --> 00:17:05,039
+keypads rows and columns now let's take
+
+396
+00:17:02,519 --> 00:17:08,439
+a moment to explain what an array
+
+397
+00:17:05,039 --> 00:17:10,880
+actually is I want you to think of a
+
+398
+00:17:08,439 --> 00:17:13,319
+list in this case let's say it's a
+
+399
+00:17:10,880 --> 00:17:17,640
+grocery list and this grocery list is
+
+400
+00:17:13,319 --> 00:17:20,160
+going to be let's have an array an array
+
+401
+00:17:17,640 --> 00:17:22,160
+of length three so there's going to be
+
+402
+00:17:20,160 --> 00:17:24,720
+three things on your grocery list that
+
+403
+00:17:22,160 --> 00:17:28,720
+you need to pick up today we're going to
+
+404
+00:17:24,720 --> 00:17:31,240
+have the following milk eggs and butter
+
+405
+00:17:28,720 --> 00:17:33,600
+so to do this let's use this the data
+
+406
+00:17:31,240 --> 00:17:33,600
+type
+
+407
+00:17:33,720 --> 00:17:38,799
+string
+
+408
+00:17:35,640 --> 00:17:40,120
+grocery list and we're going to have it
+
+409
+00:17:38,799 --> 00:17:42,559
+be a length
+
+410
+00:17:40,120 --> 00:17:44,720
+three
+
+411
+00:17:42,559 --> 00:17:45,600
+equals and then what are all the items
+
+412
+00:17:44,720 --> 00:17:48,440
+we just
+
+413
+00:17:45,600 --> 00:17:51,160
+mentioned
+
+414
+00:17:48,440 --> 00:17:55,039
+eggs
+
+415
+00:17:51,160 --> 00:17:57,799
+milk and butter and then obviously go
+
+416
+00:17:55,039 --> 00:18:01,679
+like this now this is how you would make
+
+417
+00:17:57,799 --> 00:18:04,760
+an array of length three an array at the
+
+418
+00:18:01,679 --> 00:18:06,679
+end of the day is mostly just a list
+
+419
+00:18:04,760 --> 00:18:09,720
+this can be a list of anything you want
+
+420
+00:18:06,679 --> 00:18:11,760
+it can be strings it can be in this case
+
+421
+00:18:09,720 --> 00:18:15,480
+up here we have them being bytes it can
+
+422
+00:18:11,760 --> 00:18:16,880
+be integers it can be floats it can be
+
+423
+00:18:15,480 --> 00:18:18,720
+objects it can be whatever you want it
+
+424
+00:18:16,880 --> 00:18:21,280
+to be inside of there but they all need
+
+425
+00:18:18,720 --> 00:18:23,919
+to be the same type that is a
+
+426
+00:18:21,280 --> 00:18:27,440
+requirement for a lists so you can't
+
+427
+00:18:23,919 --> 00:18:31,039
+have you need milk uh eggs milk and
+
+428
+00:18:27,440 --> 00:18:34,320
+instead of butter you have 42 that won't
+
+429
+00:18:31,039 --> 00:18:35,640
+work because 42 is not a string so what
+
+430
+00:18:34,320 --> 00:18:38,159
+you need to do is you need to make sure
+
+431
+00:18:35,640 --> 00:18:42,240
+that they are all of the same
+
+432
+00:18:38,159 --> 00:18:44,200
+type like so now another thing I need to
+
+433
+00:18:42,240 --> 00:18:47,679
+mention is that arrays even though it is
+
+434
+00:18:44,200 --> 00:18:51,240
+of length three let's just say you want
+
+435
+00:18:47,679 --> 00:18:56,640
+to find if I were to ask a question now
+
+436
+00:18:51,240 --> 00:18:59,520
+grab me the third element on the list to
+
+437
+00:18:56,640 --> 00:19:02,280
+do so you might think and this is a new
+
+438
+00:18:59,520 --> 00:19:05,000
+syntax you would grab do something along
+
+439
+00:19:02,280 --> 00:19:05,000
+the lines
+
+440
+00:19:07,240 --> 00:19:11,640
+of you might think you want to do
+
+441
+00:19:09,679 --> 00:19:13,640
+something like this to get the third
+
+442
+00:19:11,640 --> 00:19:18,360
+element you should just print the
+
+443
+00:19:13,640 --> 00:19:20,120
+element at the index of three right nope
+
+444
+00:19:18,360 --> 00:19:22,960
+that is actually wrong if you try to get
+
+445
+00:19:20,120 --> 00:19:25,559
+the element at index of three you'll be
+
+446
+00:19:22,960 --> 00:19:28,559
+accessing what would should have been in
+
+447
+00:19:25,559 --> 00:19:32,360
+this spot here but there's nothing here
+
+448
+00:19:28,559 --> 00:19:36,159
+so how do you do that and why is it that
+
+449
+00:19:32,360 --> 00:19:38,200
+way since arrays will always start and
+
+450
+00:19:36,159 --> 00:19:40,760
+us as programmers always like to start
+
+451
+00:19:38,200 --> 00:19:43,440
+at index of zero so if you were wanting
+
+452
+00:19:40,760 --> 00:19:44,919
+to grab the third element it's confusing
+
+453
+00:19:43,440 --> 00:19:47,320
+and I know it's a little bit hard for
+
+454
+00:19:44,919 --> 00:19:50,080
+new programmers you'd want to grab this
+
+455
+00:19:47,320 --> 00:19:53,320
+if you said this this would print butter
+
+456
+00:19:50,080 --> 00:19:55,720
+if you said one you would not be getting
+
+457
+00:19:53,320 --> 00:19:57,360
+the first element you'd be getting milk
+
+458
+00:19:55,720 --> 00:20:01,559
+which is the second element and if you
+
+459
+00:19:57,360 --> 00:20:03,520
+said zero because again arrays always
+
+460
+00:20:01,559 --> 00:20:07,919
+start at
+
+461
+00:20:03,520 --> 00:20:09,880
+zero this would be printing eggs so eggs
+
+462
+00:20:07,919 --> 00:20:12,200
+if you want to print milk if you wanted
+
+463
+00:20:09,880 --> 00:20:14,720
+to print butter this is how you would do
+
+464
+00:20:12,200 --> 00:20:16,760
+so but at the end of the day arrays is
+
+465
+00:20:14,720 --> 00:20:19,919
+just a data structure that allows us to
+
+466
+00:20:16,760 --> 00:20:21,559
+keep things in a nice organized list and
+
+467
+00:20:19,919 --> 00:20:24,280
+we can access what's on the list by
+
+468
+00:20:21,559 --> 00:20:26,159
+using syntax such as that now that we
+
+469
+00:20:24,280 --> 00:20:27,880
+know what an array is at least hopefully
+
+470
+00:20:26,159 --> 00:20:31,159
+in a little bit more detail we can
+
+471
+00:20:27,880 --> 00:20:33,960
+actually jump down to here where we're
+
+472
+00:20:31,159 --> 00:20:37,480
+going to be introducing another concept
+
+473
+00:20:33,960 --> 00:20:39,799
+called a twodimensional array think of
+
+474
+00:20:37,480 --> 00:20:42,520
+this is like a list but it's
+
+475
+00:20:39,799 --> 00:20:43,880
+two-dimensional so in in my opinion I
+
+476
+00:20:42,520 --> 00:20:45,880
+would like to think of this actually
+
+477
+00:20:43,880 --> 00:20:48,760
+more as like a spreadsheet if you've
+
+478
+00:20:45,880 --> 00:20:50,919
+ever used something like Microsoft Excel
+
+479
+00:20:48,760 --> 00:20:56,039
+or Google Sheets let's just say you want
+
+480
+00:20:50,919 --> 00:20:58,520
+to access Row 2 column 3 remember that
+
+481
+00:20:56,039 --> 00:21:03,320
+everything starts at zero so you'd go
+
+482
+00:20:58,520 --> 00:21:06,520
+row 0 1 2 and then you'd want column 3
+
+483
+00:21:03,320 --> 00:21:11,480
+which would be 0 1 2 3 and that would be
+
+484
+00:21:06,520 --> 00:21:13,840
+this here the character C so the way to
+
+485
+00:21:11,480 --> 00:21:17,000
+access data in a 2d array is actually
+
+486
+00:21:13,840 --> 00:21:20,440
+very similar to how you would access it
+
+487
+00:21:17,000 --> 00:21:23,039
+into a onedimensional array it's just
+
+488
+00:21:20,440 --> 00:21:26,919
+that you need to also specify the not
+
+489
+00:21:23,039 --> 00:21:29,760
+only the index but the index of the
+
+490
+00:21:26,919 --> 00:21:32,080
+column as well so think of it kind of
+
+491
+00:21:29,760 --> 00:21:33,720
+like an Excel sheet and that's um how I
+
+492
+00:21:32,080 --> 00:21:35,919
+would generally think of it is it's a
+
+493
+00:21:33,720 --> 00:21:37,320
+little bit easier to remember that way
+
+494
+00:21:35,919 --> 00:21:39,440
+now the reason we're doing a
+
+495
+00:21:37,320 --> 00:21:42,559
+two-dimensional array to Define what
+
+496
+00:21:39,440 --> 00:21:45,000
+each of the buttons will stand for is
+
+497
+00:21:42,559 --> 00:21:47,039
+because well as you can see let's
+
+498
+00:21:45,000 --> 00:21:49,240
+actually hold up maybe you can even hold
+
+499
+00:21:47,039 --> 00:21:51,360
+it up right to your monitor go ahead and
+
+500
+00:21:49,240 --> 00:21:54,880
+hold up your keypad right to where the
+
+501
+00:21:51,360 --> 00:21:59,240
+4x4 2D array is on your monitor you
+
+502
+00:21:54,880 --> 00:22:01,960
+might notice that it lines up ever so
+
+503
+00:21:59,240 --> 00:22:04,320
+perfectly the top left button will be
+
+504
+00:22:01,960 --> 00:22:08,279
+one then two then three then the
+
+505
+00:22:04,320 --> 00:22:11,760
+character a four 56 the character B 789
+
+506
+00:22:08,279 --> 00:22:15,840
+the character C star zero pound and then
+
+507
+00:22:11,760 --> 00:22:19,000
+the character D now I'm sure that in the
+
+508
+00:22:15,840 --> 00:22:20,840
+past you've seen before various things
+
+509
+00:22:19,000 --> 00:22:22,360
+such as strings obviously if you're
+
+510
+00:22:20,840 --> 00:22:25,840
+going to use a print statement and you
+
+511
+00:22:22,360 --> 00:22:27,440
+want to say battery level you know and
+
+512
+00:22:25,840 --> 00:22:30,559
+then and then print what the battery
+
+513
+00:22:27,440 --> 00:22:33,320
+level is battery level in double quotes
+
+514
+00:22:30,559 --> 00:22:34,400
+double quotes being looking like this
+
+515
+00:22:33,320 --> 00:22:37,360
+and
+
+516
+00:22:34,400 --> 00:22:40,320
+this
+
+517
+00:22:37,360 --> 00:22:41,840
+string obviously this isn't pile but
+
+518
+00:22:40,320 --> 00:22:43,679
+this is what a string would look like it
+
+519
+00:22:41,840 --> 00:22:45,799
+would be something inside of Double
+
+520
+00:22:43,679 --> 00:22:48,799
+quote such as that is generally how
+
+521
+00:22:45,799 --> 00:22:51,679
+strings are represented now you'll
+
+522
+00:22:48,799 --> 00:22:56,279
+notice that these are kind of like
+
+523
+00:22:51,679 --> 00:23:00,320
+strings a b c and d but they're in
+
+524
+00:22:56,279 --> 00:23:05,480
+single quotes now why are they in single
+
+525
+00:23:00,320 --> 00:23:08,720
+quotations well fun fact did you know
+
+526
+00:23:05,480 --> 00:23:12,679
+that the data type of string is quite
+
+527
+00:23:08,720 --> 00:23:15,080
+literally just an array of characters
+
+528
+00:23:12,679 --> 00:23:18,320
+and characters or chars is just an
+
+529
+00:23:15,080 --> 00:23:20,320
+additional data type so fun fact little
+
+530
+00:23:18,320 --> 00:23:23,440
+did you know you've been using arrays
+
+531
+00:23:20,320 --> 00:23:25,559
+this entire time so for example I just
+
+532
+00:23:23,440 --> 00:23:28,000
+want to give you a good example of what
+
+533
+00:23:25,559 --> 00:23:29,360
+I'm talking about here if you say
+
+534
+00:23:28,000 --> 00:23:32,120
+something like and I'm just going to put
+
+535
+00:23:29,360 --> 00:23:33,760
+this in a little comment block string
+
+536
+00:23:32,120 --> 00:23:38,360
+let's just say you use a
+
+537
+00:23:33,760 --> 00:23:42,520
+string string name
+
+538
+00:23:38,360 --> 00:23:45,320
+equals hello
+
+539
+00:23:42,520 --> 00:23:49,360
+world did you know that this is quite
+
+540
+00:23:45,320 --> 00:23:50,600
+literally just an array of characters
+
+541
+00:23:49,360 --> 00:23:53,720
+what the compiler will do is it will
+
+542
+00:23:50,600 --> 00:23:55,919
+string together all of these individual
+
+543
+00:23:53,720 --> 00:23:59,039
+characters and then compile it into an
+
+544
+00:23:55,919 --> 00:24:03,120
+array of length well in this case the
+
+545
+00:23:59,039 --> 00:24:08,039
+compiler will automatically do 1 2 3 4 5
+
+546
+00:24:03,120 --> 00:24:10,919
+6 7 8 9 10 11 12 anytime you've ever
+
+547
+00:24:08,039 --> 00:24:13,559
+used string the compiler will
+
+548
+00:24:10,919 --> 00:24:15,360
+automatically convert it when you hit
+
+549
+00:24:13,559 --> 00:24:17,520
+verify and compile it would
+
+550
+00:24:15,360 --> 00:24:21,159
+automatically convert it to an an array
+
+551
+00:24:17,520 --> 00:24:23,039
+of characters such as this it' be Char
+
+552
+00:24:21,159 --> 00:24:27,559
+string name of length 12 cuz that's
+
+553
+00:24:23,039 --> 00:24:30,200
+what's in here H comma e comma l dot dot
+
+554
+00:24:27,559 --> 00:24:32,279
+dot Etc so this entire time you've
+
+555
+00:24:30,200 --> 00:24:33,960
+actually already been using aace and
+
+556
+00:24:32,279 --> 00:24:36,600
+it's just a list of what characters
+
+557
+00:24:33,960 --> 00:24:38,440
+we're going to be using so a character
+
+558
+00:24:36,600 --> 00:24:41,440
+at the end of the day is just a much
+
+559
+00:24:38,440 --> 00:24:43,360
+simpler form of the string because it's
+
+560
+00:24:41,440 --> 00:24:45,679
+obviously instead of needing an array
+
+561
+00:24:43,360 --> 00:24:48,200
+for a string it's just the actual data
+
+562
+00:24:45,679 --> 00:24:51,480
+type itself called a
+
+563
+00:24:48,200 --> 00:24:54,080
+Char in this case all of these values
+
+564
+00:24:51,480 --> 00:24:56,399
+are chars even the one the one is not an
+
+565
+00:24:54,080 --> 00:24:59,000
+integer it is a character it is a
+
+566
+00:24:56,399 --> 00:25:02,279
+character asky of of one it is not the
+
+567
+00:24:59,000 --> 00:25:05,000
+number integer of one this is the asy
+
+568
+00:25:02,279 --> 00:25:08,600
+character of two this is obviously a c
+
+569
+00:25:05,000 --> 00:25:12,000
+this is the asy of a hashtag or pound
+
+570
+00:25:08,600 --> 00:25:15,399
+symbol and this is the ash key of a star
+
+571
+00:25:12,000 --> 00:25:17,960
+now the reason we're using characters is
+
+572
+00:25:15,399 --> 00:25:21,240
+because our goal for today is to be able
+
+573
+00:25:17,960 --> 00:25:24,240
+to print out all of these characters and
+
+574
+00:25:21,240 --> 00:25:27,000
+to make sure that our keypad is wired up
+
+575
+00:25:24,240 --> 00:25:30,039
+correctly once we have all of this
+
+576
+00:25:27,000 --> 00:25:32,760
+information we made the map we've made
+
+577
+00:25:30,039 --> 00:25:34,000
+the bytes for the pinouts or the arrays
+
+578
+00:25:32,760 --> 00:25:36,000
+to show what pins we're going to be
+
+579
+00:25:34,000 --> 00:25:39,440
+using and we've told them how many pins
+
+580
+00:25:36,000 --> 00:25:42,120
+and columns we have we can then finally
+
+581
+00:25:39,440 --> 00:25:45,159
+construct our keypad now this seems like
+
+582
+00:25:42,120 --> 00:25:47,440
+a lot of work however given the fact
+
+583
+00:25:45,159 --> 00:25:49,200
+that we have our library that does most
+
+584
+00:25:47,440 --> 00:25:51,200
+of the work for us you can actually as
+
+585
+00:25:49,200 --> 00:25:53,360
+you can as you remember it's actually
+
+586
+00:25:51,200 --> 00:25:55,120
+not all that much work Let's ignore all
+
+587
+00:25:53,360 --> 00:25:57,559
+this and let's say thank goodness we
+
+588
+00:25:55,120 --> 00:25:59,279
+didn't have to do any of that we can R
+
+589
+00:25:57,559 --> 00:26:02,080
+say just down to this now that we have
+
+590
+00:25:59,279 --> 00:26:05,200
+this we now have a keypad that we can
+
+591
+00:26:02,080 --> 00:26:06,880
+call those functions from now we've
+
+592
+00:26:05,200 --> 00:26:09,159
+called it hero
+
+593
+00:26:06,880 --> 00:26:11,679
+keypad anytime we want to call a
+
+594
+00:26:09,159 --> 00:26:13,679
+function that's included in the library
+
+595
+00:26:11,679 --> 00:26:15,799
+for example we have get keys we have
+
+596
+00:26:13,679 --> 00:26:18,440
+Scan Keys we have all these other
+
+597
+00:26:15,799 --> 00:26:20,520
+functions anytime we want to call those
+
+598
+00:26:18,440 --> 00:26:22,320
+functionalities and be able to do those
+
+599
+00:26:20,520 --> 00:26:26,600
+things on our keypad that they allowed
+
+600
+00:26:22,320 --> 00:26:29,600
+us to we can do something like this hero
+
+601
+00:26:26,600 --> 00:26:31,760
+keypad. 4 key like this and this will
+
+602
+00:26:29,600 --> 00:26:35,159
+call the function that was included in
+
+603
+00:26:31,760 --> 00:26:36,880
+here to let us use on our keypad that we
+
+604
+00:26:35,159 --> 00:26:39,120
+finally defined
+
+605
+00:26:36,880 --> 00:26:41,440
+however we don't actually need to do all
+
+606
+00:26:39,120 --> 00:26:44,679
+that much here we only have hero keypad.
+
+607
+00:26:41,440 --> 00:26:47,760
+wait4 key and all this does is it just
+
+608
+00:26:44,679 --> 00:26:49,799
+simply Waits until a button is pressed
+
+609
+00:26:47,760 --> 00:26:52,399
+as soon as a button is pressed it will
+
+610
+00:26:49,799 --> 00:26:56,120
+save whatever character read off the
+
+611
+00:26:52,399 --> 00:26:59,399
+keypad into Char pressed button and then
+
+612
+00:26:56,120 --> 00:27:01,679
+finally we will serial. print print Ln
+
+613
+00:26:59,399 --> 00:27:04,000
+whatever button we pressed and it will
+
+614
+00:27:01,679 --> 00:27:07,640
+print that to the serial monitor at B
+
+615
+00:27:04,000 --> 00:27:09,960
+rate 9600 that we defined in setup one
+
+616
+00:27:07,640 --> 00:27:13,080
+last thing I want to mention is you
+
+617
+00:27:09,960 --> 00:27:16,559
+don't have to set all of these as
+
+618
+00:27:13,080 --> 00:27:18,360
+outputs in any way shape or form on here
+
+619
+00:27:16,559 --> 00:27:21,120
+and the reason we don't have to is
+
+620
+00:27:18,360 --> 00:27:23,360
+because as the library already takes
+
+621
+00:27:21,120 --> 00:27:25,799
+care of it for us it already has
+
+622
+00:27:23,360 --> 00:27:28,039
+functionality to set the pin modes
+
+623
+00:27:25,799 --> 00:27:30,600
+inside of the library so we don't have
+
+624
+00:27:28,039 --> 00:27:33,240
+to worry about doing it here in
+
+625
+00:27:30,600 --> 00:27:35,159
+setup therefore our setup is actually
+
+626
+00:27:33,240 --> 00:27:37,520
+very simple and just has us start the
+
+627
+00:27:35,159 --> 00:27:39,120
+serial. begin assuming you have
+
+628
+00:27:37,520 --> 00:27:40,720
+everything wired up correctly and all is
+
+629
+00:27:39,120 --> 00:27:44,440
+good to go you should be able to just
+
+630
+00:27:40,720 --> 00:27:46,080
+hit serial monitor read off B 9600 and
+
+631
+00:27:44,440 --> 00:27:48,320
+then start pressing buttons and
+
+632
+00:27:46,080 --> 00:27:50,159
+hopefully you can start seeing as you go
+
+633
+00:27:48,320 --> 00:27:52,000
+through each of the buttons everything
+
+634
+00:27:50,159 --> 00:27:54,279
+will be printing
+
+635
+00:27:52,000 --> 00:27:57,279
+correctly and with that that's the end
+
+636
+00:27:54,279 --> 00:27:59,519
+of the code for today I will see you
+
+637
+00:27:57,279 --> 00:27:59,519
+again
+
+638
+00:28:00,360 --> 00:28:07,200
+tomorrow welcome to the day 11 wiring
+
+639
+00:28:03,760 --> 00:28:09,559
+example video actually today there
+
+640
+00:28:07,200 --> 00:28:13,240
+really isn't any breadboard wiring at
+
+641
+00:28:09,559 --> 00:28:16,960
+all for us to discuss we'll just be
+
+642
+00:28:13,240 --> 00:28:20,159
+exploring the use of our 4x4 keypad
+
+643
+00:28:16,960 --> 00:28:23,159
+input device and so the only wiring
+
+644
+00:28:20,159 --> 00:28:26,919
+involves connecting it directly to the
+
+645
+00:28:23,159 --> 00:28:29,480
+hero input pins the only output we'll
+
+646
+00:28:26,919 --> 00:28:31,840
+have at at least for now will be the
+
+647
+00:28:29,480 --> 00:28:33,080
+characters that are sent to the serial
+
+648
+00:28:31,840 --> 00:28:36,320
+monitor
+
+649
+00:28:33,080 --> 00:28:39,840
+console now you can see here that we've
+
+650
+00:28:36,320 --> 00:28:43,960
+connected our keypads eight lines eight
+
+651
+00:28:39,840 --> 00:28:46,600
+lines there are four each for four rows
+
+652
+00:28:43,960 --> 00:28:49,440
+and four Columns of buttons on our
+
+653
+00:28:46,600 --> 00:28:52,880
+keypad we're connecting them to the
+
+654
+00:28:49,440 --> 00:28:57,200
+input pins on the hero numbered 2
+
+655
+00:28:52,880 --> 00:29:00,039
+through 9 now to keep the wiring need
+
+656
+00:28:57,200 --> 00:29:02,640
+and and organized we've used a multic
+
+657
+00:29:00,039 --> 00:29:06,880
+connector or a multiconductor
+
+658
+00:29:02,640 --> 00:29:09,480
+ribbon cable for this purpose and the
+
+659
+00:29:06,880 --> 00:29:11,720
+ribbon cable has color coding that helps
+
+660
+00:29:09,480 --> 00:29:14,120
+us to sort of keep the connections
+
+661
+00:29:11,720 --> 00:29:17,399
+straight and keep from confusing the
+
+662
+00:29:14,120 --> 00:29:19,960
+proper connections your Ribbon cable
+
+663
+00:29:17,399 --> 00:29:22,519
+might actually have different colors
+
+664
+00:29:19,960 --> 00:29:25,640
+from these but that's not important
+
+665
+00:29:22,519 --> 00:29:28,039
+because what's really important is
+
+666
+00:29:25,640 --> 00:29:31,399
+having the correct connection between
+
+667
+00:29:28,039 --> 00:29:35,080
+the keyboard the the the keypad and the
+
+668
+00:29:31,399 --> 00:29:37,640
+hero pins by the way you might notice
+
+669
+00:29:35,080 --> 00:29:41,360
+that my ribbon cable here just happens
+
+670
+00:29:37,640 --> 00:29:44,480
+to have black as one of its colors and I
+
+671
+00:29:41,360 --> 00:29:47,240
+guess that's kind of unfortunate because
+
+672
+00:29:44,480 --> 00:29:50,600
+we've tried as much as possible to only
+
+673
+00:29:47,240 --> 00:29:52,919
+use black for ground connections but in
+
+674
+00:29:50,600 --> 00:29:56,360
+this case it was impossible for me to
+
+675
+00:29:52,919 --> 00:29:59,600
+include the ribbon cable without having
+
+676
+00:29:56,360 --> 00:30:02,919
+to either use a red or a black wire as
+
+677
+00:29:59,600 --> 00:30:05,640
+part of the signal bundle so I just
+
+678
+00:30:02,919 --> 00:30:07,799
+decided to go ahead and use black in
+
+679
+00:30:05,640 --> 00:30:14,640
+this case for pin
+
+680
+00:30:07,799 --> 00:30:17,880
+n but kept in mind to remember that in
+
+681
+00:30:14,640 --> 00:30:20,600
+this particular case black is not a
+
+682
+00:30:17,880 --> 00:30:24,640
+ground wire um so we've made an
+
+683
+00:30:20,600 --> 00:30:27,840
+exception this time now when we read
+
+684
+00:30:24,640 --> 00:30:31,960
+through the software sketch for today we
+
+685
+00:30:27,840 --> 00:30:34,159
+see that each row and column combination
+
+686
+00:30:31,960 --> 00:30:36,120
+for a pressed button so we press a
+
+687
+00:30:34,159 --> 00:30:40,240
+particular button that belongs to a row
+
+688
+00:30:36,120 --> 00:30:43,200
+or a column is assigned to one of 16
+
+689
+00:30:40,240 --> 00:30:46,919
+different output characters which I've
+
+690
+00:30:43,200 --> 00:30:48,039
+identified on this guide card right here
+
+691
+00:30:46,919 --> 00:30:51,519
+for our
+
+692
+00:30:48,039 --> 00:30:53,919
+reference the keypad rows and columns
+
+693
+00:30:51,519 --> 00:30:56,880
+are numbered with the origin in the
+
+694
+00:30:53,919 --> 00:31:01,039
+upper left so they number from upper
+
+695
+00:30:56,880 --> 00:31:03,720
+left to lower right so for example the
+
+696
+00:31:01,039 --> 00:31:06,639
+character that has the lowest numbered
+
+697
+00:31:03,720 --> 00:31:11,120
+row and column in our sketch is the
+
+698
+00:31:06,639 --> 00:31:15,039
+number one and so that should map to the
+
+699
+00:31:11,120 --> 00:31:18,360
+upper left hand button on our keypad
+
+700
+00:31:15,039 --> 00:31:21,360
+likewise the highest number row and
+
+701
+00:31:18,360 --> 00:31:24,480
+column in our sketch corresponds to the
+
+702
+00:31:21,360 --> 00:31:27,360
+character D which we have mapped to the
+
+703
+00:31:24,480 --> 00:31:32,720
+lower right hand corner of our cued and
+
+704
+00:31:27,360 --> 00:31:34,960
+so on so if we've correctly wired up the
+
+705
+00:31:32,720 --> 00:31:37,840
+keypad here consistent with what's in
+
+706
+00:31:34,960 --> 00:31:41,159
+our sketch all that really remains for
+
+707
+00:31:37,840 --> 00:31:43,720
+us to do is to load the sketch and then
+
+708
+00:31:41,159 --> 00:31:47,080
+watch the serial monitor as we press the
+
+709
+00:31:43,720 --> 00:31:49,799
+buttons and see that we get the output
+
+710
+00:31:47,080 --> 00:31:54,000
+that we expect so let's go ahead and do
+
+711
+00:31:49,799 --> 00:31:54,000
+that let's move over to the
+
+712
+00:31:54,960 --> 00:31:59,159
+IDE sketch is loading
+
+713
+00:31:59,360 --> 00:32:04,440
+and sketch is now running so let's go
+
+714
+00:32:01,799 --> 00:32:08,679
+ahead now and let's say press the upper
+
+715
+00:32:04,440 --> 00:32:11,320
+left hand key we get one as expected
+
+716
+00:32:08,679 --> 00:32:14,000
+press the lower right key we get the
+
+717
+00:32:11,320 --> 00:32:16,000
+character D good and we can go across
+
+718
+00:32:14,000 --> 00:32:19,840
+the rows and columns so for example if I
+
+719
+00:32:16,000 --> 00:32:26,080
+go across the second row there's four
+
+720
+00:32:19,840 --> 00:32:28,880
+five 6 B and go to the bottom row here
+
+721
+00:32:26,080 --> 00:32:34,919
+asterisk
+
+722
+00:32:28,880 --> 00:32:38,039
+Zer pound sign D and so on so it appears
+
+723
+00:32:34,919 --> 00:32:40,440
+that we have correctly lined up our
+
+724
+00:32:38,039 --> 00:32:43,519
+software sketch with the wiring of our
+
+725
+00:32:40,440 --> 00:32:45,760
+keypad and we're ready to go on to more
+
+726
+00:32:43,519 --> 00:32:49,039
+difficult things so that's pretty much
+
+727
+00:32:45,760 --> 00:32:51,320
+all for today's task once you've
+
+728
+00:32:49,039 --> 00:32:53,200
+completely understood what's going on
+
+729
+00:32:51,320 --> 00:32:55,440
+here then we'll be ready for the next
+
+730
+00:32:53,200 --> 00:32:58,880
+step and we'll connect the keypad input
+
+731
+00:32:55,440 --> 00:33:01,159
+to other output functions in circuitry
+
+732
+00:32:58,880 --> 00:33:04,360
+so we'll see you
+
+733
+00:33:01,159 --> 00:33:06,880
+then hi you've been busy today getting
+
+734
+00:33:04,360 --> 00:33:09,600
+to grips with our 4x4 keypad is no small
+
+735
+00:33:06,880 --> 00:33:11,639
+feat but you've done splendidly you're
+
+736
+00:33:09,600 --> 00:33:14,600
+now able to read button presses with the
+
+737
+00:33:11,639 --> 00:33:15,760
+deafness of a seasoned space fairer I
+
+738
+00:33:14,600 --> 00:33:17,679
+hope you're starting to see the
+
+739
+00:33:15,760 --> 00:33:20,519
+potential here you are after all
+
+740
+00:33:17,679 --> 00:33:23,240
+building a control system bit by bit and
+
+741
+00:33:20,519 --> 00:33:24,880
+this is just the beginning now allow me
+
+742
+00:33:23,240 --> 00:33:27,039
+to entice you with a hint of what's to
+
+743
+00:33:24,880 --> 00:33:29,159
+come tomorrow I'm running a diet
+
+744
+00:33:27,039 --> 00:33:32,840
+agnostic
+
+745
+00:33:29,159 --> 00:33:34,279
+on compartment 16 is taking on water
+
+746
+00:33:32,840 --> 00:33:37,360
+I've got it don't
+
+747
+00:33:34,279 --> 00:33:39,000
+panic I don't understand the warning
+
+748
+00:33:37,360 --> 00:33:41,799
+light should have been clearly visible
+
+749
+00:33:39,000 --> 00:33:43,880
+and you didn't pick up on it okay
+
+750
+00:33:41,799 --> 00:33:46,559
+Explorer we can't risk another Hull
+
+751
+00:33:43,880 --> 00:33:48,519
+breach we need to find a way to keep you
+
+752
+00:33:46,559 --> 00:33:50,200
+aware of potential problems no matter
+
+753
+00:33:48,519 --> 00:33:53,240
+where you're looking I'll first aid the
+
+754
+00:33:50,200 --> 00:33:58,360
+compartment and you think about
+
+755
+00:33:53,240 --> 00:33:59,799
+alerts and now the alarm systems failed
+
+756
+00:33:58,360 --> 00:34:00,950
+I guess we've got our work cut out for
+
+757
+00:33:59,799 --> 00:34:19,560
+us
+
+758
+00:34:00,950 --> 00:34:22,560
+[Music]
+
+759
+00:34:19,560 --> 00:34:22,560
+tomorrow
+

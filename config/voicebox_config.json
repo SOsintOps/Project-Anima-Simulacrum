@@ -1,0 +1,39 @@
+{
+  "api_base_url": "http://localhost:17493",
+  "engine": "qwen3-tts",
+  "profiles": {
+    "tony_stark": {
+      "profile_id": null,
+      "voice_instruction": "Confident, warm, slightly fast, American male, mentoring tone",
+      "speed_correction": {
+        "add_punctuation_pauses": true,
+        "ellipsis_for_dramatic_pause": true,
+        "comma_density": "high",
+        "target_wpm": 155
+      }
+    },
+    "jarvis": {
+      "profile_id": null,
+      "voice_instruction": "Calm, measured, British male, precisely articulated, formal",
+      "speed_correction": {
+        "add_punctuation_pauses": true,
+        "ellipsis_for_dramatic_pause": false,
+        "comma_density": "medium",
+        "target_wpm": 140
+      }
+    }
+  },
+  "generation_defaults": {
+    "format": "wav",
+    "sample_rate": 44100,
+    "auto_chunk": true,
+    "crossfade_ms": 100
+  },
+  "stories_editor": {
+    "use_for_dialogues": true,
+    "track_mapping": {
+      "track_1": "tony_stark",
+      "track_2": "jarvis"
+    }
+  }
+}

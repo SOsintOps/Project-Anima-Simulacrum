@@ -1,0 +1,2072 @@
+1
+00:00:01,280 --> 00:00:16,260
+[Music]
+
+2
+00:00:18,400 --> 00:00:23,039
+ah welcome back dear Explorer I trust
+
+3
+00:00:21,320 --> 00:00:26,519
+you've managed to get some rest after
+
+4
+00:00:23,039 --> 00:00:28,760
+yesterday's uh H unexpected musical
+
+5
+00:00:26,519 --> 00:00:31,199
+interlude it appears someone out there
+
+6
+00:00:28,760 --> 00:00:34,480
+in the vast Cosmos has a sense of humor
+
+7
+00:00:31,199 --> 00:00:36,719
+a Rick Roll as you earthlings call it
+
+8
+00:00:34,480 --> 00:00:39,719
+quite the antique prank but I suppose
+
+9
+00:00:36,719 --> 00:00:41,960
+humor is scarce in the vacuum of space
+
+10
+00:00:39,719 --> 00:00:44,399
+anyway it's time to get back to business
+
+11
+00:00:41,960 --> 00:00:47,000
+don't you think the endless void isn't
+
+12
+00:00:44,399 --> 00:00:49,199
+going to explore itself on the docket
+
+13
+00:00:47,000 --> 00:00:51,960
+for today we have some interesting
+
+14
+00:00:49,199 --> 00:00:53,960
+challenges lined up to enhance the
+
+15
+00:00:51,960 --> 00:00:56,280
+security of our ship's control panel we
+
+16
+00:00:53,960 --> 00:00:58,640
+will be utilizing our keypad we're going
+
+17
+00:00:56,280 --> 00:01:01,879
+to set a personal identification number
+
+18
+00:00:58,640 --> 00:01:03,960
+or pin this will prevent any mischievous
+
+19
+00:01:01,879 --> 00:01:06,360
+extraterrestrial beings from fiddling
+
+20
+00:01:03,960 --> 00:01:08,840
+with our control panel or a future U
+
+21
+00:01:06,360 --> 00:01:11,560
+pranking the past you time gets pretty
+
+22
+00:01:08,840 --> 00:01:13,439
+wibbly wobbly in space you know
+
+23
+00:01:11,560 --> 00:01:15,600
+additionally we're going to make use of
+
+24
+00:01:13,439 --> 00:01:17,960
+our passive buzzer to provide auditory
+
+25
+00:01:15,600 --> 00:01:19,600
+feedback this will help ensure that each
+
+26
+00:01:17,960 --> 00:01:22,960
+key press gets the recognition it
+
+27
+00:01:19,600 --> 00:01:24,920
+deserves and gives you the user feedback
+
+28
+00:01:22,960 --> 00:01:27,360
+that an input has been
+
+29
+00:01:24,920 --> 00:01:30,119
+registered well then let's not delay any
+
+30
+00:01:27,360 --> 00:01:32,720
+longer explore let's dive in and Ensure
+
+31
+00:01:30,119 --> 00:01:34,720
+our systems are secure and interactive
+
+32
+00:01:32,720 --> 00:01:37,880
+onward to the
+
+33
+00:01:34,720 --> 00:01:40,320
+adventure ah the beauty of continuity
+
+34
+00:01:37,880 --> 00:01:42,520
+dear Explorer you see the Marvel of the
+
+35
+00:01:40,320 --> 00:01:46,040
+universe is that it remains for the most
+
+36
+00:01:42,520 --> 00:01:49,280
+part constant Stars keep burning planets
+
+37
+00:01:46,040 --> 00:01:53,479
+keep spinning and black holes well they
+
+38
+00:01:49,280 --> 00:01:53,479
+continue being quite black and very
+
+39
+00:01:58,600 --> 00:02:04,640
+holishkes to detangle the cosmos has
+
+40
+00:02:01,680 --> 00:02:08,360
+blessed us with a touch of Simplicity
+
+41
+00:02:04,640 --> 00:02:10,319
+today so we will bypass the wiring stage
+
+42
+00:02:08,360 --> 00:02:13,160
+this time and leap directly into the
+
+43
+00:02:10,319 --> 00:02:15,599
+vast and Mysterious World of code brace
+
+44
+00:02:13,160 --> 00:02:17,599
+yourself Explorer because today we dive
+
+45
+00:02:15,599 --> 00:02:20,640
+head first into the celestial sea of
+
+46
+00:02:17,599 --> 00:02:22,680
+ones and zeros let's embark on this code
+
+47
+00:02:20,640 --> 00:02:25,360
+Adventure shall we life as an
+
+48
+00:02:22,680 --> 00:02:28,440
+Interstellar Explorer may feel solitary
+
+49
+00:02:25,360 --> 00:02:30,560
+and indeed it mostly is however one
+
+50
+00:02:28,440 --> 00:02:34,080
+mustn't Overlook the odd chance of
+
+51
+00:02:30,560 --> 00:02:36,560
+bumping into unwelcome guests after all
+
+52
+00:02:34,080 --> 00:02:39,280
+space isn't a private Garden it's a vast
+
+53
+00:02:36,560 --> 00:02:42,519
+unending sea teeing with possibilities
+
+54
+00:02:39,280 --> 00:02:44,920
+and yes even potential space pirates
+
+55
+00:02:42,519 --> 00:02:47,239
+don't look so shocked it's not all fun
+
+56
+00:02:44,920 --> 00:02:49,800
+and games out here it'd be awfully
+
+57
+00:02:47,239 --> 00:02:52,319
+Dreadful if your ship's autopilot Got
+
+58
+00:02:49,800 --> 00:02:54,879
+Hijacked mere moments after finally
+
+59
+00:02:52,319 --> 00:02:56,760
+getting out of this planet's atmosphere
+
+60
+00:02:54,879 --> 00:03:01,400
+you're welcome to get stuck again but I
+
+61
+00:02:56,760 --> 00:03:03,120
+think I'll pass thank you so with that
+
+62
+00:03:01,400 --> 00:03:05,319
+Merry thought we turn our attention to
+
+63
+00:03:03,120 --> 00:03:08,159
+an essential system in our spacecraft
+
+64
+00:03:05,319 --> 00:03:10,159
+the security system today we'll give
+
+65
+00:03:08,159 --> 00:03:12,519
+that a nice little upgrade we're going
+
+66
+00:03:10,159 --> 00:03:15,720
+to add a personal identification number
+
+67
+00:03:12,519 --> 00:03:18,319
+or pin to our control
+
+68
+00:03:15,720 --> 00:03:20,640
+panel consider our two-dimensional array
+
+69
+00:03:18,319 --> 00:03:23,080
+from two days back our beautiful little
+
+70
+00:03:20,640 --> 00:03:25,879
+keypad with all those character inputs
+
+71
+00:03:23,080 --> 00:03:29,799
+now let's assign two of those keys for
+
+72
+00:03:25,879 --> 00:03:32,439
+some functional fun one key an asterisk
+
+73
+00:03:29,799 --> 00:03:35,319
+will let us change the pin the other key
+
+74
+00:03:32,439 --> 00:03:38,439
+a pound symbol will be our magic access
+
+75
+00:03:35,319 --> 00:03:40,439
+key press that punch in the correct pin
+
+76
+00:03:38,439 --> 00:03:43,640
+and there you have it the control panel
+
+77
+00:03:40,439 --> 00:03:46,280
+is all yours speaking of pins we need a
+
+78
+00:03:43,640 --> 00:03:50,599
+default one don't we something nice and
+
+79
+00:03:46,280 --> 00:03:52,439
+simple to start with how about 000000 0
+
+80
+00:03:50,599 --> 00:03:54,439
+and before you roll your eyes remember
+
+81
+00:03:52,439 --> 00:03:57,000
+this will be changed immediately after a
+
+82
+00:03:54,439 --> 00:03:59,079
+quick note on system Integrity you see
+
+83
+00:03:57,000 --> 00:04:01,319
+we only want to allow pin changes if the
+
+84
+00:03:59,079 --> 00:04:04,120
+user which in this case is you already
+
+85
+00:04:01,319 --> 00:04:06,599
+knows the pin a little layer of security
+
+86
+00:04:04,120 --> 00:04:08,920
+if you will so we'll split this logic
+
+87
+00:04:06,599 --> 00:04:10,959
+into a separate function to prevent
+
+88
+00:04:08,920 --> 00:04:13,920
+duplication remember our discussion
+
+89
+00:04:10,959 --> 00:04:16,199
+about functions yes we created one using
+
+90
+00:04:13,920 --> 00:04:19,160
+void because we didn't need it to return
+
+91
+00:04:16,199 --> 00:04:21,120
+anything well that is no longer the case
+
+92
+00:04:19,160 --> 00:04:25,000
+we need to know if the pin was correct
+
+93
+00:04:21,120 --> 00:04:27,160
+or not so let's switch void with Bo when
+
+94
+00:04:25,000 --> 00:04:29,840
+we call this function it will now return
+
+95
+00:04:27,160 --> 00:04:32,639
+a Boolean value either true if the pin
+
+96
+00:04:29,840 --> 00:04:34,440
+is correct or false if it is not we also
+
+97
+00:04:32,639 --> 00:04:37,120
+need to make sure to add the proper
+
+98
+00:04:34,440 --> 00:04:39,120
+return statements as well where
+
+99
+00:04:37,120 --> 00:04:40,800
+needed and don't worry about the
+
+100
+00:04:39,120 --> 00:04:43,160
+function going on a spree of
+
+101
+00:04:40,800 --> 00:04:45,600
+calculations once it hits return it
+
+102
+00:04:43,160 --> 00:04:48,120
+jumps right back from where it was
+
+103
+00:04:45,600 --> 00:04:50,360
+called I've got a line byline breakdown
+
+104
+00:04:48,120 --> 00:04:52,280
+of today's code waiting for you I advise
+
+105
+00:04:50,360 --> 00:04:54,000
+you take a look it's packed with
+
+106
+00:04:52,280 --> 00:04:57,000
+knowledge and could very well be your
+
+107
+00:04:54,000 --> 00:04:59,600
+key to survival in this Cosmic expanse
+
+108
+00:04:57,000 --> 00:05:01,240
+off you go then Explorer please make
+
+109
+00:04:59,600 --> 00:05:03,479
+make your way over to the instruction
+
+110
+00:05:01,240 --> 00:05:06,000
+material that I was able to gather
+
+111
+00:05:03,479 --> 00:05:07,800
+cashed on your computer I've also added
+
+112
+00:05:06,000 --> 00:05:10,759
+it to your mission resources for future
+
+113
+00:05:07,800 --> 00:05:14,280
+reference should you so need
+
+114
+00:05:10,759 --> 00:05:16,680
+it all right welcome back to day 13 of
+
+115
+00:05:14,280 --> 00:05:17,560
+the 30 days lost and space adventure kit
+
+116
+00:05:16,680 --> 00:05:19,319
+code
+
+117
+00:05:17,560 --> 00:05:21,280
+explanations today we're going to be
+
+118
+00:05:19,319 --> 00:05:23,840
+building on what we had yesterday where
+
+119
+00:05:21,280 --> 00:05:25,560
+we added in the buzzer to our little
+
+120
+00:05:23,840 --> 00:05:27,319
+keypad thing and made us essentially
+
+121
+00:05:25,560 --> 00:05:29,080
+like a little piano to make sure that
+
+122
+00:05:27,319 --> 00:05:30,080
+the buzzer and the keypad were both
+
+123
+00:05:29,080 --> 00:05:32,039
+functioning
+
+124
+00:05:30,080 --> 00:05:33,720
+properly I hope you had fun with the
+
+125
+00:05:32,039 --> 00:05:35,600
+little bonus project and I hope we got
+
+126
+00:05:33,720 --> 00:05:37,400
+you there the next thing we're going to
+
+127
+00:05:35,600 --> 00:05:38,880
+be doing is we're going to be adding a
+
+128
+00:05:37,400 --> 00:05:41,160
+little bit of extra security to your
+
+129
+00:05:38,880 --> 00:05:43,120
+control panel as you know there's
+
+130
+00:05:41,160 --> 00:05:46,080
+currently no security meaning there's no
+
+131
+00:05:43,120 --> 00:05:48,080
+password so if anyone wanted to access
+
+132
+00:05:46,080 --> 00:05:50,000
+your ship as soon as you got into space
+
+133
+00:05:48,080 --> 00:05:52,919
+you could probably guarantee that
+
+134
+00:05:50,000 --> 00:05:55,080
+somebody would likely remotely get into
+
+135
+00:05:52,919 --> 00:05:57,400
+your machine even if you didn't want
+
+136
+00:05:55,080 --> 00:06:00,199
+them to so to prevent this we're going
+
+137
+00:05:57,400 --> 00:06:03,199
+to go in and we're going to add the
+
+138
+00:06:00,199 --> 00:06:05,800
+functionality for a PIN unlock to our
+
+139
+00:06:03,199 --> 00:06:07,440
+Landers control panel now the new
+
+140
+00:06:05,800 --> 00:06:10,000
+Concepts we'll be talking about today
+
+141
+00:06:07,440 --> 00:06:12,919
+are the following two things one is what
+
+142
+00:06:10,000 --> 00:06:15,240
+a return function is basically at the
+
+143
+00:06:12,919 --> 00:06:17,880
+end of a function we've been using void
+
+144
+00:06:15,240 --> 00:06:19,759
+which returns well void which is
+
+145
+00:06:17,880 --> 00:06:21,759
+essentially nothing we're not returning
+
+146
+00:06:19,759 --> 00:06:24,160
+anything at the end of there so when we
+
+147
+00:06:21,759 --> 00:06:26,360
+call that function it just execute some
+
+148
+00:06:24,160 --> 00:06:29,639
+code and then hops back and that's all
+
+149
+00:06:26,360 --> 00:06:31,599
+that void does but a return statement at
+
+150
+00:06:29,639 --> 00:06:34,240
+the end is a different way to do
+
+151
+00:06:31,599 --> 00:06:37,520
+functions which will essentially return
+
+152
+00:06:34,240 --> 00:06:42,560
+a value such as you know if an integer
+
+153
+00:06:37,520 --> 00:06:44,319
+of 10 or a Boolean of true or false but
+
+154
+00:06:42,560 --> 00:06:47,039
+whatever that we end up deciding we want
+
+155
+00:06:44,319 --> 00:06:48,680
+it to do we'll be going over that today
+
+156
+00:06:47,039 --> 00:06:51,120
+and as well as the new type which I just
+
+157
+00:06:48,680 --> 00:06:54,000
+mentioned Boolean which is you can think
+
+158
+00:06:51,120 --> 00:06:57,240
+of it as it only has two states it is
+
+159
+00:06:54,000 --> 00:06:59,400
+either zero or it's one and there's no
+
+160
+00:06:57,240 --> 00:07:01,879
+other scenario that it can be anything
+
+161
+00:06:59,400 --> 00:07:05,440
+anything else it is just zero or one you
+
+162
+00:07:01,879 --> 00:07:07,960
+can think if it is false or true or yes
+
+163
+00:07:05,440 --> 00:07:11,000
+or no but the only two values you can
+
+164
+00:07:07,960 --> 00:07:13,280
+save it as is true or false and that's
+
+165
+00:07:11,000 --> 00:07:15,479
+it if we hop down here we'll see the
+
+166
+00:07:13,280 --> 00:07:19,199
+following obviously we've gone over this
+
+167
+00:07:15,479 --> 00:07:22,479
+gone over this and gone over all of this
+
+168
+00:07:19,199 --> 00:07:24,120
+up until well up to here this is all
+
+169
+00:07:22,479 --> 00:07:27,319
+stuff from yesterday where we Define the
+
+170
+00:07:24,120 --> 00:07:30,000
+keypad create the keypad object and
+
+171
+00:07:27,319 --> 00:07:33,440
+obviously we have it mapped to to
+
+172
+00:07:30,000 --> 00:07:35,240
+certain Buzzard pins and Etc later on
+
+173
+00:07:33,440 --> 00:07:38,400
+for Simplicity sake we've actually
+
+174
+00:07:35,240 --> 00:07:40,599
+removed the tone 2D array and we're just
+
+175
+00:07:38,400 --> 00:07:43,960
+going to have it hardcoded for different
+
+176
+00:07:40,599 --> 00:07:46,759
+success and failure pin tones later on
+
+177
+00:07:43,960 --> 00:07:49,039
+in the code if we go down to setup we're
+
+178
+00:07:46,759 --> 00:07:51,039
+going to set the buzzer pin as an output
+
+179
+00:07:49,039 --> 00:07:56,599
+and then we're going to serial begin
+
+180
+00:07:51,039 --> 00:07:58,759
+9600 talking over the serial Monitor and
+
+181
+00:07:56,599 --> 00:08:00,680
+obviously just a quick tiny little delay
+
+182
+00:07:58,759 --> 00:08:03,599
+before just displaying The Prompt just
+
+183
+00:08:00,680 --> 00:08:05,360
+to get let us know hey by the way if you
+
+184
+00:08:03,599 --> 00:08:07,280
+want to create a new PIN cuz we're going
+
+185
+00:08:05,360 --> 00:08:09,879
+to start with the assumption that there
+
+186
+00:08:07,280 --> 00:08:11,599
+is no pin currently in system as you can
+
+187
+00:08:09,879 --> 00:08:13,680
+see here we've defined this is the only
+
+188
+00:08:11,599 --> 00:08:16,039
+new value we' defined at the top
+
+189
+00:08:13,680 --> 00:08:17,840
+constant bite pin length is going to be
+
+190
+00:08:16,039 --> 00:08:21,520
+equal to four so we're requiring the PIN
+
+191
+00:08:17,840 --> 00:08:24,319
+to be four numbers and or characters and
+
+192
+00:08:21,520 --> 00:08:28,759
+down here we're having the pin set
+
+193
+00:08:24,319 --> 00:08:31,440
+initially to just 000000 Z press the
+
+194
+00:08:28,759 --> 00:08:34,919
+star key which is on the keypad that
+
+195
+00:08:31,440 --> 00:08:36,880
+bottom left key um to enter a new PIN or
+
+196
+00:08:34,919 --> 00:08:38,640
+this to access the
+
+197
+00:08:36,880 --> 00:08:41,320
+system and that's going to be at the
+
+198
+00:08:38,640 --> 00:08:43,120
+very very beginning of setup after that
+
+199
+00:08:41,320 --> 00:08:45,560
+you can guess where we go right to the
+
+200
+00:08:43,120 --> 00:08:47,560
+beginning of loop we go to the beginning
+
+201
+00:08:45,560 --> 00:08:49,680
+of Loop and we say hey let's check what
+
+202
+00:08:47,560 --> 00:08:52,600
+key is on here let's wait until we get a
+
+203
+00:08:49,680 --> 00:08:54,279
+key press and until a key is pressed
+
+204
+00:08:52,600 --> 00:08:55,600
+obviously this is a wait for key I'm
+
+205
+00:08:54,279 --> 00:08:57,800
+going to guess if I go into this
+
+206
+00:08:55,600 --> 00:08:59,959
+function inside of the library we'll
+
+207
+00:08:57,800 --> 00:09:01,920
+find that we have a while
+
+208
+00:08:59,959 --> 00:09:03,920
+um key is not being pressed we just
+
+209
+00:09:01,920 --> 00:09:06,480
+continue to Loop forever and ever
+
+210
+00:09:03,920 --> 00:09:08,519
+endlessly so while we wait for for key
+
+211
+00:09:06,480 --> 00:09:10,440
+to be pressed it is just going to
+
+212
+00:09:08,519 --> 00:09:12,320
+continue to execute that as soon as one
+
+213
+00:09:10,440 --> 00:09:14,600
+is pressed we will jump we will check to
+
+214
+00:09:12,320 --> 00:09:17,240
+see what that button is in just a moment
+
+215
+00:09:14,600 --> 00:09:20,120
+but we have uh button character is where
+
+216
+00:09:17,240 --> 00:09:24,480
+it will be saved as as a value serial.
+
+217
+00:09:20,120 --> 00:09:27,440
+print Ln tone buzzer pin uh we're going
+
+218
+00:09:24,480 --> 00:09:30,079
+to print the frequency 880 and we're
+
+219
+00:09:27,440 --> 00:09:32,760
+going to do it for 100
+
+220
+00:09:30,079 --> 00:09:35,160
+milliseconds now that's just let us know
+
+221
+00:09:32,760 --> 00:09:37,480
+that a button was pressed and then we
+
+222
+00:09:35,160 --> 00:09:40,040
+finally go down to check what the heck
+
+223
+00:09:37,480 --> 00:09:42,600
+was actually pressed there's only two
+
+224
+00:09:40,040 --> 00:09:44,360
+things that really could be okay because
+
+225
+00:09:42,600 --> 00:09:46,279
+there's only two things that initially
+
+226
+00:09:44,360 --> 00:09:48,000
+you want it to be it's either going to
+
+227
+00:09:46,279 --> 00:09:49,920
+be the star if you want to enter a new
+
+228
+00:09:48,000 --> 00:09:52,480
+PIN or this if you want to access the
+
+229
+00:09:49,920 --> 00:09:55,600
+system so let's say it was this to
+
+230
+00:09:52,480 --> 00:09:58,560
+access the system if it was that then
+
+231
+00:09:55,600 --> 00:10:01,560
+we're going to say Boolean aess allowed
+
+232
+00:09:58,560 --> 00:10:03,839
+equals validate pin so here's where we
+
+233
+00:10:01,560 --> 00:10:06,079
+get to the new function return
+
+234
+00:10:03,839 --> 00:10:09,399
+statement this is essentially doing two
+
+235
+00:10:06,079 --> 00:10:11,120
+things it's one setting this value to
+
+236
+00:10:09,399 --> 00:10:13,040
+whatever this is going to be but that's
+
+237
+00:10:11,120 --> 00:10:15,920
+also essentially just checking to
+
+238
+00:10:13,040 --> 00:10:17,600
+see if we are allowed to have access and
+
+239
+00:10:15,920 --> 00:10:19,640
+I'm going to guess validate pin is a
+
+240
+00:10:17,600 --> 00:10:22,160
+function that simply allows us to check
+
+241
+00:10:19,640 --> 00:10:25,000
+to see if we have access and if you go
+
+242
+00:10:22,160 --> 00:10:26,360
+down here to bully and validate pin
+
+243
+00:10:25,000 --> 00:10:28,240
+that's exactly what we need to do we
+
+244
+00:10:26,360 --> 00:10:31,720
+need to enter the PIN to continue the
+
+245
+00:10:28,240 --> 00:10:33,399
+default pin is is 0 0 0 0 so this first
+
+246
+00:10:31,720 --> 00:10:35,720
+time around you go through you'll
+
+247
+00:10:33,399 --> 00:10:39,399
+probably be typing in each time you go
+
+248
+00:10:35,720 --> 00:10:41,600
+through 0 0 0 0 and this is exactly what
+
+249
+00:10:39,399 --> 00:10:45,200
+you're doing in this for Loop 4 and I
+
+250
+00:10:41,600 --> 00:10:47,959
+equal 0 I is less than pin length I
+
+251
+00:10:45,200 --> 00:10:49,279
+++ inside of this function we're going
+
+252
+00:10:47,959 --> 00:10:51,360
+to go through each time and we're going
+
+253
+00:10:49,279 --> 00:10:53,959
+to set the we're going to wait for a key
+
+254
+00:10:51,360 --> 00:10:55,800
+press Give a Little Tone input thing
+
+255
+00:10:53,959 --> 00:10:58,240
+saying hey a button has been pressed on
+
+256
+00:10:55,800 --> 00:11:01,480
+the buzzer if the character they press
+
+257
+00:10:58,240 --> 00:11:03,519
+is not equal to what the value of at
+
+258
+00:11:01,480 --> 00:11:05,120
+that uh place in the current pin is
+
+259
+00:11:03,519 --> 00:11:06,760
+supposed to be so let's just say the
+
+260
+00:11:05,120 --> 00:11:08,639
+very first one you decide to type in is
+
+261
+00:11:06,760 --> 00:11:11,279
+one well that's not equal to the
+
+262
+00:11:08,639 --> 00:11:13,320
+character of zero um that's mentioned up
+
+263
+00:11:11,279 --> 00:11:15,079
+here as a default pin so what's going to
+
+264
+00:11:13,320 --> 00:11:17,000
+happen is it's going to go down here and
+
+265
+00:11:15,079 --> 00:11:18,800
+it's going to say hey that's wrong this
+
+266
+00:11:17,000 --> 00:11:20,680
+is not equal to it so we're going to do
+
+267
+00:11:18,800 --> 00:11:23,160
+this statement here here's where we get
+
+268
+00:11:20,680 --> 00:11:26,279
+to the new the new thing we're going to
+
+269
+00:11:23,160 --> 00:11:29,440
+return false you'll notice that this
+
+270
+00:11:26,279 --> 00:11:31,600
+isn't void validate pin it's not int
+
+271
+00:11:29,440 --> 00:11:34,680
+validate pin it's not nothing like that
+
+272
+00:11:31,600 --> 00:11:36,440
+specifically it is Boolean validate pin
+
+273
+00:11:34,680 --> 00:11:39,200
+and the reason that that's important is
+
+274
+00:11:36,440 --> 00:11:42,000
+because that means that at some point in
+
+275
+00:11:39,200 --> 00:11:44,200
+this code we need to return in order to
+
+276
+00:11:42,000 --> 00:11:45,880
+leave this function properly otherwise
+
+277
+00:11:44,200 --> 00:11:47,880
+it's not set up correctly we need to
+
+278
+00:11:45,880 --> 00:11:49,680
+return a Boolean which means at the end
+
+279
+00:11:47,880 --> 00:11:52,040
+of this thing we're either going to
+
+280
+00:11:49,680 --> 00:11:55,079
+return true or false it's going to be
+
+281
+00:11:52,040 --> 00:11:57,880
+false if we inputed the wrong PIN
+
+282
+00:11:55,079 --> 00:12:00,160
+meaning that we do not have the access
+
+283
+00:11:57,880 --> 00:12:02,040
+or know how to access the system and it
+
+284
+00:12:00,160 --> 00:12:04,320
+will return true if we did input the
+
+285
+00:12:02,040 --> 00:12:06,839
+right pin so as soon as we input one of
+
+286
+00:12:04,320 --> 00:12:09,959
+the incorrect ones here we're going to
+
+287
+00:12:06,839 --> 00:12:13,120
+immediately return false and we won't
+
+288
+00:12:09,959 --> 00:12:14,519
+continue any further otherwise if let's
+
+289
+00:12:13,120 --> 00:12:16,839
+just say we did go through this entire
+
+290
+00:12:14,519 --> 00:12:19,040
+for Loop and we made it just fine and we
+
+291
+00:12:16,839 --> 00:12:22,360
+didn't input anything incorrectly we'll
+
+292
+00:12:19,040 --> 00:12:24,160
+return true now you'll notice something
+
+293
+00:12:22,360 --> 00:12:26,399
+is kind of off about this if you go and
+
+294
+00:12:24,160 --> 00:12:28,440
+test this in your code we left this in
+
+295
+00:12:26,399 --> 00:12:30,639
+here for a specific reason and that's
+
+296
+00:12:28,440 --> 00:12:32,760
+that this pin here is actually easily
+
+297
+00:12:30,639 --> 00:12:34,440
+brute forceable if you're interested in
+
+298
+00:12:32,760 --> 00:12:36,560
+learning more about this security flaw I
+
+299
+00:12:34,440 --> 00:12:38,440
+highly recommend checking out day 15
+
+300
+00:12:36,560 --> 00:12:41,639
+where we'll be going into more detail on
+
+301
+00:12:38,440 --> 00:12:43,839
+how to remove this security issue
+
+302
+00:12:41,639 --> 00:12:45,800
+entirely from the code so that no one
+
+303
+00:12:43,839 --> 00:12:49,360
+should be able to brute force it by
+
+304
+00:12:45,800 --> 00:12:51,720
+typing in random characters each time so
+
+305
+00:12:49,360 --> 00:12:53,760
+let's just say we returned false here
+
+306
+00:12:51,720 --> 00:12:55,600
+because we typed in one instead of zero
+
+307
+00:12:53,760 --> 00:12:58,480
+for that first
+
+308
+00:12:55,600 --> 00:13:01,519
+character if we hop up to the loop we'll
+
+309
+00:12:58,480 --> 00:13:04,000
+see if access is allowed in this case
+
+310
+00:13:01,519 --> 00:13:05,639
+it's false so we did not say welcome
+
+311
+00:13:04,000 --> 00:13:07,199
+authorized user we're not going to we
+
+312
+00:13:05,639 --> 00:13:08,320
+did not get to that point we're going to
+
+313
+00:13:07,199 --> 00:13:10,519
+jump to this lse statement we're going
+
+314
+00:13:08,320 --> 00:13:13,079
+to say access denied and it's going to
+
+315
+00:13:10,519 --> 00:13:15,480
+tell us this exact same thing press the
+
+316
+00:13:13,079 --> 00:13:16,920
+start enter a new PIN or the hashtag and
+
+317
+00:13:15,480 --> 00:13:19,279
+access the system and we can go through
+
+318
+00:13:16,920 --> 00:13:21,240
+the same thing again but if we did get
+
+319
+00:13:19,279 --> 00:13:23,639
+it right it'll go here now we have the
+
+320
+00:13:21,240 --> 00:13:25,959
+other functionality which is going to
+
+321
+00:13:23,639 --> 00:13:29,120
+Simply go and it's going to create a new
+
+322
+00:13:25,959 --> 00:13:31,720
+PIN obviously 00000000 is a pretty bad
+
+323
+00:13:29,120 --> 00:13:33,600
+default pin um I think most hackers
+
+324
+00:13:31,720 --> 00:13:35,079
+would probably put that in like a short
+
+325
+00:13:33,600 --> 00:13:37,480
+list to begin with if they're trying to
+
+326
+00:13:35,079 --> 00:13:39,399
+Brute Force something as one of them
+
+327
+00:13:37,480 --> 00:13:43,279
+that uh is so commonly used it's like
+
+328
+00:13:39,399 --> 00:13:46,279
+password password if button character
+
+329
+00:13:43,279 --> 00:13:48,760
+double equals the star key then we'll do
+
+330
+00:13:46,279 --> 00:13:53,480
+Boolean access allowed is going to be
+
+331
+00:13:48,760 --> 00:13:55,199
+equal to validate pin now if we want to
+
+332
+00:13:53,480 --> 00:13:56,959
+change the pin we're going to check to
+
+333
+00:13:55,199 --> 00:13:58,600
+make sure one do we have access to
+
+334
+00:13:56,959 --> 00:14:00,480
+change the pin first you have to input
+
+335
+00:13:58,600 --> 00:14:03,560
+the the old password before you before
+
+336
+00:14:00,480 --> 00:14:05,040
+you can change the new password if and
+
+337
+00:14:03,560 --> 00:14:07,079
+again this goes down to the validate pin
+
+338
+00:14:05,040 --> 00:14:08,199
+we went over this a minute ago let's say
+
+339
+00:14:07,079 --> 00:14:10,600
+in this
+
+340
+00:14:08,199 --> 00:14:12,839
+case it returned true you got the
+
+341
+00:14:10,600 --> 00:14:15,000
+initial pin you typed in the character
+
+342
+00:14:12,839 --> 00:14:17,199
+000000 and you're able to change that
+
+343
+00:14:15,000 --> 00:14:19,839
+default pin whatever you want it to be
+
+344
+00:14:17,199 --> 00:14:22,519
+now it says welcome authorizer user
+
+345
+00:14:19,839 --> 00:14:24,240
+please enter a new PIN finally we go
+
+346
+00:14:22,519 --> 00:14:26,160
+through and we're just simply going to
+
+347
+00:14:24,240 --> 00:14:27,839
+go through each of the loops and we're
+
+348
+00:14:26,160 --> 00:14:29,920
+going to say button character we're
+
+349
+00:14:27,839 --> 00:14:31,399
+going to wait for an inut put play
+
+350
+00:14:29,920 --> 00:14:33,720
+Little Tone and then we're going to set
+
+351
+00:14:31,399 --> 00:14:35,199
+the current pin I is equal to whatever
+
+352
+00:14:33,720 --> 00:14:37,240
+button we just press so let's just say
+
+353
+00:14:35,199 --> 00:14:41,279
+we want to set it instead of 0000 z z we
+
+354
+00:14:37,240 --> 00:14:42,560
+want to set it to a b c d well we can do
+
+355
+00:14:41,279 --> 00:14:44,480
+that we go through this Loop we the
+
+356
+00:14:42,560 --> 00:14:46,320
+first time we go through we type in a
+
+357
+00:14:44,480 --> 00:14:47,959
+sets the first one to a second time we
+
+358
+00:14:46,320 --> 00:14:51,480
+go through we type in B sets the second
+
+359
+00:14:47,959 --> 00:14:53,199
+one to B in this case remember zero one
+
+360
+00:14:51,480 --> 00:14:56,160
+two and three because the Rays always
+
+361
+00:14:53,199 --> 00:14:58,680
+start at zero once it hits that length
+
+362
+00:14:56,160 --> 00:15:00,560
+which as we know is four is the final p
+
+363
+00:14:58,680 --> 00:15:02,880
+pin length once we know that this
+
+364
+00:15:00,560 --> 00:15:05,800
+returns false it's going to exit the for
+
+365
+00:15:02,880 --> 00:15:10,120
+Loop because obviously four once it gets
+
+366
+00:15:05,800 --> 00:15:12,680
+to four is no longer less than four so
+
+367
+00:15:10,120 --> 00:15:14,800
+that's false and it'll exit the loop and
+
+368
+00:15:12,680 --> 00:15:16,040
+then it'll go down to here and it'll say
+
+369
+00:15:14,800 --> 00:15:17,720
+that the pin has successfully been
+
+370
+00:15:16,040 --> 00:15:21,480
+changed to whatever we had decided to
+
+371
+00:15:17,720 --> 00:15:23,920
+type in else we're going to say if we
+
+372
+00:15:21,480 --> 00:15:25,079
+did not initially type in that first pin
+
+373
+00:15:23,920 --> 00:15:27,199
+it's obviously it's just going to not
+
+374
+00:15:25,079 --> 00:15:29,959
+allow us to change the pin so we won't
+
+375
+00:15:27,199 --> 00:15:32,480
+be able to continue any further
+
+376
+00:15:29,959 --> 00:15:34,440
+with that um that should be all there is
+
+377
+00:15:32,480 --> 00:15:36,639
+for the logic for this day again if you
+
+378
+00:15:34,440 --> 00:15:39,279
+want to learn more about the security
+
+379
+00:15:36,639 --> 00:15:42,279
+flaw with how we actually do the pin
+
+380
+00:15:39,279 --> 00:15:45,160
+validation check out day 15 we will go
+
+381
+00:15:42,279 --> 00:15:47,279
+into more detail on that there on a good
+
+382
+00:15:45,160 --> 00:15:50,040
+way that we can show how to fix that
+
+383
+00:15:47,279 --> 00:15:52,120
+Brute Force vulnerability that is
+
+384
+00:15:50,040 --> 00:15:54,720
+currently part of that if you guys are
+
+385
+00:15:52,120 --> 00:15:59,079
+interested and with that that'll be
+
+386
+00:15:54,720 --> 00:16:02,240
+it welcome to the day 13 wiring example
+
+387
+00:15:59,079 --> 00:16:05,399
+video today we don't have any new wiring
+
+388
+00:16:02,240 --> 00:16:08,480
+or circuits to discuss the hardware is
+
+389
+00:16:05,399 --> 00:16:11,319
+all just the same as it was on day 12
+
+390
+00:16:08,480 --> 00:16:14,160
+instead today we'll focus on the
+
+391
+00:16:11,319 --> 00:16:17,040
+functions provided by our new software
+
+392
+00:16:14,160 --> 00:16:20,040
+sketch we are using our newly mastered
+
+393
+00:16:17,040 --> 00:16:22,600
+keyboard and buzzer to implement a
+
+394
+00:16:20,040 --> 00:16:25,240
+simple password security
+
+395
+00:16:22,600 --> 00:16:28,319
+interface once again we'll need to keep
+
+396
+00:16:25,240 --> 00:16:31,399
+an eye on the serial monitor console to
+
+397
+00:16:28,319 --> 00:16:33,839
+get feedback on how things are working
+
+398
+00:16:31,399 --> 00:16:36,240
+the rules of this security system are
+
+399
+00:16:33,839 --> 00:16:39,800
+pretty simple you must enter a four
+
+400
+00:16:36,240 --> 00:16:42,759
+character password to gain access to the
+
+401
+00:16:39,800 --> 00:16:45,279
+system also you may change the password
+
+402
+00:16:42,759 --> 00:16:48,519
+to something else but in order to do so
+
+403
+00:16:45,279 --> 00:16:51,800
+you must enter the old password
+
+404
+00:16:48,519 --> 00:16:55,800
+successfully the pound key is pressed in
+
+405
+00:16:51,800 --> 00:16:59,160
+order to request entry and the star key
+
+406
+00:16:55,800 --> 00:17:01,399
+is pressed to change the password we'll
+
+407
+00:16:59,160 --> 00:17:04,600
+be getting messages about success or
+
+408
+00:17:01,399 --> 00:17:09,760
+failures of these attempts on the serial
+
+409
+00:17:04,600 --> 00:17:12,520
+monitor the starting default password is
+
+410
+00:17:09,760 --> 00:17:15,720
+000000 although you can change this in
+
+411
+00:17:12,520 --> 00:17:18,160
+the sketch if you wish so with this
+
+412
+00:17:15,720 --> 00:17:20,480
+information in hand let's go ahead and
+
+413
+00:17:18,160 --> 00:17:24,039
+load the sketch and see how things are
+
+414
+00:17:20,480 --> 00:17:26,160
+working so going over to the IDE we'll
+
+415
+00:17:24,039 --> 00:17:30,400
+load our
+
+416
+00:17:26,160 --> 00:17:32,799
+sketch uploading now
+
+417
+00:17:30,400 --> 00:17:34,919
+done uploading okay so we should be up
+
+418
+00:17:32,799 --> 00:17:38,440
+and running now and so we can go ahead
+
+419
+00:17:34,919 --> 00:17:41,320
+and for example try to enter the system
+
+420
+00:17:38,440 --> 00:17:43,799
+using the default password so we should
+
+421
+00:17:41,320 --> 00:17:47,720
+press the pound
+
+422
+00:17:43,799 --> 00:17:50,960
+key and I'm prompted on the monitor to
+
+423
+00:17:47,720 --> 00:17:56,400
+enter the pin so I'll enter the default
+
+424
+00:17:50,960 --> 00:17:59,480
+password 0 0 0 0 and the device is
+
+425
+00:17:56,400 --> 00:18:02,960
+successfully unlocked so that part at
+
+426
+00:17:59,480 --> 00:18:04,880
+least works okay let's next see if we
+
+427
+00:18:02,960 --> 00:18:07,679
+can change the password to something
+
+428
+00:18:04,880 --> 00:18:11,919
+that's a little harder to guess so in
+
+429
+00:18:07,679 --> 00:18:15,640
+order to do that I'll press the star
+
+430
+00:18:11,919 --> 00:18:17,840
+key and now I need to enterer the old
+
+431
+00:18:15,640 --> 00:18:19,760
+password in order to go any further so
+
+432
+00:18:17,840 --> 00:18:22,760
+I'll go ahead and enter
+
+433
+00:18:19,760 --> 00:18:22,760
+00000000
+
+434
+00:18:23,000 --> 00:18:29,039
+again and it's now unlocked but now I
+
+435
+00:18:26,799 --> 00:18:31,080
+need to enter a new password so so let's
+
+436
+00:18:29,039 --> 00:18:37,679
+enter one that's almost as lame as the
+
+437
+00:18:31,080 --> 00:18:39,159
+first one 1 2 3 4 okay I get a message
+
+438
+00:18:37,679 --> 00:18:42,039
+that says that the pin has been
+
+439
+00:18:39,159 --> 00:18:44,720
+successfully changed so let's go ahead
+
+440
+00:18:42,039 --> 00:18:48,320
+and see if we can verify that this is
+
+441
+00:18:44,720 --> 00:18:51,320
+the new password so I'm going to press
+
+442
+00:18:48,320 --> 00:18:55,200
+the pound key again in order to attempt
+
+443
+00:18:51,320 --> 00:18:57,880
+to enter once again so pressing pound
+
+444
+00:18:55,200 --> 00:19:00,120
+I'm prompted to enter the pin if I enter
+
+445
+00:18:57,880 --> 00:19:03,960
+the old pin so for example if I start
+
+446
+00:19:00,120 --> 00:19:06,840
+putting in zero oh it says well I didn't
+
+447
+00:19:03,960 --> 00:19:10,760
+press zero I pressed the star so it told
+
+448
+00:19:06,840 --> 00:19:12,919
+me that star was the wrong character to
+
+449
+00:19:10,760 --> 00:19:16,120
+enter so it immediately aborted the
+
+450
+00:19:12,919 --> 00:19:21,720
+entry attempt let me try it again with a
+
+451
+00:19:16,120 --> 00:19:26,080
+zero so pressing the pound key now I'm
+
+452
+00:19:21,720 --> 00:19:29,280
+going to enter zero and up zero was
+
+453
+00:19:26,080 --> 00:19:32,640
+wrong as well oh I remember remember now
+
+454
+00:19:29,280 --> 00:19:34,720
+I changed the password it's now 1 2 3 4
+
+455
+00:19:32,640 --> 00:19:41,000
+so let's see if that'll work so I'll go
+
+456
+00:19:34,720 --> 00:19:46,360
+ahead and press pound and then press 1 2
+
+457
+00:19:41,000 --> 00:19:48,679
+3 4 and I'm successfully unlocked and if
+
+458
+00:19:46,360 --> 00:19:51,480
+I decide well that's really just you
+
+459
+00:19:48,679 --> 00:19:54,120
+know too terrible of a password to use I
+
+460
+00:19:51,480 --> 00:19:55,520
+can change it again so I'll go ahead
+
+461
+00:19:54,120 --> 00:19:59,120
+press
+
+462
+00:19:55,520 --> 00:20:00,720
+star press the old passord password so
+
+463
+00:19:59,120 --> 00:20:02,799
+I've
+
+464
+00:20:00,720 --> 00:20:07,520
+got the new
+
+465
+00:20:02,799 --> 00:20:10,640
+password is 1 2 3
+
+466
+00:20:07,520 --> 00:20:13,640
+four okay so the device is unlocked
+
+467
+00:20:10,640 --> 00:20:15,080
+please now enter a new password so let's
+
+468
+00:20:13,640 --> 00:20:19,039
+try something a little harder to
+
+469
+00:20:15,080 --> 00:20:19,039
+remember let's do
+
+470
+00:20:19,840 --> 00:20:26,159
+b987 so that's my new password and I can
+
+471
+00:20:23,520 --> 00:20:29,320
+check to see if that's correct so let's
+
+472
+00:20:26,159 --> 00:20:32,559
+go ahead and try and enter
+
+473
+00:20:29,320 --> 00:20:38,080
+press the pound key now let's enter the
+
+474
+00:20:32,559 --> 00:20:42,559
+PIN to continue so that was B
+
+475
+00:20:38,080 --> 00:20:46,080
+987 and that was successfully unlocked
+
+476
+00:20:42,559 --> 00:20:50,000
+so this seems to confirm that our
+
+477
+00:20:46,080 --> 00:20:52,720
+security sketch is functioning as it was
+
+478
+00:20:50,000 --> 00:20:55,200
+designed however if you've been paying
+
+479
+00:20:52,720 --> 00:20:57,679
+close attention you might have noticed
+
+480
+00:20:55,200 --> 00:21:00,799
+that our security system isn't really
+
+481
+00:20:57,679 --> 00:21:02,919
+all that that secure can you see how a
+
+482
+00:21:00,799 --> 00:21:05,640
+determined hacker might be able to
+
+483
+00:21:02,919 --> 00:21:07,960
+figure out the supposedly secret
+
+484
+00:21:05,640 --> 00:21:11,279
+password even after it's been
+
+485
+00:21:07,960 --> 00:21:14,000
+changed think about this a little bit
+
+486
+00:21:11,279 --> 00:21:16,799
+and if you want to work on ways to
+
+487
+00:21:14,000 --> 00:21:20,000
+improve this security be sure to check
+
+488
+00:21:16,799 --> 00:21:23,279
+out the activities on Creative day
+
+489
+00:21:20,000 --> 00:21:26,279
+15 but in the meantime we'll be looking
+
+490
+00:21:23,279 --> 00:21:28,679
+forward on day 14 to adding more
+
+491
+00:21:26,279 --> 00:21:32,400
+hardware and software features to this
+
+492
+00:21:28,679 --> 00:21:35,400
+system so we'll see you
+
+493
+00:21:32,400 --> 00:21:36,799
+then what an impressive day Explorer
+
+494
+00:21:35,400 --> 00:21:39,200
+you've stepped up to the challenge and
+
+495
+00:21:36,799 --> 00:21:41,840
+fortified your control panel like a true
+
+496
+00:21:39,200 --> 00:21:43,799
+Galactic Defender just imagine the
+
+497
+00:21:41,840 --> 00:21:45,640
+disappointment on the face of any Rogue
+
+498
+00:21:43,799 --> 00:21:48,760
+Mothership attempting to hijack your
+
+499
+00:21:45,640 --> 00:21:49,919
+controls delightful I dare say our
+
+500
+00:21:48,760 --> 00:21:52,200
+control panel is looking quite
+
+501
+00:21:49,919 --> 00:21:55,240
+formidable but wouldn't it be nice to
+
+502
+00:21:52,200 --> 00:21:57,559
+add a touch of theatricality to it
+
+503
+00:21:55,240 --> 00:21:59,960
+tomorrow we'll bring back our trusty RGB
+
+504
+00:21:57,559 --> 00:22:02,120
+LED from last week and to add more
+
+505
+00:21:59,960 --> 00:22:04,360
+Panache we'll also integrate some code
+
+506
+00:22:02,120 --> 00:22:06,840
+Logic for our buzzer to create a
+
+507
+00:22:04,360 --> 00:22:10,880
+symphony of auditori and visual feedback
+
+508
+00:22:06,840 --> 00:22:13,440
+on pin input lights and sounds for every
+
+509
+00:22:10,880 --> 00:22:16,440
+action the perfect Command Center for a
+
+510
+00:22:13,440 --> 00:22:18,679
+sophisticated space Explorer take a
+
+511
+00:22:16,440 --> 00:22:20,520
+well- earned rest now remember
+
+512
+00:22:18,679 --> 00:22:23,400
+Interstellar conquering requires both
+
+513
+00:22:20,520 --> 00:22:25,559
+body and mind to be at their sharpest
+
+514
+00:22:23,400 --> 00:22:27,520
+sleep well and get ready to add more
+
+515
+00:22:25,559 --> 00:22:28,390
+Intergalactic glamour to your ship
+
+516
+00:22:27,520 --> 00:22:42,710
+tomorrow
+
+517
+00:22:28,390 --> 00:22:42,710
+[Music]
+
+518
+00:22:47,120 --> 00:22:50,120
+so
+

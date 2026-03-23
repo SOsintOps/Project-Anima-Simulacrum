@@ -1,0 +1,2340 @@
+1
+00:00:01,280 --> 00:00:14,939
+[Music]
+
+2
+00:00:16,520 --> 00:00:21,080
+good morning Stellar Navigator we're
+
+3
+00:00:18,680 --> 00:00:23,800
+still bobbing a top the cosmic waves of
+
+4
+00:00:21,080 --> 00:00:26,199
+an alien ocean but not for long today we
+
+5
+00:00:23,800 --> 00:00:28,080
+can sit back and relax knowing we've
+
+6
+00:00:26,199 --> 00:00:32,279
+done everything we can to prepare for
+
+7
+00:00:28,080 --> 00:00:34,719
+lunch our big day tomorrow tomorrow yeah
+
+8
+00:00:32,279 --> 00:00:36,520
+big day lots of moving parts will be
+
+9
+00:00:34,719 --> 00:00:39,000
+launched tomorrow and everything needs
+
+10
+00:00:36,520 --> 00:00:41,320
+to happen at precisely the right time or
+
+11
+00:00:39,000 --> 00:00:45,160
+the ocean will turn into an Explorer
+
+12
+00:00:41,320 --> 00:00:51,399
+flavored crater time time is of the
+
+13
+00:00:45,160 --> 00:00:51,399
+essence time is short time won't give
+
+14
+00:00:52,480 --> 00:00:57,600
+you
+
+15
+00:00:54,320 --> 00:00:59,640
+time okay we're not quite done we need a
+
+16
+00:00:57,600 --> 00:01:01,440
+timer all right you clever Explorer
+
+17
+00:00:59,640 --> 00:01:03,800
+today today's Hardware task is a piece
+
+18
+00:01:01,440 --> 00:01:06,119
+of interstellar cake we're simply
+
+19
+00:01:03,800 --> 00:01:09,479
+welcoming back our old friend the seven
+
+20
+00:01:06,119 --> 00:01:11,320
+segment display to our current setup yes
+
+21
+00:01:09,479 --> 00:01:13,640
+that's right the same one that played a
+
+22
+00:01:11,320 --> 00:01:16,040
+crucial role in lighting our way up from
+
+23
+00:01:13,640 --> 00:01:18,439
+the deep ocean this won't be anything
+
+24
+00:01:16,040 --> 00:01:20,320
+new to you just plug the seven segment
+
+25
+00:01:18,439 --> 00:01:23,320
+display into the wiring layout from
+
+26
+00:01:20,320 --> 00:01:25,400
+yesterday easy right with each step
+
+27
+00:01:23,320 --> 00:01:27,880
+we're getting closer to our grand
+
+28
+00:01:25,400 --> 00:01:30,400
+liftoff as always ensure that your
+
+29
+00:01:27,880 --> 00:01:33,280
+connections are firm and correct let's
+
+30
+00:01:30,400 --> 00:01:36,640
+get to it let's have a small detour to
+
+31
+00:01:33,280 --> 00:01:38,720
+Define macros when you see Define in our
+
+32
+00:01:36,640 --> 00:01:41,880
+code it's essentially a way of creating
+
+33
+00:01:38,720 --> 00:01:43,920
+a shortcut or an alias we set a keyword
+
+34
+00:01:41,880 --> 00:01:46,360
+equal to a specific value or string of
+
+35
+00:01:43,920 --> 00:01:48,320
+code this way instead of having to type
+
+36
+00:01:46,360 --> 00:01:50,759
+out the whole thing every time we can
+
+37
+00:01:48,320 --> 00:01:52,320
+just use the keyword it is also useful
+
+38
+00:01:50,759 --> 00:01:54,439
+when we have the same thing written in
+
+39
+00:01:52,320 --> 00:01:56,640
+multiple places like occasionally
+
+40
+00:01:54,439 --> 00:01:59,000
+pinouts so we only need to change it
+
+41
+00:01:56,640 --> 00:02:00,439
+once this makes our code cleaner and
+
+42
+00:01:59,000 --> 00:02:02,360
+easier to understand
+
+43
+00:02:00,439 --> 00:02:04,479
+it's like having a code name or a short
+
+44
+00:02:02,360 --> 00:02:08,119
+hand for your favorite lengthy space
+
+45
+00:02:04,479 --> 00:02:10,920
+lingo all right on to today's simulation
+
+46
+00:02:08,119 --> 00:02:13,360
+we'll be adapting the done code from our
+
+47
+00:02:10,920 --> 00:02:15,599
+day 16 Adventures for our seven segment
+
+48
+00:02:13,360 --> 00:02:17,959
+display this time it'll be there to
+
+49
+00:02:15,599 --> 00:02:20,440
+Signal the end of our countdown like a
+
+50
+00:02:17,959 --> 00:02:22,599
+digital pat on the back if everything
+
+51
+00:02:20,440 --> 00:02:24,800
+goes according to plan tomorrow we can
+
+52
+00:02:22,599 --> 00:02:28,280
+connect everything up to our
+
+53
+00:02:24,800 --> 00:02:31,120
+thrusters and then well you know the
+
+54
+00:02:28,280 --> 00:02:33,800
+drill lift off we're in the home stretch
+
+55
+00:02:31,120 --> 00:02:35,640
+Explorer the stars are within our grasp
+
+56
+00:02:33,800 --> 00:02:37,560
+let's ensure this simulation goes off
+
+57
+00:02:35,640 --> 00:02:39,080
+without a hitch and prepare ourselves
+
+58
+00:02:37,560 --> 00:02:41,560
+for the Big
+
+59
+00:02:39,080 --> 00:02:43,200
+Show for today's cating spree we're
+
+60
+00:02:41,560 --> 00:02:45,560
+going to cook up a function that sends
+
+61
+00:02:43,200 --> 00:02:48,480
+us on a countdown Journey it's going to
+
+62
+00:02:45,560 --> 00:02:50,280
+be an exhilarating watch I promise once
+
+63
+00:02:48,480 --> 00:02:52,159
+we're done we'll celebrate by lighting
+
+64
+00:02:50,280 --> 00:02:55,239
+up our seven segment display with the
+
+65
+00:02:52,159 --> 00:02:58,400
+victory chant done just like we did back
+
+66
+00:02:55,239 --> 00:03:01,200
+on day 16 imagine it like a digital high
+
+67
+00:02:58,400 --> 00:03:03,159
+five if all all goes well this is
+
+68
+00:03:01,200 --> 00:03:06,080
+precisely where we'll inject the codes
+
+69
+00:03:03,159 --> 00:03:08,879
+for our long awaited liftoff tomorrow
+
+70
+00:03:06,080 --> 00:03:10,840
+it's exciting isn't it hold on to that
+
+71
+00:03:08,879 --> 00:03:12,840
+Curiosity Explorer as you walk through
+
+72
+00:03:10,840 --> 00:03:15,480
+every line of our code in the daily
+
+73
+00:03:12,840 --> 00:03:17,799
+breakdown as always I've cashed it to
+
+74
+00:03:15,480 --> 00:03:19,200
+your mission resources so buckle up it's
+
+75
+00:03:17,799 --> 00:03:21,760
+coding
+
+76
+00:03:19,200 --> 00:03:24,879
+time hello everybody and welcome back to
+
+77
+00:03:21,760 --> 00:03:26,680
+day 23 of the 30 days Lost in Space code
+
+78
+00:03:24,879 --> 00:03:29,200
+explanations today we're going to be
+
+79
+00:03:26,680 --> 00:03:31,599
+introducing the seven segment display in
+
+80
+00:03:29,200 --> 00:03:34,159
+order to a nice countdown timer for
+
+81
+00:03:31,599 --> 00:03:35,560
+tomorrow's liftoff since a seven segment
+
+82
+00:03:34,159 --> 00:03:38,000
+display is something we have talked
+
+83
+00:03:35,560 --> 00:03:39,360
+about previously in the past just is a
+
+84
+00:03:38,000 --> 00:03:40,640
+heads up if you want to learn about a
+
+85
+00:03:39,360 --> 00:03:42,159
+lot of the stuff that's talked about in
+
+86
+00:03:40,640 --> 00:03:44,239
+today's lesson a lot of the stuff that's
+
+87
+00:03:42,159 --> 00:03:46,560
+referencing the seven segment display
+
+88
+00:03:44,239 --> 00:03:50,280
+I'm going to glance over as it was
+
+89
+00:03:46,560 --> 00:03:51,959
+heavily discussed in day I believe 16 so
+
+90
+00:03:50,280 --> 00:03:54,519
+take a look there if you're interested
+
+91
+00:03:51,959 --> 00:03:57,120
+in any of Refreshers on the seven
+
+92
+00:03:54,519 --> 00:03:59,519
+segment display going down you'll see we
+
+93
+00:03:57,120 --> 00:04:00,959
+included that library and down below
+
+94
+00:03:59,519 --> 00:04:03,200
+that that we included the library from
+
+95
+00:04:00,959 --> 00:04:06,480
+yesterday so that we can draw our nice
+
+96
+00:04:03,200 --> 00:04:07,799
+fancy little shapes that we all enjoy in
+
+97
+00:04:06,480 --> 00:04:10,680
+particular we're going to be using it to
+
+98
+00:04:07,799 --> 00:04:12,760
+draw a spaceship on our olet display so
+
+99
+00:04:10,680 --> 00:04:16,280
+that's going to be really cool later on
+
+100
+00:04:12,760 --> 00:04:18,720
+down below that we now have a new
+
+101
+00:04:16,280 --> 00:04:21,440
+concept I'm introducing today and this
+
+102
+00:04:18,720 --> 00:04:25,040
+is called a macro now I'm sure you've
+
+103
+00:04:21,440 --> 00:04:28,199
+seen before where you can say Define you
+
+104
+00:04:25,040 --> 00:04:29,919
+know whatever pin to be five exactly
+
+105
+00:04:28,199 --> 00:04:32,759
+right here for here's a good example for
+
+106
+00:04:29,919 --> 00:04:35,600
+the seven segment display but you can
+
+107
+00:04:32,759 --> 00:04:37,680
+also use this to create essentially
+
+108
+00:04:35,600 --> 00:04:39,800
+calculations almost do the exact same
+
+109
+00:04:37,680 --> 00:04:43,800
+thing as functions another way you could
+
+110
+00:04:39,800 --> 00:04:47,320
+write this could be int number of
+
+111
+00:04:43,800 --> 00:04:50,160
+minutes with the input for this function
+
+112
+00:04:47,320 --> 00:04:52,840
+of milliseconds and then you could have
+
+113
+00:04:50,160 --> 00:04:57,080
+return obviously inside return
+
+114
+00:04:52,840 --> 00:04:59,039
+milliseconds plus 999 ID 1,000 / 60 this
+
+115
+00:04:57,080 --> 00:05:01,039
+could be the exact same thing um but
+
+116
+00:04:59,039 --> 00:05:03,280
+this is a nice shorthand version that
+
+117
+00:05:01,039 --> 00:05:06,080
+does the exact same thing so anytime we
+
+118
+00:05:03,280 --> 00:05:07,520
+want to calculate the number of minutes
+
+119
+00:05:06,080 --> 00:05:10,199
+uh when we know how many milliseconds
+
+120
+00:05:07,520 --> 00:05:11,759
+there are we can just take this and then
+
+121
+00:05:10,199 --> 00:05:13,360
+pass in the amount that we want here and
+
+122
+00:05:11,759 --> 00:05:16,560
+it'll do the calculation and return it
+
+123
+00:05:13,360 --> 00:05:18,639
+for us and the reason we're using the
+
+124
+00:05:16,560 --> 00:05:20,319
+Divide here is because obviously that
+
+125
+00:05:18,639 --> 00:05:21,759
+will get us a number of minutes and then
+
+126
+00:05:20,319 --> 00:05:23,120
+this is another symbol that I don't
+
+127
+00:05:21,759 --> 00:05:26,440
+think we've talked about too much this
+
+128
+00:05:23,120 --> 00:05:29,360
+is modulus and modulus gives us the
+
+129
+00:05:26,440 --> 00:05:31,400
+extra after a divide so let's think
+
+130
+00:05:29,360 --> 00:05:33,600
+about whole numbers for a second so you
+
+131
+00:05:31,400 --> 00:05:36,000
+can understand what modulus is so let's
+
+132
+00:05:33,600 --> 00:05:40,520
+say you have a person named Sally and
+
+133
+00:05:36,000 --> 00:05:43,560
+Sally has three apples and let's say she
+
+134
+00:05:40,520 --> 00:05:45,319
+has two friends and if you were to do a
+
+135
+00:05:43,560 --> 00:05:47,000
+divide she doesn't want any apples she
+
+136
+00:05:45,319 --> 00:05:50,240
+wants to give all of them to her friends
+
+137
+00:05:47,000 --> 00:05:53,520
+right so if you were to divide using
+
+138
+00:05:50,240 --> 00:05:57,800
+this symbol obviously um you would get
+
+139
+00:05:53,520 --> 00:05:59,840
+exactly one and then half but let's just
+
+140
+00:05:57,800 --> 00:06:01,639
+say you wanted to know the remainder and
+
+141
+00:05:59,840 --> 00:06:05,280
+you want to divide only an even number
+
+142
+00:06:01,639 --> 00:06:08,960
+so you can't give half an apple the
+
+143
+00:06:05,280 --> 00:06:12,160
+modulus gives whatever the division is
+
+144
+00:06:08,960 --> 00:06:15,960
+so each person gets one one and then the
+
+145
+00:06:12,160 --> 00:06:18,000
+remainder is one so each person gets one
+
+146
+00:06:15,960 --> 00:06:19,800
+and then you have one left over the r
+
+147
+00:06:18,000 --> 00:06:22,520
+remainder of one the thing that's left
+
+148
+00:06:19,800 --> 00:06:25,800
+over at the end is what the modulus
+
+149
+00:06:22,520 --> 00:06:27,560
+equates to so if we go back to our code
+
+150
+00:06:25,800 --> 00:06:29,919
+and we want to look at this the number
+
+151
+00:06:27,560 --> 00:06:32,880
+of seconds is simply going to take the
+
+152
+00:06:29,919 --> 00:06:35,280
+number of minutes and then how many
+
+153
+00:06:32,880 --> 00:06:36,720
+seconds are left after that right and
+
+154
+00:06:35,280 --> 00:06:39,960
+then that's what the modulus gives you
+
+155
+00:06:36,720 --> 00:06:42,319
+so if you only if if you have still like
+
+156
+00:06:39,960 --> 00:06:43,520
+you know 32 seconds out of the minute
+
+157
+00:06:42,319 --> 00:06:45,120
+well that's what number of seconds is
+
+158
+00:06:43,520 --> 00:06:47,319
+going to get you 32 seconds out of the
+
+159
+00:06:45,120 --> 00:06:48,960
+minute the reason these calculations are
+
+160
+00:06:47,319 --> 00:06:50,199
+going to be really nice in the later on
+
+161
+00:06:48,960 --> 00:06:51,880
+in the code is that it's going to be
+
+162
+00:06:50,199 --> 00:06:54,520
+able to let us display exactly what we
+
+163
+00:06:51,880 --> 00:06:56,440
+want to on our seven segment display
+
+164
+00:06:54,520 --> 00:06:58,800
+which we'll be showing here in just a
+
+165
+00:06:56,440 --> 00:07:02,440
+minute obviously these are the defines
+
+166
+00:06:58,800 --> 00:07:04,599
+for the pins for our TM display all this
+
+167
+00:07:02,440 --> 00:07:06,479
+was talked about in how the library
+
+168
+00:07:04,599 --> 00:07:08,759
+works I believe on day 16 so I'm just
+
+169
+00:07:06,479 --> 00:07:11,160
+going to briefly go over that and down
+
+170
+00:07:08,759 --> 00:07:13,400
+here we talked about this yesterday this
+
+171
+00:07:11,160 --> 00:07:16,800
+is we need to Define our Lander display
+
+172
+00:07:13,400 --> 00:07:19,039
+from our library and wonderfully we can
+
+173
+00:07:16,800 --> 00:07:20,479
+just use this here and so instead of
+
+174
+00:07:19,039 --> 00:07:22,400
+calling this every time we're going to
+
+175
+00:07:20,479 --> 00:07:25,599
+call Lander display because that's a lot
+
+176
+00:07:22,400 --> 00:07:28,879
+easier to call then this mumble jumble
+
+177
+00:07:25,599 --> 00:07:31,240
+garbage down here we have the height and
+
+178
+00:07:28,879 --> 00:07:33,400
+width of of the Lander that we're going
+
+179
+00:07:31,240 --> 00:07:35,840
+to be drawing on our OLED today and we
+
+180
+00:07:33,400 --> 00:07:37,400
+will be drawing that using the library
+
+181
+00:07:35,840 --> 00:07:39,360
+up here that gives us all the functions
+
+182
+00:07:37,400 --> 00:07:41,400
+to draw the squares and triangles and
+
+183
+00:07:39,360 --> 00:07:43,560
+all this other stuff we can say done on
+
+184
+00:07:41,400 --> 00:07:46,000
+the seven segment display by doing this
+
+185
+00:07:43,560 --> 00:07:48,400
+again explained in day 16 each of the
+
+186
+00:07:46,000 --> 00:07:52,720
+segments defining each one that's lit up
+
+187
+00:07:48,400 --> 00:07:55,759
+for d for o for n and for E down here we
+
+188
+00:07:52,720 --> 00:07:57,440
+have the countdown milliseconds in how
+
+189
+00:07:55,759 --> 00:07:59,280
+much time we want it to countd down so
+
+190
+00:07:57,440 --> 00:08:01,080
+if we want to change the countdown and
+
+191
+00:07:59,280 --> 00:08:03,039
+instead of being 5 Seconds which is how
+
+192
+00:08:01,080 --> 00:08:05,280
+this is currently at to let's just say
+
+193
+00:08:03,039 --> 00:08:06,520
+we want to make the countdown 30 seconds
+
+194
+00:08:05,280 --> 00:08:10,479
+we can
+
+195
+00:08:06,520 --> 00:08:13,120
+change that right here if we so desire
+
+196
+00:08:10,479 --> 00:08:15,000
+going down into setup setup's actually
+
+197
+00:08:13,120 --> 00:08:17,599
+pretty big today normally all we would
+
+198
+00:08:15,000 --> 00:08:20,080
+be doing in setup is saying you know
+
+199
+00:08:17,599 --> 00:08:22,159
+here's the pins here's the pin outs that
+
+200
+00:08:20,080 --> 00:08:23,599
+need to be set here's whatever here for
+
+201
+00:08:22,159 --> 00:08:24,800
+example we're setting the brightness of
+
+202
+00:08:23,599 --> 00:08:27,039
+our display because we only really need
+
+203
+00:08:24,800 --> 00:08:28,960
+to do that once um for our seg seven
+
+204
+00:08:27,039 --> 00:08:30,520
+segment display we're clearing it the
+
+205
+00:08:28,960 --> 00:08:32,599
+land display we're just going to
+
+206
+00:08:30,520 --> 00:08:34,320
+initialize it with the OLED which is
+
+207
+00:08:32,599 --> 00:08:36,919
+going to set the pinouts Etc set the
+
+208
+00:08:34,320 --> 00:08:40,000
+text font set the reference height text
+
+209
+00:08:36,919 --> 00:08:43,120
+S the font position to top so all the
+
+210
+00:08:40,000 --> 00:08:45,959
+text going forward will be rendered from
+
+211
+00:08:43,120 --> 00:08:47,320
+the top down so instead of it being by
+
+212
+00:08:45,959 --> 00:08:50,040
+calling this function we're going to
+
+213
+00:08:47,320 --> 00:08:52,040
+allow it so as I explained yesterday so
+
+214
+00:08:50,040 --> 00:08:53,959
+as you recall when as we talked about
+
+215
+00:08:52,040 --> 00:08:57,160
+yesterday you can if you want to display
+
+216
+00:08:53,959 --> 00:08:59,720
+the text like hello world and you're on
+
+217
+00:08:57,160 --> 00:09:02,160
+our little OLED display by setting the
+
+218
+00:08:59,720 --> 00:09:05,000
+position to the top it's going to start
+
+219
+00:09:02,160 --> 00:09:06,640
+here and render it down like this but if
+
+220
+00:09:05,000 --> 00:09:08,720
+you didn't have that and you had it set
+
+221
+00:09:06,640 --> 00:09:13,399
+the other way it would start from here
+
+222
+00:09:08,720 --> 00:09:15,320
+and it would then say h e l l o world
+
+223
+00:09:13,399 --> 00:09:16,920
+you know like that but the issue is that
+
+224
+00:09:15,320 --> 00:09:19,120
+obviously so if you wanted to say it at
+
+225
+00:09:16,920 --> 00:09:22,200
+0 for example that's going to be off
+
+226
+00:09:19,120 --> 00:09:24,160
+screen so by putting it so it renders
+
+227
+00:09:22,200 --> 00:09:26,399
+from the top and just setting that
+
+228
+00:09:24,160 --> 00:09:28,640
+position that in here in the code we're
+
+229
+00:09:26,399 --> 00:09:30,160
+going to make it so that it uh when you
+
+230
+00:09:28,640 --> 00:09:34,079
+do it it's going to start from the very
+
+231
+00:09:30,160 --> 00:09:36,560
+top left finally we have probably I
+
+232
+00:09:34,079 --> 00:09:39,920
+would argue the most complicated thing
+
+233
+00:09:36,560 --> 00:09:43,000
+that I've had to teach so far given the
+
+234
+00:09:39,920 --> 00:09:45,560
+code that we've looked at in general now
+
+235
+00:09:43,000 --> 00:09:48,200
+I want you to remember what device we're
+
+236
+00:09:45,560 --> 00:09:50,480
+using we're using a
+
+237
+00:09:48,200 --> 00:09:53,399
+microcontroller that has a very very
+
+238
+00:09:50,480 --> 00:09:55,360
+limited amount of memory on it a limited
+
+239
+00:09:53,399 --> 00:09:57,040
+amount of ram so only a certain amount
+
+240
+00:09:55,360 --> 00:09:58,800
+of functionality can be done now let's
+
+241
+00:09:57,040 --> 00:10:00,600
+be real we've already done quite a few
+
+242
+00:09:58,800 --> 00:10:02,839
+amazing aming things with the very very
+
+243
+00:10:00,600 --> 00:10:05,760
+limited processing power that we have
+
+244
+00:10:02,839 --> 00:10:08,800
+available to us but with that being said
+
+245
+00:10:05,760 --> 00:10:11,600
+I think we're finally on day 23 and
+
+246
+00:10:08,800 --> 00:10:15,440
+we're just starting to finally hit some
+
+247
+00:10:11,600 --> 00:10:19,519
+limitations so as you might know
+
+248
+00:10:15,440 --> 00:10:23,079
+Graphics take a lot to render a lot of
+
+249
+00:10:19,519 --> 00:10:26,440
+memory to render Graphics there are
+
+250
+00:10:23,079 --> 00:10:28,839
+however methods that you can use to
+
+251
+00:10:26,440 --> 00:10:30,040
+reduce the amount of ram necessary it
+
+252
+00:10:28,839 --> 00:10:33,519
+does does take a little bit more
+
+253
+00:10:30,040 --> 00:10:36,399
+processing time in order to do that but
+
+254
+00:10:33,519 --> 00:10:38,360
+there are methods to do that so if
+
+255
+00:10:36,399 --> 00:10:40,639
+you're going to be drawing an image on
+
+256
+00:10:38,360 --> 00:10:43,320
+the screen in this case anytime we want
+
+257
+00:10:40,639 --> 00:10:45,320
+to update our screen we literally have
+
+258
+00:10:43,320 --> 00:10:46,800
+to tell it put this pixel at this point
+
+259
+00:10:45,320 --> 00:10:48,920
+put this pixel at this point put this
+
+260
+00:10:46,800 --> 00:10:50,240
+pixel at this point essentially you know
+
+261
+00:10:48,920 --> 00:10:51,399
+we're saying which ones we want to turn
+
+262
+00:10:50,240 --> 00:10:53,920
+on we want to say which ones we want to
+
+263
+00:10:51,399 --> 00:10:56,320
+turn off what we can do is we can get
+
+264
+00:10:53,920 --> 00:10:59,120
+the entire defined like let's take all
+
+265
+00:10:56,320 --> 00:11:01,120
+this and then plast it to the screen but
+
+266
+00:10:59,120 --> 00:11:04,320
+but um that's going to take a lot of
+
+267
+00:11:01,120 --> 00:11:06,360
+memory so what happens is first your
+
+268
+00:11:04,320 --> 00:11:09,839
+code does some calculations right it
+
+269
+00:11:06,360 --> 00:11:12,360
+says Okay I want to display a smiley
+
+270
+00:11:09,839 --> 00:11:14,200
+face on the screen that's what your
+
+271
+00:11:12,360 --> 00:11:18,120
+functionality is for let's just say this
+
+272
+00:11:14,200 --> 00:11:20,160
+theoretical program okay so you could do
+
+273
+00:11:18,120 --> 00:11:23,720
+this in a few different ways one is you
+
+274
+00:11:20,160 --> 00:11:27,600
+could Define okay let's I want to draw
+
+275
+00:11:23,720 --> 00:11:29,360
+this I first this I and then this is all
+
+276
+00:11:27,600 --> 00:11:31,800
+being saved in memory right now this is
+
+277
+00:11:29,360 --> 00:11:33,600
+not on the display and then I want to
+
+278
+00:11:31,800 --> 00:11:37,079
+draw the nose and then I want to draw
+
+279
+00:11:33,600 --> 00:11:39,000
+the big old smiley face and this is all
+
+280
+00:11:37,079 --> 00:11:40,880
+memory and then I want to push it now
+
+281
+00:11:39,000 --> 00:11:44,399
+push the entire thing right now all of
+
+282
+00:11:40,880 --> 00:11:46,800
+it all at once this entire face all on
+
+283
+00:11:44,399 --> 00:11:49,000
+here this will all being stored in
+
+284
+00:11:46,800 --> 00:11:51,079
+memory is on here and eventually goes
+
+285
+00:11:49,000 --> 00:11:54,480
+down to be empty so this is memory and
+
+286
+00:11:51,079 --> 00:11:57,560
+now just empty and then this turns to
+
+287
+00:11:54,480 --> 00:11:59,360
+obviously the face the issue with that
+
+288
+00:11:57,560 --> 00:12:02,000
+is that by doing it that way way you're
+
+289
+00:11:59,360 --> 00:12:04,800
+going to store a lot of extra stuff in
+
+290
+00:12:02,000 --> 00:12:06,519
+memory all at once so the amount of
+
+291
+00:12:04,800 --> 00:12:08,639
+memory you needed to store all that
+
+292
+00:12:06,519 --> 00:12:10,680
+extra volume of stuff in this top left
+
+293
+00:12:08,639 --> 00:12:13,320
+is a lot more so instead of writing
+
+294
+00:12:10,680 --> 00:12:15,440
+everything that you have in all the
+
+295
+00:12:13,320 --> 00:12:18,320
+screen all at once we can save a little
+
+296
+00:12:15,440 --> 00:12:20,000
+bit to memory at a time and we can send
+
+297
+00:12:18,320 --> 00:12:21,399
+a little bit to the screen at a time and
+
+298
+00:12:20,000 --> 00:12:23,079
+remember this is going to happen so
+
+299
+00:12:21,399 --> 00:12:24,560
+quickly that it doesn't really matter at
+
+300
+00:12:23,079 --> 00:12:26,079
+the end of the day because it's so quick
+
+301
+00:12:24,560 --> 00:12:26,959
+your eyes won't even be able to really
+
+302
+00:12:26,079 --> 00:12:29,639
+see
+
+303
+00:12:26,959 --> 00:12:33,440
+it let's start
+
+304
+00:12:29,639 --> 00:12:35,440
+by step one we're going to draw maybe
+
+305
+00:12:33,440 --> 00:12:37,399
+the top left or we're going to draw like
+
+306
+00:12:35,440 --> 00:12:39,560
+the very first little bit of the image
+
+307
+00:12:37,399 --> 00:12:42,040
+right it's going to be the eye and then
+
+308
+00:12:39,560 --> 00:12:45,399
+that very first part of the nose Okay
+
+309
+00:12:42,040 --> 00:12:46,959
+step two and then after each step we're
+
+310
+00:12:45,399 --> 00:12:48,760
+going to push this to the display so
+
+311
+00:12:46,959 --> 00:12:51,240
+this is now going to have this on the
+
+312
+00:12:48,760 --> 00:12:52,639
+display we're going to push just this so
+
+313
+00:12:51,240 --> 00:12:54,480
+this is going to be Memory this is going
+
+314
+00:12:52,639 --> 00:12:56,279
+to be what's actually showing currently
+
+315
+00:12:54,480 --> 00:12:58,320
+on the display and these four things are
+
+316
+00:12:56,279 --> 00:12:59,519
+going to execute very very quickly so
+
+317
+00:12:58,320 --> 00:13:01,440
+you don't have to to like think too
+
+318
+00:12:59,519 --> 00:13:03,000
+heavily about it because it's not like
+
+319
+00:13:01,440 --> 00:13:05,320
+you're going to see these in between
+
+320
+00:13:03,000 --> 00:13:07,839
+changes cuz the computer's processing
+
+321
+00:13:05,320 --> 00:13:10,160
+everything so quickly so the first way
+
+322
+00:13:07,839 --> 00:13:12,160
+we showed of doing it is by just taking
+
+323
+00:13:10,160 --> 00:13:13,560
+the entire face loading it into memory
+
+324
+00:13:12,160 --> 00:13:16,079
+and then pushing the entire thing to
+
+325
+00:13:13,560 --> 00:13:19,120
+display but by doing it this way you can
+
+326
+00:13:16,079 --> 00:13:21,440
+use 1/4 of the amount of memory in this
+
+327
+00:13:19,120 --> 00:13:23,320
+theoretical scenario by just putting
+
+328
+00:13:21,440 --> 00:13:24,680
+this in memory pushing it this into
+
+329
+00:13:23,320 --> 00:13:26,760
+memory pushing it this into memory
+
+330
+00:13:24,680 --> 00:13:29,160
+pushing it and this in memory pushing it
+
+331
+00:13:26,760 --> 00:13:31,199
+which uses way way way less memory to do
+
+332
+00:13:29,160 --> 00:13:32,639
+it that way and you can divide it up as
+
+333
+00:13:31,199 --> 00:13:35,360
+little as you want or as much as you
+
+334
+00:13:32,639 --> 00:13:37,519
+want that's entirely up to however
+
+335
+00:13:35,360 --> 00:13:39,399
+whoever designs the algorithm to do that
+
+336
+00:13:37,519 --> 00:13:42,920
+in this case the algorithm was made by
+
+337
+00:13:39,399 --> 00:13:46,440
+the library and they use a function to
+
+338
+00:13:42,920 --> 00:13:48,800
+do all of this it's called first page
+
+339
+00:13:46,440 --> 00:13:52,079
+and next page and you usually do this in
+
+340
+00:13:48,800 --> 00:13:54,480
+a do while type structure of a loop and
+
+341
+00:13:52,079 --> 00:13:58,160
+what it'll do is it'll say it'll just
+
+342
+00:13:54,480 --> 00:13:59,639
+call first page and then it'll say do
+
+343
+00:13:58,160 --> 00:14:02,199
+all this stuff stuff we're basically
+
+344
+00:13:59,639 --> 00:14:04,040
+going to what we want to do is we want
+
+345
+00:14:02,199 --> 00:14:06,560
+to essentially instead of loading parts
+
+346
+00:14:04,040 --> 00:14:09,480
+of a smiley face into memory we want to
+
+347
+00:14:06,560 --> 00:14:13,639
+load into memory the strings exploration
+
+348
+00:14:09,480 --> 00:14:15,120
+Lander liftoff sequence and uh countdown
+
+349
+00:14:13,639 --> 00:14:17,120
+active and then we want to obviously
+
+350
+00:14:15,120 --> 00:14:19,600
+display a picture of our our Lander in
+
+351
+00:14:17,120 --> 00:14:21,279
+the very bottom right corner right as
+
+352
+00:14:19,600 --> 00:14:22,519
+the countdown timer is going to take off
+
+353
+00:14:21,279 --> 00:14:25,079
+and this so we're going to be storing
+
+354
+00:14:22,519 --> 00:14:27,880
+bits and pieces of this into memory in a
+
+355
+00:14:25,079 --> 00:14:30,600
+form of a loop to save on obviously The
+
+356
+00:14:27,880 --> 00:14:31,920
+Limited memory that our controller has
+
+357
+00:14:30,600 --> 00:14:34,000
+then we're obviously going to Blink the
+
+358
+00:14:31,920 --> 00:14:37,639
+countdown timer on our timer before
+
+359
+00:14:34,000 --> 00:14:39,680
+beginning the countdown and we're also
+
+360
+00:14:37,639 --> 00:14:41,720
+going to after all this is completed and
+
+361
+00:14:39,680 --> 00:14:46,160
+all that setup is done we're going to
+
+362
+00:14:41,720 --> 00:14:47,759
+jump to Loop time remaining is a static
+
+363
+00:14:46,160 --> 00:14:50,199
+variable which means it's going to
+
+364
+00:14:47,759 --> 00:14:52,720
+remember the value that it had last time
+
+365
+00:14:50,199 --> 00:14:54,680
+we went to the loop so this is
+
+366
+00:14:52,720 --> 00:14:57,160
+essentially going to be as effective as
+
+367
+00:14:54,680 --> 00:14:59,279
+a global variable sort of kind of in its
+
+368
+00:14:57,160 --> 00:15:01,639
+own roundabout way but we don't actually
+
+369
+00:14:59,279 --> 00:15:04,199
+have to make it a global variable next
+
+370
+00:15:01,639 --> 00:15:06,360
+we have this static variable called
+
+371
+00:15:04,199 --> 00:15:09,240
+countdown start time and this is quite
+
+372
+00:15:06,360 --> 00:15:12,000
+literally going to get the start time of
+
+373
+00:15:09,240 --> 00:15:15,560
+when it got to this point in the code
+
+374
+00:15:12,000 --> 00:15:18,600
+when it calls Mill Millis or uh is is
+
+375
+00:15:15,560 --> 00:15:20,959
+function built into the Arduino library
+
+376
+00:15:18,600 --> 00:15:23,199
+and all it does is it gets it checks to
+
+377
+00:15:20,959 --> 00:15:25,720
+see how the time from the very beginning
+
+378
+00:15:23,199 --> 00:15:28,440
+of the execution on your board to the
+
+379
+00:15:25,720 --> 00:15:29,639
+second it hit this line of code so that
+
+380
+00:15:28,440 --> 00:15:33,000
+what this is going to do is it's going
+
+381
+00:15:29,639 --> 00:15:35,040
+to get the exact moment it hit right
+
+382
+00:15:33,000 --> 00:15:36,959
+here next for debugging we're just going
+
+383
+00:15:35,040 --> 00:15:38,959
+to print the time remaining and we're
+
+384
+00:15:36,959 --> 00:15:41,040
+going to put the time remaining on the
+
+385
+00:15:38,959 --> 00:15:42,800
+counter display so hopefully these match
+
+386
+00:15:41,040 --> 00:15:46,600
+up if not you might want to check the
+
+387
+00:15:42,800 --> 00:15:48,800
+wiring on your 7 segment display finally
+
+388
+00:15:46,600 --> 00:15:51,959
+if the time remaining has officially hit
+
+389
+00:15:48,800 --> 00:15:54,440
+zero then we want to display done on our
+
+390
+00:15:51,959 --> 00:15:56,079
+seven segment display if it doesn't then
+
+391
+00:15:54,440 --> 00:15:58,720
+obviously check to make sure that the
+
+392
+00:15:56,079 --> 00:16:00,880
+wiring is correct and then go down and
+
+393
+00:15:58,720 --> 00:16:03,920
+we should by using the first page last
+
+394
+00:16:00,880 --> 00:16:06,920
+page memory saver um functionality that
+
+395
+00:16:03,920 --> 00:16:10,360
+I really really do enjoy we're going to
+
+396
+00:16:06,920 --> 00:16:12,920
+display the following information on our
+
+397
+00:16:10,360 --> 00:16:15,959
+OLED and those are going to be
+
+398
+00:16:12,920 --> 00:16:18,279
+expiration Lander lift off aborted we
+
+399
+00:16:15,959 --> 00:16:20,920
+have the confirmation systems and
+
+400
+00:16:18,279 --> 00:16:22,680
+thrusters all off and then we're going
+
+401
+00:16:20,920 --> 00:16:23,600
+to have the countdown abort because
+
+402
+00:16:22,680 --> 00:16:27,079
+that's something we're going to be
+
+403
+00:16:23,600 --> 00:16:29,240
+getting into tomorrow down here below we
+
+404
+00:16:27,079 --> 00:16:31,600
+have the functionality that calculates
+
+405
+00:16:29,240 --> 00:16:34,120
+the elapsed time essentially how much
+
+406
+00:16:31,600 --> 00:16:38,399
+time that we have been executing in the
+
+407
+00:16:34,120 --> 00:16:41,000
+loop and this is going to be the Millies
+
+408
+00:16:38,399 --> 00:16:42,720
+which is what time it is right now at
+
+409
+00:16:41,000 --> 00:16:44,600
+this point of execution minus the
+
+410
+00:16:42,720 --> 00:16:46,360
+countdown time where we called it
+
+411
+00:16:44,600 --> 00:16:48,839
+earlier so we're just counting the time
+
+412
+00:16:46,360 --> 00:16:50,639
+between this line of code and then we're
+
+413
+00:16:48,839 --> 00:16:52,720
+going to count the time between this
+
+414
+00:16:50,639 --> 00:16:54,680
+line of code and if the elapse time is
+
+415
+00:16:52,720 --> 00:16:57,800
+less than the countdown
+
+416
+00:16:54,680 --> 00:16:59,759
+milliseconds then we're going to Simply
+
+417
+00:16:57,800 --> 00:17:01,759
+set the time remaining equal to
+
+418
+00:16:59,759 --> 00:17:05,199
+countdown milliseconds minus the elapse
+
+419
+00:17:01,759 --> 00:17:07,240
+time otherwise time remaining is zero
+
+420
+00:17:05,199 --> 00:17:10,120
+and finally we have this functionality
+
+421
+00:17:07,240 --> 00:17:11,480
+here for our seven segment display all
+
+422
+00:17:10,120 --> 00:17:14,079
+this is going to do is it's just simply
+
+423
+00:17:11,480 --> 00:17:16,520
+going to tell us how many minutes and
+
+424
+00:17:14,079 --> 00:17:20,360
+seconds we have left on the counter so
+
+425
+00:17:16,520 --> 00:17:23,360
+if we put something like 70 seconds then
+
+426
+00:17:20,360 --> 00:17:25,559
+it will be able to display it as one 10
+
+427
+00:17:23,360 --> 00:17:28,760
+or you know what I mean minute seconds
+
+428
+00:17:25,559 --> 00:17:30,360
+so this can work with any any number of
+
+429
+00:17:28,760 --> 00:17:33,600
+seconds technically if you try to do
+
+430
+00:17:30,360 --> 00:17:35,559
+something larger than 99 seconds you
+
+431
+00:17:33,600 --> 00:17:38,600
+will probably not be able to display it
+
+432
+00:17:35,559 --> 00:17:40,600
+properly using the display but I don't
+
+433
+00:17:38,600 --> 00:17:43,960
+know why you'd want a timer that long
+
+434
+00:17:40,600 --> 00:17:47,120
+anyway next we have the draw string down
+
+435
+00:17:43,960 --> 00:17:50,039
+here which simply just draws a string on
+
+436
+00:17:47,120 --> 00:17:52,039
+our OLED and we used this yesterday and
+
+437
+00:17:50,039 --> 00:17:54,280
+finally we have the display Lander so
+
+438
+00:17:52,039 --> 00:17:56,799
+this draws an image of our Lander with
+
+439
+00:17:54,280 --> 00:17:59,960
+triangles in various frames um
+
+440
+00:17:56,799 --> 00:18:03,360
+essentially rectangles and X location Y
+
+441
+00:17:59,960 --> 00:18:05,760
+location um relative to the upper left
+
+442
+00:18:03,360 --> 00:18:09,559
+corner and with that that should be the
+
+443
+00:18:05,760 --> 00:18:11,600
+end of day 23 code explanations it was a
+
+444
+00:18:09,559 --> 00:18:15,159
+long one and tomorrow is probably going
+
+445
+00:18:11,600 --> 00:18:17,039
+to be just as long just so be prepared
+
+446
+00:18:15,159 --> 00:18:20,400
+see you
+
+447
+00:18:17,039 --> 00:18:24,440
+then welcome to the day 23 wiring
+
+448
+00:18:20,400 --> 00:18:26,880
+example video last time we succeeded in
+
+449
+00:18:24,440 --> 00:18:30,840
+testing out the function and programming
+
+450
+00:18:26,880 --> 00:18:32,799
+of our OLED Gra trffic display today
+
+451
+00:18:30,840 --> 00:18:34,960
+we'll take another step toward getting
+
+452
+00:18:32,799 --> 00:18:37,320
+our craft ready for launch by
+
+453
+00:18:34,960 --> 00:18:40,480
+incorporating the display into our
+
+454
+00:18:37,320 --> 00:18:43,320
+countdown checkout system using what
+
+455
+00:18:40,480 --> 00:18:45,360
+we've learned in previous days we'll be
+
+456
+00:18:43,320 --> 00:18:48,720
+displaying the minutes and seconds to
+
+457
+00:18:45,360 --> 00:18:51,760
+lift off using the four-digit s segment
+
+458
+00:18:48,720 --> 00:18:54,200
+numerical display while simultaneously
+
+459
+00:18:51,760 --> 00:18:56,799
+providing system status information to
+
+460
+00:18:54,200 --> 00:19:00,280
+the pilot on the
+
+461
+00:18:56,799 --> 00:19:04,200
+OLED now to wire up this combination of
+
+462
+00:19:00,280 --> 00:19:07,799
+devices we need four wires each for both
+
+463
+00:19:04,200 --> 00:19:11,360
+of our displays connected to the hero
+
+464
+00:19:07,799 --> 00:19:15,280
+two of these wires the black ground and
+
+465
+00:19:11,360 --> 00:19:18,440
+the red plus 5 volts are common to the
+
+466
+00:19:15,280 --> 00:19:21,440
+two displays and can be shared now we
+
+467
+00:19:18,440 --> 00:19:24,159
+might choose to share these connections
+
+468
+00:19:21,440 --> 00:19:26,760
+using a breadboard bus as we've done
+
+469
+00:19:24,159 --> 00:19:30,039
+several times in the past and is shown
+
+470
+00:19:26,760 --> 00:19:31,840
+on our provided illust ative wiring
+
+471
+00:19:30,039 --> 00:19:34,960
+diagram
+
+472
+00:19:31,840 --> 00:19:37,960
+alternatively you can find equivalent
+
+473
+00:19:34,960 --> 00:19:41,320
+ways to wire the connections that might
+
+474
+00:19:37,960 --> 00:19:44,000
+be easier or more convenient for your
+
+475
+00:19:41,320 --> 00:19:47,039
+circumstances as an example you'll
+
+476
+00:19:44,000 --> 00:19:49,600
+notice that here since I've been using
+
+477
+00:19:47,039 --> 00:19:52,480
+an extra breadboard to provide
+
+478
+00:19:49,600 --> 00:19:56,559
+convenient connections to the OLED
+
+479
+00:19:52,480 --> 00:20:00,120
+display it was easiest for me to share
+
+480
+00:19:56,559 --> 00:20:03,120
+the ground and 5 Vols directly on the
+
+481
+00:20:00,120 --> 00:20:06,280
+corresponding Columns of this extra
+
+482
+00:20:03,120 --> 00:20:10,360
+breadboard thereby avoiding the Clutter
+
+483
+00:20:06,280 --> 00:20:13,840
+of a few extra wires we see that the
+
+484
+00:20:10,360 --> 00:20:17,640
+OLED is connected just as before to the
+
+485
+00:20:13,840 --> 00:20:21,039
+hero with the clock that is the green
+
+486
+00:20:17,640 --> 00:20:26,559
+wire and the data the blue wire
+
+487
+00:20:21,039 --> 00:20:31,039
+connected to pins A5 and A4 respectively
+
+488
+00:20:26,559 --> 00:20:33,880
+as for the four digit display right here
+
+489
+00:20:31,039 --> 00:20:34,919
+the power and ground are tapping off the
+
+490
+00:20:33,880 --> 00:20:39,360
+same
+
+491
+00:20:34,919 --> 00:20:44,240
+two RedBoard columns as used by the
+
+492
+00:20:39,360 --> 00:20:50,200
+OLED while for this display the clock
+
+493
+00:20:44,240 --> 00:20:54,559
+and Dio wires go to the hero output pins
+
+494
+00:20:50,200 --> 00:20:57,679
+five and four and those numbers agree
+
+495
+00:20:54,559 --> 00:20:59,880
+with what's specified in the hash defin
+
+496
+00:20:57,679 --> 00:21:03,600
+lines in our software sketch if you want
+
+497
+00:20:59,880 --> 00:21:06,320
+to check that now whether you choose to
+
+498
+00:21:03,600 --> 00:21:10,240
+wire your circuit up using power and
+
+499
+00:21:06,320 --> 00:21:13,240
+ground buses or perhaps using a shortcut
+
+500
+00:21:10,240 --> 00:21:16,919
+similar to this you'll want to try to
+
+501
+00:21:13,240 --> 00:21:19,760
+keep in mind to set aside some blank
+
+502
+00:21:16,919 --> 00:21:21,600
+real estate on the breadboard in
+
+503
+00:21:19,760 --> 00:21:23,760
+anticipation of the additional
+
+504
+00:21:21,600 --> 00:21:27,080
+components that we'll be adding to our
+
+505
+00:21:23,760 --> 00:21:29,039
+launch system in the coming days as we
+
+506
+00:21:27,080 --> 00:21:32,799
+uh build up things and and get them
+
+507
+00:21:29,039 --> 00:21:35,760
+ready for launch for now all we have
+
+508
+00:21:32,799 --> 00:21:38,480
+left to do is to run our sketch for
+
+509
+00:21:35,760 --> 00:21:41,919
+today and verify that the things we've
+
+510
+00:21:38,480 --> 00:21:44,919
+built so far are functioning as designed
+
+511
+00:21:41,919 --> 00:21:48,320
+if we review the sketch we see that we
+
+512
+00:21:44,919 --> 00:21:50,880
+would expect the sequence to begin by
+
+513
+00:21:48,320 --> 00:21:53,480
+initializing the countdown clock and
+
+514
+00:21:50,880 --> 00:21:56,520
+flashing it on and off three
+
+515
+00:21:53,480 --> 00:21:58,559
+times then we should also see an
+
+516
+00:21:56,520 --> 00:22:00,600
+introductory graphic
+
+517
+00:21:58,559 --> 00:22:04,200
+on the OLED
+
+518
+00:22:00,600 --> 00:22:07,559
+screen next our numerical display should
+
+519
+00:22:04,200 --> 00:22:11,240
+enter a test countdown mode showing the
+
+520
+00:22:07,559 --> 00:22:13,840
+time left until liftoff and then finally
+
+521
+00:22:11,240 --> 00:22:16,400
+when the countdown reaches zero since
+
+522
+00:22:13,840 --> 00:22:18,880
+this really is just a test with several
+
+523
+00:22:16,400 --> 00:22:22,120
+of our Vital systems not yet
+
+524
+00:22:18,880 --> 00:22:25,320
+operational the sequence is terminated
+
+525
+00:22:22,120 --> 00:22:28,840
+awaiting further instructions so let's
+
+526
+00:22:25,320 --> 00:22:30,159
+go ahead now and run it I'll go over to
+
+527
+00:22:28,840 --> 00:22:33,679
+the uh
+
+528
+00:22:30,159 --> 00:22:36,080
+IDE upload the sketch take a few seconds
+
+529
+00:22:33,679 --> 00:22:39,120
+for that to compile and then we should
+
+530
+00:22:36,080 --> 00:22:41,799
+be looking for the uh beginning of the
+
+531
+00:22:39,120 --> 00:22:43,840
+countdown flash sequence and the
+
+532
+00:22:41,799 --> 00:22:47,520
+introductory message on the
+
+533
+00:22:43,840 --> 00:22:50,000
+OLED so our compilation phase is almost
+
+534
+00:22:47,520 --> 00:22:52,440
+done and there we go there's 1 minute
+
+535
+00:22:50,000 --> 00:22:54,919
+and 10 seconds and the countdown has
+
+536
+00:22:52,440 --> 00:22:57,919
+begun and we've got our
+
+537
+00:22:54,919 --> 00:23:00,320
+introductory message on the OLED indic
+
+538
+00:22:57,919 --> 00:23:03,440
+indicating that our countdown sequence
+
+539
+00:23:00,320 --> 00:23:06,320
+is active and the countdown is underway
+
+540
+00:23:03,440 --> 00:23:09,440
+so in just a little under 1 minute we
+
+541
+00:23:06,320 --> 00:23:12,520
+should reach zero and at that point the
+
+542
+00:23:09,440 --> 00:23:17,000
+countdown will be halted as this is a
+
+543
+00:23:12,520 --> 00:23:22,720
+test so we'll just uh sit and watch this
+
+544
+00:23:17,000 --> 00:23:22,720
+and see uh if everything finishes up as
+
+545
+00:23:22,960 --> 00:23:29,679
+expected 30 seconds left in the
+
+546
+00:23:26,880 --> 00:23:32,120
+countdown
+
+547
+00:23:29,679 --> 00:23:34,799
+and in just 10 more seconds we should
+
+548
+00:23:32,120 --> 00:23:39,159
+reach the end so we'll watch the OLED
+
+549
+00:23:34,799 --> 00:23:42,720
+and see what it indicates to us 3 2 1
+
+550
+00:23:39,159 --> 00:23:45,480
+and zero and there we go so our uh
+
+551
+00:23:42,720 --> 00:23:48,760
+numerical display indicates that we've
+
+552
+00:23:45,480 --> 00:23:51,720
+finished the sequence we're done and our
+
+553
+00:23:48,760 --> 00:23:53,880
+OLED indicates the status of our system
+
+554
+00:23:51,720 --> 00:23:56,640
+we didn't actually lift off we didn't
+
+555
+00:23:53,880 --> 00:23:58,400
+want to we still have to uh take care of
+
+556
+00:23:56,640 --> 00:24:01,480
+these additional systems and so the
+
+557
+00:23:58,400 --> 00:24:04,080
+countdown was aborted but uh this is all
+
+558
+00:24:01,480 --> 00:24:08,440
+as expected it looks like our countdown
+
+559
+00:24:04,080 --> 00:24:11,360
+test sketch is a success and we're ready
+
+560
+00:24:08,440 --> 00:24:14,120
+to to move on so that looks pretty good
+
+561
+00:24:11,360 --> 00:24:16,799
+so far just make sure that you
+
+562
+00:24:14,120 --> 00:24:19,880
+understand the logic both of our
+
+563
+00:24:16,799 --> 00:24:22,360
+software and our Hardware hookups at
+
+564
+00:24:19,880 --> 00:24:24,320
+this point and then we'll be ready for
+
+565
+00:24:22,360 --> 00:24:28,960
+the next day's addition to our launch
+
+566
+00:24:24,320 --> 00:24:30,440
+system so we'll see you then
+
+567
+00:24:28,960 --> 00:24:32,520
+what an extraordinary day it's been
+
+568
+00:24:30,440 --> 00:24:34,279
+Explorer we've programmed a successful
+
+569
+00:24:32,520 --> 00:24:37,279
+countdown simulation if that doesn't
+
+570
+00:24:34,279 --> 00:24:38,960
+scream Readiness I don't know what does
+
+571
+00:24:37,279 --> 00:24:41,000
+I'm tempted to have a miniature
+
+572
+00:24:38,960 --> 00:24:43,480
+celebration right here in this spaceship
+
+573
+00:24:41,000 --> 00:24:45,799
+of ours even so let's hold off on that
+
+574
+00:24:43,480 --> 00:24:47,960
+for a while shall we we've got the most
+
+575
+00:24:45,799 --> 00:24:49,520
+thrilling day ahead of us tomorrow we'll
+
+576
+00:24:47,960 --> 00:24:51,360
+be tying up all the Loose Ends
+
+577
+00:24:49,520 --> 00:24:53,720
+integrating countdown with the rest of
+
+578
+00:24:51,360 --> 00:24:56,640
+our hardware and preparing to break
+
+579
+00:24:53,720 --> 00:24:59,640
+through this planet's gravitational pull
+
+580
+00:24:56,640 --> 00:25:02,399
+so rest up tomorrow we're literally
+
+581
+00:24:59,640 --> 00:25:04,880
+aiming for the Stars sleep well you've
+
+582
+00:25:02,399 --> 00:25:08,960
+earned it light speed Explorer and try
+
+583
+00:25:04,880 --> 00:25:08,960
+to be you know on
+
+584
+00:25:09,180 --> 00:25:23,500
+[Music]
+
+585
+00:25:26,679 --> 00:25:29,679
+time
+

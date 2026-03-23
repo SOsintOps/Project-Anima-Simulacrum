@@ -1,0 +1,152 @@
+1
+00:00:01,280 --> 00:00:09,480
+[Music]
+
+2
+00:00:07,520 --> 00:00:11,880
+hello everybody and welcome to day 10
+
+3
+00:00:09,480 --> 00:00:14,360
+the second creative day of the 30 days
+
+4
+00:00:11,880 --> 00:00:16,240
+Lost in Space Adventure kit I hope
+
+5
+00:00:14,360 --> 00:00:18,920
+you're able to post your day five
+
+6
+00:00:16,240 --> 00:00:20,480
+creative day successfully we'll start by
+
+7
+00:00:18,920 --> 00:00:23,119
+doing the same thing as a previous
+
+8
+00:00:20,480 --> 00:00:25,240
+creative day at this point you are
+
+9
+00:00:23,119 --> 00:00:28,800
+probably familiar with the photo
+
+10
+00:00:25,240 --> 00:00:30,400
+resistor sensors and the RGB LED since
+
+11
+00:00:28,800 --> 00:00:32,840
+we just talked about those in the last
+
+12
+00:00:30,400 --> 00:00:35,040
+couple of days so here's a couple new
+
+13
+00:00:32,840 --> 00:00:38,640
+projects that you can go ahead and try
+
+14
+00:00:35,040 --> 00:00:40,399
+out for yourself the easy project for
+
+15
+00:00:38,640 --> 00:00:44,559
+this week if you want to take on the
+
+16
+00:00:40,399 --> 00:00:47,360
+easier project is you can create a
+
+17
+00:00:44,559 --> 00:00:49,920
+nightlight using the photo resistor when
+
+18
+00:00:47,360 --> 00:00:52,239
+it gets dark the LED should turn on when
+
+19
+00:00:49,920 --> 00:00:54,199
+it gets bright it obviously doesn't need
+
+20
+00:00:52,239 --> 00:00:56,840
+to be on so it should automatically turn
+
+21
+00:00:54,199 --> 00:00:59,000
+off and the harder project is to do the
+
+22
+00:00:56,840 --> 00:01:01,320
+easy project but then add in the
+
+23
+00:00:59,000 --> 00:01:03,879
+functionality for the dip switch
+
+24
+00:01:01,320 --> 00:01:05,920
+override and of course you're also free
+
+25
+00:01:03,879 --> 00:01:07,799
+to do your own so the last one is the
+
+26
+00:01:05,920 --> 00:01:09,960
+open-ended option which if you want to
+
+27
+00:01:07,799 --> 00:01:12,680
+just do whatever you'd like you can go
+
+28
+00:01:09,960 --> 00:01:15,479
+ahead and do whatever you'd like once
+
+29
+00:01:12,680 --> 00:01:19,200
+you're done share it on inventor.
+
+30
+00:01:15,479 --> 00:01:21,600
+iBook with the hash creative
+
+31
+00:01:19,200 --> 00:01:23,560
+day10 and looking forward to seeing what
+
+32
+00:01:21,600 --> 00:01:26,000
+you guys come up with of course if you
+
+33
+00:01:23,560 --> 00:01:28,640
+run into any issues feel free to ask the
+
+34
+00:01:26,000 --> 00:01:30,799
+Facebook group for help as they are a
+
+35
+00:01:28,640 --> 00:01:35,439
+wonderful wonderful group of over
+
+36
+00:01:30,799 --> 00:01:35,439
+100,000 inventors just like you
+
+37
+00:01:35,770 --> 00:01:50,090
+[Music]
+
+38
+00:01:54,719 --> 00:01:57,719
+thanks
+

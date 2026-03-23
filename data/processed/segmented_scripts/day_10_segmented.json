@@ -1,0 +1,22 @@
+{
+  "day": 10,
+  "act": "Act 1: Survival",
+  "act_tone": "Urgent, focused, Tony is all-business with moments of humor to keep morale up",
+  "jarvis_state": "Minimal — short status reports, occasional glitches",
+  "mission": {
+    "day": 10,
+    "mission": "Creative Day — Integration",
+    "objective": "Combine Days 6-9 into a system",
+    "narrative": "Tony: 'Time to put it all together. Build me something that would make Stark Industries proud.'"
+  },
+  "sections": [
+    {
+      "type": "narrative_intro",
+      "text": "Hello everybody and welcome to day 10 the second creative day of the 30 days Lost in Space Adventure kit I hope you're able to post your day five creative day successfully we'll start by doing the same thing as a previous creative day at this point you are probably familiar with the photo resistor sensors and the RGB LED since we just talked about those in the last couple of days so here's a couple new projects that you can go ahead and try out for yourself the easy project for this week if you want to take on the easier project is you can create a nightlight using the photo resistor when it gets dark the LED should turn on when it gets bright it obviously doesn't need to be on so it should automatically turn off and the harder project is to do the easy project but then add in the functionality for the dip switch override and of course you're also free to do your own so the last one is the open-ended option which if you want to just do whatever you'd like you can go ahead and do whatever you'd like once you're done share it on inventor. IBook with the hash creative day10 and looking forward to seeing what you guys come up with of course if you run into any issues feel free to ask the Facebook group for help as they are a wonderful wonderful group of over 100,000 inventors just like you thanks",
+      "sentence_count": 2
+    }
+  ],
+  "rewrite_ready": true,
+  "source_word_count": 253,
+  "source_duration_ms": 117719
+}
