@@ -1,0 +1,137 @@
+{
+  "day": 2,
+  "title": "Illuminate",
+  "objective": "External LEDs, breadboard basics, resistors",
+  "narrative": "The cabin is pitch dark. Using the breadboard and LEDs, build emergency cabin lighting.",
+  "act": "Act 1: Survival",
+  "segments": [
+    {
+      "speaker": "JARVIS",
+      "type": "briefing",
+      "text": "Outpost Sigma-7 morning status. Backup power at ten point nine percent. Primary lighting remains offline in all sections. Ambient temperature has dropped to four degrees Celsius overnight. The recruit appears to have survived the night. I have received the second daily transmission from Avengers Tower. I should note that yesterday's HERO board activation was successful. The system is responding to commands. Displaying transmission now.",
+      "instruct": "Calm, measured British male. Slightly degraded audio quality. Precise enunciation, formal but with subtle warmth on 'survived the night'. Slow deliberate pace, clinical delivery.",
+      "stage_direction": "JARVIS running on low power, slightly warmer than Day 1 now that he knows the recruit is competent"
+    },
+    {
+      "speaker": "TONY",
+      "type": "intro",
+      "text": "Morning, kid. Day two. You're still alive, which means either you're tougher than I thought, or nothing's tried to eat you yet. Both good options. So here's the situation. Your outpost is dark. I mean really dark. And I don't just mean the lights are off. I mean you're sitting in an Arctic research station with no emergency lighting, no cabin lights, nothing. That ends today. We're going to build you actual lights. External LEDs on a breadboard with proper resistors. Real circuits, real engineering. By the end of today, you'll have cabin lighting. Not glamorous, but functional. And in survival, functional beats glamorous every single time. Let's get to work.",
+      "instruct": "Confident, warm American male. Morning energy, slightly brisk opening. Builds urgency when describing the darkness. Shifts to determined and encouraging by the end. Medium pace, natural pauses between sentences.",
+      "stage_direction": "Tony is relieved the recruit made it through the night but won't say it directly. Focused on the mission."
+    },
+    {
+      "speaker": "TONY",
+      "type": "tutorial",
+      "text": "Alright, first thing. Dig through that kit and pull out the breadboard. It's the white rectangular board with all the tiny holes in it. Looks like a waffle iron for robots. Now, a breadboard is basically a prototyping platform. It lets you build circuits without soldering anything. You just plug components into the holes, and the internal connections do the rest. Think of it as a sandbox for electronics. In my lab, every new idea starts on a breadboard before it goes anywhere near a suit. Here's how it works. The board has two main sections. The middle part, the terminal strip, has columns of holes that are connected vertically. So if you plug two things into the same column, they're electrically connected. There's a gap running down the center, that divides the board into two independent halves. Then along the top and bottom edges, you've got the bus strips. These run horizontally. The red line is your positive power rail. The blue or black line is your ground rail. Power and ground, the two things every circuit needs. Remember that. Every circuit needs a path from power to ground, or nothing happens.",
+      "instruct": "Confident teaching voice. Casual, conversational tone. Patient, like explaining something cool to a smart teenager. Medium pace with natural pauses for new concepts. Slight enthusiasm when making the lab reference.",
+      "stage_direction": "Tony in teaching mode, making the breadboard sound interesting rather than boring"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "alert",
+      "text": "I would add that the terminal strip columns typically contain five interconnected holes each. Components inserted into the same column share an electrical connection. Components in different columns do not, unless bridged by a wire. This distinction will become critical as circuits grow more complex.",
+      "instruct": "Calm, precise British male. Helpful technical clarification. Measured pace, slightly academic. Clear enunciation of each technical term.",
+      "stage_direction": "JARVIS adding the specific detail Tony glossed over"
+    },
+    {
+      "speaker": "TONY",
+      "type": "tutorial",
+      "text": "Now grab an LED from the kit. Pick any color you want. Red, green, blue, whatever speaks to you. An LED, that stands for Light Emitting Diode. It's basically the simplest light source in electronics. Small, efficient, reliable. I use thousands of them. The Arc Reactor display alone has about two hundred. Here's the important part. An LED has two legs, and they are not the same. The longer leg is the anode, that's the positive side. The shorter leg is the cathode, that's the negative side. Current flows in through the long leg and out through the short leg. If you connect it backwards, it just won't light up. No damage, it just won't work. If the legs have been trimmed and you can't tell which is longer, look at the LED's plastic casing. There's a tiny flat edge on one side. That flat edge marks the cathode, the negative side. Diode means two paths. Current flows one way, gets blocked the other way. That's what makes it a diode. Simple, elegant, and incredibly useful.",
+      "instruct": "Warm, engaging teaching voice. Genuinely enthusiastic about LEDs. Slightly faster pace when listing the colors, slower and more deliberate when explaining anode and cathode. American male, conversational.",
+      "stage_direction": "Tony enjoying the teaching, making LEDs sound cool with the Arc Reactor reference"
+    },
+    {
+      "speaker": "TONY",
+      "type": "tutorial",
+      "text": "But here's the thing. You can't just plug an LED straight into power. If you do, too much current flows through it and it burns out. Instantly. Gone. And then you're back in the dark, and I have to listen to JARVIS say I told you so. So we use a resistor. Grab the 220 ohm resistor from the kit. A resistor does exactly what it sounds like. It resists the flow of electric current. Think of it as a speed limit for electrons. Without it, the electrons rush through the LED like they're on a highway with no cops. With the resistor, they flow at a safe, controlled rate. The amount of resistance is measured in ohms, named after Georg Ohm. The higher the ohm value, the more it slows down the current. Your resistor has colored bands on it. Those colors are a code that tells you the resistance value. For a 220 ohm resistor, the bands are red, red, brown, and then gold. Red red brown. You'll memorize this eventually. Or you'll look it up every single time like the rest of us.",
+      "instruct": "Confident, slightly humorous teaching voice. Warning tone when describing burning out the LED. Casual humor about JARVIS. Picks up energy with the highway analogy. Natural pace, American male.",
+      "stage_direction": "Tony mixing humor with genuinely important safety information"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "alert",
+      "text": "For the mathematically inclined. Ohm's Law states that current equals voltage divided by resistance. Five volts divided by 220 ohms yields approximately 23 milliamps. This is within the safe operating range for a standard LED. I have added a reference to Ohm's Law in your mission resources.",
+      "instruct": "Precise, academic British male. Measured pace, clear articulation of numbers. Slight hint of satisfaction when presenting the math. Formal but not cold.",
+      "stage_direction": "JARVIS providing the mathematical foundation Tony intentionally skipped"
+    },
+    {
+      "speaker": "TONY",
+      "type": "practical",
+      "text": "Alright, time to build. Grab a red jumper wire and a black jumper wire. Red is going to be our positive power connection. Black is ground. This is a convention, kid. The wire colors don't actually change how electricity works, but using red for power and black for ground will save your sanity later when circuits get complicated. Trust me on this one. Now, here's our circuit. Take the resistor and plug one leg into any hole on the breadboard. Plug the other leg into a hole in a different column, bridging across so we can connect to it on the other side. Now take your LED. The long leg, the anode, goes into the same column as one end of the resistor. The short leg, the cathode, goes into its own column. Take the black wire and connect the cathode's column to the ground pin on your HERO board. That's the pin labeled GND. For now, take the red wire and connect the resistor's free end to the five volt pin on the HERO board. If everything is connected right, the LED should light up immediately. Five volts, through the resistor, through the LED, to ground. A complete circuit.",
+      "instruct": "Clear, step-by-step instructional voice. Slower pace, deliberate pauses between each action step. Encouraging but precise. American male, patient teacher guiding hands-on work.",
+      "stage_direction": "Tony carefully walking through the physical build, knowing this is the first real wiring the kid has done"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "confirmation",
+      "text": "Circuit continuity confirmed. Current is flowing from the five volt supply, through the 220 ohm resistor, through the LED, and returning to ground. The LED should now be illuminated. If it is not, verify that the LED is oriented correctly. Long leg toward the resistor, short leg toward ground.",
+      "instruct": "Calm, methodical British male. Steady reassuring tone. Clear, precise troubleshooting guidance. Measured pace.",
+      "stage_direction": "JARVIS confirming success and offering troubleshooting"
+    },
+    {
+      "speaker": "TONY",
+      "type": "tutorial",
+      "text": "Beautiful. But here's the thing. Right now that LED is just connected to the five volt pin. It's on, and it stays on. We can't control it. And an engineer who can't control their systems isn't an engineer, they're a spectator. So. Disconnect the red wire from the five volt pin. Instead, we're going to use pin twelve on the HERO board. Pin twelve is a digital output pin, which means we can turn it on and off with code. Use an orange or yellow wire for this, not red. Red stays reserved for the fixed five volt supply. Discipline, kid. It matters. Connect pin twelve to the resistor, and now your LED is wired to a pin we can program. This is the difference between a light that's just on, and a light that does what you tell it to do.",
+      "instruct": "Confident, building excitement. Emphatic on the word 'control'. Slightly stern on the discipline note but warmly. Pace picks up with enthusiasm. American male, mentor voice.",
+      "stage_direction": "Tony elevating the lesson from simple circuit to programmable system"
+    },
+    {
+      "speaker": "TONY",
+      "type": "code_explanation",
+      "text": "Now let's talk about the code. Yesterday's Blink sketch used LED underscore BUILTIN, which is the LED on the board itself. Today we need to control pin twelve, our external LED. And this is where variables come in. A variable is a named container that holds a value. Think of it as a labeled box. You give it a name, you put something in it, and whenever you use that name in your code, the computer knows what you mean. In C plus plus, the language Arduino uses, you declare a variable by specifying its type and its name. For example, int my variable equals ten. Int means integer, a whole number. My variable is the name. Ten is the value. The equals sign assigns the value. Variable names can't start with a number, can't have spaces, and can't use special characters. Make them descriptive. Don't call it X. Call it cabin lights pin. Because when you're debugging at three in the morning, cabin lights pin tells you exactly what it does.",
+      "instruct": "Clear, articulate teaching voice. Engaging, making variables sound interesting. Slower pace on key definitions, natural pace for examples. Slight humor on the debugging comment. American male, confident.",
+      "stage_direction": "Tony teaching programming fundamentals with practical wisdom"
+    },
+    {
+      "speaker": "TONY",
+      "type": "code_explanation",
+      "text": "In our sketch, we're going to use pound define to create a constant called CABIN LIGHTS PIN and set it to twelve. Pound define is a way to give a name to a value that never changes. Since our LED is always on pin twelve, it makes sense to define it once at the top and use the name everywhere else. Our engineer writes constants in all capital letters. That's a convention that tells other programmers, hey, this value doesn't change. Now in the setup function, we write pinMode, CABIN LIGHTS PIN, OUTPUT. This tells the HERO board that pin twelve is going to send signals out, not receive them. A pin can be either input or output, and you have to tell the board which one before you use it. In the loop function, same pattern as yesterday. digitalWrite CABIN LIGHTS PIN HIGH to turn the LED on. Delay one thousand to wait one second. DigitalWrite CABIN LIGHTS PIN LOW to turn it off. Delay one thousand again. On, wait, off, wait, repeat forever. The only difference from yesterday is that instead of the built-in LED, we're controlling an external LED on pin twelve through our breadboard circuit.",
+      "instruct": "Clear, methodical teaching voice. Confident pacing, slightly slower when introducing new terms like pound define. Connects back to yesterday naturally. American male, patient instructor.",
+      "stage_direction": "Tony walking through the code changes from Day 1 to Day 2, building on prior knowledge"
+    },
+    {
+      "speaker": "TONY",
+      "type": "code_explanation",
+      "text": "Let me explain something about the Arduino IDE that'll save you time. If you hover your mouse over any function name, like pinMode or digitalWrite, a popup appears that tells you exactly what parameters it expects. It shows the function name, the return type, and the parameters in order. It's like having a cheat sheet built right into the editor. Use it. There's no shame in looking things up. I look things up constantly. Also, one more thing about comments. You're going to see a lot of grey text in these sketches. Multi-line comments start with slash asterisk and end with asterisk slash. Single-line comments start with double slash. These sketches have detailed comments when a concept is new, shorter comments when we've covered it before. You can collapse long comments in the IDE by clicking the little arrow next to the line number. Makes the code much less intimidating. Read the comments, learn from them, then collapse them and focus on the code.",
+      "instruct": "Relaxed, conversational teaching voice. Sharing practical tips from experience. Natural pace, warm. Encouraging the student not to be intimidated. American male.",
+      "stage_direction": "Tony sharing practical IDE tips, demystifying the development environment"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "alert",
+      "text": "I should note that the Arduino IDE automatically includes the Arduino dot h header file, which provides the definitions for functions such as pinMode, digitalWrite, and delay. The pound include Arduino dot h statement at the top of some sketches is merely a reminder. Removing it would not affect functionality.",
+      "instruct": "Precise, informative British male. Academic tone, adding a technical nuance. Measured pace, clear articulation.",
+      "stage_direction": "JARVIS clarifying a point that might confuse beginners"
+    },
+    {
+      "speaker": "TONY",
+      "type": "practical",
+      "text": "Alright, moment of truth. Your LED is wired to pin twelve through the resistor. Your code is uploaded. Hit that upload button and watch. The little lights on the HERO board will flicker while the code transfers, and then, there it is. Your external LED, blinking. On and off, one second each. That's not just a light, kid. That's a programmable lighting system. You built the circuit, you wrote the logic, and now you're controlling real hardware with code. This is exactly how my suit's external lighting works. Different scale, same principle.",
+      "instruct": "Building excitement, voice rising with enthusiasm. Genuine pride when the LED blinks. Warm, impressed. Pace picks up, then settles into a satisfied tone. American male.",
+      "stage_direction": "Tony getting excited as the practical result comes together"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "confirmation",
+      "text": "External LED on pin twelve is cycling at the expected one-second interval. Circuit is functioning within normal parameters. Cabin lighting prototype verified.",
+      "instruct": "Calm, satisfied British male. Slight professional approval. Measured, precise, clipped delivery.",
+      "stage_direction": "JARVIS confirming the circuit works with quiet satisfaction"
+    },
+    {
+      "speaker": "TONY",
+      "type": "outro",
+      "text": "That's Day 2, recruit. Let me tell you what you just did. You learned the breadboard, the foundation of every prototype I've ever built. You learned what LEDs are and why they need resistors. You learned Ohm's Law, or at least you know JARVIS knows it, which is basically the same thing. You built your first real external circuit. You learned about variables and constants and why naming things properly matters. And you wrote code that controls actual hardware. That's not a small day. That's a huge day. Now, tomorrow we're going to take this further. One LED is a proof of concept. Tomorrow, we're building a distributed lighting array. Multiple LEDs, different configurations. We're going to light up more of that outpost. Get some rest. Keep that LED blinking. It's your night light now. And kid, seriously, good work today.",
+      "instruct": "Warm, proud, slightly emotional. Slower pace with meaningful pauses between accomplishments. Builds to genuine pride. Softer, more personal at the end. American male, mentor signing off.",
+      "stage_direction": "Tony listing accomplishments to show the recruit how much they learned, genuinely impressed"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "briefing",
+      "text": "Transmission ended. Power reserves at ten point six percent. External LED is consuming minimal current. I recommend leaving it active as emergency cabin lighting overnight. Tomorrow's mission will require additional LED components. I suggest organizing your kit before rest. Good night.",
+      "instruct": "Calm, quiet British male. Winding down, slightly softer tone. Practical advice delivered gently. Measured, almost caring.",
+      "stage_direction": "JARVIS closing out the day with practical care"
+    }
+  ],
+  "_rewrite_status": "complete",
+  "_last_updated": "2026-03-22T22:00:00"
+}

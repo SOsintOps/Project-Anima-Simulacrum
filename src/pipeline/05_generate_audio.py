@@ -16,7 +16,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.voicebox.client import VoiceBoxClient
-from src.voicebox.profiles import get_profile_id, get_voice_instruction, load_voicebox_config
+from src.voicebox.profiles import get_profile_id, get_instruct, load_voicebox_config
 from src.voicebox.speed_fix import prepare_tony_text, prepare_jarvis_text, chunk_for_tts
 
 logging.basicConfig(
@@ -44,12 +44,12 @@ def generate_segment_audio(
 
     if speaker in ("TONY", "TONY STARK", "TONY_STARK"):
         profile_id = get_profile_id("tony")
-        voice_instruction = get_voice_instruction("tony")
+        instruct = get_instruct("tony")
         prepared_text = prepare_tony_text(text)
         speaker_tag = "tony"
     elif speaker in ("JARVIS", "J.A.R.V.I.S."):
         profile_id = get_profile_id("jarvis")
-        voice_instruction = get_voice_instruction("jarvis")
+        instruct = get_instruct("jarvis")
         prepared_text = prepare_jarvis_text(text)
         speaker_tag = "jarvis"
     else:
@@ -78,12 +78,24 @@ def generate_segment_audio(
     for i, chunk in enumerate(chunks):
         logger.info(f"  Generating chunk {i+1}/{len(chunks)} for {speaker_tag}...")
         try:
+            config = load_voicebox_config()
             result = client.generate(
                 text=chunk,
                 profile_id=profile_id,
+                instruct=instruct,
                 language="en",
-                voice_instruction=voice_instruction
+                engine=config.get("engine", "qwen"),
+                model_size=config.get("model_size", "1.7B"),
+                max_chunk_chars=config["generation_defaults"].get("max_chunk_chars", 800),
+                crossfade_ms=config["generation_defaults"].get("crossfade_ms", 50),
+                normalize=config["generation_defaults"].get("normalize", True),
             )
+            # Download the audio file using generation ID
+            gen_id = result.get("id")
+            if gen_id and result.get("status") == "completed":
+                chunk_filename = f"day_{day:02d}_seg_{segment_index:03d}_{speaker_tag}_chunk{i:02d}.wav"
+                client.download_audio(gen_id, str(output_dir / chunk_filename))
+                result["local_file"] = chunk_filename
             chunk_results.append(result)
             if len(chunks) > 1:
                 time.sleep(1)

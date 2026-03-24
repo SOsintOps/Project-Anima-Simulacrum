@@ -72,11 +72,15 @@ def setup_profiles(
     }
 
 
-def get_voice_instruction(character: str) -> str:
-    """Get the voice instruction for a character from config."""
+def get_instruct(character: str) -> str:
+    """Get the instruct prompt for a character from config.
+
+    This is the 'instruct' parameter for POST /generate — controls
+    tone, style, pacing, emotion of the generated speech (max 500 chars).
+    """
     config = load_voicebox_config()
     profile_key = "tony_stark" if character.lower() in ("tony", "tony_stark", "tony stark") else "jarvis"
-    return config["profiles"][profile_key].get("voice_instruction", "")
+    return config["profiles"][profile_key].get("instruct", "")
 
 
 def get_profile_id(character: str) -> Optional[str]:

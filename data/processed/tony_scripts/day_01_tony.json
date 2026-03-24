@@ -1,0 +1,109 @@
+{
+  "day": 1,
+  "title": "First Light",
+  "objective": "Get the HERO board online and verify it works (Blink LED)",
+  "narrative": "Emergency power is failing. The recruit needs to activate the backup microcontroller to begin restoring systems. Tony's first transmission arrives.",
+  "act": "Act 1: Survival",
+  "segments": [
+    {
+      "speaker": "JARVIS",
+      "type": "briefing",
+      "text": "Outpost Sigma-7 status report. Backup power at eleven point six percent and declining. Primary communication array is offline. Emergency lighting has failed in sections two through seven. Life support is operating on minimal reserves. I am currently running on a reduced processing allocation. I have received an incoming encrypted burst transmission from Avengers Tower. Displaying now.",
+      "instruct": "Calm, measured British male. Slightly degraded audio quality, as if running on low power. Precise enunciation, formal, minimal emotion. Slow deliberate pace.",
+      "stage_direction": "JARVIS is barely operational, voice slightly glitchy"
+    },
+    {
+      "speaker": "TONY",
+      "type": "intro",
+      "text": "Hey. Kid. If you're getting this, good. If you're not... well, then I'm talking to an empty room, which honestly wouldn't be the first time. I'm Tony Stark. You probably knew that. Here's what I know: something hit your outpost, some kind of EMP burst, and it fried almost everything. The good news? You're alive. The bad news? I can't get to you. Not yet. Avengers business. Long story. But I can send you these transmissions once a day, and that's going to have to be enough. Now, I've been looking at the emergency kit manifest for your station, and you've got everything you need to start putting that place back together. You've got a microcontroller, a breadboard, wires, components. It's not an Iron Man suit, but trust me, in the right hands? It's just as powerful. So here's the deal, recruit. Today, we're going to get your first system online. One blinking light. Sounds small? It's not. It's proof of life. It's proof that you can build something, control something, make something work when everything around you is broken. And that's what being an engineer is about. Let's get to it.",
+      "instruct": "Confident, warm American male. Serious but with underlying caring tone. Starts measured, builds energy toward the end. Mentoring a teenager he's worried about but won't show it.",
+      "stage_direction": "Tony is genuinely worried but covering with confidence. This is his first transmission — he doesn't know if the recruit is even receiving."
+    },
+    {
+      "speaker": "TONY",
+      "type": "tutorial",
+      "text": "Alright, first things first. Dig through that kit and find the HERO board. It's the big green circuit board, looks like a tiny computer. Because that's exactly what it is. It's a microcontroller. Think of it as the brain of every system we're going to build. My suits have about forty of these things running at any given time. Yours is going to start with one. Now, you also need the USB cable. One end plugs into the HERO board, the other into your computer. This cable does two things: it powers the board, and it lets you upload code to it. Think of it as an umbilical cord. Rule number one of engineering, kid: always stay tethered to your power source.",
+      "instruct": "Confident teaching voice. Warm, patient, conversational. Medium pace with natural pauses. Like explaining something cool to a smart teenager.",
+      "stage_direction": "Tony settling into teaching mode, genuinely enjoying explaining tech"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "alert",
+      "text": "Sir, if I may. The recruit should also install the Arduino IDE software before proceeding. It is the interface through which code is written and uploaded to the HERO board.",
+      "instruct": "Calm, precise British male. Helpful interjection. Slightly formal, measured pace.",
+      "stage_direction": "JARVIS adding the practical detail Tony skipped"
+    },
+    {
+      "speaker": "TONY",
+      "type": "tutorial",
+      "text": "Right. Thank you, JARVIS. Yes, you need the Arduino IDE. It's free, it's on the computer, and without it we're basically two geniuses staring at a fancy paperweight. Download it, install it, open it up. I'll wait. Actually, no I won't, because this is a recording. But take your time. Now, once the IDE is open and your board is plugged in, we need to tell the software what it's talking to. Go to Tools, then Board, and select Arduino Uno. Your HERO board is compatible with the Uno. Then go to Tools again, select Port, and pick the one that says Arduino Uno. If you're not sure which port, just unplug the board, see which one disappears, plug it back in. Process of elimination. Even works on alien planets.",
+      "instruct": "Casual, slightly humorous teaching voice. Natural pace with a quip at the end. Confident and reassuring.",
+      "stage_direction": "Tony being practical with a dash of humor"
+    },
+    {
+      "speaker": "TONY",
+      "type": "tutorial",
+      "text": "Now for the fun part. We're going to upload your first program. In Arduino world, programs are called sketches. Go to File, Examples, zero one Basics, and click on Blink. This is a pre-written sketch that does one thing: it makes an LED on your board blink on and off. Simple? Yes. Important? Absolutely. This is your diagnostic. If that light blinks, your board works. Your connection works. Your entire toolchain works. In my lab, the first thing I test on any new system is the simplest possible output. Always verify the fundamentals before you build on top of them.",
+      "instruct": "Confident, slightly excited teaching voice. Building momentum. Emphasizing importance with conviction.",
+      "stage_direction": "Tony genuinely passionate about the engineering principle"
+    },
+    {
+      "speaker": "TONY",
+      "type": "practical",
+      "text": "See those two round buttons in the top left of the IDE? The one with the checkmark is Verify. It checks your code for mistakes, things like typos, missing semicolons, the stuff that drives every programmer crazy. Click that first. If it says 'Done compiling' with no errors, you're golden. Now the second button, the arrow pointing right, that's Upload. Click it, and your code gets beamed from your computer into the HERO board. Watch the little lights on the board flicker while it uploads. And then... there it is. That LED, blinking on and off, once per second. That, kid, is your first system coming online.",
+      "instruct": "Building excitement, voice rising slightly. Warm pride when describing the LED blinking. Pacing speeds up with enthusiasm.",
+      "stage_direction": "Tony getting excited as the moment of truth arrives"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "confirmation",
+      "text": "HERO board diagnostic confirmed. The onboard LED is cycling at a one-second interval. Basic functionality verified. Well done.",
+      "instruct": "Calm, satisfied British male. Slight warmth in the 'well done'. Measured, precise.",
+      "stage_direction": "JARVIS confirming success with subtle approval"
+    },
+    {
+      "speaker": "TONY",
+      "type": "code_explanation",
+      "text": "Okay, now that we've got our victory blink, let's actually understand what just happened. Open up that Blink sketch and look at the code. First thing you'll see is a bunch of grey text. Those are comments. They don't do anything when the program runs. They're notes. Like sticky notes on your workbench, except digital. Multi-line comments start with slash-asterisk and end with asterisk-slash. Single line comments start with double-slash. Everything after that on the same line gets ignored by the compiler. Get used to writing comments, kid. Future you will thank present you. Trust me, I learned that the hard way around Mark Seven.",
+      "instruct": "Relaxed, conversational teaching voice. Casual tone, sharing wisdom. Natural pace with a personal anecdote at the end.",
+      "stage_direction": "Tony in full mentor mode, sharing real experience"
+    },
+    {
+      "speaker": "TONY",
+      "type": "code_explanation",
+      "text": "Now, the actual code has two main functions: setup and loop. Think of setup as the pre-flight checklist. It runs once, right when the board powers up. This is where you configure things. In our case, we're telling the board that pin thirteen, the built-in LED, is an output. That's what pinMode does. Loop is where the action happens. It runs over and over, forever, as long as the board has power. In Blink, the loop does four things: turn the LED on with digitalWrite HIGH, wait one second with delay one thousand, turn the LED off with digitalWrite LOW, wait another second. Rinse and repeat. That's it. Four lines of code, and you've got a functioning system.",
+      "instruct": "Clear, articulate teaching voice. Slightly faster when listing the steps, slower when emphasizing key concepts. Confident.",
+      "stage_direction": "Tony breaking down the code with characteristic efficiency"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "alert",
+      "text": "I should note that LED underscore BUILTIN is a predefined constant in the Arduino IDE. It maps to pin thirteen on the HERO board. We will discuss variables and constants in more detail in a future session.",
+      "instruct": "Precise, informative British male. Adding a technical clarification. Measured pace, slightly academic.",
+      "stage_direction": "JARVIS filling in a technical detail for completeness"
+    },
+    {
+      "speaker": "TONY",
+      "type": "code_explanation",
+      "text": "Let me break down those two key functions. digitalWrite takes two arguments: a pin number and a value, either HIGH or LOW. HIGH means five volts. Power on. LOW means zero volts. Power off. It's a digital switch, on or off, one or zero. The delay function pauses the program for a set number of milliseconds. One thousand milliseconds equals one second. So delay one thousand means the program does absolutely nothing for one second before moving to the next line. Put it together: turn on, wait, turn off, wait, repeat. That's how you get a blink. And honestly, that pattern of output, wait, change, wait is the foundation of about sixty percent of all the automation I've ever built. Master this, and you're on your way.",
+      "instruct": "Authoritative but accessible teaching voice. Deliberate pacing on key terms. Genuine encouragement at the end.",
+      "stage_direction": "Tony connecting this simple concept to real engineering"
+    },
+    {
+      "speaker": "TONY",
+      "type": "outro",
+      "text": "Alright kid, that's transmission one. You've got a blinking LED. I know it doesn't feel like much, but you just powered up a microcontroller, configured a development environment, uploaded compiled code, and verified hardware functionality. That's a real engineering workflow. That's what I do, just with slightly more expensive equipment. Now, here's what's coming. That outpost of yours is dark. Really dark. And tomorrow, we're going to fix that. We're going to take what you learned today and use it to build actual lighting. External LEDs, a breadboard, resistors. Real circuits. The stuff that turns that HERO board from a blinking toy into a survival tool. Get some rest. Don't touch anything I haven't told you to touch. And kid? Good work today.",
+      "instruct": "Warm, proud, slightly emotional. Slower pace, meaningful pauses. A mentor who's genuinely impressed but trying to stay cool about it.",
+      "stage_direction": "Tony's sign-off — proud of the recruit, hinting at tomorrow, masking worry with warmth"
+    },
+    {
+      "speaker": "JARVIS",
+      "type": "briefing",
+      "text": "Transmission ended. Power reserves now at eleven point two percent. I have logged today's progress. I recommend rest. Tomorrow's systems restoration will require your full attention. Good night.",
+      "instruct": "Calm, quiet British male. Winding down, slightly softer tone. Measured, almost gentle.",
+      "stage_direction": "JARVIS closing out the day with quiet care"
+    }
+  ],
+  "_rewrite_status": "complete",
+  "_last_updated": "2026-03-23T05:30:00"
+}
