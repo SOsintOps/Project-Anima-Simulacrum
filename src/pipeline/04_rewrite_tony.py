@@ -93,11 +93,25 @@ You must rewrite this as a scene between TONY STARK and J.A.R.V.I.S. from the Ma
 {original_sections}
 
 ## OUTPUT FORMAT
-Return a JSON array of segments. Each segment must have:
+Return a JSON array of segments. Each segment MUST have ALL of these fields:
 - "speaker": "TONY" or "JARVIS"
 - "type": one of "briefing", "intro", "tutorial", "code_explanation", "practical", "banter", "alert", "confirmation", "outro"
-- "text": the rewritten dialogue (natural spoken English, ready for TTS)
-- "stage_direction": optional note about tone/delivery
+- "text": the rewritten dialogue (natural spoken English, ready for TTS). Write as spoken word — no abbreviations, spell out numbers where natural. Avoid parentheses and brackets. Use commas and periods strategically to control TTS pacing.
+- "instruct": a TTS voice direction string (max 500 chars) that describes HOW this specific segment should sound. This controls the AI voice engine's tone, pace, emotion, and delivery. Be specific and vivid. Examples:
+  - For Tony tutorial: "Confident teaching voice. Warm, patient, conversational. Medium pace with natural pauses. Like explaining something cool to a smart teenager."
+  - For Tony emotional: "Warm, proud, slightly emotional. Slower pace, meaningful pauses. A mentor who's genuinely impressed but trying to stay cool about it."
+  - For JARVIS alert: "Calm, precise British male. Urgent but controlled. Slightly faster pace. Formal, measured, clinical."
+  - For JARVIS confirmation: "Calm, satisfied British male. Slight warmth in the 'well done'. Measured, precise."
+- "stage_direction": a brief note about the character's emotional state and context (used for video direction, not TTS)
+
+## INSTRUCT GUIDELINES
+The "instruct" field is THE most important field for voice quality. It goes directly to the TTS engine. Rules:
+1. ALWAYS specify gender and accent (e.g., "American male", "British male")
+2. Describe emotion, pacing, and energy level
+3. Use analogies ("like a teacher", "like a worried parent trying to sound calm")
+4. Vary the instruct across segments — Tony starts confident, builds excitement, gets emotional at sign-off
+5. JARVIS instruct should always include "British male", "precise", "measured"
+6. Keep under 500 characters
 
 IMPORTANT: Return ONLY the JSON array. No markdown, no explanation. Just the raw JSON.
 """
@@ -160,6 +174,21 @@ def apply_rewrite(day: int, rewrite_file: Path) -> None:
     except json.JSONDecodeError as e:
         print(f"  ERROR: Could not parse rewrite as JSON: {e}")
         return
+
+    # Validate segments have required fields
+    required_fields = {"speaker", "type", "text", "instruct"}
+    for i, seg in enumerate(segments):
+        missing = required_fields - set(seg.keys())
+        if missing:
+            print(f"  WARNING: Segment {i} missing fields: {missing}")
+            if "instruct" not in seg:
+                # Auto-generate a basic instruct from speaker
+                speaker = seg.get("speaker", "TONY").upper()
+                if speaker in ("TONY", "TONY STARK"):
+                    seg["instruct"] = "Confident, warm American male. Natural conversational pace."
+                else:
+                    seg["instruct"] = "Calm, measured British male. Precise, formal delivery."
+                print(f"    -> Auto-filled instruct for {speaker}")
 
     segmented_file = SEGMENTED_DIR / f"day_{day:02d}_segmented.json"
     with open(segmented_file, 'r', encoding='utf-8') as f:

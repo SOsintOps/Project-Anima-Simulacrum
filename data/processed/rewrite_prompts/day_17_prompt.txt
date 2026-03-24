@@ -50,10 +50,24 @@ Well well Explorer look at the fine mess we're in today you see our control syst
 
 
 ## OUTPUT FORMAT
-Return a JSON array of segments. Each segment must have:
+Return a JSON array of segments. Each segment MUST have ALL of these fields:
 - "speaker": "TONY" or "JARVIS"
 - "type": one of "briefing", "intro", "tutorial", "code_explanation", "practical", "banter", "alert", "confirmation", "outro"
-- "text": the rewritten dialogue (natural spoken English, ready for TTS)
-- "stage_direction": optional note about tone/delivery
+- "text": the rewritten dialogue (natural spoken English, ready for TTS). Write as spoken word — no abbreviations, spell out numbers where natural. Avoid parentheses and brackets. Use commas and periods strategically to control TTS pacing.
+- "instruct": a TTS voice direction string (max 500 chars) that describes HOW this specific segment should sound. This controls the AI voice engine's tone, pace, emotion, and delivery. Be specific and vivid. Examples:
+  - For Tony tutorial: "Confident teaching voice. Warm, patient, conversational. Medium pace with natural pauses. Like explaining something cool to a smart teenager."
+  - For Tony emotional: "Warm, proud, slightly emotional. Slower pace, meaningful pauses. A mentor who's genuinely impressed but trying to stay cool about it."
+  - For JARVIS alert: "Calm, precise British male. Urgent but controlled. Slightly faster pace. Formal, measured, clinical."
+  - For JARVIS confirmation: "Calm, satisfied British male. Slight warmth in the 'well done'. Measured, precise."
+- "stage_direction": a brief note about the character's emotional state and context (used for video direction, not TTS)
+
+## INSTRUCT GUIDELINES
+The "instruct" field is THE most important field for voice quality. It goes directly to the TTS engine. Rules:
+1. ALWAYS specify gender and accent (e.g., "American male", "British male")
+2. Describe emotion, pacing, and energy level
+3. Use analogies ("like a teacher", "like a worried parent trying to sound calm")
+4. Vary the instruct across segments — Tony starts confident, builds excitement, gets emotional at sign-off
+5. JARVIS instruct should always include "British male", "precise", "measured"
+6. Keep under 500 characters
 
 IMPORTANT: Return ONLY the JSON array. No markdown, no explanation. Just the raw JSON.

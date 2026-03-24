@@ -1,10 +1,11 @@
 {
-  "api_base_url": "http://localhost:17493",
-  "engine": "qwen3-tts",
+  "api_base_url": "http://127.0.0.1:17493",
+  "engine": "qwen",
+  "model_size": "1.7B",
   "profiles": {
     "tony_stark": {
-      "profile_id": null,
-      "voice_instruction": "Confident, warm, slightly fast, American male, mentoring tone",
+      "profile_id": "4d69a1f4-b299-4e73-9aea-ac1c242c017f",
+      "instruct": "Confident, warm, slightly fast American male. Sarcastic but caring mentoring tone. Occasional dramatic pauses before punchlines. Think charismatic genius explaining tech to a teenager.",
       "speed_correction": {
         "add_punctuation_pauses": true,
         "ellipsis_for_dramatic_pause": true,
@@ -13,8 +14,8 @@
       }
     },
     "jarvis": {
-      "profile_id": null,
-      "voice_instruction": "Calm, measured, British male, precisely articulated, formal",
+      "profile_id": "5a16a5a0-dca3-432c-88f1-6f69f9511d87",
+      "instruct": "Calm, measured, British male. Precisely articulated, formal but with subtle dry wit. Deliberate pacing with clear enunciation. Think composed English butler who is also a supercomputer.",
       "speed_correction": {
         "add_punctuation_pauses": true,
         "ellipsis_for_dramatic_pause": false,
@@ -24,16 +25,15 @@
     }
   },
   "generation_defaults": {
-    "format": "wav",
-    "sample_rate": 44100,
-    "auto_chunk": true,
-    "crossfade_ms": 100
+    "max_chunk_chars": 800,
+    "crossfade_ms": 50,
+    "normalize": true
   },
   "stories_editor": {
     "use_for_dialogues": true,
     "track_mapping": {
-      "track_1": "tony_stark",
-      "track_2": "jarvis"
+      "track_0": "tony_stark",
+      "track_1": "jarvis"
     }
   }
 }
