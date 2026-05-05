@@ -1,38 +1,79 @@
 # Project Anima Simulacrum
 
-*Motore AI per l'analisi di testi narrativi e la creazione di profili di personalità dinamici per LLM.*
+**AI-powered narrative voice pipeline for educational content.**
 
 ---
 
-## 🎯 Obiettivo del Progetto
+## What This Is
 
-**Project Anima Simulacrum** è un sistema software progettato per leggere e comprendere testi narrativi (come libri o sceneggiature) al fine di generare un "profilo psicologico-linguistico" dettagliato di un personaggio. Questo profilo viene poi utilizzato come DNA per un Large Language Model (es. Gemini, ChatGPT) per simulare una conversazione con quel personaggio nel modo più fedele possibile.
+Project Anima Simulacrum transforms the [30 Days Lost in Space](https://inventr.io/) electronics course into a fully voiced narrative experience. Tony Stark mentors a stranded recruit through 30 days of Arduino projects, with J.A.R.V.I.S. providing local AI support — all generated through local TTS using [VoiceBox](https://voicebox.sh/).
 
-## 🚀 Stato Attuale
+## Current State
 
-* **Versione**: 0.1.0 (Alpha)
-* **Fase attuale**: Setup del progetto e sviluppo del modulo di ingestione dati.
+**Version:** 0.3.0
+**Phase:** Audio generation and narrative refinement
 
-## 🛠️ Come Avviare
+### What Works
 
-Il progetto è interamente containerizzato con Docker per garantire la massima portabilità.
+- **Full text pipeline:** SRT transcripts → cleaned scripts → segmented by speaker/section → rewritten in character voice
+- **VoiceBox integration:** REST API client for local TTS generation with voice cloning
+- **Two voice profiles:** Tony Stark (confident mentor) and J.A.R.V.I.S. (British AI assistant)
+- **30-day Story Bible:** Complete narrative arc with per-day missions mapped to the real Inventr.io curriculum
+- **Day 1 audio generated** with iterative speed/pause tuning
 
-**>> [Vedi la procedura di installazione e avvio completa](./docs/install.md) <<**
+### Pipeline Steps
 
-## 📂 Struttura del Progetto
+```
+02_clean_srt.py      → Strip timestamps, fix formatting from raw SRT files
+03_segment_script.py → Split into jarvis_briefing / tony_intro / tony_tutorial / tony_outro
+04_rewrite_tony.py   → Rewrite segments in Tony Stark's voice using LLM
+05_generate_audio.py → Generate speech via VoiceBox API (Qwen3-TTS engine)
+```
 
-* **/data/**: Contiene i dati grezzi (input) e processati (output).
-* **/docs/**: Tutta la documentazione del progetto.
-* **/src/**: Il codice sorgente Python del motore di analisi.
-* **/profiles/**: I profili finali dei personaggi in formato JSON.
-* `Dockerfile`: La ricetta per costruire l'ambiente di esecuzione.
+## Setup
 
-## ❓ Domande Frequenti
+**Requirements:**
+- Python 3.11+
+- [VoiceBox](https://voicebox.sh/) running locally on port 17493
+- ffmpeg (for audio processing)
 
-Hai una domanda?
+**Quick start:**
 
-**>> [Leggi le nostre FAQ](./docs/faq.md) <<**
+```bash
+docker build -t anima-simulacrum .
+docker run -it --network host anima-simulacrum
+```
 
-## 📜 Licenza
+Or without Docker:
 
-Questo progetto è rilasciato sotto la **Licenza MIT**. Vedi il file `LICENSE` per maggiori dettagli.
+```bash
+pip install -r requirements.txt
+```
+
+See [docs/install.md](./docs/install.md) for detailed setup.
+
+## Project Structure
+
+```
+src/
+  pipeline/        — Numbered pipeline steps (02–05)
+  utils/           — Shared utilities (SRT parsing, text cleaning)
+  voicebox/        — VoiceBox API client, profiles, speed correction
+config/
+  story_bible.json — 30-day narrative arc and character definitions
+  voicebox_config.json — Voice profile IDs and generation defaults
+  tony_style.json  — Tony Stark writing style guide
+  jarvis_style.json — J.A.R.V.I.S. writing style guide
+data/
+  raw/             — Source SRT transcripts and reference materials
+  processed/       — Pipeline intermediate outputs (clean, segmented, rewritten)
+  output/          — Final generated audio files
+```
+
+## Governance
+
+This project follows the [Codex Machinae](./codex-machinae.md) framework (Solo profile, D5 ML/Data Pipeline domain).
+
+## Licence
+
+MIT — see [LICENSE](./LICENSE).
