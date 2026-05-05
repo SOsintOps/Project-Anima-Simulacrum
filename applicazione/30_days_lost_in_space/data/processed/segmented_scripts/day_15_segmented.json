@@ -1,0 +1,22 @@
+{
+  "day": 15,
+  "act": "Act 2: Rebuilding",
+  "act_tone": "More confident, Tony starts sharing personal stories, JARVIS recovers more",
+  "jarvis_state": "Recovering — can hold brief conversations, run basic diagnostics",
+  "mission": {
+    "day": 15,
+    "mission": "Creative Day — Dashboard",
+    "objective": "Build a monitoring dashboard",
+    "narrative": "Tony: 'Every good lab needs a dashboard. Even in the Arctic.'"
+  },
+  "sections": [
+    {
+      "type": "narrative_intro",
+      "text": "Welcome to day 15 the third creative Day first of all I want to give you guys a round of applause on making it halfway through the course yes you guys are 50% of the way through the 30 days loss of space adventure kit congratulations I'm making it halfway you've got only well 50% more to go I've decided to mix today's creative day up a bit normally I would give an easy and a hard example or hard project but today I'm going to go back to the lesson from day 14 I have a wonderful project for you guys to work on do you remember the bu validate pin function from yesterday on day 14 currently there's a small security flaw with it as soon as an incorrect button is pressed it will exit the function and return an error well that makes it really easy now to guess which of the uh numers that was pressed or which part of the pin is wrong WR so you just can guess 1 through n until it goes through to the second pin and then you can know okay so the first pin is in this case four or whatever you want it to be and then the second pin is up eror up error up oh the second pin's six well that's easy now so it makes it really easy to brute force that makes it a pretty insecure system even though we've added in this additional security system so what we want to make it do is instead we should make it so it doesn't print an error and till all four numbers are typed in so they don't know which number was bad of course you're also open to do your own project if you so desire that is totally absolutely always on the table once you're done share on inventor. I/f with the hash creative day15 I am once again looking forward to seeing what you come up with and if you rent any issues hit up your fellow inventors in the Facebook group at inventor. I/f thank you guys",
+      "sentence_count": 3
+    }
+  ],
+  "rewrite_ready": true,
+  "source_word_count": 356,
+  "source_duration_ms": 144959
+}

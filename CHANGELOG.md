@@ -12,6 +12,9 @@ uses [Conventional Commits](https://www.conventionalcommits.org/).
 - `DEPENDENCIES.md` — dependency registry per §2.2
 - `CHANGELOG.md` — this file
 - Updated `README.md` to reflect actual project state
+- `docs/research/index.md` — research register per §1.7
+- `docs/research/2026-05-05-character-voice-replication.md` — character voice replication research (best practices, pipeline architecture, recommendations)
+- `docs/research/2026-05-05-character-voice-replication-report.docx` — full DOCX report covering linguistic profiling, persona-consistent generation, personality duplication (Tony Stark case study), neural voice synthesis, and pipeline architecture
 
 ## [0.3.0] — 2026-03-24
 

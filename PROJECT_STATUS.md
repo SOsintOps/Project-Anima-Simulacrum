@@ -4,44 +4,59 @@
 
 ## Objective
 
-Transform the "30 Days Lost in Space" electronics course into a fully voiced narrative experience featuring Tony Stark and J.A.R.V.I.S., using VoiceBox for local TTS generation.
+Transform the "30 Days Lost in Space" electronics course into a fully voiced narrative experience featuring Tony Stark and J.A.R.V.I.S., using VoiceBox for local TTS generation. Additionally, test the Stories pipeline with theatre scripts.
 
 ## Modified Files
 
 | File | Reason |
 |------|--------|
-| `PROJECT_STATUS.md` | Created — Codex Machinae §2.3 compliance |
-| `CLAUDE.md` | Created — agent configuration §2.4 |
-| `DEPENDENCIES.md` | Created — dependency contracts §2.2 |
-| `CHANGELOG.md` | Created — retroactive release history |
-| `README.md` | Updated to reflect actual project state |
+| `src/voicebox/client.py` | Upgraded to VoiceBox v0.5.0 API |
+| `src/pipeline/02_clean_srt.py` | Path refactor (APP_DIR) |
+| `src/pipeline/03_segment_script.py` | Path refactor (APP_DIR) |
+| `src/pipeline/04_rewrite_tony.py` | Path refactor (APP_DIR) |
+| `src/pipeline/05_generate_audio.py` | Path refactor (APP_DIR) |
+| `src/pipeline/test_stories.py` | Stories smoke test (Tony+JARVIS) |
+| `src/pipeline/generate_eurostar_story.py` | Euro Star Act 1 full Story generation |
+| `applicazione/teatro/eurostar_act1_parsed.json` | 83 parsed dialogue lines with instruct |
+
+## Project Structure
+
+```
+applicazione/
+  30_days_lost_in_space/    <- TTS course narrative (data, config, docs)
+  massoneria/               <- documentation archive
+  teatro/                   <- theatre scripts + generated output
+    eurostar_act1_parsed.json
+    Train Ride Experience/  <- train ambient audio for mixing
+    output/eurostar_act1/   <- generated audio output
+src/                        <- engine code (pipeline, voicebox client v0.5.0)
+config/voicebox_config.json <- engine-level config
+```
 
 ## Logical State
 
 **What works:**
 
-- Pipeline steps 02–05 functional (clean SRT → segment → rewrite → generate audio)
-- VoiceBox client (`src/voicebox/client.py`) wraps local API at port 17493
-- 30 days of SRT transcripts cleaned and segmented
-- Tony Stark rewrite prompts generated for all 30 days
-- Day 1–2 Tony scripts fully rewritten
-- Day 1 audio generated (multiple speed/pause iterations)
-- Two voice profiles configured: Tony Stark, J.A.R.V.I.S.
-- Story Bible defines full 30-day narrative arc
+- VoiceBox client upgraded to v0.5.0 (new engines, personality, cancel, speak, transcribe, compose)
+- Pipeline steps 02-05 functional with APP_DIR path structure
+- Euro Star Act 1 fully parsed: 83 lines, 3 characters (Arthur, Marilyn, Voice)
+- Instruct per line extracted from stage directions
+- Generation script with resume capability, state persistence, and ambient mixing
+- Train ambient audio available for post-processing mix
 
 **What does not work / is incomplete:**
 
-- Days 3–30 Tony scripts not yet generated (only rewrite prompts exist)
-- No audio generated beyond Day 1
-- VoiceBox client targets v0.3.0 API — project uses v0.4.x locally (untested against v0.5)
-- No J.A.R.V.I.S. scripts generated yet (only briefing structure defined)
-- No tests exist
-- Stories editor integration (multi-voice timeline) not yet used in pipeline
+- Euro Star generation not yet run (needs VoiceBox running)
+- Voice preset mapping not yet configured (interactive selection at runtime)
+- 30 Days: Days 3-30 Tony scripts not yet generated
 
 **What is blocked:**
 
-- Nothing externally blocked. Next steps are execution work.
+- Story generation test requires VoiceBox running on port 17493
 
 ## Next Action
 
-Upgrade `src/voicebox/client.py` to support VoiceBox v0.5.0 API changes (new engines: Kokoro, HumeAI TADA, Qwen CustomVoice). Then batch-generate Tony scripts for Days 3–30.
+1. Start VoiceBox
+2. Run `python -m src.pipeline.generate_eurostar_story --list-voices` to see available presets
+3. Run `python -m src.pipeline.generate_eurostar_story` to generate full Act 1
+4. Review output at `applicazione/teatro/output/eurostar_act1/`

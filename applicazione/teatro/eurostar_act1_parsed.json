@@ -1,0 +1,519 @@
+{
+  "title": "Euro Star",
+  "author": "Jean-Pierre Martinez",
+  "act": 1,
+  "characters": {
+    "arthur": {
+      "description": "Male, 30s-40s, relaxed, slightly 'basic'. Film buff pretending to be a director.",
+      "default_instruct": "Casual middle-aged male voice, slightly nervous, conversational"
+    },
+    "marilyn": {
+      "description": "Female, 25-30, ambitious actress, provocative, energetic.",
+      "default_instruct": "Young woman, enthusiastic, slightly flirtatious, confident"
+    },
+    "voice": {
+      "description": "Train PA announcement. Neutral, mechanical.",
+      "default_instruct": "Neutral, professional, robotic PA announcement voice"
+    }
+  },
+  "lines": [
+    {
+      "id": 1,
+      "character": "arthur",
+      "text": "Yes? Hello, Fred... No, I'm on the train right now... I promised my wife to take her to London for our wedding anniversary... To be honest, I hate those anniversary nonsense, and on top of that, I detest England. But you know how it is... When you're married, you have to know how to compromise! It's in London that I met Karen... I booked a room in the Bed and Breakfast where we spent our first night together... Isn't that romantic? Lucky that I didn't meet her at the Hilton in Bora-Bora... Two train tickets to London, even in business class, it's still cheaper than Polynesia... Anyway, thank goodness we allowed for some extra time... You know I'm claustrophobic, so I'm a little anxious about taking the tunnel under the Channel... But since I'm even more afraid of flying... And then I thought it would be faster than the ferry... But you can't imagine the boarding procedures, it's mind-boggling! It took us three quarters of an hour to go through security! I would have been better off swimming. I had forgotten that England is no longer in Europe. I feel like I'm heading to Baghdad! I even got a body search. I ran into a little tough guy, like a sergeant. I thought he was going to stick a finger up my ass to see if I had any weapons of mass destruction hidden in there, before sending me straight to Guantanamo... He stressed me out so much, for a moment, I forgot to put my pants and shoes back on... Can you imagine me arriving at Waterloo barefoot and in my underwear? Luckily we're not leaving from Austerlitz, otherwise you can see the symbol... I mean, for a wedding anniversary... Oh, now it's Saint-Pancras? Anyway, now I am on board, trying to relax a little... Karen? No, I don't know what the hell my wife is doing... I had to go to the exchange office to buy British pounds, and we agreed to meet directly on the train, but I don't see her anywhere... However, her suitcase is here. I don't understand anything... Sorry, that's actually her calling... Okay, I'll call you back... See you soon, Fred.",
+      "instruct": "Rushed, a bit stressed, talking on phone to a friend, casual male voice, rambling"
+    },
+    {
+      "id": 2,
+      "character": "arthur",
+      "text": "Karen? Where the hell are you?... At the kiosk? Don't you realize that the train is about to leave? Yeah, well, listen, if they don't have Marie Claire, you take Vogue or Cosmopolitan. It's the same thing, right... Yes, yes, I have the pounds. A thousand should be enough for a few days in London. It stresses me out a bit to carry that much cash, but... It seems worth it to exchange before we get to England... Uh, could you get me Tennis Magazine, while you're at it? No, not Bicycling Magazine, Tennis Magazine! No, it's not the same, believe me... Well, you'll eventually find it... Otherwise, check the newsstand next door... But hurry up, for god's sake! OK, see you later. I love you too...",
+      "instruct": "On the phone with wife, impatient, lowering voice at 'I have the pounds', more tender at the end"
+    },
+    {
+      "id": 3,
+      "character": "arthur",
+      "text": "Oh, damn, this trip is off to a great start... Forty kilometres under the sea, when I'm already scared of taking the subway. What a nightmare! Good thing I brought a little pick-me-up, it'll help me relax...",
+      "instruct": "Annoyed, anxious, talking to himself, taking a swig from a flask"
+    },
+    {
+      "id": 4,
+      "character": "marilyn",
+      "text": "Excuse me, but I think your suitcase is sitting in my seat...",
+      "instruct": "Polite, slightly assertive young woman"
+    },
+    {
+      "id": 5,
+      "character": "arthur",
+      "text": "Oh... Sorry... I thought... No problem... I'll move it right away.",
+      "instruct": "Surprised, flustered, embarrassed"
+    },
+    {
+      "id": 6,
+      "character": "voice",
+      "text": "The Eurostar train number 3212 to London St Pancras is about to depart. Please mind the closing doors.",
+      "instruct": "Neutral, professional, robotic train PA announcement"
+    },
+    {
+      "id": 7,
+      "character": "arthur",
+      "text": "Oh no... This can't be happening...",
+      "instruct": "To himself, anxious, dismayed, muttering"
+    },
+    {
+      "id": 8,
+      "character": "marilyn",
+      "text": "I just made it in time!",
+      "instruct": "Smiling, cheerful, relieved"
+    },
+    {
+      "id": 9,
+      "character": "arthur",
+      "text": "This is a nightmare...",
+      "instruct": "Muttering to himself, dismayed"
+    },
+    {
+      "id": 10,
+      "character": "marilyn",
+      "text": "I'm sorry for staring at you like that, but... I recognized you right away...",
+      "instruct": "Apologetic but excited, slightly starstruck"
+    },
+    {
+      "id": 11,
+      "character": "marilyn",
+      "text": "I'm really sorry... I swear I didn't do anything to, uh... It's completely by chance... Or maybe it's fate...",
+      "instruct": "Apologetic, then jokingly playful"
+    },
+    {
+      "id": 12,
+      "character": "arthur",
+      "text": "Fate...?",
+      "instruct": "Surprised, speechless, eyes wide open"
+    },
+    {
+      "id": 13,
+      "character": "marilyn",
+      "text": "Marilyn Mileur... I'm an actress...",
+      "instruct": "Confident, introducing herself, extending hand"
+    },
+    {
+      "id": 14,
+      "character": "marilyn",
+      "text": "I'm going to London for the casting of your new movie. But I never thought I would be sitting in front of you on the train...",
+      "instruct": "Excited, starstruck, earnest"
+    },
+    {
+      "id": 15,
+      "character": "arthur",
+      "text": "Neither did I...",
+      "instruct": "Caught off guard, understated, slightly bewildered"
+    },
+    {
+      "id": 16,
+      "character": "marilyn",
+      "text": "Anyway, I really love the script... And I'm not just saying that to flatter you, you know? Even though I would be willing to kill all my competitors to get this leading role.",
+      "instruct": "Enthusiastic, slightly intense, passionate"
+    },
+    {
+      "id": 17,
+      "character": "arthur",
+      "text": "Really...?",
+      "instruct": "Bemused, intrigued"
+    },
+    {
+      "id": 18,
+      "character": "marilyn",
+      "text": "I don't want to bother you... I think I'd better go to the bar to calm down a bit. Anyway, we're on this trip together... Can I get you a coffee...?",
+      "instruct": "Trying to be casual, eager to please"
+    },
+    {
+      "id": 19,
+      "character": "arthur",
+      "text": "Why not...",
+      "instruct": "Relaxed, casually interested"
+    },
+    {
+      "id": 20,
+      "character": "marilyn",
+      "text": "I'm so excited... I'm not sure that a coffee is exactly what I need to calm down, but hey... Do you want it with sugar?",
+      "instruct": "Excited, chatty, bubbly"
+    },
+    {
+      "id": 21,
+      "character": "arthur",
+      "text": "What was that?",
+      "instruct": "Distracted, absent-minded"
+    },
+    {
+      "id": 22,
+      "character": "marilyn",
+      "text": "Your coffee... With or without sugar?",
+      "instruct": "Patient, amused, repeating herself"
+    },
+    {
+      "id": 23,
+      "character": "arthur",
+      "text": "Uh... Without, thank you...",
+      "instruct": "Distracted, absent-minded"
+    },
+    {
+      "id": 24,
+      "character": "marilyn",
+      "text": "I would have bet on that... No added sugar... Cash! Like your movies...",
+      "instruct": "Flirtatious, witty, walking away"
+    },
+    {
+      "id": 25,
+      "character": "arthur",
+      "text": "Uh... Can I have a glass of water with my coffee...?",
+      "instruct": "Gaining confidence, calling out after her"
+    },
+    {
+      "id": 26,
+      "character": "arthur",
+      "text": "Karen? Where are you, damn it? Oh no, it can't be true...! But I told you to hurry up!... But I didn't care, whether it was Tennis Magazine or Tennishead! It was just to have something to read on the train... And now what do we do...? Try to catch the next train and I'll wait for you in London...? Well... What do you want me to say? Do we have another option? Yeah... OK, call me back...",
+      "instruct": "Frustrated, exasperated, on the phone with wife"
+    },
+    {
+      "id": 27,
+      "character": "arthur",
+      "text": "I didn't have a good feeling about this pilgrimage to London...",
+      "instruct": "Resigned, sighing, to himself"
+    },
+    {
+      "id": 28,
+      "character": "arthur",
+      "text": "Already... Ah, it's you, Fred. No, no, it's... It's Karen. You won't believe it, but she just missed the train! No, I'm not joking, unfortunately... Yeah, well... If she manages to get a ticket. We booked ours three months in advance... No, but can you imagine? Here I am, off to London alone to celebrate our wedding anniversary... Well, when I say alone... You won't believe it either, but something absolutely amazing happened to me... A crazy woman sat right in front of me on the Eurostar, in Karen's seat, actually... And she thinks I'm a film director! Which one? I don't know... Apparently, a really famous one, anyway... Well, I didn't even have time to tell her it wasn't me, you know. She didn't let me get a word in! And now she's gone to get me coffee and croissants... I swear to you! She's completely ecstatic about me, I tell you! So now, I'm thinking of taking advantage of the situation... Three hours alone on the Eurostar is a long time... Not to mention my phobia of tunnels... At least I'll be thinking about something else... Actress, yeah... Listen, not bad, but... Very motivated, in any case! I vaguely feel like I've seen her face somewhere before... In a commercial, maybe... Stop it, I remind you that I'm married... Yeah, well, OK, but I'm sober now... And I don't know how long I'll be able to keep up the illusion, because, you know, me and the movies... I go twice a year, and that's it... Well, I'll let you go, she's coming back... OK, I'll tell you about it... Bye...",
+      "instruct": "On the phone, excited, conspiratorial, playful, changing tone throughout, whispering at parts"
+    },
+    {
+      "id": 29,
+      "character": "marilyn",
+      "text": "And here we are... I was so excited... I got wet...",
+      "instruct": "Big smile, enthusiastic, innocent"
+    },
+    {
+      "id": 30,
+      "character": "marilyn",
+      "text": "With the train shaking... I spilled your glass of water on myself on the way here. Sorry... Do you want me to go back and get you another one?",
+      "instruct": "Clearing up misunderstanding, slightly embarrassed, apologetic"
+    },
+    {
+      "id": 31,
+      "character": "marilyn",
+      "text": "Luckily, I was able to save the coffee... I left half of it on the gentleman's suit over there, but well... I think there's still a little bit left in the bottom of the cup...",
+      "instruct": "Handing him coffee, cheerfully apologetic"
+    },
+    {
+      "id": 32,
+      "character": "arthur",
+      "text": "Thank you...",
+      "instruct": "Polite, amused, warm"
+    },
+    {
+      "id": 33,
+      "character": "arthur",
+      "text": "So, you're an actress...?",
+      "instruct": "Making conversation, curious"
+    },
+    {
+      "id": 34,
+      "character": "marilyn",
+      "text": "Yes, I know... You'd probably prefer a more famous face for the leading role in your film... But you'll see, I'll surprise you in London... At the casting!",
+      "instruct": "Determined, confident, slightly pleading"
+    },
+    {
+      "id": 35,
+      "character": "arthur",
+      "text": "Oh yes, of course...",
+      "instruct": "Playing along, slightly confused"
+    },
+    {
+      "id": 36,
+      "character": "marilyn",
+      "text": "You're Arthur Monerot, the film director, right?",
+      "instruct": "Seeking confirmation, excited, expectant"
+    },
+    {
+      "id": 37,
+      "character": "arthur",
+      "text": "If you say so...",
+      "instruct": "Evasive, playing along, coy"
+    },
+    {
+      "id": 38,
+      "character": "marilyn",
+      "text": "I can't believe it!",
+      "instruct": "Delighted, starstruck, exclaiming"
+    },
+    {
+      "id": 39,
+      "character": "marilyn",
+      "text": "And how do you imagine that bitch should be? Your heroine! In the script! She's quite a bitch, isn't she? Doing that to that poor guy who didn't do anything to her... But excuse me, I shouldn't have asked you that question... I promised not to be nosy... And it wouldn't be fair to the other candidates... But I'm just so nervous... Arthur Monerot! Sitting right in front of me for three hours! I have to take advantage of this unique opportunity... Do you mind if I ask you something?",
+      "instruct": "Excited, talking fast, nervous energy, can barely stay still, then calming to ask permission"
+    },
+    {
+      "id": 40,
+      "character": "arthur",
+      "text": "Go ahead...",
+      "instruct": "Amused, indulgent, relaxed"
+    },
+    {
+      "id": 41,
+      "character": "marilyn",
+      "text": "Do you really sleep with all the heroines in your films?",
+      "instruct": "Bold, direct, provocative, unflinching"
+    },
+    {
+      "id": 42,
+      "character": "arthur",
+      "text": "Thankfully, you promised not to be indiscreet...",
+      "instruct": "Dry wit, slightly uncomfortable, sardonic"
+    },
+    {
+      "id": 43,
+      "character": "marilyn",
+      "text": "Oh no, but that's not about the casting, it doesn't count.",
+      "instruct": "Dismissive, playful, matter-of-fact"
+    },
+    {
+      "id": 44,
+      "character": "arthur",
+      "text": "What do you want to know? If you necessarily have to sleep with the director to succeed in a casting? No, of course not. Even though sometimes, it can help...",
+      "instruct": "Playing along, slightly suggestive, enjoying himself"
+    },
+    {
+      "id": 45,
+      "character": "marilyn",
+      "text": "Ah, you see!",
+      "instruct": "Triumphant, knowing, quick"
+    },
+    {
+      "id": 46,
+      "character": "arthur",
+      "text": "No, but the actress must have talent first, of course.",
+      "instruct": "Correcting, more serious, authoritative"
+    },
+    {
+      "id": 47,
+      "character": "marilyn",
+      "text": "Men are hypocrites. All celebrities date top models, but when asked why, they say it's for their inner beauty... By the way, which hotel are you staying at in London?",
+      "instruct": "Sardonic, worldly, then casually probing, changing subject"
+    },
+    {
+      "id": 48,
+      "character": "arthur",
+      "text": "At the Hilton, I think. It's my assistant who takes care of those things... She was supposed to meet me here, on the train, but she managed to miss it...",
+      "instruct": "Casual, improvising, covering his tracks"
+    },
+    {
+      "id": 49,
+      "character": "marilyn",
+      "text": "That allows us to travel together...",
+      "instruct": "Pleased, suggestive, warm"
+    },
+    {
+      "id": 50,
+      "character": "arthur",
+      "text": "Yes, that's true... And you?",
+      "instruct": "Polite, interested"
+    },
+    {
+      "id": 51,
+      "character": "marilyn",
+      "text": "Me...?",
+      "instruct": "Brief, coy"
+    },
+    {
+      "id": 52,
+      "character": "arthur",
+      "text": "Which hotel are you staying at?",
+      "instruct": "Direct, interested"
+    },
+    {
+      "id": 53,
+      "character": "marilyn",
+      "text": "I can't afford to stay at the Hilton... But I have a friend in London... Well... He's just a friend... He's a model, by the way...",
+      "instruct": "Slightly evasive, then quickly clarifying, casual"
+    },
+    {
+      "id": 54,
+      "character": "arthur",
+      "text": "Ah... I see...",
+      "instruct": "Slightly deflated, guarded"
+    },
+    {
+      "id": 55,
+      "character": "marilyn",
+      "text": "I mean, uh... I'm not dating him...",
+      "instruct": "Quickly correcting, flirtatious, reassuring"
+    },
+    {
+      "id": 56,
+      "character": "arthur",
+      "text": "Oh really...",
+      "instruct": "Perking up, interested, hopeful"
+    },
+    {
+      "id": 57,
+      "character": "marilyn",
+      "text": "Besides, he's gay.",
+      "instruct": "Matter-of-fact, deadpan, reassuring"
+    },
+    {
+      "id": 58,
+      "character": "arthur",
+      "text": "Oh good... Well, I mean...",
+      "instruct": "Relieved, then catching himself, embarrassed"
+    },
+    {
+      "id": 59,
+      "character": "marilyn",
+      "text": "And are you staying in London for several days? After the casting...",
+      "instruct": "Casually probing, interested"
+    },
+    {
+      "id": 60,
+      "character": "arthur",
+      "text": "Uh... no...",
+      "instruct": "Hesitant, unsure"
+    },
+    {
+      "id": 61,
+      "character": "marilyn",
+      "text": "No, I'm just saying that because of the size of your suitcase...",
+      "instruct": "Casual observation, light"
+    },
+    {
+      "id": 62,
+      "character": "arthur",
+      "text": "Oh yes... No, but... There are all the candidates' files in there... For the casting... It weighs a ton...",
+      "instruct": "Improvising on the spot, covering"
+    },
+    {
+      "id": 63,
+      "character": "marilyn",
+      "text": "I hope mine is in there too...",
+      "instruct": "Hopeful, sweet"
+    },
+    {
+      "id": 64,
+      "character": "arthur",
+      "text": "Definitely! But there are so many... Many are called, but few are chosen... Have they asked you to undress too?",
+      "instruct": "Suggestive, undressing her with his eyes"
+    },
+    {
+      "id": 65,
+      "character": "marilyn",
+      "text": "Excuse me?",
+      "instruct": "Taken aback, surprised"
+    },
+    {
+      "id": 66,
+      "character": "arthur",
+      "text": "I mean at customs, before boarding...",
+      "instruct": "Quickly recovering, innocent tone"
+    },
+    {
+      "id": 67,
+      "character": "marilyn",
+      "text": "Well... no...",
+      "instruct": "Uncertain, brief"
+    },
+    {
+      "id": 68,
+      "character": "arthur",
+      "text": "Okay.",
+      "instruct": "Brief, neutral, closing the subject"
+    },
+    {
+      "id": 69,
+      "character": "marilyn",
+      "text": "And for the casting, do we have to get naked?",
+      "instruct": "Innocent, direct, genuinely asking"
+    },
+    {
+      "id": 70,
+      "character": "arthur",
+      "text": "The truth is... I don't know... Why not? I guess that depends on the candidates...",
+      "instruct": "Flustered, jokingly, on the verge of collapse"
+    },
+    {
+      "id": 71,
+      "character": "marilyn",
+      "text": "Since the script is quite... I know there are actresses who refuse nude scenes... I just wanted you to know that... for me, it's not a problem.",
+      "instruct": "Confident, matter-of-fact, straightforward"
+    },
+    {
+      "id": 72,
+      "character": "arthur",
+      "text": "Okay... I'll remember that...",
+      "instruct": "Trying to stay composed, barely holding it together"
+    },
+    {
+      "id": 73,
+      "character": "marilyn",
+      "text": "Do you want to take a look...?",
+      "instruct": "Provocative, ambiguous"
+    },
+    {
+      "id": 74,
+      "character": "arthur",
+      "text": "Here, on the train?",
+      "instruct": "Shocked, flustered"
+    },
+    {
+      "id": 75,
+      "character": "marilyn",
+      "text": "I mean... take a look at my book...",
+      "instruct": "Clarifying, amused at the misunderstanding"
+    },
+    {
+      "id": 76,
+      "character": "arthur",
+      "text": "Your book...",
+      "instruct": "Confused, processing"
+    },
+    {
+      "id": 77,
+      "character": "marilyn",
+      "text": "My photo album.",
+      "instruct": "Explaining patiently, slight smile"
+    },
+    {
+      "id": 78,
+      "character": "arthur",
+      "text": "Of course...",
+      "instruct": "Relieved, slightly embarrassed"
+    },
+    {
+      "id": 79,
+      "character": "arthur",
+      "text": "Yes... of course... You can tell you have a lot of talent...",
+      "instruct": "Impressed, looking at photos, slightly breathless"
+    },
+    {
+      "id": 80,
+      "character": "marilyn",
+      "text": "I think it's time for you to talk to me about my inner beauty...",
+      "instruct": "Flirtatious, confident, teasing"
+    },
+    {
+      "id": 81,
+      "character": "arthur",
+      "text": "Yes...? Hello Karen... Yes, I'm sorry, but with the noise of the train, I didn't recognize your voice... Sorry... It's my assistant... Yes, Karen, have you been able to solve it...? No, I'm not taking this lightly, but... we're not going to make a big deal out of it either... No... It's not true? There's no ticket until a month from now? That can't be!",
+      "instruct": "Distracted, answering phone mechanically, then disconcerted, speaking to Marilyn briefly then back to phone"
+    },
+    {
+      "id": 82,
+      "character": "arthur",
+      "text": "Okay, I'll call you as soon as I arrive... But I can't promise anything... I don't think it's going to be easy to find a ticket to go back to Paris... No, I'm not at all happy about this... Can you imagine if I had to spend the whole weekend alone in London? You have some big news to tell me? You're scaring me! Well... Listen, I have to leave you because we're going into the tunnel... Why am I talking in plural? Because I'm not alone in this train. I'm traveling in business class, not in a private compartment of the Orient Express... And it's going to be my fault again... It's still you who managed to miss this train, right...? Sorry... I just had a small problem to solve... Now, I'm all yours...",
+      "instruct": "On the phone, increasingly stressed, then approaching Marilyn smiling, apologetic and charming at the end"
+    },
+    {
+      "id": 83,
+      "character": "marilyn",
+      "text": "Me too...",
+      "instruct": "Promising smile, warm, flirtatious, loaded"
+    }
+  ]
+}

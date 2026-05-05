@@ -14,9 +14,10 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-CLEAN_DIR = PROJECT_ROOT / "data" / "processed" / "clean_scripts"
-SEGMENTED_DIR = PROJECT_ROOT / "data" / "processed" / "segmented_scripts"
-STORY_BIBLE = PROJECT_ROOT / "config" / "story_bible.json"
+APP_DIR = PROJECT_ROOT / "applicazione" / "30_days_lost_in_space"
+CLEAN_DIR = APP_DIR / "data" / "processed" / "clean_scripts"
+SEGMENTED_DIR = APP_DIR / "data" / "processed" / "segmented_scripts"
+STORY_BIBLE = APP_DIR / "config" / "story_bible.json"
 
 
 def load_story_bible() -> dict:

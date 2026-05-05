@@ -1,24 +1,26 @@
-"""VoiceBox REST API Client.
+"""VoiceBox REST API Client (v0.5.0).
 
 Interfaces with VoiceBox (local TTS studio) at http://127.0.0.1:17493
 Interactive docs at: http://127.0.0.1:17493/docs
 OpenAPI spec at: http://127.0.0.1:17493/openapi.json
 
-Full API (86 endpoints). Key ones used by this project:
+Key endpoints:
 
   POST /generate                          - Generate speech with instruct control
   POST /generate/stream                   - Stream speech generation
   GET  /generate/{id}/status              - Check generation status
   POST /generate/{id}/retry               - Retry failed generation
-  POST /generate/{id}/regenerate          - Regenerate with same params
+  POST /generate/{id}/cancel              - Cancel queued/running generation
   GET  /profiles                          - List all voice profiles
   POST /profiles                          - Create a new voice profile
   POST /profiles/{id}/samples             - Add audio sample (multipart upload)
   GET  /profiles/{id}/samples             - List profile samples
   PUT  /profiles/{id}/effects             - Set default effects for profile
+  POST /profiles/{id}/compose             - Generate in-character lines via personality LLM
   GET  /audio/{generation_id}             - Download generated audio
   GET  /audio/version/{version_id}        - Download specific version audio
   GET  /history                           - List generation history
+  DELETE /history/failed                  - Bulk clear failed generations
   POST /stories                           - Create a story (multi-voice timeline)
   POST /stories/{id}/items                - Add generation to story timeline
   GET  /stories/{id}/export-audio         - Export full story as single audio
@@ -26,6 +28,8 @@ Full API (86 endpoints). Key ones used by this project:
   GET  /effects/available                 - List available audio effects
   POST /models/load                       - Load TTS model
   GET  /models/status                     - Check model status
+  POST /speak                             - Agent-initiated speech
+  POST /transcribe                        - Audio-to-text
 """
 import logging
 from pathlib import Path
@@ -37,10 +41,24 @@ logger = logging.getLogger(__name__)
 
 
 class VoiceBoxClient:
-    """Client for the VoiceBox REST API (v0.3.0).
+    """Client for the VoiceBox REST API (v0.5.0).
 
     Wraps the VoiceBox FastAPI backend running at 127.0.0.1:17493.
+
+    Supported engines:
+        qwen              - Qwen3-TTS (instruct-capable, 0.6B/1.7B)
+        luxtts            - Lightweight (~1GB VRAM), 48kHz
+        chatterbox        - Multilingual (23 languages)
+        chatterbox_turbo  - English-only, paralinguistic tags
+        tada              - HumeAI TADA (700s+ coherent, tada-1b/tada-3b-ml)
+        kokoro            - 82M params, 50 preset voices, CPU-realtime
+        qwen_custom_voice - Preset voices with instruction-following
     """
+
+    ENGINES = (
+        "qwen", "luxtts", "chatterbox", "chatterbox_turbo",
+        "tada", "kokoro", "qwen_custom_voice",
+    )
 
     def __init__(self, base_url: str = "http://127.0.0.1:17493", timeout: int = 180):
         self.base_url = base_url.rstrip('/')
@@ -115,6 +133,16 @@ class VoiceBoxClient:
         resp.raise_for_status()
         return resp.json()
 
+    def compose(self, profile_id: str, prompt: str) -> dict:
+        """POST /profiles/{profile_id}/compose — Generate in-character text via personality LLM."""
+        resp = self.session.post(
+            f"{self.base_url}/profiles/{profile_id}/compose",
+            json={"prompt": prompt},
+            timeout=self.timeout
+        )
+        resp.raise_for_status()
+        return resp.json()
+
     # ─── Speech Generation ─────────────────────────────────────────────
 
     def generate(
@@ -130,50 +158,28 @@ class VoiceBoxClient:
         crossfade_ms: int = 50,
         normalize: bool = True,
         effects_chain: Optional[list[dict]] = None,
+        personality: bool = False,
     ) -> dict:
         """POST /generate — Generate speech from text.
 
         Args:
             text: Text to synthesize (1-50000 chars, auto-chunked)
             profile_id: Voice profile ID (provides the cloned voice)
-            instruct: Style/delivery instruction for Qwen3-TTS (max 500 chars).
-                      THIS IS THE KEY PARAMETER FOR TONE CONTROL.
-                      Examples:
-                        "Confident, warm, slightly sarcastic, mentoring tone"
-                        "Calm, measured, British, precisely articulated"
-                        "Excited, fast-paced, energetic"
-            language: Language code. Supported:
-                      en, zh, ja, ko, de, fr, ru, pt, es, it, he, ar,
-                      da, el, fi, hi, ms, nl, no, pl, sv, sw, tr
-            engine: TTS engine — "qwen", "luxtts", "chatterbox", "chatterbox_turbo"
+            instruct: Style/delivery instruction (max 500 chars).
+                      Only honoured by qwen and qwen_custom_voice engines.
+            language: Language code (en, zh, ja, ko, de, fr, ru, pt, es, it,
+                      he, ar, da, el, fi, hi, ms, nl, no, pl, sv, sw, tr)
+            engine: TTS engine (see VoiceBoxClient.ENGINES)
             model_size: Qwen3-TTS model — "1.7B" or "0.6B"
             seed: Random seed for reproducibility (>=0, None for random)
-            max_chunk_chars: Max chars per chunk for long texts (100-5000, default 800)
-            crossfade_ms: Crossfade between chunks in ms (0-500, default 50)
-            normalize: Normalize output audio volume (default True)
+            max_chunk_chars: Max chars per chunk for long texts (100-5000)
+            crossfade_ms: Crossfade between chunks in ms (0-500)
+            normalize: Normalize output audio volume
             effects_chain: Audio effects to apply (overrides profile defaults)
-                           e.g., [{"type": "pitch_shift", "params": {"semitones": -2}}]
+            personality: Route text through profile personality LLM before synthesis
 
         Returns:
-            GenerationResponse:
-            {
-                "id": str,              # Generation ID
-                "profile_id": str,
-                "text": str,
-                "language": str,
-                "audio_path": str|null,  # Internal audio path
-                "duration": float|null,  # Duration in seconds
-                "seed": int|null,
-                "instruct": str|null,
-                "engine": str,
-                "model_size": str|null,
-                "status": str,           # "completed" or "failed"
-                "error": str|null,
-                "is_favorited": bool,
-                "created_at": str,
-                "versions": list|null,
-                "active_version_id": str|null
-            }
+            GenerationResponse with status: completed|failed|queued|running|cancelled
         """
         payload = {
             "profile_id": profile_id,
@@ -192,6 +198,8 @@ class VoiceBoxClient:
             payload["seed"] = seed
         if effects_chain:
             payload["effects_chain"] = effects_chain
+        if personality:
+            payload["personality"] = True
 
         logger.info(f"Generating [{engine}/{model_size}]: {text[:80]}...")
         if instruct:
@@ -234,15 +242,30 @@ class VoiceBoxClient:
         resp.raise_for_status()
         return resp.json()
 
+    def cancel_generation(self, generation_id: str) -> dict:
+        """POST /generate/{generation_id}/cancel — Cancel queued or running generation."""
+        resp = self.session.post(
+            f"{self.base_url}/generate/{generation_id}/cancel",
+            timeout=self.timeout
+        )
+        resp.raise_for_status()
+        return resp.json()
+
+    # ─── Generation Info ───────────────────────────────────────────────
+
+    def get_generation_info(self, generation_id: str) -> dict:
+        """GET /history/{id} — Get status and metadata of a generation."""
+        resp = self.session.get(
+            f"{self.base_url}/history/{generation_id}",
+            timeout=self.timeout
+        )
+        resp.raise_for_status()
+        return resp.json()
+
     # ─── Audio Download ────────────────────────────────────────────────
 
     def download_audio(self, generation_id: str, output_path: str) -> Path:
-        """GET /audio/{generation_id} — Download generated audio.
-
-        Args:
-            generation_id: The 'id' from generate() response
-            output_path: Local file path to save audio
-        """
+        """GET /audio/{generation_id} — Download generated audio."""
         resp = self.session.get(
             f"{self.base_url}/audio/{generation_id}",
             timeout=self.timeout,
@@ -260,6 +283,25 @@ class VoiceBoxClient:
         logger.info(f"Audio saved: {output}")
         return output
 
+    def download_audio_version(self, version_id: str, output_path: str) -> Path:
+        """GET /audio/version/{version_id} — Download a specific version."""
+        resp = self.session.get(
+            f"{self.base_url}/audio/version/{version_id}",
+            timeout=self.timeout,
+            stream=True
+        )
+        resp.raise_for_status()
+
+        output = Path(output_path)
+        output.parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output, 'wb') as f:
+            for chunk in resp.iter_content(chunk_size=8192):
+                f.write(chunk)
+
+        logger.info(f"Audio version saved: {output}")
+        return output
+
     # ─── Stories (Multi-Voice Timeline) ────────────────────────────────
 
     def create_story(self, name: str, description: str = None) -> dict:
@@ -270,6 +312,15 @@ class VoiceBoxClient:
         resp = self.session.post(
             f"{self.base_url}/stories",
             json=payload,
+            timeout=self.timeout
+        )
+        resp.raise_for_status()
+        return resp.json()
+
+    def get_story(self, story_id: str) -> dict:
+        """GET /stories/{story_id} — Get story details and items."""
+        resp = self.session.get(
+            f"{self.base_url}/stories/{story_id}",
             timeout=self.timeout
         )
         resp.raise_for_status()
@@ -307,7 +358,7 @@ class VoiceBoxClient:
         """GET /stories/{story_id}/export-audio — Export full story as single file."""
         resp = self.session.get(
             f"{self.base_url}/stories/{story_id}/export-audio",
-            timeout=300,  # Stories can be long
+            timeout=300,
             stream=True
         )
         resp.raise_for_status()
@@ -325,6 +376,47 @@ class VoiceBoxClient:
     def list_stories(self) -> list[dict]:
         """GET /stories"""
         resp = self.session.get(f"{self.base_url}/stories", timeout=self.timeout)
+        resp.raise_for_status()
+        return resp.json()
+
+    # ─── Speak (Agent-Initiated) ──────────────────────────────────────
+
+    def speak(self, text: str, profile: str = None, personality: bool = True) -> dict:
+        """POST /speak — Agent-initiated speech.
+
+        Args:
+            text: Text to speak
+            profile: Profile name (optional, uses default if unset)
+            personality: Route through personality LLM first
+        """
+        payload = {"text": text, "personality": personality}
+        if profile:
+            payload["profile"] = profile
+        resp = self.session.post(
+            f"{self.base_url}/speak",
+            json=payload,
+            timeout=self.timeout
+        )
+        resp.raise_for_status()
+        return resp.json()
+
+    # ─── Transcription ─────────────────────────────────────────────────
+
+    def transcribe(self, audio_path: str = None, audio_base64: str = None) -> dict:
+        """POST /transcribe — Audio-to-text.
+
+        Provide either a local file path or base64-encoded audio.
+        """
+        payload = {}
+        if audio_path:
+            payload["audio_path"] = audio_path
+        if audio_base64:
+            payload["audio_base64"] = audio_base64
+        resp = self.session.post(
+            f"{self.base_url}/transcribe",
+            json=payload,
+            timeout=self.timeout
+        )
         resp.raise_for_status()
         return resp.json()
 
@@ -386,6 +478,15 @@ class VoiceBoxClient:
         """GET /history/{generation_id}"""
         resp = self.session.get(
             f"{self.base_url}/history/{generation_id}",
+            timeout=self.timeout
+        )
+        resp.raise_for_status()
+        return resp.json()
+
+    def delete_failed_generations(self) -> dict:
+        """DELETE /history/failed — Bulk clear all failed generations."""
+        resp = self.session.delete(
+            f"{self.base_url}/history/failed",
             timeout=self.timeout
         )
         resp.raise_for_status()

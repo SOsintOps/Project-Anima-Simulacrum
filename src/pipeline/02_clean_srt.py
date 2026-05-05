@@ -18,8 +18,9 @@ from src.utils.srt_parser import parse_srt, reconstruct_sentences, extract_full_
 from src.utils.text_cleaner import fix_capitalization, fix_arduino_terms, segment_by_topic
 
 
-SRT_DIR = PROJECT_ROOT / "data" / "raw" / "srt"
-OUTPUT_DIR = PROJECT_ROOT / "data" / "processed" / "clean_scripts"
+APP_DIR = PROJECT_ROOT / "applicazione" / "30_days_lost_in_space"
+SRT_DIR = APP_DIR / "data" / "raw" / "srt"
+OUTPUT_DIR = APP_DIR / "data" / "processed" / "clean_scripts"
 
 
 def extract_day_number(filename: str) -> int | None:

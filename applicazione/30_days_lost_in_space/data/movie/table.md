@@ -1,0 +1,6 @@
+| Film | Abu Bakar | Aldrich Killian | Bruce Banner | Chitauri Forces | Clint Barton | Erik Selvig | Happy Hogan | Harley Keener | Ivan Vanko | J.A.R.V.I.S. | James Rhodes | Justin Hammer | Loki | Maria Hill | Maya Hansen | Natasha Romanoff | Nick Fury | Obadiah Stane | Pepper Potts | Phil Coulson | President Ellis | Raza | Senator Stern | Steve Rogers | The Mandarin (broadcast) | The Other | Thor | Tony Stark | Trevor Slattery | Vice President Rodriguez | Yinsen |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Iron Man (2008) | ✓ |   |   |   |   |   |   |   |   | ✓ | ✓ |   |   |   |   |   |   | ✓ | ✓ | ✓ |   | ✓ |   |   |   |   |   | ✓ |   |   | ✓ |
+| Iron Man 2 (2010) |   |   |   |   |   |   | ✓ |   | ✓ | ✓ | ✓ | ✓ |   |   |   | ✓ | ✓ |   | ✓ | ✓ |   |   | ✓ |   |   |   |   | ✓ |   |   |   |
+| The Avengers (2012) |   |   | ✓ | ✓ | ✓ | ✓ |   |   |   | ✓ |   |   | ✓ | ✓ |   | ✓ | ✓ |   |   | ✓ |   |   |   | ✓ |   | ✓ | ✓ | ✓ |   |   |   |
+| Iron Man 3 (2013) |   | ✓ |   |   |   |   | ✓ | ✓ |   | ✓ | ✓ |   |   |   | ✓ |   |   |   | ✓ |   | ✓ |   |   |   | ✓ |   |   | ✓ | ✓ | ✓ |   |

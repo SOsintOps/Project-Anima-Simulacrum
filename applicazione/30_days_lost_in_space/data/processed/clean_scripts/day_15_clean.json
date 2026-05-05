@@ -1,0 +1,48 @@
+{
+  "day": 15,
+  "source_file": "[Day 15] Adventure Kit; 30 Days Lost in Space #CreativeDay15 (English_ASR).srt",
+  "total_duration_ms": 144959,
+  "word_count": 356,
+  "full_text": "Welcome to day 15 the third creative Day first of all I want to give you guys a round of applause on making it halfway through the course yes you guys are 50% of the way through the 30 days loss of space adventure kit congratulations I'm making it halfway you've got only well 50% more to go I've decided to mix today's creative day up a bit normally I would give an easy and a hard example or hard project but today I'm going to go back to the lesson from day 14 I have a wonderful project for you guys to work on do you remember the bu validate pin function from yesterday on day 14 currently there's a small security flaw with it as soon as an incorrect button is pressed it will exit the function and return an error well that makes it really easy now to guess which of the uh numers that was pressed or which part of the pin is wrong WR so you just can guess 1 through n until it goes through to the second pin and then you can know okay so the first pin is in this case four or whatever you want it to be and then the second pin is up eror up error up oh the second pin's six well that's easy now so it makes it really easy to brute force that makes it a pretty insecure system even though we've added in this additional security system so what we want to make it do is instead we should make it so it doesn't print an error and till all four numbers are typed in so they don't know which number was bad of course you're also open to do your own project if you so desire that is totally absolutely always on the table once you're done share on inventor. I/f with the hash creative day15 I am once again looking forward to seeing what you come up with and if you rent any issues hit up your fellow inventors in the Facebook group at inventor. I/f thank you guys",
+  "segments": [
+    {
+      "type": "intro",
+      "text": "Welcome to day 15 the third creative Day first of all I want to give you guys a round of applause on making it halfway through the course yes you guys are 50% of the way through the 30 days loss of space adventure kit congratulations I'm making it halfway you've got only well 50% more to go I've decided to mix today's creative day up a bit normally I would give an easy and a hard example or hard project but today I'm going to go back to the lesson from day 14 I have a wonderful project for you guys to work on do you remember the bu validate pin function from yesterday on day 14 currently there's a small security flaw with it as soon as an incorrect button is pressed it will exit the function and return an error well that makes it really easy now to guess which of the uh numers that was pressed or which part of the pin is wrong WR so you just can guess 1 through n until it goes through to the second pin and then you can know okay so the first pin is in this case four or whatever you want it to be and then the second pin is up eror up error up oh the second pin's six well that's easy now so it makes it really easy to brute force that makes it a pretty insecure system even though we've added in this additional security system so what we want to make it do is instead we should make it so it doesn't print an error and till all four numbers are typed in so they don't know which number was bad of course you're also open to do your own project if you so desire that is totally absolutely always on the table once you're done share on inventor. I/f with the hash creative day15 I am once again looking forward to seeing what you come up with and if you rent any issues hit up your fellow inventors in the Facebook group at inventor. I/f thank you guys",
+      "word_count": 356
+    }
+  ],
+  "timed_segments": [
+    {
+      "start_ms": 40,
+      "end_ms": 110079,
+      "start_tc": "00:00",
+      "end_tc": "01:50",
+      "text": "welcome to day 15 the third creative Day first of all I want to give you guys a round of applause on making it halfway through the course yes you guys are 50% of the way through the 30 days loss of space adventure kit congratulations I'm making it halfway you've got only well 50% more to go I've decided to mix today's creative day up a bit normally I would give an easy and a hard example or hard project but today I'm going to go back to the lesson from day 14 I have a wonderful project for you guys to work on do you remember the bu validate pin function from yesterday on day 14 currently there's a small security flaw with it as soon as an incorrect button is pressed it will exit the function and return an error well that makes it really easy now to guess which of the uh numers that was pressed or which part of the pin is wrong WR so you just can guess 1 through n until it goes through to the second pin and then you can know okay so the first pin is in this case four or whatever you want it to be and then the second pin is up eror up error up oh the second pin's six well that's easy now so it makes it really easy to brute force that makes it a pretty insecure system even though we've added in this additional security system so what we want to make it do is instead we should make it so it doesn't print an error and till all four numbers are typed in so they don't know which number was bad of course you're also open to do your own project if you so desire that is totally absolutely always on the table once you're done share on inventor.",
+      "type": "speech"
+    },
+    {
+      "start_ms": 106680,
+      "end_ms": 137330,
+      "start_tc": "01:46",
+      "end_tc": "02:17",
+      "text": "i/f with the hash creative day15 I am once again looking forward to seeing what you come up with and if you rent any issues hit up your fellow inventors in the Facebook group at inventor. i/f thank you",
+      "type": "speech"
+    },
+    {
+      "start_ms": 123000,
+      "end_ms": 137330,
+      "start_tc": "02:03",
+      "end_tc": "02:17",
+      "text": "[Music]",
+      "type": "music"
+    },
+    {
+      "start_ms": 141959,
+      "end_ms": 144959,
+      "start_tc": "02:21",
+      "end_tc": "02:24",
+      "text": "guys",
+      "type": "speech"
+    }
+  ]
+}

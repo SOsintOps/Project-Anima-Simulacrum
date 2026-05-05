@@ -5,12 +5,12 @@
   "profiles": {
     "tony_stark": {
       "profile_id": "4d69a1f4-b299-4e73-9aea-ac1c242c017f",
-      "instruct": "Confident, warm, slightly fast American male. Sarcastic but caring mentoring tone. Occasional dramatic pauses before punchlines. Think charismatic genius explaining tech to a teenager.",
+      "instruct": "Confident, warm American male. Speak slowly and deliberately, around 120 words per minute. Mentoring tone with natural pauses between sentences. Never rushing. Think Tony Stark explaining something important to a teenager — each word lands.",
       "speed_correction": {
         "add_punctuation_pauses": true,
         "ellipsis_for_dramatic_pause": true,
         "comma_density": "high",
-        "target_wpm": 155
+        "target_wpm": 140
       }
     },
     "jarvis": {
@@ -25,7 +25,7 @@
     }
   },
   "generation_defaults": {
-    "max_chunk_chars": 800,
+    "max_chunk_chars": 900,
     "crossfade_ms": 50,
     "normalize": true
   },

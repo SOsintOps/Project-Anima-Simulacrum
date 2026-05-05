@@ -1,0 +1,106 @@
+{
+  "day": 1,
+  "title": "First Light",
+  "segments_total": 14,
+  "segments_generated": 0,
+  "results": [
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_000_jarvis_briefing.wav",
+      "speaker": "jarvis",
+      "chunks": 1,
+      "chars": 387
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_001_tony_intro.wav",
+      "speaker": "tony",
+      "chunks": 3,
+      "chars": 1097
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_002_tony_tutorial.wav",
+      "speaker": "tony",
+      "chunks": 2,
+      "chars": 658
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_003_jarvis_alert.wav",
+      "speaker": "jarvis",
+      "chunks": 1,
+      "chars": 172
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_004_tony_tutorial.wav",
+      "speaker": "tony",
+      "chunks": 2,
+      "chars": 711
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_005_tony_tutorial.wav",
+      "speaker": "tony",
+      "chunks": 2,
+      "chars": 570
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_006_tony_practical.wav",
+      "speaker": "tony",
+      "chunks": 2,
+      "chars": 612
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_007_jarvis_confirmation.wav",
+      "speaker": "jarvis",
+      "chunks": 1,
+      "chars": 126
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_008_tony_code_explanation.wav",
+      "speaker": "tony",
+      "chunks": 2,
+      "chars": 636
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_009_tony_code_explanation.wav",
+      "speaker": "tony",
+      "chunks": 2,
+      "chars": 663
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_010_jarvis_alert.wav",
+      "speaker": "jarvis",
+      "chunks": 1,
+      "chars": 205
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_011_tony_code_explanation.wav",
+      "speaker": "tony",
+      "chunks": 2,
+      "chars": 721
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_012_tony_outro.wav",
+      "speaker": "tony",
+      "chunks": 2,
+      "chars": 754
+    },
+    {
+      "status": "dry_run",
+      "file": "day_01_seg_013_jarvis_briefing.wav",
+      "speaker": "jarvis",
+      "chunks": 1,
+      "chars": 194
+    }
+  ]
+}
