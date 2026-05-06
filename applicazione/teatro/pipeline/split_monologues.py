@@ -133,6 +133,7 @@ def split_script():
     with open(INPUT, "r", encoding="utf-8") as f:
         script = json.load(f)
 
+    original_count = len(script["lines"])
     new_lines = []
     filler_idx = 0
 
@@ -179,7 +180,7 @@ def split_script():
     phone_fillers = sum(1 for l in new_lines if l.get("is_filler"))
     segments = sum(1 for l in new_lines if "original_line" in l and not l.get("is_filler"))
     unchanged = sum(1 for l in new_lines if "original_line" not in l)
-    print(f"Original: {len(script['lines'])} lines")
+    print(f"Original: {original_count} lines")
     print(f"Segmented: {segments} segments from {len(SPLIT_POINTS)} monologues")
     print(f"Fillers added: {phone_fillers}")
     print(f"Unchanged lines: {unchanged}")

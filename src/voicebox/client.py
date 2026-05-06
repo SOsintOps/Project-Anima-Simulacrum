@@ -45,7 +45,7 @@ class VoiceBoxClient:
 
     Wraps the VoiceBox FastAPI backend running at 127.0.0.1:17493.
 
-    Supported engines:
+    Supported TTS engines:
         qwen              - Qwen3-TTS (instruct-capable, 0.6B/1.7B)
         luxtts            - Lightweight (~1GB VRAM), 48kHz
         chatterbox        - Multilingual (23 languages)
@@ -53,6 +53,11 @@ class VoiceBoxClient:
         tada              - HumeAI TADA (700s+ coherent, tada-1b/tada-3b-ml)
         kokoro            - 82M params, 50 preset voices, CPU-realtime
         qwen_custom_voice - Preset voices with instruction-following
+
+    Refinement/Personality LLM (shared Qwen3 runtime):
+        0.6B (400 MB)  - very fast
+        1.7B (1.1 GB)  - fast
+        4B   (2.5 GB)  - full quality text refinement
     """
 
     ENGINES = (
@@ -469,15 +474,6 @@ class VoiceBoxClient:
         resp = self.session.get(
             f"{self.base_url}/history",
             params={"limit": limit},
-            timeout=self.timeout
-        )
-        resp.raise_for_status()
-        return resp.json()
-
-    def get_generation(self, generation_id: str) -> dict:
-        """GET /history/{generation_id}"""
-        resp = self.session.get(
-            f"{self.base_url}/history/{generation_id}",
             timeout=self.timeout
         )
         resp.raise_for_status()

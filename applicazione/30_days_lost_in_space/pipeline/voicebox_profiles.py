@@ -76,19 +76,22 @@ def setup_profiles(
     }
 
 
-def get_instruct(character: str) -> str:
-    """Get the instruct prompt for a character from config.
+def _resolve_profile_key(character: str) -> str:
+    char = character.lower()
+    if char in ("tony", "tony_stark", "tony stark"):
+        return "tony_stark"
+    if char in ("jarvis", "j.a.r.v.i.s.", "j.a.r.v.i.s"):
+        return "jarvis"
+    raise ValueError(f"Unknown character: {character!r}. Expected 'tony' or 'jarvis'.")
 
-    This is the 'instruct' parameter for POST /generate — controls
-    tone, style, pacing, emotion of the generated speech (max 500 chars).
-    """
+
+def get_instruct(character: str) -> str:
+    """Get the instruct prompt for a character from config."""
     config = load_voicebox_config()
-    profile_key = "tony_stark" if character.lower() in ("tony", "tony_stark", "tony stark") else "jarvis"
-    return config["profiles"][profile_key].get("instruct", "")
+    return config["profiles"][_resolve_profile_key(character)].get("instruct", "")
 
 
 def get_profile_id(character: str) -> Optional[str]:
     """Get the VoiceBox profile ID for a character."""
     config = load_voicebox_config()
-    profile_key = "tony_stark" if character.lower() in ("tony", "tony_stark", "tony stark") else "jarvis"
-    return config["profiles"][profile_key].get("profile_id")
+    return config["profiles"][_resolve_profile_key(character)].get("profile_id")

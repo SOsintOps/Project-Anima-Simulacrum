@@ -16,6 +16,19 @@ uses [Conventional Commits](https://www.conventionalcommits.org/).
 - `docs/research/2026-05-05-character-voice-replication.md` — character voice replication research (best practices, pipeline architecture, recommendations)
 - `docs/research/2026-05-05-character-voice-replication-report.docx` — full DOCX report covering linguistic profiling, persona-consistent generation, personality duplication (Tony Stark case study), neural voice synthesis, and pipeline architecture
 
+### Fixed
+- `generate_eurostar_story.py`: interactive voice selection returned `str` instead of `dict`, causing crash in `generate_all_lines()`
+- `split_monologues.py`: "Original: N lines" counter printed post-replacement count instead of original
+- `text_cleaner.py`: `segment_by_topic()` inner loop `break` did not exit outer loop, allowing later types to overwrite match
+- `voicebox_profiles.py`: unknown character silently fell through to "jarvis" profile; now raises `ValueError`
+
+### Changed
+- `05_generate_audio.py`: replaced `__import__('datetime')` hack with proper import; reduced inter-segment sleep from 2s to 0.5s
+
+### Removed
+- `text_cleaner.py`: dead `prepare_for_tts()` function (never called, superseded by `speed_fix.py`)
+- `client.py`: duplicate `get_generation()` method (identical to `get_generation_info()`)
+
 ## [0.3.0] — 2026-03-24
 
 ### Added

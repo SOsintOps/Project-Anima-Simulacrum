@@ -1,6 +1,6 @@
 # Dependencies
 
-**Last reviewed:** 2026-05-05
+**Last reviewed:** 2026-05-06
 
 ## Runtime Dependencies
 
@@ -14,14 +14,15 @@
 
 | Service | Version | Interface | Role | Local/Remote |
 |---------|---------|-----------|------|--------------|
-| **VoiceBox** | 0.4.x (target: 0.5.0) | REST API at `127.0.0.1:17493` | TTS generation, voice cloning, story assembly | Local |
+| **VoiceBox** | 0.5.0 | REST API at `127.0.0.1:17493` | TTS generation, voice cloning, story assembly | Local |
 
 ### VoiceBox API Contract
 
 - The project depends on VoiceBox's REST API (86 endpoints documented in `src/voicebox/client.py`)
 - Key endpoints: `/generate`, `/profiles`, `/stories`, `/audio/{id}`, `/models/status`
-- Engine contract: currently uses `qwen` engine with `1.7B` model size
-- Breaking change risk: VoiceBox v0.5.0 adds new engines (Kokoro, TADA, Qwen CustomVoice) and may modify existing endpoint signatures
+- TTS engine contract: uses `qwen` engine with `1.7B` model size (max TTS quality)
+- Refinement/Personality LLM: Qwen3 0.6B / 1.7B / 4B — the 4B (2.5 GB) provides full-quality text refinement when `personality: true` is set
+- Available engines: qwen, qwen_custom_voice, luxtts, chatterbox, chatterbox_turbo, tada, kokoro
 
 ## Development Dependencies
 
@@ -38,4 +39,4 @@
 | requests | healthy | 2026-05-05 | Stable, actively maintained |
 | pydub | healthy | 2026-05-05 | Stable, low churn |
 | PyPDF2 | watch | 2026-05-05 | Consider `pymupdf` if more PDF work needed |
-| VoiceBox | evaluate | 2026-05-05 | v0.5.0 released 2026-04-25; client needs upgrade |
+| VoiceBox | healthy | 2026-05-06 | v0.5.0 — client upgraded, all new engines available |

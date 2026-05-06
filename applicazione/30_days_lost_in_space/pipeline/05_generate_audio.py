@@ -6,6 +6,7 @@ audio using VoiceBox's REST API with the configured voice profiles.
 Usage:
     python -m src.pipeline.05_generate_audio [--day N] [--all] [--dry-run]
 """
+import datetime
 import json
 import sys
 import logging
@@ -24,7 +25,7 @@ from speed_fix import prepare_tony_text, prepare_jarvis_text, chunk_for_tts
 LOG_DIR = APP_DIR / "data" / "output" / "logs"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-_log_file = LOG_DIR / f"generate_{__import__('datetime').datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+_log_file = LOG_DIR / f"generate_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -261,7 +262,7 @@ def process_day(client: VoiceBoxClient, config: dict, day: int, dry_run: bool = 
         )
         results.append(result)
         if not dry_run:
-            time.sleep(2)  # Brief pause between segments to avoid queue overload
+            time.sleep(0.5)
 
     n_ok = sum(1 for r in results if r.get("status") == "generated")
     manifest = {

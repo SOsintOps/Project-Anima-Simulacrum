@@ -68,10 +68,9 @@ def segment_by_topic(text: str) -> list[dict]:
         para_lower = para.lower()
 
         for stype, patterns in transitions.items():
-            for pattern in patterns:
-                if re.search(pattern, para_lower):
-                    detected_type = stype
-                    break
+            if any(re.search(p, para_lower) for p in patterns):
+                detected_type = stype
+                break
 
         if detected_type != current_type and current_text:
             segments.append({
@@ -92,22 +91,3 @@ def segment_by_topic(text: str) -> list[dict]:
     return segments
 
 
-def prepare_for_tts(text: str, target_wpm: int = 155) -> str:
-    """Prepare text for TTS generation with pacing adjustments."""
-    result = text
-
-    # Add commas before conjunctions for natural pauses
-    result = re.sub(r'\b(and|but|so|because|however|although)\b', r', \1', result)
-    result = re.sub(r',\s*,', ',', result)
-
-    # Add ellipsis for dramatic pauses after key phrases
-    dramatic_phrases = [
-        r"(Here's the thing)",
-        r'(Listen)',
-        r'(Pay attention)',
-        r'(Trust me)',
-    ]
-    for phrase in dramatic_phrases:
-        result = re.sub(phrase + r'(?!\.)', r'\1...', result)
-
-    return result

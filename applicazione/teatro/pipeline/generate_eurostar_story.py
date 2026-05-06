@@ -382,7 +382,8 @@ def main():
     else:
         voice_map = {}
         for char_name, char_info in script["characters"].items():
-            voice_map[char_name] = select_voice_for_character(profiles, char_name, char_info)
+            profile_id = select_voice_for_character(profiles, char_name, char_info)
+            voice_map[char_name] = {"profile_id": profile_id, "engine": "qwen_custom_voice"}
 
         confirm = input("\nProceed with generation? (y/n): ").strip().lower()
         if confirm != "y":

@@ -88,6 +88,8 @@ The `instruct` parameter is the primary lever for tone control in Qwen3-TTS. Eff
 
 **Key insight:** The 1.7B model has significantly stronger emotion control than 0.6B. For character work, always use 1.7B.
 
+**VoiceBox Refinement LLM (v0.5.0):** VoiceBox also ships a Qwen3 refinement/personality model in three sizes — 0.6B (400 MB), 1.7B (1.1 GB), 4B (2.5 GB, full quality). This is a separate LLM that rewrites text in-character before passing it to TTS when `personality: true` is set. The 4B model improves text refinement quality but does not change the TTS voice itself (which caps at 1.7B).
+
 ### 2.3 Text-level prosody control
 
 Beyond the instruct prompt, text formatting affects delivery:
