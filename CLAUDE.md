@@ -40,9 +40,9 @@ Default operating level: **L1** — the agent proposes a plan, the human confirm
 
 These files/directories MUST NOT be modified without explicit human confirmation:
 
-- `config/story_bible.json` — narrative source of truth
-- `config/voicebox_config.json` — production voice profile IDs
-- `data/output/` — generated audio artifacts
+- `applicazione/30_days_lost_in_space/config/story_bible.json` — narrative source of truth
+- `applicazione/30_days_lost_in_space/config/voicebox_config.json` — production voice profile IDs
+- `applicazione/*/output/` — generated audio artifacts
 - `codex-machinae.md` — project governance framework
 
 ## Project Size Profile: Solo
@@ -64,10 +64,10 @@ Key implications:
 
 ## Conventions
 
+- Each application lives in `applicazione/<name>/` with its own `pipeline/`, `config/`, `data/`
+- Shared code (VoiceBox client) stays in `src/`
 - Pipeline scripts are numbered: `NN_verb_noun.py` (e.g., `02_clean_srt.py`)
-- Config files: one per concern in `config/`
-- Output audio: `data/output/audio/day_NN/` per episode
-- Processed text: `data/processed/<stage>/day_NN_<stage>.json`
+- Config files: one per concern in each app's `config/`
 - Git: commit after each logical unit of work, not after each file save
 
 ## State-of-the-Art Research Triggers
@@ -78,6 +78,13 @@ The agent MUST suggest research when:
 - VoiceBox releases a major version (API changes)
 - A new voice cloning approach emerges that could improve quality
 - The pipeline architecture needs significant changes
+
+## Agent Behavior Rules
+
+1. **Ask, don't assume.** If something is unclear or underspecified, ask before writing a single line. Never make silent assumptions about intent, architecture, or requirements.
+2. **Simplest solution first.** Always implement the simplest thing that could work. Do not add abstractions, layers, or flexibility that weren't explicitly requested.
+3. **Don't touch unrelated code.** If a file or function is not directly part of the current task, do not modify it, even if you think it could be improved.
+4. **Flag uncertainty explicitly.** If you are not confident about an approach, a library's behavior, or a technical detail, say so before proceeding. Confidence without certainty causes more damage than admitting a gap.
 
 ## Definition of Done (Solo profile)
 

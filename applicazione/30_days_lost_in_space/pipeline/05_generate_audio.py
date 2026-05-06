@@ -12,14 +12,15 @@ import logging
 import time
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+PIPELINE_DIR = Path(__file__).resolve().parent
+APP_DIR = PIPELINE_DIR.parent
+PROJECT_ROOT = APP_DIR.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PIPELINE_DIR))
 
 from src.voicebox.client import VoiceBoxClient
-from src.voicebox.profiles import get_profile_id, get_instruct, load_voicebox_config
-from src.voicebox.speed_fix import prepare_tony_text, prepare_jarvis_text, chunk_for_tts
-
-APP_DIR = PROJECT_ROOT / "applicazione" / "30_days_lost_in_space"
+from voicebox_profiles import get_profile_id, get_instruct, load_voicebox_config
+from speed_fix import prepare_tony_text, prepare_jarvis_text, chunk_for_tts
 LOG_DIR = APP_DIR / "data" / "output" / "logs"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 

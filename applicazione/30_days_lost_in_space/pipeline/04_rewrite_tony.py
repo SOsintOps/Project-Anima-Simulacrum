@@ -15,10 +15,7 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(PROJECT_ROOT))
-
-APP_DIR = PROJECT_ROOT / "applicazione" / "30_days_lost_in_space"
+APP_DIR = Path(__file__).resolve().parent.parent
 SEGMENTED_DIR = APP_DIR / "data" / "processed" / "segmented_scripts"
 TONY_SCRIPTS_DIR = APP_DIR / "data" / "processed" / "tony_scripts"
 PROMPTS_DIR = APP_DIR / "data" / "processed" / "rewrite_prompts"

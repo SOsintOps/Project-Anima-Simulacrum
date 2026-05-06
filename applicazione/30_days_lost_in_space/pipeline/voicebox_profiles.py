@@ -4,15 +4,19 @@ Handles creation and configuration of Tony Stark and JARVIS voice profiles.
 """
 import json
 import logging
+import sys
 from pathlib import Path
 from typing import Optional
 
-from .client import VoiceBoxClient
+PIPELINE_DIR = Path(__file__).resolve().parent
+APP_DIR = PIPELINE_DIR.parent
+PROJECT_ROOT = APP_DIR.parent.parent
+CONFIG_DIR = APP_DIR / "config"
+
+sys.path.insert(0, str(PROJECT_ROOT))
+from src.voicebox.client import VoiceBoxClient
 
 logger = logging.getLogger(__name__)
-
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-CONFIG_DIR = PROJECT_ROOT / "config"
 
 
 def load_voicebox_config() -> dict:

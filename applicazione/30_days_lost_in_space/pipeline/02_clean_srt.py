@@ -11,14 +11,12 @@ import re
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(PROJECT_ROOT))
+PIPELINE_DIR = Path(__file__).resolve().parent
+APP_DIR = PIPELINE_DIR.parent
+sys.path.insert(0, str(PIPELINE_DIR))
 
-from src.utils.srt_parser import parse_srt, reconstruct_sentences, extract_full_text
-from src.utils.text_cleaner import fix_capitalization, fix_arduino_terms, segment_by_topic
-
-
-APP_DIR = PROJECT_ROOT / "applicazione" / "30_days_lost_in_space"
+from srt_parser import parse_srt, reconstruct_sentences, extract_full_text
+from text_cleaner import fix_capitalization, fix_arduino_terms, segment_by_topic
 SRT_DIR = APP_DIR / "data" / "raw" / "srt"
 OUTPUT_DIR = APP_DIR / "data" / "processed" / "clean_scripts"
 
