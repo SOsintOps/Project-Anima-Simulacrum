@@ -1,35 +1,35 @@
-# Procedura di Installazione e Avvio
+# Installation and Start-up Procedure
 
-Questa guida descrive come configurare ed eseguire **Project Anima Simulacrum** utilizzando Docker.
+This guide describes how to set up and run **Project Anima Simulacrum** using Docker.
 
-## Prerequisiti
+## Prerequisites
 
-Prima di iniziare, assicurati di avere installato sul tuo sistema:
+Before you start, make sure you have installed on your system:
 
-1.  **Git**: Per clonare il repository.
-2.  **Docker Desktop**: Per costruire ed eseguire il container. Assicurati che il demone di Docker sia in esecuzione.
+1.  **Git**: to clone the repository.
+2.  **Docker Desktop**: to build and run the container. Make sure the Docker daemon is running.
 
-## Procedura
+## Procedure
 
-1.  **Clona il Repository**
-    Apri un terminale e clona il progetto sulla tua macchina locale.
+1.  **Clone the Repository**
+    Open a terminal and clone the project to your local machine.
     ```bash
-    git clone [https://github.com/tuo-username/Project-Anima-Simulacrum.git](https://github.com/tuo-username/Project-Anima-Simulacrum.git)
+    git clone https://github.com/SOsintOps/Project-Anima-Simulacrum.git
     ```
 
-2.  **Entra nella Cartella del Progetto**
+2.  **Enter the Project Folder**
     ```bash
     cd Project-Anima-Simulacrum
     ```
 
-3.  **Costruisci l'Immagine Docker**
-    Questo comando legge il `Dockerfile` e assembla l'ambiente software necessario. Il processo potrebbe richiedere qualche minuto la prima volta.
+3.  **Build the Docker Image**
+    This command reads the `Dockerfile` and assembles the required software environment. The process may take a few minutes the first time.
     ```bash
     docker build -t project-anima-simulacrum .
     ```
 
-4.  **Esegui il Container**
-    Questo comando avvia il container, esegue lo script `ingestion.py` e, grazie ai "volumi" (`-v`), si assicura che i file di input vengano letti dalla tua cartella `/data/raw` e i risultati vengano scritti nella tua cartella `/data/processed`.
+4.  **Run the Container**
+    This command starts the container, runs the `ingestion.py` script and, thanks to the "volumes" (`-v`), makes sure that the input files are read from your `/data/raw` folder and the results are written to your `/data/processed` folder.
 
     ```bash
     docker run --rm \
@@ -37,6 +37,6 @@ Prima di iniziare, assicurati di avere installato sul tuo sistema:
       -v ./profiles:/app/profiles \
       project-anima-simulacrum
     ```
-    *Nota: Se usi Windows PowerShell, potresti dover sostituire `./` con `${PWD}/`.*
+    *Note: if you use Windows PowerShell, you may need to replace `./` with `${PWD}/`.*
 
-Al termine dell'esecuzione, la cartella `/data/processed` conterrà i file di testo estratti dai PDF.
+When the run is complete, the `/data/processed` folder will contain the text files extracted from the PDFs.

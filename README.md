@@ -10,7 +10,7 @@ Project Anima Simulacrum transforms the [30 Days Lost in Space](https://inventr.
 
 ## Current State
 
-**Version:** 0.3.0
+**Version:** 0.3.1
 **Phase:** Audio generation and narrative refinement
 
 ### What Works
@@ -72,7 +72,14 @@ data/
 
 ## Governance
 
-This project follows the [Codex Machinae](./codex-machinae.md) framework (Solo profile, D5 ML/Data Pipeline domain).
+This project follows the [Codex Machinae](https://github.com/SOsintOps/codex-machinae) framework (Solo profile, D5 ML/Data Pipeline domain). A vendored copy is kept in [`codex-machinae.md`](./codex-machinae.md); it is an early draft (2.0.0, 15 April 2026), so the GitHub repository is the current reference.
+
+## Related projects
+
+- [Codex Machinae](https://github.com/SOsintOps/codex-machinae): the playbook for building software with LLM collaborators that this project follows.
+- [Il Conclave](https://github.com/SOsintOps/il-conclave): another multi-procedure, multi-persona LLM project: a Claude Code skill (in Italian) that runs analytic procedures such as ACH and a premortem, then an anonymous peer review and a synthesis.
+
+More in the [FAQ](./docs/faq.md).
 
 ## Licence
 

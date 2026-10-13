@@ -29,6 +29,12 @@ uses [Conventional Commits](https://www.conventionalcommits.org/).
 - `text_cleaner.py`: dead `prepare_for_tts()` function (never called, superseded by `speed_fix.py`)
 - `client.py`: duplicate `get_generation()` method (identical to `get_generation_info()`)
 
+## [0.3.1] — 2026-10-13
+
+### Docs
+- `docs/faq.md` and `docs/install.md` translated into English; the FAQ gains a table of contents and answers on the development framework and related projects; the install guide clones the real repository URL instead of a placeholder.
+- `README.md`: Codex Machinae linked to its GitHub repository (the vendored `codex-machinae.md` is an early 2.0.0 draft); new *Related projects* section citing Codex Machinae and Il Conclave.
+
 ## [0.3.0] — 2026-03-24
 
 ### Added
