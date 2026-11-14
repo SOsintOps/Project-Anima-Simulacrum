@@ -38,7 +38,7 @@ Default operating level: **L1** — the agent proposes a plan, the human confirm
 
 ## Protected Paths
 
-These files/directories MUST NOT be modified without explicit human confirmation:
+Ask for explicit human confirmation before modifying these files/directories:
 
 - `applicazione/30_days_lost_in_space/config/story_bible.json` — narrative source of truth
 - `applicazione/30_days_lost_in_space/config/voicebox_config.json` — production voice profile IDs
@@ -72,7 +72,7 @@ Key implications:
 
 ## State-of-the-Art Research Triggers
 
-The agent MUST suggest research when:
+The agent suggests research when:
 
 - A new TTS engine is being considered for integration
 - VoiceBox releases a major version (API changes)
@@ -81,8 +81,8 @@ The agent MUST suggest research when:
 
 ## Agent Behavior Rules
 
-1. **Ask, don't assume.** If something is unclear or underspecified, ask before writing a single line. Never make silent assumptions about intent, architecture, or requirements.
-2. **Simplest solution first.** Always implement the simplest thing that could work. Do not add abstractions, layers, or flexibility that weren't explicitly requested.
+1. **Ask, don't assume.** If something is unclear or underspecified, ask before writing a single line. Do not make silent assumptions about intent, architecture, or requirements.
+2. **Simplest solution first.** Implement the simplest thing that could work. Do not add abstractions, layers, or flexibility that weren't explicitly requested.
 3. **Don't touch unrelated code.** If a file or function is not directly part of the current task, do not modify it, even if you think it could be improved.
 4. **Flag uncertainty explicitly.** If you are not confident about an approach, a library's behavior, or a technical detail, say so before proceeding. Confidence without certainty causes more damage than admitting a gap.
 
