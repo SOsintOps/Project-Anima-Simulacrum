@@ -72,7 +72,7 @@ Key implications:
 
 ## State-of-the-Art Research Triggers
 
-The agent suggests research when:
+Suggest research when:
 
 - A new TTS engine is being considered for integration
 - VoiceBox releases a major version (API changes)
